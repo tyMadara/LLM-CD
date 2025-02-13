@@ -1,0 +1,6 @@
+
+
+<edge>Smoker->Cancer</edge>
+<edge>Pollution->Cancer</edge>
+<edge>Cancer->Xray</edge>
+<edge>Cancer->Dyspnoea</edge>

@@ -1,0 +1,13 @@
+arcs {
+	Mek => Erk 0.9999;
+	PKC => Mek 0.9999;
+	Mek => Akt 0.9999;
+	PKC => Akt 0.9999;
+	PKA => Erk 0.9999;
+	PKA => Jnk 0.9999;
+	Erk => Akt 0.9999;
+	PKC => PKA 0.9999;
+	PKC => Jnk 0.9999;
+	PKC => Raf 0.9999;
+	PKA => Raf 0.9999;
+}

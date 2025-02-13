@@ -1,0 +1,34 @@
+```
+You are an expert on the effects of smoking on cancer
+You are investigating the cause-and-effect relationships between the following variables in your filed.
+Variables and their meanings are presented as follows.
+Analyze the causality between each pair of variables in the form of <edge>variable1->variable2</edge>, and give the reason. Ensure direct causality of outputs, not indirect causality due to common causes.
+
+Pollution: This variable represents the level of air pollution in a certain area. 
+Smoker: This variable represents whether an individual is a smoker or not. 
+Cancer: This variable represents whether an individual has been diagnosed with cancer or not.
+Xray: This variable represents the result of an X-ray examination for an individual. 
+Dyspnoea: This variable represents whether an individual is experiencing dyspnea or not. 
+```
+
+```
+Based on available research, the causality between each pair of variables can be analyzed as follows:
+
+
+<edge>Pollution->Cancer</edge>: There is a positive correlation between high levels of air pollution and an increased risk of cancer. Long-term exposure to pollutants in the air can damage cells in the body, leading to mutations that can eventually lead to cancer.
+
+
+<edge>Smoker->Cancer</edge>: Smoking is a direct cause of lung cancer, as well as many other types of cancer. Tobacco smoke contains carcinogens that can damage the DNA in cells and lead to cancerous growths.
+
+
+<edge>Xray->Cancer</edge>: A positive X-ray result can indicate the presence of abnormal growths in the body, which can be cancerous. However, not all X-ray abnormalities lead to cancer, and further testing is usually required to confirm a cancer diagnosis.
+
+
+<edge>Xray->Dyspnoea</edge>: A positive X-ray result can indicate the presence of lung damage or disease, which can cause shortness of breath or dyspnoea.
+
+
+<edge>Smoker->Dyspnoea</edge>: Smoking is a known cause of respiratory problems, including dyspnoea. The toxic chemicals in cigarette smoke can damage the lungs and airways, making it difficult to breathe.
+
+
+```
+

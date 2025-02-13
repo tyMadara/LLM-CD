@@ -1,0 +1,21 @@
+Here is a potential causality analysis between the variables in the form of <edge>variable1->variable2</edge>:
+
+<edge>BirthAsphyxia->HypDistrib</edge>: Birth asphyxia can cause distribution of blood flow in the body to be abnormal.
+<edge>HypoxiaInO2->HypDistrib</edge>: Severity of hypoxia can cause distribution of blood flow in the body to be abnormal.
+<edge>CO2->HypDistrib</edge>: High carbon dioxide levels can cause distribution of blood flow in the body to be abnormal.
+<edge>ChestXray->HypoxiaInO2</edge>: Findings on chest X-ray can indicate the severity of hypoxia in the body.
+<edge>Grunting->HypoxiaInO2</edge>: Presence of grunting can indicate severity of hypoxia in the body.
+<edge>LVHreport->HypoxiaInO2</edge>: Presence of left ventricular hypertrophy (LVH) in the medical report can indicate severity of hypoxia in the body.
+<edge>LowerBodyO2->HypoxiaInO2</edge>: Oxygen saturation levels in the lower body can indicate severity of hypoxia in the body.
+<edge>RUQO2->HypoxiaInO2</edge>: Oxygen saturation levels in the right upper quadrant of the body can indicate severity of hypoxia in the body.
+<edge>CO2Report->CO2</edge>: CO2 levels in the medical report can be used to determine carbon dioxide levels in the body.
+<edge>XrayReport->ChestXray</edge>: Findings on chest X-ray in the medical report can be used to determine appearance of chest X-ray findings.
+<edge>Disease->HypoxiaInO2</edge>: Type of disease can affect severity of hypoxia in the body.
+<edge>GruntingReport->Grunting</edge>: Presence of grunting in the medical report can be used to determine presence of grunting.
+<edge>Age->HypoxiaInO2</edge>: Age can affect severity of hypoxia in the body.
+<edge>LVH->HypoxiaInO2</edge>: Presence of left ventricular hypertrophy (LVH) in the body can indicate severity of hypoxia in the body.
+<edge>DuctFlow->HypoxiaInO2</edge>: Direction of blood flow in the ductus arteriosus can affect severity of hypoxia in the body.
+<edge>CardiacMixing->HypoxiaInO2</edge>: Degree of mixing between oxygenated and deoxygenated blood in the heart can affect severity of hypoxia in the body.
+<edge>LungParench->HypoxiaInO2</edge>: Parenchymal changes in the lung can affect severity of hypoxia in the body.
+<edge>LungFlow->HypoxiaInO2</edge>: Flow of air in the lung can affect severity of hypoxia in the body.
+<edge>Sick->HypoxiaInO2</edge>: Being sick can affect severity of hypoxia in the body.

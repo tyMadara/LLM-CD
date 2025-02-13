@@ -1,0 +1,167 @@
+\begin{thebibliography}{24}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Antal et~al.(2004)Antal, Fannes, Timmerman, Moreau, and
+  De~Moor]{Antal2004}
+P.~Antal, G.~Fannes, D.~Timmerman, Y.~Moreau, and B.~De~Moor.
+\newblock Using literature and data to learn {B}ayesian networks as clinical
+  models of ovarian tumors.
+\newblock \emph{Artificial Intelligence in Medicine}, 30\penalty0 (3):\penalty0
+  257--281, 2004.
+
+\bibitem[Bartlett and Cussens(2017)]{Bartlett2017}
+M.~Bartlett and J.~Cussens.
+\newblock Integer linear programming for the {B}ayesian network structure
+  learning problem.
+\newblock \emph{Artificial Intelligence}, 244:\penalty0 258--271, 2017.
+
+\bibitem[Chen et~al.(2016)Chen, Shen, Choi, and Darwiche]{Chen2016}
+E.~Y.-J. Chen, Y.~Shen, A.~Choi, and A.~Darwiche.
+\newblock Learning {B}ayesian networks with ancestral constraints.
+\newblock In \emph{Advances in Neural Information Processing Systems}, pages
+  2325--2333, 2016.
+
+\bibitem[Chen and Leu(2014)]{Chen2014}
+T.-T. Chen and S.-S. Leu.
+\newblock Fall risk assessment of cantilever bridge projects using {B}ayesian
+  network.
+\newblock \emph{Safety science}, 70:\penalty0 161--171, 2014.
+
+\bibitem[Chickering et~al.(2003)Chickering, Meek, and
+  Heckerman]{ChickeringMH03}
+D.~M. Chickering, C.~Meek, and D.~Heckerman.
+\newblock Large-sample learning of {B}ayesian networks is {NP}-hard.
+\newblock In \emph{Proceedings of the 19th Conference on Uncertainty in
+  Artificial Intelligence}, pages 124--133, 2003.
+
+\bibitem[Dasgupta(1999)]{Dasgupta1999}
+S.~Dasgupta.
+\newblock Learning polytrees.
+\newblock In \emph{Proceedings of the Fifteenth Conference on Uncertainty in
+  Artificial Intelligence}, pages 134--141, 1999.
+
+\bibitem[de~Campos and Castellano(2007)]{CamposC07}
+L.~M. de~Campos and J.~G. Castellano.
+\newblock Bayesian network learning algorithms using structural restrictions.
+\newblock \emph{International Journal of Approximate Reasoning}, 45:\penalty0
+  233--254, 2007.
+
+\bibitem[Flores et~al.(2011)Flores, Nicholson, Brunskill, Korb, and
+  Mascaro]{Flores2011}
+M.~J. Flores, A.~E. Nicholson, A.~Brunskill, K.~B. Korb, and S.~Mascaro.
+\newblock Incorporating expert knowledge when learning bayesian network
+  structure: a medical case study.
+\newblock \emph{Artificial intelligence in medicine}, 53\penalty0 (3):\penalty0
+  181--204, 2011.
+
+\bibitem[Friedman et~al.(2000)Friedman, Linial, Nachman, and
+  Pe'er]{Friedman2000}
+N.~Friedman, M.~Linial, I.~Nachman, and D.~Pe'er.
+\newblock Using {B}ayesian networks to analyze expression data.
+\newblock \emph{Journal of computational biology}, 7\penalty0 (3-4):\penalty0
+  601--620, 2000.
+
+\bibitem[Giordano et~al.(2013)Giordano, D'Agostino, Apollonio, Lamaddalena, and
+  Vurro]{Giordano2013}
+R.~Giordano, D.~D'Agostino, C.~Apollonio, N.~Lamaddalena, and M.~Vurro.
+\newblock {B}ayesian belief network to support conflict analysis for
+  groundwater protection: the case of the {A}pulia region.
+\newblock \emph{Journal of environmental management}, 115:\penalty0 136--146,
+  2013.
+
+\bibitem[Heckerman et~al.(1995)Heckerman, Geiger, and
+  Chickering]{HeckermanGC95}
+D.~Heckerman, D.~Geiger, and D.~M. Chickering.
+\newblock Learning {B}ayesian networks: The combination of knowledge and
+  statistical data.
+\newblock \emph{Machine Learning}, 20:\penalty0 197--243, 1995.
+
+\bibitem[Kennett et~al.(2001)Kennett, Korb, and Nicholson]{Kennett2001}
+R.~J. Kennett, K.~B. Korb, and A.~E. Nicholson.
+\newblock Seabreeze prediction using {B}ayesian networks.
+\newblock In \emph{Pacific-Asia Conference on Knowledge Discovery and Data
+  Mining}, pages 148--153. Springer, 2001.
+
+\bibitem[Korb and Nicholson(2010)]{Korb2010}
+K.~B. Korb and A.~E. Nicholson.
+\newblock \emph{Bayesian {A}rtificial {I}ntelligence}.
+\newblock CRC press, 2010.
+
+\bibitem[Lee and van Beek(2017)]{Lee2017}
+C.~Lee and P.~van Beek.
+\newblock Metaheuristics for score-and-search {B}ayesian network structure
+  learning.
+\newblock In \emph{Proceedings of the 30th Canadian Conference on Artificial
+  Intelligence}, pages 129--141, 2017.
+\newblock Available as: LNCS 10233.
+
+\bibitem[Leu and Chang(2013)]{Leu2013}
+S.-S. Leu and C.-M. Chang.
+\newblock {B}ayesian-network-based safety risk assessment for steel
+  construction projects.
+\newblock \emph{Accident Analysis \& Prevention}, 54:\penalty0 122--133, 2013.
+
+\bibitem[Ma et~al.(2017)Ma, Chow, and Xu]{Ma2017}
+T.-Y. Ma, J.~Y. Chow, and J.~Xu.
+\newblock Causal structure learning for travel mode choice using structural
+  restrictions and model averaging algorithm.
+\newblock \emph{Transportmetrica A: Transport Science}, 13\penalty0
+  (4):\penalty0 299--325, 2017.
+
+\bibitem[Oyen et~al.(2016)Oyen, Anderson, and Anderson-Cook]{Oyen2016}
+D.~Oyen, B.~Anderson, and C.~M. Anderson-Cook.
+\newblock {B}ayesian networks with prior knowledge for malware phylogenetics.
+\newblock In \emph{AAAI Workshop: Artificial Intelligence for Cyber Security},
+  2016.
+
+\bibitem[Peters and B{\"u}hlmann(2015)]{Peters2015}
+J.~Peters and P.~B{\"u}hlmann.
+\newblock Structural intervention distance for evaluating causal graphs.
+\newblock \emph{Neural computation}, 27\penalty0 (3):\penalty0 771--799, 2015.
+
+\bibitem[Pollino et~al.(2007)Pollino, Woodberry, Nicholson, Korb, and
+  Hart]{Pollino2007}
+C.~A. Pollino, O.~Woodberry, A.~Nicholson, K.~Korb, and B.~T. Hart.
+\newblock Parameterisation and evaluation of a {B}ayesian network for use in an
+  ecological risk assessment.
+\newblock \emph{Environmental Modelling \& Software}, 22\penalty0 (8):\penalty0
+  1140--1152, 2007.
+
+\bibitem[{\c{S}}ahin et~al.(2006){\c{S}}ahin, {\"U}lengin, and
+  {\"U}lengin]{Sahin2006}
+{\c{S}}.~{\"O}. {\c{S}}ahin, F.~{\"U}lengin, and B.~{\"U}lengin.
+\newblock A {B}ayesian causal map for inflation analysis: The case of {T}urkey.
+\newblock \emph{European Journal of Operational Research}, 175\penalty0
+  (2):\penalty0 1268--1284, 2006.
+
+\bibitem[Schwarz(1978)]{Schwarz78}
+G.~Schwarz.
+\newblock Estimating the dimension of a model.
+\newblock \emph{The Annals of Statistics}, 6:\penalty0 461--464, 1978.
+
+\bibitem[Sesen et~al.(2013)Sesen, Nicholson, Banares-Alcantara, Kadir, and
+  Brady]{Sesen2013}
+M.~B. Sesen, A.~E. Nicholson, R.~Banares-Alcantara, T.~Kadir, and M.~Brady.
+\newblock {B}ayesian networks for clinical decision support in lung cancer
+  care.
+\newblock \emph{PloS one}, 8\penalty0 (12):\penalty0 e82349, 2013.
+
+\bibitem[Teyssier and Koller(2005)]{TeyssierK05}
+M.~Teyssier and D.~Koller.
+\newblock Ordering-based search: A simple and effective algorithm for learning
+  {B}ayesian networks.
+\newblock In \emph{Proceedings of the 21st Conference on Uncertainty in
+  Artificial Intelligence}, pages 548--549, 2005.
+
+\bibitem[Tsamardinos et~al.(2006)Tsamardinos, Brown, and
+  Aliferis]{Tsamardinos2006}
+I.~Tsamardinos, L.~E. Brown, and C.~F. Aliferis.
+\newblock The max-min hill-climbing {B}ayesian network structure learning
+  algorithm.
+\newblock \emph{Machine learning}, 65\penalty0 (1):\penalty0 31--78, 2006.
+
+\end{thebibliography}

@@ -1,0 +1,15 @@
+
+yes: The newborn is sick.
+no: The newborn is not sick.
+
+<edge>BirthAsphyxia->HypDistrib</edge>: Birth asphyxia can cause an unequal distribution of blood flow in the body due to oxygen deprivation.
+<edge>HypDistrib->HypoxiaInO2</edge>: Unequal distribution of blood flow can lead to hypoxia in certain parts of the body.
+<edge>CO2->ChestXray</edge>: High CO2 levels can cause an oligaemic chest X-ray indicating reduced blood flow.
+<edge>Grunting->LVHreport</edge>: Grunting can be an indication of left ventricular hypertrophy (LVH) in the medical report.
+<edge>LowerBodyO2->RUQO2</edge>: Low oxygen saturation levels in the lower body can lead to low oxygen saturation levels in the right upper quadrant of the body.
+<edge>CO2Report->XrayReport</edge>: High CO2 levels in the medical report can cause an oligaemic chest X-ray in the medical report.
+<edge>Disease->GruntingReport</edge>: Certain types of diseases can cause grunting in the medical report.
+<edge>Age->LVH</edge>: Age can be a factor in the presence of left ventricular hypertrophy (LVH) in the newborn.
+<edge>DuctFlow->CardiacMixing</edge>: The direction of blood flow in the ductus arteriosus can affect the degree of mixing between oxygenated and deoxygenated blood in the heart.
+<edge>LungParench->LungFlow</edge>: Abnormal appearance of the lung parenchyma can lead to abnormal blood flow in the lungs.
+<edge>Sick->Disease</edge>: Sickness can be an indication of a certain type of disease in the newborn.

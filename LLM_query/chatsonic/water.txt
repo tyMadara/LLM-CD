@@ -1,0 +1,37 @@
+```
+You are an expert in wastewater treatment control systems.
+Variables and their meanings are presented as follows.
+Analyze the causality between each pair of variables in the form of <edge>variable1->variable2</edge>, and give the reason. 
+Ensure direct causality of outputs, not indirect causality due to common causes.
+C_NI_12_00, C_NI_12_15, C_NI_12_30, C_NI_12_45: These variables seem to represent the number of nitrogen inorganic ions for different time periods (00, 15, 30, and 45 minutes).
+CKNI_12_00, CKNI_12_15, CKNI_12_30, CKNI_12_45: These variables represent the concentration of Kjeldahl nitrogen inorganic (CKNI) ions at the same time periods as above.
+CBODD_12_00, CBODD_12_15, CBODD_12_30, CBODD_12_45: These variables represent the carbonaceous biochemical oxygen demand (CBOD) for degradable organic matter at the specified time periods.
+CKND_12_00, CKND_12_15, CKND_12_30, CKND_12_45: These variables represent the concentration of Kjeldahl nitrogen degradable (CKND) ions at the specified time periods.
+CNOD_12_00, CNOD_12_15, CNOD_12_30, CNOD_12_45: These variables represent the concentration of nitrogenous oxygen demand (CNOD) at the specified time periods.
+CBODN_12_00, CBODN_12_15, CBODN_12_30, CBODN_12_45: These variables represent the carbonaceous biochemical oxygen demand for nitrogenous (CBODN) matter at the specified time periods. 
+CKNN_12_00, CKNN_12_15, CKNN_12_30, CKNN_12_45: These variables represent the concentration of Kjeldahl nitrogen non-degradable (CKNN) ions at the specified time periods. 
+CNON_12_00, CNON_12_15, CNON_12_30, CNON_12_45: These variables represent the concentration of nitrogenous non-degradable organic nitrogen (CNON) at the specified time periods.
+```
+
+```
+After analyzing the variables, the following causality relationships can be identified:
+
+
+<edge>C_NI_12_00->CKNI_12_00</edge>: The variable C_NI_12_00 represents the number of nitrogen inorganic ions at time period 00, which directly affects the concentration of Kjeldahl nitrogen inorganic ions at the same time period represented by CKNI_12_00.
+
+
+<edge>CBODD_12_00->CKND_12_00</edge>: The variable CBODD_12_00 represents the carbonaceous biochemical oxygen demand for degradable organic matter at time period 00, which directly affects the concentration of Kjeldahl nitrogen degradable ions at the same time period represented by CKND_12_00.
+
+
+<edge>CBODD_12_00->CNOD_12_00</edge>: The variable CBODD_12_00 represents the carbonaceous biochemical oxygen demand for degradable organic matter at time period 00, which directly affects the concentration of nitrogenous oxygen demand at the same time period represented by CNOD_12_00.
+
+
+<edge>CBODN_12_00->CKNN_12_00</edge>: The variable CBODN_12_00 represents the carbonaceous biochemical oxygen demand for nitrogenous matter at time period 00, which directly affects the concentration of Kjeldahl nitrogen non-degradable ions at the same time period represented by CKNN_12_00.
+
+
+<edge>CNON_12_00->CKNN_12_00</edge>: The variable CNON_12_00 represents the concentration of nitrogenous non-degradable organic nitrogen at time period 00, which directly affects the concentration of Kjeldahl nitrogen non-degradable ions at the same time period represented by CKNN_12_00.
+
+
+Overall, the variables related to nitrogen inorganic ions, Kjeldahl nitrogen inorganic ions, Kjeldahl nitrogen degradable ions, Kjeldahl nitrogen non-degradable ions, and nitrogenous non-degradable organic nitrogen show direct causality between them. The variables related to carbonaceous biochemical oxygen demand also show direct causality with Kjeldahl nitrogen degradable ions and nitrogenous oxygen demand.
+```
+

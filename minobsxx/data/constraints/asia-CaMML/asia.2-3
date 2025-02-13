@@ -1,0 +1,4 @@
+arcs {
+	tub => dysp 0.9999;
+	smoke => bronc 0.9999;
+}

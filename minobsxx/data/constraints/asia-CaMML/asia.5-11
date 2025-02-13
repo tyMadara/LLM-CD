@@ -1,0 +1,7 @@
+arcs {
+	bronc => dysp 0.9999;
+	smoke => bronc 0.9999;
+	asia => dysp 0.9999;
+	tub => dysp 0.9999;
+	asia => either 0.9999;
+}

@@ -1,0 +1,1152 @@
+asia 250 1 0.5
+{'accept': 7, 'reject': 2, 'TP': 7, 'TN': 0, 'FP': 0, 'FN': 2, 'TPR': 0.7777777777777778, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.7777777777777778, 'F1': 0.8750000000000001}
+asia 250 1 0.6
+{'accept': 7, 'reject': 2, 'TP': 7, 'TN': 0, 'FP': 0, 'FN': 2, 'TPR': 0.7777777777777778, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.7777777777777778, 'F1': 0.8750000000000001}
+asia 250 1 0.7
+{'accept': 7, 'reject': 2, 'TP': 7, 'TN': 0, 'FP': 0, 'FN': 2, 'TPR': 0.7777777777777778, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.7777777777777778, 'F1': 0.8750000000000001}
+asia 250 1 0.8
+{'accept': 7, 'reject': 2, 'TP': 7, 'TN': 0, 'FP': 0, 'FN': 2, 'TPR': 0.7777777777777778, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.7777777777777778, 'F1': 0.8750000000000001}
+asia 250 1 0.9
+{'accept': 9, 'reject': 0, 'TP': 9, 'TN': 0, 'FP': 0, 'FN': 0, 'TPR': 1.0, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 1.0, 'F1': 1.0}
+asia 250 1 0.99999
+{'accept': 9, 'reject': 0, 'TP': 9, 'TN': 0, 'FP': 0, 'FN': 0, 'TPR': 1.0, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 1.0, 'F1': 1.0}
+asia 1000 1 0.5
+{'accept': 7, 'reject': 2, 'TP': 7, 'TN': 0, 'FP': 0, 'FN': 2, 'TPR': 0.7777777777777778, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.7777777777777778, 'F1': 0.8750000000000001}
+asia 1000 1 0.6
+{'accept': 8, 'reject': 1, 'TP': 8, 'TN': 0, 'FP': 0, 'FN': 1, 'TPR': 0.8888888888888888, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.8888888888888888, 'F1': 0.9411764705882353}
+asia 1000 1 0.7
+{'accept': 8, 'reject': 1, 'TP': 8, 'TN': 0, 'FP': 0, 'FN': 1, 'TPR': 0.8888888888888888, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.8888888888888888, 'F1': 0.9411764705882353}
+asia 1000 1 0.8
+{'accept': 8, 'reject': 1, 'TP': 8, 'TN': 0, 'FP': 0, 'FN': 1, 'TPR': 0.8888888888888888, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.8888888888888888, 'F1': 0.9411764705882353}
+asia 1000 1 0.9
+{'accept': 9, 'reject': 0, 'TP': 9, 'TN': 0, 'FP': 0, 'FN': 0, 'TPR': 1.0, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 1.0, 'F1': 1.0}
+asia 1000 1 0.99999
+{'accept': 9, 'reject': 0, 'TP': 9, 'TN': 0, 'FP': 0, 'FN': 0, 'TPR': 1.0, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 1.0, 'F1': 1.0}
+asia 250 2 0.5
+{'accept': 7, 'reject': 2, 'TP': 7, 'TN': 0, 'FP': 0, 'FN': 2, 'TPR': 0.7777777777777778, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.7777777777777778, 'F1': 0.8750000000000001}
+asia 250 2 0.6
+{'accept': 8, 'reject': 1, 'TP': 8, 'TN': 0, 'FP': 0, 'FN': 1, 'TPR': 0.8888888888888888, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.8888888888888888, 'F1': 0.9411764705882353}
+asia 250 2 0.7
+{'accept': 8, 'reject': 1, 'TP': 8, 'TN': 0, 'FP': 0, 'FN': 1, 'TPR': 0.8888888888888888, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.8888888888888888, 'F1': 0.9411764705882353}
+asia 250 2 0.8
+{'accept': 8, 'reject': 1, 'TP': 8, 'TN': 0, 'FP': 0, 'FN': 1, 'TPR': 0.8888888888888888, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.8888888888888888, 'F1': 0.9411764705882353}
+asia 250 2 0.9
+{'accept': 9, 'reject': 0, 'TP': 9, 'TN': 0, 'FP': 0, 'FN': 0, 'TPR': 1.0, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 1.0, 'F1': 1.0}
+asia 250 2 0.99999
+{'accept': 9, 'reject': 0, 'TP': 9, 'TN': 0, 'FP': 0, 'FN': 0, 'TPR': 1.0, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 1.0, 'F1': 1.0}
+asia 1000 2 0.5
+{'accept': 7, 'reject': 2, 'TP': 7, 'TN': 0, 'FP': 0, 'FN': 2, 'TPR': 0.7777777777777778, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.7777777777777778, 'F1': 0.8750000000000001}
+asia 1000 2 0.6
+{'accept': 7, 'reject': 2, 'TP': 7, 'TN': 0, 'FP': 0, 'FN': 2, 'TPR': 0.7777777777777778, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.7777777777777778, 'F1': 0.8750000000000001}
+asia 1000 2 0.7
+{'accept': 7, 'reject': 2, 'TP': 7, 'TN': 0, 'FP': 0, 'FN': 2, 'TPR': 0.7777777777777778, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.7777777777777778, 'F1': 0.8750000000000001}
+asia 1000 2 0.8
+{'accept': 7, 'reject': 2, 'TP': 7, 'TN': 0, 'FP': 0, 'FN': 2, 'TPR': 0.7777777777777778, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.7777777777777778, 'F1': 0.8750000000000001}
+asia 1000 2 0.9
+{'accept': 8, 'reject': 1, 'TP': 8, 'TN': 0, 'FP': 0, 'FN': 1, 'TPR': 0.8888888888888888, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.8888888888888888, 'F1': 0.9411764705882353}
+asia 1000 2 0.99999
+{'accept': 9, 'reject': 0, 'TP': 9, 'TN': 0, 'FP': 0, 'FN': 0, 'TPR': 1.0, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 1.0, 'F1': 1.0}
+asia 250 3 0.5
+{'accept': 7, 'reject': 2, 'TP': 7, 'TN': 0, 'FP': 0, 'FN': 2, 'TPR': 0.7777777777777778, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.7777777777777778, 'F1': 0.8750000000000001}
+asia 250 3 0.6
+{'accept': 7, 'reject': 2, 'TP': 7, 'TN': 0, 'FP': 0, 'FN': 2, 'TPR': 0.7777777777777778, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.7777777777777778, 'F1': 0.8750000000000001}
+asia 250 3 0.7
+{'accept': 7, 'reject': 2, 'TP': 7, 'TN': 0, 'FP': 0, 'FN': 2, 'TPR': 0.7777777777777778, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.7777777777777778, 'F1': 0.8750000000000001}
+asia 250 3 0.8
+{'accept': 7, 'reject': 2, 'TP': 7, 'TN': 0, 'FP': 0, 'FN': 2, 'TPR': 0.7777777777777778, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.7777777777777778, 'F1': 0.8750000000000001}
+asia 250 3 0.9
+{'accept': 9, 'reject': 0, 'TP': 9, 'TN': 0, 'FP': 0, 'FN': 0, 'TPR': 1.0, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 1.0, 'F1': 1.0}
+asia 250 3 0.99999
+{'accept': 9, 'reject': 0, 'TP': 9, 'TN': 0, 'FP': 0, 'FN': 0, 'TPR': 1.0, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 1.0, 'F1': 1.0}
+asia 1000 3 0.5
+{'accept': 7, 'reject': 2, 'TP': 7, 'TN': 0, 'FP': 0, 'FN': 2, 'TPR': 0.7777777777777778, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.7777777777777778, 'F1': 0.8750000000000001}
+asia 1000 3 0.6
+{'accept': 7, 'reject': 2, 'TP': 7, 'TN': 0, 'FP': 0, 'FN': 2, 'TPR': 0.7777777777777778, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.7777777777777778, 'F1': 0.8750000000000001}
+asia 1000 3 0.7
+{'accept': 7, 'reject': 2, 'TP': 7, 'TN': 0, 'FP': 0, 'FN': 2, 'TPR': 0.7777777777777778, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.7777777777777778, 'F1': 0.8750000000000001}
+asia 1000 3 0.8
+{'accept': 8, 'reject': 1, 'TP': 8, 'TN': 0, 'FP': 0, 'FN': 1, 'TPR': 0.8888888888888888, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.8888888888888888, 'F1': 0.9411764705882353}
+asia 1000 3 0.9
+{'accept': 8, 'reject': 1, 'TP': 8, 'TN': 0, 'FP': 0, 'FN': 1, 'TPR': 0.8888888888888888, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.8888888888888888, 'F1': 0.9411764705882353}
+asia 1000 3 0.99999
+{'accept': 9, 'reject': 0, 'TP': 9, 'TN': 0, 'FP': 0, 'FN': 0, 'TPR': 1.0, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 1.0, 'F1': 1.0}
+asia 250 4 0.5
+{'accept': 7, 'reject': 2, 'TP': 7, 'TN': 0, 'FP': 0, 'FN': 2, 'TPR': 0.7777777777777778, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.7777777777777778, 'F1': 0.8750000000000001}
+asia 250 4 0.6
+{'accept': 7, 'reject': 2, 'TP': 7, 'TN': 0, 'FP': 0, 'FN': 2, 'TPR': 0.7777777777777778, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.7777777777777778, 'F1': 0.8750000000000001}
+asia 250 4 0.7
+{'accept': 7, 'reject': 2, 'TP': 7, 'TN': 0, 'FP': 0, 'FN': 2, 'TPR': 0.7777777777777778, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.7777777777777778, 'F1': 0.8750000000000001}
+asia 250 4 0.8
+{'accept': 7, 'reject': 2, 'TP': 7, 'TN': 0, 'FP': 0, 'FN': 2, 'TPR': 0.7777777777777778, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.7777777777777778, 'F1': 0.8750000000000001}
+asia 250 4 0.9
+{'accept': 8, 'reject': 1, 'TP': 8, 'TN': 0, 'FP': 0, 'FN': 1, 'TPR': 0.8888888888888888, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.8888888888888888, 'F1': 0.9411764705882353}
+asia 250 4 0.99999
+{'accept': 9, 'reject': 0, 'TP': 9, 'TN': 0, 'FP': 0, 'FN': 0, 'TPR': 1.0, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 1.0, 'F1': 1.0}
+asia 1000 4 0.5
+{'accept': 7, 'reject': 2, 'TP': 7, 'TN': 0, 'FP': 0, 'FN': 2, 'TPR': 0.7777777777777778, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.7777777777777778, 'F1': 0.8750000000000001}
+asia 1000 4 0.6
+{'accept': 7, 'reject': 2, 'TP': 7, 'TN': 0, 'FP': 0, 'FN': 2, 'TPR': 0.7777777777777778, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.7777777777777778, 'F1': 0.8750000000000001}
+asia 1000 4 0.7
+{'accept': 7, 'reject': 2, 'TP': 7, 'TN': 0, 'FP': 0, 'FN': 2, 'TPR': 0.7777777777777778, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.7777777777777778, 'F1': 0.8750000000000001}
+asia 1000 4 0.8
+{'accept': 8, 'reject': 1, 'TP': 8, 'TN': 0, 'FP': 0, 'FN': 1, 'TPR': 0.8888888888888888, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.8888888888888888, 'F1': 0.9411764705882353}
+asia 1000 4 0.9
+{'accept': 8, 'reject': 1, 'TP': 8, 'TN': 0, 'FP': 0, 'FN': 1, 'TPR': 0.8888888888888888, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.8888888888888888, 'F1': 0.9411764705882353}
+asia 1000 4 0.99999
+{'accept': 9, 'reject': 0, 'TP': 9, 'TN': 0, 'FP': 0, 'FN': 0, 'TPR': 1.0, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 1.0, 'F1': 1.0}
+asia 250 5 0.5
+{'accept': 7, 'reject': 2, 'TP': 7, 'TN': 0, 'FP': 0, 'FN': 2, 'TPR': 0.7777777777777778, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.7777777777777778, 'F1': 0.8750000000000001}
+asia 250 5 0.6
+{'accept': 7, 'reject': 2, 'TP': 7, 'TN': 0, 'FP': 0, 'FN': 2, 'TPR': 0.7777777777777778, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.7777777777777778, 'F1': 0.8750000000000001}
+asia 250 5 0.7
+{'accept': 7, 'reject': 2, 'TP': 7, 'TN': 0, 'FP': 0, 'FN': 2, 'TPR': 0.7777777777777778, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.7777777777777778, 'F1': 0.8750000000000001}
+asia 250 5 0.8
+{'accept': 7, 'reject': 2, 'TP': 7, 'TN': 0, 'FP': 0, 'FN': 2, 'TPR': 0.7777777777777778, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.7777777777777778, 'F1': 0.8750000000000001}
+asia 250 5 0.9
+{'accept': 8, 'reject': 1, 'TP': 8, 'TN': 0, 'FP': 0, 'FN': 1, 'TPR': 0.8888888888888888, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.8888888888888888, 'F1': 0.9411764705882353}
+asia 250 5 0.99999
+{'accept': 9, 'reject': 0, 'TP': 9, 'TN': 0, 'FP': 0, 'FN': 0, 'TPR': 1.0, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 1.0, 'F1': 1.0}
+asia 1000 5 0.5
+{'accept': 8, 'reject': 1, 'TP': 8, 'TN': 0, 'FP': 0, 'FN': 1, 'TPR': 0.8888888888888888, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.8888888888888888, 'F1': 0.9411764705882353}
+asia 1000 5 0.6
+{'accept': 8, 'reject': 1, 'TP': 8, 'TN': 0, 'FP': 0, 'FN': 1, 'TPR': 0.8888888888888888, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.8888888888888888, 'F1': 0.9411764705882353}
+asia 1000 5 0.7
+{'accept': 8, 'reject': 1, 'TP': 8, 'TN': 0, 'FP': 0, 'FN': 1, 'TPR': 0.8888888888888888, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.8888888888888888, 'F1': 0.9411764705882353}
+asia 1000 5 0.8
+{'accept': 9, 'reject': 0, 'TP': 9, 'TN': 0, 'FP': 0, 'FN': 0, 'TPR': 1.0, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 1.0, 'F1': 1.0}
+asia 1000 5 0.9
+{'accept': 9, 'reject': 0, 'TP': 9, 'TN': 0, 'FP': 0, 'FN': 0, 'TPR': 1.0, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 1.0, 'F1': 1.0}
+asia 1000 5 0.99999
+{'accept': 9, 'reject': 0, 'TP': 9, 'TN': 0, 'FP': 0, 'FN': 0, 'TPR': 1.0, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 1.0, 'F1': 1.0}
+asia 250 6 0.5
+{'accept': 7, 'reject': 2, 'TP': 7, 'TN': 0, 'FP': 0, 'FN': 2, 'TPR': 0.7777777777777778, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.7777777777777778, 'F1': 0.8750000000000001}
+asia 250 6 0.6
+{'accept': 7, 'reject': 2, 'TP': 7, 'TN': 0, 'FP': 0, 'FN': 2, 'TPR': 0.7777777777777778, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.7777777777777778, 'F1': 0.8750000000000001}
+asia 250 6 0.7
+{'accept': 7, 'reject': 2, 'TP': 7, 'TN': 0, 'FP': 0, 'FN': 2, 'TPR': 0.7777777777777778, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.7777777777777778, 'F1': 0.8750000000000001}
+asia 250 6 0.8
+{'accept': 8, 'reject': 1, 'TP': 8, 'TN': 0, 'FP': 0, 'FN': 1, 'TPR': 0.8888888888888888, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.8888888888888888, 'F1': 0.9411764705882353}
+asia 250 6 0.9
+{'accept': 8, 'reject': 1, 'TP': 8, 'TN': 0, 'FP': 0, 'FN': 1, 'TPR': 0.8888888888888888, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.8888888888888888, 'F1': 0.9411764705882353}
+asia 250 6 0.99999
+{'accept': 9, 'reject': 0, 'TP': 9, 'TN': 0, 'FP': 0, 'FN': 0, 'TPR': 1.0, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 1.0, 'F1': 1.0}
+asia 1000 6 0.5
+{'accept': 7, 'reject': 2, 'TP': 7, 'TN': 0, 'FP': 0, 'FN': 2, 'TPR': 0.7777777777777778, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.7777777777777778, 'F1': 0.8750000000000001}
+asia 1000 6 0.6
+{'accept': 8, 'reject': 1, 'TP': 8, 'TN': 0, 'FP': 0, 'FN': 1, 'TPR': 0.8888888888888888, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.8888888888888888, 'F1': 0.9411764705882353}
+asia 1000 6 0.7
+{'accept': 9, 'reject': 0, 'TP': 9, 'TN': 0, 'FP': 0, 'FN': 0, 'TPR': 1.0, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 1.0, 'F1': 1.0}
+asia 1000 6 0.8
+{'accept': 9, 'reject': 0, 'TP': 9, 'TN': 0, 'FP': 0, 'FN': 0, 'TPR': 1.0, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 1.0, 'F1': 1.0}
+asia 1000 6 0.9
+{'accept': 9, 'reject': 0, 'TP': 9, 'TN': 0, 'FP': 0, 'FN': 0, 'TPR': 1.0, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 1.0, 'F1': 1.0}
+asia 1000 6 0.99999
+{'accept': 9, 'reject': 0, 'TP': 9, 'TN': 0, 'FP': 0, 'FN': 0, 'TPR': 1.0, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 1.0, 'F1': 1.0}
+child 500 1 0.5
+{'accept': 7, 'reject': 3, 'TP': 7, 'TN': 2, 'FP': 0, 'FN': 1, 'TPR': 0.875, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 0.875, 'F1': 0.9333333333333333}
+child 500 1 0.6
+{'accept': 7, 'reject': 3, 'TP': 7, 'TN': 2, 'FP': 0, 'FN': 1, 'TPR': 0.875, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 0.875, 'F1': 0.9333333333333333}
+child 500 1 0.7
+{'accept': 7, 'reject': 3, 'TP': 7, 'TN': 2, 'FP': 0, 'FN': 1, 'TPR': 0.875, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 0.875, 'F1': 0.9333333333333333}
+child 500 1 0.8
+{'accept': 7, 'reject': 3, 'TP': 7, 'TN': 2, 'FP': 0, 'FN': 1, 'TPR': 0.875, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 0.875, 'F1': 0.9333333333333333}
+child 500 1 0.9
+{'accept': 7, 'reject': 3, 'TP': 6, 'TN': 1, 'FP': 1, 'FN': 2, 'TPR': 0.75, 'TNR': 0.5, 'FPR': 0.5, 'FNR': 0, 'precision': 0.8571428571428571, 'recall': 0.75, 'F1': 0.7999999999999999}
+child 500 1 0.99999
+{'accept': 9, 'reject': 1, 'TP': 8, 'TN': 1, 'FP': 1, 'FN': 0, 'TPR': 1.0, 'TNR': 0.5, 'FPR': 0.5, 'FNR': 0, 'precision': 0.8888888888888888, 'recall': 1.0, 'F1': 0.9411764705882353}
+child 2000 1 0.5
+{'accept': 8, 'reject': 2, 'TP': 8, 'TN': 2, 'FP': 0, 'FN': 0, 'TPR': 1.0, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 1.0, 'F1': 1.0}
+child 2000 1 0.6
+{'accept': 8, 'reject': 2, 'TP': 8, 'TN': 2, 'FP': 0, 'FN': 0, 'TPR': 1.0, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 1.0, 'F1': 1.0}
+child 2000 1 0.7
+{'accept': 8, 'reject': 2, 'TP': 8, 'TN': 2, 'FP': 0, 'FN': 0, 'TPR': 1.0, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 1.0, 'F1': 1.0}
+child 2000 1 0.8
+{'accept': 8, 'reject': 2, 'TP': 8, 'TN': 2, 'FP': 0, 'FN': 0, 'TPR': 1.0, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 1.0, 'F1': 1.0}
+child 2000 1 0.9
+{'accept': 8, 'reject': 2, 'TP': 8, 'TN': 2, 'FP': 0, 'FN': 0, 'TPR': 1.0, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 1.0, 'F1': 1.0}
+child 2000 1 0.99999
+{'accept': 8, 'reject': 2, 'TP': 8, 'TN': 2, 'FP': 0, 'FN': 0, 'TPR': 1.0, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 1.0, 'F1': 1.0}
+child 500 2 0.5
+{'accept': 8, 'reject': 2, 'TP': 8, 'TN': 2, 'FP': 0, 'FN': 0, 'TPR': 1.0, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 1.0, 'F1': 1.0}
+child 500 2 0.6
+{'accept': 8, 'reject': 2, 'TP': 8, 'TN': 2, 'FP': 0, 'FN': 0, 'TPR': 1.0, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 1.0, 'F1': 1.0}
+child 500 2 0.7
+{'accept': 8, 'reject': 2, 'TP': 8, 'TN': 2, 'FP': 0, 'FN': 0, 'TPR': 1.0, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 1.0, 'F1': 1.0}
+child 500 2 0.8
+{'accept': 8, 'reject': 2, 'TP': 8, 'TN': 2, 'FP': 0, 'FN': 0, 'TPR': 1.0, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 1.0, 'F1': 1.0}
+child 500 2 0.9
+{'accept': 8, 'reject': 2, 'TP': 8, 'TN': 2, 'FP': 0, 'FN': 0, 'TPR': 1.0, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 1.0, 'F1': 1.0}
+child 500 2 0.99999
+{'accept': 10, 'reject': 0, 'TP': 8, 'TN': 0, 'FP': 2, 'FN': 0, 'TPR': 1.0, 'TNR': 0.0, 'FPR': 1.0, 'FNR': 0, 'precision': 0.8, 'recall': 1.0, 'F1': 0.888888888888889}
+child 2000 2 0.5
+{'accept': 8, 'reject': 2, 'TP': 8, 'TN': 2, 'FP': 0, 'FN': 0, 'TPR': 1.0, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 1.0, 'F1': 1.0}
+child 2000 2 0.6
+{'accept': 8, 'reject': 2, 'TP': 8, 'TN': 2, 'FP': 0, 'FN': 0, 'TPR': 1.0, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 1.0, 'F1': 1.0}
+child 2000 2 0.7
+{'accept': 8, 'reject': 2, 'TP': 8, 'TN': 2, 'FP': 0, 'FN': 0, 'TPR': 1.0, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 1.0, 'F1': 1.0}
+child 2000 2 0.8
+{'accept': 8, 'reject': 2, 'TP': 8, 'TN': 2, 'FP': 0, 'FN': 0, 'TPR': 1.0, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 1.0, 'F1': 1.0}
+child 2000 2 0.9
+{'accept': 8, 'reject': 2, 'TP': 8, 'TN': 2, 'FP': 0, 'FN': 0, 'TPR': 1.0, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 1.0, 'F1': 1.0}
+child 2000 2 0.99999
+{'accept': 9, 'reject': 1, 'TP': 8, 'TN': 1, 'FP': 1, 'FN': 0, 'TPR': 1.0, 'TNR': 0.5, 'FPR': 0.5, 'FNR': 0, 'precision': 0.8888888888888888, 'recall': 1.0, 'F1': 0.9411764705882353}
+child 500 3 0.5
+{'accept': 8, 'reject': 2, 'TP': 8, 'TN': 2, 'FP': 0, 'FN': 0, 'TPR': 1.0, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 1.0, 'F1': 1.0}
+child 500 3 0.6
+{'accept': 8, 'reject': 2, 'TP': 8, 'TN': 2, 'FP': 0, 'FN': 0, 'TPR': 1.0, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 1.0, 'F1': 1.0}
+child 500 3 0.7
+{'accept': 8, 'reject': 2, 'TP': 8, 'TN': 2, 'FP': 0, 'FN': 0, 'TPR': 1.0, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 1.0, 'F1': 1.0}
+child 500 3 0.8
+{'accept': 8, 'reject': 2, 'TP': 8, 'TN': 2, 'FP': 0, 'FN': 0, 'TPR': 1.0, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 1.0, 'F1': 1.0}
+child 500 3 0.9
+{'accept': 8, 'reject': 2, 'TP': 8, 'TN': 2, 'FP': 0, 'FN': 0, 'TPR': 1.0, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 1.0, 'F1': 1.0}
+child 500 3 0.99999
+{'accept': 10, 'reject': 0, 'TP': 8, 'TN': 0, 'FP': 2, 'FN': 0, 'TPR': 1.0, 'TNR': 0.0, 'FPR': 1.0, 'FNR': 0, 'precision': 0.8, 'recall': 1.0, 'F1': 0.888888888888889}
+child 2000 3 0.5
+{'accept': 8, 'reject': 2, 'TP': 8, 'TN': 2, 'FP': 0, 'FN': 0, 'TPR': 1.0, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 1.0, 'F1': 1.0}
+child 2000 3 0.6
+{'accept': 8, 'reject': 2, 'TP': 8, 'TN': 2, 'FP': 0, 'FN': 0, 'TPR': 1.0, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 1.0, 'F1': 1.0}
+child 2000 3 0.7
+{'accept': 8, 'reject': 2, 'TP': 8, 'TN': 2, 'FP': 0, 'FN': 0, 'TPR': 1.0, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 1.0, 'F1': 1.0}
+child 2000 3 0.8
+{'accept': 8, 'reject': 2, 'TP': 8, 'TN': 2, 'FP': 0, 'FN': 0, 'TPR': 1.0, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 1.0, 'F1': 1.0}
+child 2000 3 0.9
+{'accept': 8, 'reject': 2, 'TP': 8, 'TN': 2, 'FP': 0, 'FN': 0, 'TPR': 1.0, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 1.0, 'F1': 1.0}
+child 2000 3 0.99999
+{'accept': 8, 'reject': 2, 'TP': 8, 'TN': 2, 'FP': 0, 'FN': 0, 'TPR': 1.0, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 1.0, 'F1': 1.0}
+child 500 4 0.5
+{'accept': 7, 'reject': 3, 'TP': 7, 'TN': 2, 'FP': 0, 'FN': 1, 'TPR': 0.875, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 0.875, 'F1': 0.9333333333333333}
+child 500 4 0.6
+{'accept': 7, 'reject': 3, 'TP': 7, 'TN': 2, 'FP': 0, 'FN': 1, 'TPR': 0.875, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 0.875, 'F1': 0.9333333333333333}
+child 500 4 0.7
+{'accept': 7, 'reject': 3, 'TP': 7, 'TN': 2, 'FP': 0, 'FN': 1, 'TPR': 0.875, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 0.875, 'F1': 0.9333333333333333}
+child 500 4 0.8
+{'accept': 8, 'reject': 2, 'TP': 8, 'TN': 2, 'FP': 0, 'FN': 0, 'TPR': 1.0, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 1.0, 'F1': 1.0}
+child 500 4 0.9
+{'accept': 8, 'reject': 2, 'TP': 8, 'TN': 2, 'FP': 0, 'FN': 0, 'TPR': 1.0, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 1.0, 'F1': 1.0}
+child 500 4 0.99999
+{'accept': 10, 'reject': 0, 'TP': 8, 'TN': 0, 'FP': 2, 'FN': 0, 'TPR': 1.0, 'TNR': 0.0, 'FPR': 1.0, 'FNR': 0, 'precision': 0.8, 'recall': 1.0, 'F1': 0.888888888888889}
+child 2000 4 0.5
+{'accept': 8, 'reject': 2, 'TP': 8, 'TN': 2, 'FP': 0, 'FN': 0, 'TPR': 1.0, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 1.0, 'F1': 1.0}
+child 2000 4 0.6
+{'accept': 8, 'reject': 2, 'TP': 8, 'TN': 2, 'FP': 0, 'FN': 0, 'TPR': 1.0, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 1.0, 'F1': 1.0}
+child 2000 4 0.7
+{'accept': 8, 'reject': 2, 'TP': 8, 'TN': 2, 'FP': 0, 'FN': 0, 'TPR': 1.0, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 1.0, 'F1': 1.0}
+child 2000 4 0.8
+{'accept': 8, 'reject': 2, 'TP': 8, 'TN': 2, 'FP': 0, 'FN': 0, 'TPR': 1.0, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 1.0, 'F1': 1.0}
+child 2000 4 0.9
+{'accept': 8, 'reject': 2, 'TP': 8, 'TN': 2, 'FP': 0, 'FN': 0, 'TPR': 1.0, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 1.0, 'F1': 1.0}
+child 2000 4 0.99999
+{'accept': 8, 'reject': 2, 'TP': 8, 'TN': 2, 'FP': 0, 'FN': 0, 'TPR': 1.0, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 1.0, 'F1': 1.0}
+child 500 5 0.5
+{'accept': 6, 'reject': 4, 'TP': 6, 'TN': 2, 'FP': 0, 'FN': 2, 'TPR': 0.75, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 0.75, 'F1': 0.8571428571428571}
+child 500 5 0.6
+{'accept': 6, 'reject': 4, 'TP': 6, 'TN': 2, 'FP': 0, 'FN': 2, 'TPR': 0.75, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 0.75, 'F1': 0.8571428571428571}
+child 500 5 0.7
+{'accept': 7, 'reject': 3, 'TP': 7, 'TN': 2, 'FP': 0, 'FN': 1, 'TPR': 0.875, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 0.875, 'F1': 0.9333333333333333}
+child 500 5 0.8
+{'accept': 8, 'reject': 2, 'TP': 8, 'TN': 2, 'FP': 0, 'FN': 0, 'TPR': 1.0, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 1.0, 'F1': 1.0}
+child 500 5 0.9
+{'accept': 7, 'reject': 3, 'TP': 7, 'TN': 2, 'FP': 0, 'FN': 1, 'TPR': 0.875, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 0.875, 'F1': 0.9333333333333333}
+child 500 5 0.99999
+{'accept': 10, 'reject': 0, 'TP': 8, 'TN': 0, 'FP': 2, 'FN': 0, 'TPR': 1.0, 'TNR': 0.0, 'FPR': 1.0, 'FNR': 0, 'precision': 0.8, 'recall': 1.0, 'F1': 0.888888888888889}
+child 2000 5 0.5
+{'accept': 8, 'reject': 2, 'TP': 8, 'TN': 2, 'FP': 0, 'FN': 0, 'TPR': 1.0, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 1.0, 'F1': 1.0}
+child 2000 5 0.6
+{'accept': 8, 'reject': 2, 'TP': 8, 'TN': 2, 'FP': 0, 'FN': 0, 'TPR': 1.0, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 1.0, 'F1': 1.0}
+child 2000 5 0.7
+{'accept': 8, 'reject': 2, 'TP': 8, 'TN': 2, 'FP': 0, 'FN': 0, 'TPR': 1.0, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 1.0, 'F1': 1.0}
+child 2000 5 0.8
+{'accept': 8, 'reject': 2, 'TP': 8, 'TN': 2, 'FP': 0, 'FN': 0, 'TPR': 1.0, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 1.0, 'F1': 1.0}
+child 2000 5 0.9
+{'accept': 8, 'reject': 2, 'TP': 8, 'TN': 2, 'FP': 0, 'FN': 0, 'TPR': 1.0, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 1.0, 'F1': 1.0}
+child 2000 5 0.99999
+{'accept': 8, 'reject': 2, 'TP': 8, 'TN': 2, 'FP': 0, 'FN': 0, 'TPR': 1.0, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 1.0, 'F1': 1.0}
+child 500 6 0.5
+{'accept': 7, 'reject': 3, 'TP': 7, 'TN': 2, 'FP': 0, 'FN': 1, 'TPR': 0.875, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 0.875, 'F1': 0.9333333333333333}
+child 500 6 0.6
+{'accept': 8, 'reject': 2, 'TP': 8, 'TN': 2, 'FP': 0, 'FN': 0, 'TPR': 1.0, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 1.0, 'F1': 1.0}
+child 500 6 0.7
+{'accept': 8, 'reject': 2, 'TP': 8, 'TN': 2, 'FP': 0, 'FN': 0, 'TPR': 1.0, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 1.0, 'F1': 1.0}
+child 500 6 0.8
+{'accept': 8, 'reject': 2, 'TP': 8, 'TN': 2, 'FP': 0, 'FN': 0, 'TPR': 1.0, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 1.0, 'F1': 1.0}
+child 500 6 0.9
+{'accept': 8, 'reject': 2, 'TP': 8, 'TN': 2, 'FP': 0, 'FN': 0, 'TPR': 1.0, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 1.0, 'F1': 1.0}
+child 500 6 0.99999
+{'accept': 10, 'reject': 0, 'TP': 8, 'TN': 0, 'FP': 2, 'FN': 0, 'TPR': 1.0, 'TNR': 0.0, 'FPR': 1.0, 'FNR': 0, 'precision': 0.8, 'recall': 1.0, 'F1': 0.888888888888889}
+child 2000 6 0.5
+{'accept': 8, 'reject': 2, 'TP': 8, 'TN': 2, 'FP': 0, 'FN': 0, 'TPR': 1.0, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 1.0, 'F1': 1.0}
+child 2000 6 0.6
+{'accept': 8, 'reject': 2, 'TP': 8, 'TN': 2, 'FP': 0, 'FN': 0, 'TPR': 1.0, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 1.0, 'F1': 1.0}
+child 2000 6 0.7
+{'accept': 8, 'reject': 2, 'TP': 8, 'TN': 2, 'FP': 0, 'FN': 0, 'TPR': 1.0, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 1.0, 'F1': 1.0}
+child 2000 6 0.8
+{'accept': 8, 'reject': 2, 'TP': 8, 'TN': 2, 'FP': 0, 'FN': 0, 'TPR': 1.0, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 1.0, 'F1': 1.0}
+child 2000 6 0.9
+{'accept': 8, 'reject': 2, 'TP': 8, 'TN': 2, 'FP': 0, 'FN': 0, 'TPR': 1.0, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 1.0, 'F1': 1.0}
+child 2000 6 0.99999
+{'accept': 8, 'reject': 2, 'TP': 8, 'TN': 2, 'FP': 0, 'FN': 0, 'TPR': 1.0, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 1.0, 'F1': 1.0}
+insurance 500 1 0.5
+{'accept': 3, 'reject': 7, 'TP': 3, 'TN': 0, 'FP': 0, 'FN': 7, 'TPR': 0.3, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.3, 'F1': 0.4615384615384615}
+insurance 500 1 0.6
+{'accept': 5, 'reject': 5, 'TP': 5, 'TN': 0, 'FP': 0, 'FN': 5, 'TPR': 0.5, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.5, 'F1': 0.6666666666666666}
+insurance 500 1 0.7
+{'accept': 3, 'reject': 7, 'TP': 3, 'TN': 0, 'FP': 0, 'FN': 7, 'TPR': 0.3, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.3, 'F1': 0.4615384615384615}
+insurance 500 1 0.8
+{'accept': 3, 'reject': 7, 'TP': 3, 'TN': 0, 'FP': 0, 'FN': 7, 'TPR': 0.3, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.3, 'F1': 0.4615384615384615}
+insurance 500 1 0.9
+{'accept': 3, 'reject': 7, 'TP': 3, 'TN': 0, 'FP': 0, 'FN': 7, 'TPR': 0.3, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.3, 'F1': 0.4615384615384615}
+insurance 500 1 0.99999
+{'accept': 10, 'reject': 0, 'TP': 10, 'TN': 0, 'FP': 0, 'FN': 0, 'TPR': 1.0, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 1.0, 'F1': 1.0}
+insurance 2000 1 0.5
+{'accept': 3, 'reject': 7, 'TP': 3, 'TN': 0, 'FP': 0, 'FN': 7, 'TPR': 0.3, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.3, 'F1': 0.4615384615384615}
+insurance 2000 1 0.6
+{'accept': 8, 'reject': 2, 'TP': 8, 'TN': 0, 'FP': 0, 'FN': 2, 'TPR': 0.8, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.8, 'F1': 0.888888888888889}
+insurance 2000 1 0.7
+{'accept': 3, 'reject': 7, 'TP': 3, 'TN': 0, 'FP': 0, 'FN': 7, 'TPR': 0.3, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.3, 'F1': 0.4615384615384615}
+insurance 2000 1 0.8
+{'accept': 4, 'reject': 6, 'TP': 4, 'TN': 0, 'FP': 0, 'FN': 6, 'TPR': 0.4, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.4, 'F1': 0.5714285714285715}
+insurance 2000 1 0.9
+{'accept': 3, 'reject': 7, 'TP': 3, 'TN': 0, 'FP': 0, 'FN': 7, 'TPR': 0.3, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.3, 'F1': 0.4615384615384615}
+insurance 2000 1 0.99999
+{'accept': 4, 'reject': 6, 'TP': 4, 'TN': 0, 'FP': 0, 'FN': 6, 'TPR': 0.4, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.4, 'F1': 0.5714285714285715}
+insurance 500 2 0.5
+{'accept': 4, 'reject': 6, 'TP': 4, 'TN': 0, 'FP': 0, 'FN': 6, 'TPR': 0.4, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.4, 'F1': 0.5714285714285715}
+insurance 500 2 0.6
+{'accept': 3, 'reject': 7, 'TP': 3, 'TN': 0, 'FP': 0, 'FN': 7, 'TPR': 0.3, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.3, 'F1': 0.4615384615384615}
+insurance 500 2 0.7
+{'accept': 3, 'reject': 7, 'TP': 3, 'TN': 0, 'FP': 0, 'FN': 7, 'TPR': 0.3, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.3, 'F1': 0.4615384615384615}
+insurance 500 2 0.8
+{'accept': 5, 'reject': 5, 'TP': 5, 'TN': 0, 'FP': 0, 'FN': 5, 'TPR': 0.5, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.5, 'F1': 0.6666666666666666}
+insurance 500 2 0.9
+{'accept': 4, 'reject': 6, 'TP': 4, 'TN': 0, 'FP': 0, 'FN': 6, 'TPR': 0.4, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.4, 'F1': 0.5714285714285715}
+insurance 500 2 0.99999
+{'accept': 10, 'reject': 0, 'TP': 10, 'TN': 0, 'FP': 0, 'FN': 0, 'TPR': 1.0, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 1.0, 'F1': 1.0}
+insurance 2000 2 0.5
+{'accept': 3, 'reject': 7, 'TP': 3, 'TN': 0, 'FP': 0, 'FN': 7, 'TPR': 0.3, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.3, 'F1': 0.4615384615384615}
+insurance 2000 2 0.6
+{'accept': 5, 'reject': 5, 'TP': 5, 'TN': 0, 'FP': 0, 'FN': 5, 'TPR': 0.5, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.5, 'F1': 0.6666666666666666}
+insurance 2000 2 0.7
+{'accept': 3, 'reject': 7, 'TP': 3, 'TN': 0, 'FP': 0, 'FN': 7, 'TPR': 0.3, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.3, 'F1': 0.4615384615384615}
+insurance 2000 2 0.8
+{'accept': 4, 'reject': 6, 'TP': 4, 'TN': 0, 'FP': 0, 'FN': 6, 'TPR': 0.4, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.4, 'F1': 0.5714285714285715}
+insurance 2000 2 0.9
+{'accept': 4, 'reject': 6, 'TP': 4, 'TN': 0, 'FP': 0, 'FN': 6, 'TPR': 0.4, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.4, 'F1': 0.5714285714285715}
+insurance 2000 2 0.99999
+{'accept': 7, 'reject': 3, 'TP': 7, 'TN': 0, 'FP': 0, 'FN': 3, 'TPR': 0.7, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.7, 'F1': 0.8235294117647058}
+insurance 500 3 0.5
+{'accept': 4, 'reject': 6, 'TP': 4, 'TN': 0, 'FP': 0, 'FN': 6, 'TPR': 0.4, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.4, 'F1': 0.5714285714285715}
+insurance 500 3 0.6
+{'accept': 2, 'reject': 8, 'TP': 2, 'TN': 0, 'FP': 0, 'FN': 8, 'TPR': 0.2, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.2, 'F1': 0.33333333333333337}
+insurance 500 3 0.7
+{'accept': 4, 'reject': 6, 'TP': 4, 'TN': 0, 'FP': 0, 'FN': 6, 'TPR': 0.4, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.4, 'F1': 0.5714285714285715}
+insurance 500 3 0.8
+{'accept': 4, 'reject': 6, 'TP': 4, 'TN': 0, 'FP': 0, 'FN': 6, 'TPR': 0.4, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.4, 'F1': 0.5714285714285715}
+insurance 500 3 0.9
+{'accept': 6, 'reject': 4, 'TP': 6, 'TN': 0, 'FP': 0, 'FN': 4, 'TPR': 0.6, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.6, 'F1': 0.7499999999999999}
+insurance 500 3 0.99999
+{'accept': 8, 'reject': 2, 'TP': 8, 'TN': 0, 'FP': 0, 'FN': 2, 'TPR': 0.8, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.8, 'F1': 0.888888888888889}
+insurance 2000 3 0.5
+{'accept': 3, 'reject': 7, 'TP': 3, 'TN': 0, 'FP': 0, 'FN': 7, 'TPR': 0.3, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.3, 'F1': 0.4615384615384615}
+insurance 2000 3 0.6
+{'accept': 3, 'reject': 7, 'TP': 3, 'TN': 0, 'FP': 0, 'FN': 7, 'TPR': 0.3, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.3, 'F1': 0.4615384615384615}
+insurance 2000 3 0.7
+{'accept': 3, 'reject': 7, 'TP': 3, 'TN': 0, 'FP': 0, 'FN': 7, 'TPR': 0.3, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.3, 'F1': 0.4615384615384615}
+insurance 2000 3 0.8
+{'accept': 3, 'reject': 7, 'TP': 3, 'TN': 0, 'FP': 0, 'FN': 7, 'TPR': 0.3, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.3, 'F1': 0.4615384615384615}
+insurance 2000 3 0.9
+{'accept': 6, 'reject': 4, 'TP': 6, 'TN': 0, 'FP': 0, 'FN': 4, 'TPR': 0.6, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.6, 'F1': 0.7499999999999999}
+insurance 2000 3 0.99999
+{'accept': 9, 'reject': 1, 'TP': 9, 'TN': 0, 'FP': 0, 'FN': 1, 'TPR': 0.9, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.9, 'F1': 0.9473684210526316}
+insurance 500 4 0.5
+{'accept': 2, 'reject': 8, 'TP': 2, 'TN': 0, 'FP': 0, 'FN': 8, 'TPR': 0.2, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.2, 'F1': 0.33333333333333337}
+insurance 500 4 0.6
+{'accept': 2, 'reject': 8, 'TP': 2, 'TN': 0, 'FP': 0, 'FN': 8, 'TPR': 0.2, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.2, 'F1': 0.33333333333333337}
+insurance 500 4 0.7
+{'accept': 2, 'reject': 8, 'TP': 2, 'TN': 0, 'FP': 0, 'FN': 8, 'TPR': 0.2, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.2, 'F1': 0.33333333333333337}
+insurance 500 4 0.8
+{'accept': 2, 'reject': 8, 'TP': 2, 'TN': 0, 'FP': 0, 'FN': 8, 'TPR': 0.2, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.2, 'F1': 0.33333333333333337}
+insurance 500 4 0.9
+{'accept': 3, 'reject': 7, 'TP': 3, 'TN': 0, 'FP': 0, 'FN': 7, 'TPR': 0.3, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.3, 'F1': 0.4615384615384615}
+insurance 500 4 0.99999
+{'accept': 10, 'reject': 0, 'TP': 10, 'TN': 0, 'FP': 0, 'FN': 0, 'TPR': 1.0, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 1.0, 'F1': 1.0}
+insurance 2000 4 0.5
+{'accept': 5, 'reject': 5, 'TP': 5, 'TN': 0, 'FP': 0, 'FN': 5, 'TPR': 0.5, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.5, 'F1': 0.6666666666666666}
+insurance 2000 4 0.6
+{'accept': 5, 'reject': 5, 'TP': 5, 'TN': 0, 'FP': 0, 'FN': 5, 'TPR': 0.5, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.5, 'F1': 0.6666666666666666}
+insurance 2000 4 0.7
+{'accept': 5, 'reject': 5, 'TP': 5, 'TN': 0, 'FP': 0, 'FN': 5, 'TPR': 0.5, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.5, 'F1': 0.6666666666666666}
+insurance 2000 4 0.8
+{'accept': 3, 'reject': 7, 'TP': 3, 'TN': 0, 'FP': 0, 'FN': 7, 'TPR': 0.3, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.3, 'F1': 0.4615384615384615}
+insurance 2000 4 0.9
+{'accept': 4, 'reject': 6, 'TP': 4, 'TN': 0, 'FP': 0, 'FN': 6, 'TPR': 0.4, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.4, 'F1': 0.5714285714285715}
+insurance 2000 4 0.99999
+{'accept': 5, 'reject': 5, 'TP': 5, 'TN': 0, 'FP': 0, 'FN': 5, 'TPR': 0.5, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.5, 'F1': 0.6666666666666666}
+insurance 500 5 0.5
+{'accept': 3, 'reject': 7, 'TP': 3, 'TN': 0, 'FP': 0, 'FN': 7, 'TPR': 0.3, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.3, 'F1': 0.4615384615384615}
+insurance 500 5 0.6
+{'accept': 3, 'reject': 7, 'TP': 3, 'TN': 0, 'FP': 0, 'FN': 7, 'TPR': 0.3, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.3, 'F1': 0.4615384615384615}
+insurance 500 5 0.7
+{'accept': 3, 'reject': 7, 'TP': 3, 'TN': 0, 'FP': 0, 'FN': 7, 'TPR': 0.3, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.3, 'F1': 0.4615384615384615}
+insurance 500 5 0.8
+{'accept': 3, 'reject': 7, 'TP': 3, 'TN': 0, 'FP': 0, 'FN': 7, 'TPR': 0.3, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.3, 'F1': 0.4615384615384615}
+insurance 500 5 0.9
+{'accept': 3, 'reject': 7, 'TP': 3, 'TN': 0, 'FP': 0, 'FN': 7, 'TPR': 0.3, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.3, 'F1': 0.4615384615384615}
+insurance 500 5 0.99999
+{'accept': 10, 'reject': 0, 'TP': 10, 'TN': 0, 'FP': 0, 'FN': 0, 'TPR': 1.0, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 1.0, 'F1': 1.0}
+insurance 2000 5 0.5
+{'accept': 3, 'reject': 7, 'TP': 3, 'TN': 0, 'FP': 0, 'FN': 7, 'TPR': 0.3, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.3, 'F1': 0.4615384615384615}
+insurance 2000 5 0.6
+{'accept': 2, 'reject': 8, 'TP': 2, 'TN': 0, 'FP': 0, 'FN': 8, 'TPR': 0.2, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.2, 'F1': 0.33333333333333337}
+insurance 2000 5 0.7
+{'accept': 2, 'reject': 8, 'TP': 2, 'TN': 0, 'FP': 0, 'FN': 8, 'TPR': 0.2, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.2, 'F1': 0.33333333333333337}
+insurance 2000 5 0.8
+{'accept': 5, 'reject': 5, 'TP': 5, 'TN': 0, 'FP': 0, 'FN': 5, 'TPR': 0.5, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.5, 'F1': 0.6666666666666666}
+insurance 2000 5 0.9
+{'accept': 3, 'reject': 7, 'TP': 3, 'TN': 0, 'FP': 0, 'FN': 7, 'TPR': 0.3, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.3, 'F1': 0.4615384615384615}
+insurance 2000 5 0.99999
+{'accept': 9, 'reject': 1, 'TP': 9, 'TN': 0, 'FP': 0, 'FN': 1, 'TPR': 0.9, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.9, 'F1': 0.9473684210526316}
+insurance 500 6 0.5
+{'accept': 3, 'reject': 7, 'TP': 3, 'TN': 0, 'FP': 0, 'FN': 7, 'TPR': 0.3, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.3, 'F1': 0.4615384615384615}
+insurance 500 6 0.6
+{'accept': 3, 'reject': 7, 'TP': 3, 'TN': 0, 'FP': 0, 'FN': 7, 'TPR': 0.3, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.3, 'F1': 0.4615384615384615}
+insurance 500 6 0.7
+{'accept': 3, 'reject': 7, 'TP': 3, 'TN': 0, 'FP': 0, 'FN': 7, 'TPR': 0.3, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.3, 'F1': 0.4615384615384615}
+insurance 500 6 0.8
+{'accept': 3, 'reject': 7, 'TP': 3, 'TN': 0, 'FP': 0, 'FN': 7, 'TPR': 0.3, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.3, 'F1': 0.4615384615384615}
+insurance 500 6 0.9
+{'accept': 3, 'reject': 7, 'TP': 3, 'TN': 0, 'FP': 0, 'FN': 7, 'TPR': 0.3, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.3, 'F1': 0.4615384615384615}
+insurance 500 6 0.99999
+{'accept': 9, 'reject': 1, 'TP': 9, 'TN': 0, 'FP': 0, 'FN': 1, 'TPR': 0.9, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.9, 'F1': 0.9473684210526316}
+insurance 2000 6 0.5
+{'accept': 2, 'reject': 8, 'TP': 2, 'TN': 0, 'FP': 0, 'FN': 8, 'TPR': 0.2, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.2, 'F1': 0.33333333333333337}
+insurance 2000 6 0.6
+{'accept': 8, 'reject': 2, 'TP': 8, 'TN': 0, 'FP': 0, 'FN': 2, 'TPR': 0.8, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.8, 'F1': 0.888888888888889}
+insurance 2000 6 0.7
+{'accept': 3, 'reject': 7, 'TP': 3, 'TN': 0, 'FP': 0, 'FN': 7, 'TPR': 0.3, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.3, 'F1': 0.4615384615384615}
+insurance 2000 6 0.8
+{'accept': 3, 'reject': 7, 'TP': 3, 'TN': 0, 'FP': 0, 'FN': 7, 'TPR': 0.3, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.3, 'F1': 0.4615384615384615}
+insurance 2000 6 0.9
+{'accept': 3, 'reject': 7, 'TP': 3, 'TN': 0, 'FP': 0, 'FN': 7, 'TPR': 0.3, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.3, 'F1': 0.4615384615384615}
+insurance 2000 6 0.99999
+{'accept': 10, 'reject': 0, 'TP': 10, 'TN': 0, 'FP': 0, 'FN': 0, 'TPR': 1.0, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 1.0, 'F1': 1.0}
+alarm 1000 1 0.5
+{'accept': 17, 'reject': 4, 'TP': 17, 'TN': 1, 'FP': 0, 'FN': 3, 'TPR': 0.85, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 0.85, 'F1': 0.9189189189189189}
+alarm 1000 1 0.6
+{'accept': 20, 'reject': 1, 'TP': 20, 'TN': 1, 'FP': 0, 'FN': 0, 'TPR': 1.0, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 1.0, 'F1': 1.0}
+alarm 1000 1 0.7
+{'accept': 20, 'reject': 1, 'TP': 20, 'TN': 1, 'FP': 0, 'FN': 0, 'TPR': 1.0, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 1.0, 'F1': 1.0}
+alarm 1000 1 0.8
+{'accept': 20, 'reject': 1, 'TP': 20, 'TN': 1, 'FP': 0, 'FN': 0, 'TPR': 1.0, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 1.0, 'F1': 1.0}
+alarm 1000 1 0.9
+{'accept': 20, 'reject': 1, 'TP': 20, 'TN': 1, 'FP': 0, 'FN': 0, 'TPR': 1.0, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 1.0, 'F1': 1.0}
+alarm 1000 1 0.99999
+{'accept': 20, 'reject': 1, 'TP': 20, 'TN': 1, 'FP': 0, 'FN': 0, 'TPR': 1.0, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 1.0, 'F1': 1.0}
+alarm 4000 1 0.5
+{'accept': 16, 'reject': 5, 'TP': 16, 'TN': 1, 'FP': 0, 'FN': 4, 'TPR': 0.8, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 0.8, 'F1': 0.888888888888889}
+alarm 4000 1 0.6
+{'accept': 20, 'reject': 1, 'TP': 20, 'TN': 1, 'FP': 0, 'FN': 0, 'TPR': 1.0, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 1.0, 'F1': 1.0}
+alarm 4000 1 0.7
+{'accept': 20, 'reject': 1, 'TP': 20, 'TN': 1, 'FP': 0, 'FN': 0, 'TPR': 1.0, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 1.0, 'F1': 1.0}
+alarm 4000 1 0.8
+{'accept': 20, 'reject': 1, 'TP': 20, 'TN': 1, 'FP': 0, 'FN': 0, 'TPR': 1.0, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 1.0, 'F1': 1.0}
+alarm 4000 1 0.9
+{'accept': 20, 'reject': 1, 'TP': 20, 'TN': 1, 'FP': 0, 'FN': 0, 'TPR': 1.0, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 1.0, 'F1': 1.0}
+alarm 4000 1 0.99999
+{'accept': 20, 'reject': 1, 'TP': 20, 'TN': 1, 'FP': 0, 'FN': 0, 'TPR': 1.0, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 1.0, 'F1': 1.0}
+alarm 1000 2 0.5
+{'accept': 20, 'reject': 1, 'TP': 20, 'TN': 1, 'FP': 0, 'FN': 0, 'TPR': 1.0, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 1.0, 'F1': 1.0}
+alarm 1000 2 0.6
+{'accept': 19, 'reject': 2, 'TP': 19, 'TN': 1, 'FP': 0, 'FN': 1, 'TPR': 0.95, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 0.95, 'F1': 0.9743589743589743}
+alarm 1000 2 0.7
+{'accept': 19, 'reject': 2, 'TP': 19, 'TN': 1, 'FP': 0, 'FN': 1, 'TPR': 0.95, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 0.95, 'F1': 0.9743589743589743}
+alarm 1000 2 0.8
+{'accept': 20, 'reject': 1, 'TP': 20, 'TN': 1, 'FP': 0, 'FN': 0, 'TPR': 1.0, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 1.0, 'F1': 1.0}
+alarm 1000 2 0.9
+{'accept': 20, 'reject': 1, 'TP': 20, 'TN': 1, 'FP': 0, 'FN': 0, 'TPR': 1.0, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 1.0, 'F1': 1.0}
+alarm 1000 2 0.99999
+{'accept': 21, 'reject': 0, 'TP': 20, 'TN': 0, 'FP': 1, 'FN': 0, 'TPR': 1.0, 'TNR': 0.0, 'FPR': 1.0, 'FNR': 0, 'precision': 0.9523809523809523, 'recall': 1.0, 'F1': 0.975609756097561}
+alarm 4000 2 0.5
+{'accept': 16, 'reject': 5, 'TP': 16, 'TN': 1, 'FP': 0, 'FN': 4, 'TPR': 0.8, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 0.8, 'F1': 0.888888888888889}
+alarm 4000 2 0.6
+{'accept': 16, 'reject': 5, 'TP': 16, 'TN': 1, 'FP': 0, 'FN': 4, 'TPR': 0.8, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 0.8, 'F1': 0.888888888888889}
+alarm 4000 2 0.7
+{'accept': 20, 'reject': 1, 'TP': 20, 'TN': 1, 'FP': 0, 'FN': 0, 'TPR': 1.0, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 1.0, 'F1': 1.0}
+alarm 4000 2 0.8
+{'accept': 20, 'reject': 1, 'TP': 20, 'TN': 1, 'FP': 0, 'FN': 0, 'TPR': 1.0, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 1.0, 'F1': 1.0}
+alarm 4000 2 0.9
+{'accept': 20, 'reject': 1, 'TP': 20, 'TN': 1, 'FP': 0, 'FN': 0, 'TPR': 1.0, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 1.0, 'F1': 1.0}
+alarm 4000 2 0.99999
+{'accept': 20, 'reject': 1, 'TP': 20, 'TN': 1, 'FP': 0, 'FN': 0, 'TPR': 1.0, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 1.0, 'F1': 1.0}
+alarm 1000 3 0.5
+{'accept': 18, 'reject': 3, 'TP': 18, 'TN': 1, 'FP': 0, 'FN': 2, 'TPR': 0.9, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 0.9, 'F1': 0.9473684210526316}
+alarm 1000 3 0.6
+{'accept': 15, 'reject': 6, 'TP': 15, 'TN': 1, 'FP': 0, 'FN': 5, 'TPR': 0.75, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 0.75, 'F1': 0.8571428571428571}
+alarm 1000 3 0.7
+{'accept': 15, 'reject': 6, 'TP': 15, 'TN': 1, 'FP': 0, 'FN': 5, 'TPR': 0.75, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 0.75, 'F1': 0.8571428571428571}
+alarm 1000 3 0.8
+{'accept': 15, 'reject': 6, 'TP': 15, 'TN': 1, 'FP': 0, 'FN': 5, 'TPR': 0.75, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 0.75, 'F1': 0.8571428571428571}
+alarm 1000 3 0.9
+{'accept': 18, 'reject': 3, 'TP': 18, 'TN': 1, 'FP': 0, 'FN': 2, 'TPR': 0.9, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 0.9, 'F1': 0.9473684210526316}
+alarm 1000 3 0.99999
+{'accept': 20, 'reject': 1, 'TP': 20, 'TN': 1, 'FP': 0, 'FN': 0, 'TPR': 1.0, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 1.0, 'F1': 1.0}
+alarm 4000 3 0.5
+{'accept': 17, 'reject': 4, 'TP': 17, 'TN': 1, 'FP': 0, 'FN': 3, 'TPR': 0.85, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 0.85, 'F1': 0.9189189189189189}
+alarm 4000 3 0.6
+{'accept': 18, 'reject': 3, 'TP': 18, 'TN': 1, 'FP': 0, 'FN': 2, 'TPR': 0.9, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 0.9, 'F1': 0.9473684210526316}
+alarm 4000 3 0.7
+{'accept': 20, 'reject': 1, 'TP': 20, 'TN': 1, 'FP': 0, 'FN': 0, 'TPR': 1.0, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 1.0, 'F1': 1.0}
+alarm 4000 3 0.8
+{'accept': 20, 'reject': 1, 'TP': 20, 'TN': 1, 'FP': 0, 'FN': 0, 'TPR': 1.0, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 1.0, 'F1': 1.0}
+alarm 4000 3 0.9
+{'accept': 20, 'reject': 1, 'TP': 20, 'TN': 1, 'FP': 0, 'FN': 0, 'TPR': 1.0, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 1.0, 'F1': 1.0}
+alarm 4000 3 0.99999
+{'accept': 20, 'reject': 1, 'TP': 20, 'TN': 1, 'FP': 0, 'FN': 0, 'TPR': 1.0, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 1.0, 'F1': 1.0}
+alarm 1000 4 0.5
+{'accept': 14, 'reject': 7, 'TP': 14, 'TN': 1, 'FP': 0, 'FN': 6, 'TPR': 0.7, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 0.7, 'F1': 0.8235294117647058}
+alarm 1000 4 0.6
+{'accept': 20, 'reject': 1, 'TP': 20, 'TN': 1, 'FP': 0, 'FN': 0, 'TPR': 1.0, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 1.0, 'F1': 1.0}
+alarm 1000 4 0.7
+{'accept': 19, 'reject': 2, 'TP': 19, 'TN': 1, 'FP': 0, 'FN': 1, 'TPR': 0.95, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 0.95, 'F1': 0.9743589743589743}
+alarm 1000 4 0.8
+{'accept': 20, 'reject': 1, 'TP': 20, 'TN': 1, 'FP': 0, 'FN': 0, 'TPR': 1.0, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 1.0, 'F1': 1.0}
+alarm 1000 4 0.9
+{'accept': 20, 'reject': 1, 'TP': 20, 'TN': 1, 'FP': 0, 'FN': 0, 'TPR': 1.0, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 1.0, 'F1': 1.0}
+alarm 1000 4 0.99999
+{'accept': 20, 'reject': 1, 'TP': 20, 'TN': 1, 'FP': 0, 'FN': 0, 'TPR': 1.0, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 1.0, 'F1': 1.0}
+alarm 4000 4 0.5
+{'accept': 18, 'reject': 3, 'TP': 18, 'TN': 1, 'FP': 0, 'FN': 2, 'TPR': 0.9, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 0.9, 'F1': 0.9473684210526316}
+alarm 4000 4 0.6
+{'accept': 18, 'reject': 3, 'TP': 18, 'TN': 1, 'FP': 0, 'FN': 2, 'TPR': 0.9, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 0.9, 'F1': 0.9473684210526316}
+alarm 4000 4 0.7
+{'accept': 20, 'reject': 1, 'TP': 20, 'TN': 1, 'FP': 0, 'FN': 0, 'TPR': 1.0, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 1.0, 'F1': 1.0}
+alarm 4000 4 0.8
+{'accept': 20, 'reject': 1, 'TP': 20, 'TN': 1, 'FP': 0, 'FN': 0, 'TPR': 1.0, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 1.0, 'F1': 1.0}
+alarm 4000 4 0.9
+{'accept': 20, 'reject': 1, 'TP': 20, 'TN': 1, 'FP': 0, 'FN': 0, 'TPR': 1.0, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 1.0, 'F1': 1.0}
+alarm 4000 4 0.99999
+{'accept': 20, 'reject': 1, 'TP': 20, 'TN': 1, 'FP': 0, 'FN': 0, 'TPR': 1.0, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 1.0, 'F1': 1.0}
+alarm 1000 5 0.5
+{'accept': 17, 'reject': 4, 'TP': 17, 'TN': 1, 'FP': 0, 'FN': 3, 'TPR': 0.85, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 0.85, 'F1': 0.9189189189189189}
+alarm 1000 5 0.6
+{'accept': 17, 'reject': 4, 'TP': 17, 'TN': 1, 'FP': 0, 'FN': 3, 'TPR': 0.85, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 0.85, 'F1': 0.9189189189189189}
+alarm 1000 5 0.7
+{'accept': 18, 'reject': 3, 'TP': 18, 'TN': 1, 'FP': 0, 'FN': 2, 'TPR': 0.9, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 0.9, 'F1': 0.9473684210526316}
+alarm 1000 5 0.8
+{'accept': 19, 'reject': 2, 'TP': 19, 'TN': 1, 'FP': 0, 'FN': 1, 'TPR': 0.95, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 0.95, 'F1': 0.9743589743589743}
+alarm 1000 5 0.9
+{'accept': 18, 'reject': 3, 'TP': 18, 'TN': 1, 'FP': 0, 'FN': 2, 'TPR': 0.9, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 0.9, 'F1': 0.9473684210526316}
+alarm 1000 5 0.99999
+{'accept': 20, 'reject': 1, 'TP': 20, 'TN': 1, 'FP': 0, 'FN': 0, 'TPR': 1.0, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 1.0, 'F1': 1.0}
+alarm 4000 5 0.5
+{'accept': 20, 'reject': 1, 'TP': 20, 'TN': 1, 'FP': 0, 'FN': 0, 'TPR': 1.0, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 1.0, 'F1': 1.0}
+alarm 4000 5 0.6
+{'accept': 20, 'reject': 1, 'TP': 20, 'TN': 1, 'FP': 0, 'FN': 0, 'TPR': 1.0, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 1.0, 'F1': 1.0}
+alarm 4000 5 0.7
+{'accept': 20, 'reject': 1, 'TP': 20, 'TN': 1, 'FP': 0, 'FN': 0, 'TPR': 1.0, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 1.0, 'F1': 1.0}
+alarm 4000 5 0.8
+{'accept': 20, 'reject': 1, 'TP': 20, 'TN': 1, 'FP': 0, 'FN': 0, 'TPR': 1.0, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 1.0, 'F1': 1.0}
+alarm 4000 5 0.9
+{'accept': 20, 'reject': 1, 'TP': 20, 'TN': 1, 'FP': 0, 'FN': 0, 'TPR': 1.0, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 1.0, 'F1': 1.0}
+alarm 4000 5 0.99999
+{'accept': 20, 'reject': 1, 'TP': 20, 'TN': 1, 'FP': 0, 'FN': 0, 'TPR': 1.0, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 1.0, 'F1': 1.0}
+alarm 1000 6 0.5
+{'accept': 17, 'reject': 4, 'TP': 17, 'TN': 1, 'FP': 0, 'FN': 3, 'TPR': 0.85, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 0.85, 'F1': 0.9189189189189189}
+alarm 1000 6 0.6
+{'accept': 18, 'reject': 3, 'TP': 18, 'TN': 1, 'FP': 0, 'FN': 2, 'TPR': 0.9, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 0.9, 'F1': 0.9473684210526316}
+alarm 1000 6 0.7
+{'accept': 19, 'reject': 2, 'TP': 19, 'TN': 1, 'FP': 0, 'FN': 1, 'TPR': 0.95, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 0.95, 'F1': 0.9743589743589743}
+alarm 1000 6 0.8
+{'accept': 19, 'reject': 2, 'TP': 19, 'TN': 1, 'FP': 0, 'FN': 1, 'TPR': 0.95, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 0.95, 'F1': 0.9743589743589743}
+alarm 1000 6 0.9
+{'accept': 19, 'reject': 2, 'TP': 19, 'TN': 1, 'FP': 0, 'FN': 1, 'TPR': 0.95, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 0.95, 'F1': 0.9743589743589743}
+alarm 1000 6 0.99999
+{'accept': 20, 'reject': 1, 'TP': 20, 'TN': 1, 'FP': 0, 'FN': 0, 'TPR': 1.0, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 1.0, 'F1': 1.0}
+alarm 4000 6 0.5
+{'accept': 16, 'reject': 5, 'TP': 16, 'TN': 1, 'FP': 0, 'FN': 4, 'TPR': 0.8, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 0.8, 'F1': 0.888888888888889}
+alarm 4000 6 0.6
+{'accept': 20, 'reject': 1, 'TP': 20, 'TN': 1, 'FP': 0, 'FN': 0, 'TPR': 1.0, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 1.0, 'F1': 1.0}
+alarm 4000 6 0.7
+{'accept': 19, 'reject': 2, 'TP': 19, 'TN': 1, 'FP': 0, 'FN': 1, 'TPR': 0.95, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 0.95, 'F1': 0.9743589743589743}
+alarm 4000 6 0.8
+{'accept': 20, 'reject': 1, 'TP': 20, 'TN': 1, 'FP': 0, 'FN': 0, 'TPR': 1.0, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 1.0, 'F1': 1.0}
+alarm 4000 6 0.9
+{'accept': 20, 'reject': 1, 'TP': 20, 'TN': 1, 'FP': 0, 'FN': 0, 'TPR': 1.0, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 1.0, 'F1': 1.0}
+alarm 4000 6 0.99999
+{'accept': 20, 'reject': 1, 'TP': 20, 'TN': 1, 'FP': 0, 'FN': 0, 'TPR': 1.0, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 1.0, 'F1': 1.0}
+cancer 250 1 0.5
+{'accept': 0, 'reject': 5, 'TP': 0, 'TN': 0, 'FP': 0, 'FN': 5, 'TPR': 0.0, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': nan, 'recall': 0.0, 'F1': nan}
+cancer 250 1 0.6
+{'accept': 1, 'reject': 4, 'TP': 1, 'TN': 0, 'FP': 0, 'FN': 4, 'TPR': 0.2, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.2, 'F1': 0.33333333333333337}
+cancer 250 1 0.7
+{'accept': 1, 'reject': 4, 'TP': 1, 'TN': 0, 'FP': 0, 'FN': 4, 'TPR': 0.2, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.2, 'F1': 0.33333333333333337}
+cancer 250 1 0.8
+{'accept': 1, 'reject': 4, 'TP': 1, 'TN': 0, 'FP': 0, 'FN': 4, 'TPR': 0.2, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.2, 'F1': 0.33333333333333337}
+cancer 250 1 0.9
+{'accept': 1, 'reject': 4, 'TP': 1, 'TN': 0, 'FP': 0, 'FN': 4, 'TPR': 0.2, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.2, 'F1': 0.33333333333333337}
+cancer 250 1 0.99999
+{'accept': 5, 'reject': 0, 'TP': 5, 'TN': 0, 'FP': 0, 'FN': 0, 'TPR': 1.0, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 1.0, 'F1': 1.0}
+cancer 1000 1 0.5
+{'accept': 1, 'reject': 4, 'TP': 1, 'TN': 0, 'FP': 0, 'FN': 4, 'TPR': 0.2, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.2, 'F1': 0.33333333333333337}
+cancer 1000 1 0.6
+{'accept': 1, 'reject': 4, 'TP': 1, 'TN': 0, 'FP': 0, 'FN': 4, 'TPR': 0.2, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.2, 'F1': 0.33333333333333337}
+cancer 1000 1 0.7
+{'accept': 1, 'reject': 4, 'TP': 1, 'TN': 0, 'FP': 0, 'FN': 4, 'TPR': 0.2, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.2, 'F1': 0.33333333333333337}
+cancer 1000 1 0.8
+{'accept': 1, 'reject': 4, 'TP': 1, 'TN': 0, 'FP': 0, 'FN': 4, 'TPR': 0.2, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.2, 'F1': 0.33333333333333337}
+cancer 1000 1 0.9
+{'accept': 4, 'reject': 1, 'TP': 4, 'TN': 0, 'FP': 0, 'FN': 1, 'TPR': 0.8, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.8, 'F1': 0.888888888888889}
+cancer 1000 1 0.99999
+{'accept': 5, 'reject': 0, 'TP': 5, 'TN': 0, 'FP': 0, 'FN': 0, 'TPR': 1.0, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 1.0, 'F1': 1.0}
+cancer 250 2 0.5
+{'accept': 1, 'reject': 4, 'TP': 1, 'TN': 0, 'FP': 0, 'FN': 4, 'TPR': 0.2, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.2, 'F1': 0.33333333333333337}
+cancer 250 2 0.6
+{'accept': 1, 'reject': 4, 'TP': 1, 'TN': 0, 'FP': 0, 'FN': 4, 'TPR': 0.2, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.2, 'F1': 0.33333333333333337}
+cancer 250 2 0.7
+{'accept': 1, 'reject': 4, 'TP': 1, 'TN': 0, 'FP': 0, 'FN': 4, 'TPR': 0.2, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.2, 'F1': 0.33333333333333337}
+cancer 250 2 0.8
+{'accept': 1, 'reject': 4, 'TP': 1, 'TN': 0, 'FP': 0, 'FN': 4, 'TPR': 0.2, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.2, 'F1': 0.33333333333333337}
+cancer 250 2 0.9
+{'accept': 3, 'reject': 2, 'TP': 3, 'TN': 0, 'FP': 0, 'FN': 2, 'TPR': 0.6, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.6, 'F1': 0.7499999999999999}
+cancer 250 2 0.99999
+{'accept': 5, 'reject': 0, 'TP': 5, 'TN': 0, 'FP': 0, 'FN': 0, 'TPR': 1.0, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 1.0, 'F1': 1.0}
+cancer 1000 2 0.5
+{'accept': 2, 'reject': 3, 'TP': 2, 'TN': 0, 'FP': 0, 'FN': 3, 'TPR': 0.4, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.4, 'F1': 0.5714285714285715}
+cancer 1000 2 0.6
+{'accept': 2, 'reject': 3, 'TP': 2, 'TN': 0, 'FP': 0, 'FN': 3, 'TPR': 0.4, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.4, 'F1': 0.5714285714285715}
+cancer 1000 2 0.7
+{'accept': 2, 'reject': 3, 'TP': 2, 'TN': 0, 'FP': 0, 'FN': 3, 'TPR': 0.4, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.4, 'F1': 0.5714285714285715}
+cancer 1000 2 0.8
+{'accept': 4, 'reject': 1, 'TP': 4, 'TN': 0, 'FP': 0, 'FN': 1, 'TPR': 0.8, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.8, 'F1': 0.888888888888889}
+cancer 1000 2 0.9
+{'accept': 4, 'reject': 1, 'TP': 4, 'TN': 0, 'FP': 0, 'FN': 1, 'TPR': 0.8, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.8, 'F1': 0.888888888888889}
+cancer 1000 2 0.99999
+{'accept': 5, 'reject': 0, 'TP': 5, 'TN': 0, 'FP': 0, 'FN': 0, 'TPR': 1.0, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 1.0, 'F1': 1.0}
+cancer 250 3 0.5
+{'accept': 1, 'reject': 4, 'TP': 1, 'TN': 0, 'FP': 0, 'FN': 4, 'TPR': 0.2, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.2, 'F1': 0.33333333333333337}
+cancer 250 3 0.6
+{'accept': 1, 'reject': 4, 'TP': 1, 'TN': 0, 'FP': 0, 'FN': 4, 'TPR': 0.2, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.2, 'F1': 0.33333333333333337}
+cancer 250 3 0.7
+{'accept': 1, 'reject': 4, 'TP': 1, 'TN': 0, 'FP': 0, 'FN': 4, 'TPR': 0.2, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.2, 'F1': 0.33333333333333337}
+cancer 250 3 0.8
+{'accept': 4, 'reject': 1, 'TP': 4, 'TN': 0, 'FP': 0, 'FN': 1, 'TPR': 0.8, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.8, 'F1': 0.888888888888889}
+cancer 250 3 0.9
+{'accept': 4, 'reject': 1, 'TP': 4, 'TN': 0, 'FP': 0, 'FN': 1, 'TPR': 0.8, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.8, 'F1': 0.888888888888889}
+cancer 250 3 0.99999
+{'accept': 5, 'reject': 0, 'TP': 5, 'TN': 0, 'FP': 0, 'FN': 0, 'TPR': 1.0, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 1.0, 'F1': 1.0}
+cancer 1000 3 0.5
+{'accept': 1, 'reject': 4, 'TP': 1, 'TN': 0, 'FP': 0, 'FN': 4, 'TPR': 0.2, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.2, 'F1': 0.33333333333333337}
+cancer 1000 3 0.6
+{'accept': 1, 'reject': 4, 'TP': 1, 'TN': 0, 'FP': 0, 'FN': 4, 'TPR': 0.2, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.2, 'F1': 0.33333333333333337}
+cancer 1000 3 0.7
+{'accept': 1, 'reject': 4, 'TP': 1, 'TN': 0, 'FP': 0, 'FN': 4, 'TPR': 0.2, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.2, 'F1': 0.33333333333333337}
+cancer 1000 3 0.8
+{'accept': 4, 'reject': 1, 'TP': 4, 'TN': 0, 'FP': 0, 'FN': 1, 'TPR': 0.8, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.8, 'F1': 0.888888888888889}
+cancer 1000 3 0.9
+{'accept': 4, 'reject': 1, 'TP': 4, 'TN': 0, 'FP': 0, 'FN': 1, 'TPR': 0.8, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.8, 'F1': 0.888888888888889}
+cancer 1000 3 0.99999
+{'accept': 5, 'reject': 0, 'TP': 5, 'TN': 0, 'FP': 0, 'FN': 0, 'TPR': 1.0, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 1.0, 'F1': 1.0}
+cancer 250 4 0.5
+{'accept': 0, 'reject': 5, 'TP': 0, 'TN': 0, 'FP': 0, 'FN': 5, 'TPR': 0.0, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': nan, 'recall': 0.0, 'F1': nan}
+cancer 250 4 0.6
+{'accept': 1, 'reject': 4, 'TP': 1, 'TN': 0, 'FP': 0, 'FN': 4, 'TPR': 0.2, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.2, 'F1': 0.33333333333333337}
+cancer 250 4 0.7
+{'accept': 1, 'reject': 4, 'TP': 1, 'TN': 0, 'FP': 0, 'FN': 4, 'TPR': 0.2, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.2, 'F1': 0.33333333333333337}
+cancer 250 4 0.8
+{'accept': 1, 'reject': 4, 'TP': 1, 'TN': 0, 'FP': 0, 'FN': 4, 'TPR': 0.2, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.2, 'F1': 0.33333333333333337}
+cancer 250 4 0.9
+{'accept': 3, 'reject': 2, 'TP': 3, 'TN': 0, 'FP': 0, 'FN': 2, 'TPR': 0.6, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.6, 'F1': 0.7499999999999999}
+cancer 250 4 0.99999
+{'accept': 5, 'reject': 0, 'TP': 5, 'TN': 0, 'FP': 0, 'FN': 0, 'TPR': 1.0, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 1.0, 'F1': 1.0}
+cancer 1000 4 0.5
+{'accept': 2, 'reject': 3, 'TP': 2, 'TN': 0, 'FP': 0, 'FN': 3, 'TPR': 0.4, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.4, 'F1': 0.5714285714285715}
+cancer 1000 4 0.6
+{'accept': 2, 'reject': 3, 'TP': 2, 'TN': 0, 'FP': 0, 'FN': 3, 'TPR': 0.4, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.4, 'F1': 0.5714285714285715}
+cancer 1000 4 0.7
+{'accept': 2, 'reject': 3, 'TP': 2, 'TN': 0, 'FP': 0, 'FN': 3, 'TPR': 0.4, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.4, 'F1': 0.5714285714285715}
+cancer 1000 4 0.8
+{'accept': 4, 'reject': 1, 'TP': 4, 'TN': 0, 'FP': 0, 'FN': 1, 'TPR': 0.8, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.8, 'F1': 0.888888888888889}
+cancer 1000 4 0.9
+{'accept': 4, 'reject': 1, 'TP': 4, 'TN': 0, 'FP': 0, 'FN': 1, 'TPR': 0.8, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.8, 'F1': 0.888888888888889}
+cancer 1000 4 0.99999
+{'accept': 5, 'reject': 0, 'TP': 5, 'TN': 0, 'FP': 0, 'FN': 0, 'TPR': 1.0, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 1.0, 'F1': 1.0}
+cancer 250 5 0.5
+{'accept': 2, 'reject': 3, 'TP': 2, 'TN': 0, 'FP': 0, 'FN': 3, 'TPR': 0.4, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.4, 'F1': 0.5714285714285715}
+cancer 250 5 0.6
+{'accept': 2, 'reject': 3, 'TP': 2, 'TN': 0, 'FP': 0, 'FN': 3, 'TPR': 0.4, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.4, 'F1': 0.5714285714285715}
+cancer 250 5 0.7
+{'accept': 2, 'reject': 3, 'TP': 2, 'TN': 0, 'FP': 0, 'FN': 3, 'TPR': 0.4, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.4, 'F1': 0.5714285714285715}
+cancer 250 5 0.8
+{'accept': 1, 'reject': 4, 'TP': 1, 'TN': 0, 'FP': 0, 'FN': 4, 'TPR': 0.2, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.2, 'F1': 0.33333333333333337}
+cancer 250 5 0.9
+{'accept': 4, 'reject': 1, 'TP': 4, 'TN': 0, 'FP': 0, 'FN': 1, 'TPR': 0.8, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.8, 'F1': 0.888888888888889}
+cancer 250 5 0.99999
+{'accept': 5, 'reject': 0, 'TP': 5, 'TN': 0, 'FP': 0, 'FN': 0, 'TPR': 1.0, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 1.0, 'F1': 1.0}
+cancer 1000 5 0.5
+{'accept': 1, 'reject': 4, 'TP': 1, 'TN': 0, 'FP': 0, 'FN': 4, 'TPR': 0.2, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.2, 'F1': 0.33333333333333337}
+cancer 1000 5 0.6
+{'accept': 2, 'reject': 3, 'TP': 2, 'TN': 0, 'FP': 0, 'FN': 3, 'TPR': 0.4, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.4, 'F1': 0.5714285714285715}
+cancer 1000 5 0.7
+{'accept': 2, 'reject': 3, 'TP': 2, 'TN': 0, 'FP': 0, 'FN': 3, 'TPR': 0.4, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.4, 'F1': 0.5714285714285715}
+cancer 1000 5 0.8
+{'accept': 4, 'reject': 1, 'TP': 4, 'TN': 0, 'FP': 0, 'FN': 1, 'TPR': 0.8, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.8, 'F1': 0.888888888888889}
+cancer 1000 5 0.9
+{'accept': 4, 'reject': 1, 'TP': 4, 'TN': 0, 'FP': 0, 'FN': 1, 'TPR': 0.8, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.8, 'F1': 0.888888888888889}
+cancer 1000 5 0.99999
+{'accept': 5, 'reject': 0, 'TP': 5, 'TN': 0, 'FP': 0, 'FN': 0, 'TPR': 1.0, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 1.0, 'F1': 1.0}
+cancer 250 6 0.5
+{'accept': 0, 'reject': 5, 'TP': 0, 'TN': 0, 'FP': 0, 'FN': 5, 'TPR': 0.0, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': nan, 'recall': 0.0, 'F1': nan}
+cancer 250 6 0.6
+{'accept': 1, 'reject': 4, 'TP': 1, 'TN': 0, 'FP': 0, 'FN': 4, 'TPR': 0.2, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.2, 'F1': 0.33333333333333337}
+cancer 250 6 0.7
+{'accept': 1, 'reject': 4, 'TP': 1, 'TN': 0, 'FP': 0, 'FN': 4, 'TPR': 0.2, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.2, 'F1': 0.33333333333333337}
+cancer 250 6 0.8
+{'accept': 1, 'reject': 4, 'TP': 1, 'TN': 0, 'FP': 0, 'FN': 4, 'TPR': 0.2, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.2, 'F1': 0.33333333333333337}
+cancer 250 6 0.9
+{'accept': 2, 'reject': 3, 'TP': 2, 'TN': 0, 'FP': 0, 'FN': 3, 'TPR': 0.4, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.4, 'F1': 0.5714285714285715}
+cancer 250 6 0.99999
+{'accept': 5, 'reject': 0, 'TP': 5, 'TN': 0, 'FP': 0, 'FN': 0, 'TPR': 1.0, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 1.0, 'F1': 1.0}
+cancer 1000 6 0.5
+{'accept': 2, 'reject': 3, 'TP': 2, 'TN': 0, 'FP': 0, 'FN': 3, 'TPR': 0.4, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.4, 'F1': 0.5714285714285715}
+cancer 1000 6 0.6
+{'accept': 2, 'reject': 3, 'TP': 2, 'TN': 0, 'FP': 0, 'FN': 3, 'TPR': 0.4, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.4, 'F1': 0.5714285714285715}
+cancer 1000 6 0.7
+{'accept': 4, 'reject': 1, 'TP': 4, 'TN': 0, 'FP': 0, 'FN': 1, 'TPR': 0.8, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 0.8, 'F1': 0.888888888888889}
+cancer 1000 6 0.8
+{'accept': 5, 'reject': 0, 'TP': 5, 'TN': 0, 'FP': 0, 'FN': 0, 'TPR': 1.0, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 1.0, 'F1': 1.0}
+cancer 1000 6 0.9
+{'accept': 5, 'reject': 0, 'TP': 5, 'TN': 0, 'FP': 0, 'FN': 0, 'TPR': 1.0, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 1.0, 'F1': 1.0}
+cancer 1000 6 0.99999
+{'accept': 5, 'reject': 0, 'TP': 5, 'TN': 0, 'FP': 0, 'FN': 0, 'TPR': 1.0, 'TNR': nan, 'FPR': nan, 'FNR': 0, 'precision': 1.0, 'recall': 1.0, 'F1': 1.0}
+mildew 8000 1 0.5
+{'accept': 6, 'reject': 21, 'TP': 6, 'TN': 9, 'FP': 0, 'FN': 12, 'TPR': 0.3333333333333333, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 0.3333333333333333, 'F1': 0.5}
+mildew 8000 1 0.6
+{'accept': 10, 'reject': 17, 'TP': 9, 'TN': 8, 'FP': 1, 'FN': 9, 'TPR': 0.5, 'TNR': 0.8888888888888888, 'FPR': 0.1111111111111111, 'FNR': 0, 'precision': 0.9, 'recall': 0.5, 'F1': 0.6428571428571429}
+mildew 8000 1 0.7
+{'accept': 9, 'reject': 18, 'TP': 9, 'TN': 9, 'FP': 0, 'FN': 9, 'TPR': 0.5, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 0.5, 'F1': 0.6666666666666666}
+mildew 8000 1 0.8
+{'accept': 4, 'reject': 23, 'TP': 4, 'TN': 9, 'FP': 0, 'FN': 14, 'TPR': 0.2222222222222222, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 0.2222222222222222, 'F1': 0.3636363636363636}
+mildew 8000 1 0.9
+{'accept': 6, 'reject': 21, 'TP': 4, 'TN': 7, 'FP': 2, 'FN': 14, 'TPR': 0.2222222222222222, 'TNR': 0.7777777777777778, 'FPR': 0.2222222222222222, 'FNR': 0, 'precision': 0.6666666666666666, 'recall': 0.2222222222222222, 'F1': 0.3333333333333333}
+mildew 8000 1 0.99999
+{'accept': 5, 'reject': 22, 'TP': 5, 'TN': 9, 'FP': 0, 'FN': 13, 'TPR': 0.2777777777777778, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 0.2777777777777778, 'F1': 0.4347826086956522}
+mildew 32000 1 0.5
+{'accept': 6, 'reject': 21, 'TP': 6, 'TN': 9, 'FP': 0, 'FN': 12, 'TPR': 0.3333333333333333, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 0.3333333333333333, 'F1': 0.5}
+mildew 32000 1 0.6
+{'accept': 4, 'reject': 23, 'TP': 4, 'TN': 9, 'FP': 0, 'FN': 14, 'TPR': 0.2222222222222222, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 0.2222222222222222, 'F1': 0.3636363636363636}
+mildew 32000 1 0.7
+{'accept': 4, 'reject': 23, 'TP': 4, 'TN': 9, 'FP': 0, 'FN': 14, 'TPR': 0.2222222222222222, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 0.2222222222222222, 'F1': 0.3636363636363636}
+mildew 32000 1 0.8
+{'accept': 2, 'reject': 25, 'TP': 2, 'TN': 9, 'FP': 0, 'FN': 16, 'TPR': 0.1111111111111111, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 0.1111111111111111, 'F1': 0.19999999999999998}
+mildew 32000 1 0.9
+{'accept': 3, 'reject': 24, 'TP': 3, 'TN': 9, 'FP': 0, 'FN': 15, 'TPR': 0.16666666666666666, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 0.16666666666666666, 'F1': 0.2857142857142857}
+mildew 32000 1 0.99999
+{'accept': 5, 'reject': 22, 'TP': 3, 'TN': 7, 'FP': 2, 'FN': 15, 'TPR': 0.16666666666666666, 'TNR': 0.7777777777777778, 'FPR': 0.2222222222222222, 'FNR': 0, 'precision': 0.6, 'recall': 0.16666666666666666, 'F1': 0.2608695652173913}
+mildew 8000 2 0.5
+{'accept': 5, 'reject': 22, 'TP': 5, 'TN': 9, 'FP': 0, 'FN': 13, 'TPR': 0.2777777777777778, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 0.2777777777777778, 'F1': 0.4347826086956522}
+mildew 8000 2 0.6
+{'accept': 6, 'reject': 21, 'TP': 6, 'TN': 9, 'FP': 0, 'FN': 12, 'TPR': 0.3333333333333333, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 0.3333333333333333, 'F1': 0.5}
+mildew 8000 2 0.7
+{'accept': 6, 'reject': 21, 'TP': 5, 'TN': 8, 'FP': 1, 'FN': 13, 'TPR': 0.2777777777777778, 'TNR': 0.8888888888888888, 'FPR': 0.1111111111111111, 'FNR': 0, 'precision': 0.8333333333333334, 'recall': 0.2777777777777778, 'F1': 0.4166666666666667}
+mildew 8000 2 0.8
+{'accept': 5, 'reject': 22, 'TP': 5, 'TN': 9, 'FP': 0, 'FN': 13, 'TPR': 0.2777777777777778, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 0.2777777777777778, 'F1': 0.4347826086956522}
+mildew 8000 2 0.9
+{'accept': 2, 'reject': 25, 'TP': 2, 'TN': 9, 'FP': 0, 'FN': 16, 'TPR': 0.1111111111111111, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 0.1111111111111111, 'F1': 0.19999999999999998}
+mildew 8000 2 0.99999
+{'accept': 12, 'reject': 15, 'TP': 10, 'TN': 7, 'FP': 2, 'FN': 8, 'TPR': 0.5555555555555556, 'TNR': 0.7777777777777778, 'FPR': 0.2222222222222222, 'FNR': 0, 'precision': 0.8333333333333334, 'recall': 0.5555555555555556, 'F1': 0.6666666666666667}
+mildew 32000 2 0.5
+{'accept': 2, 'reject': 25, 'TP': 2, 'TN': 9, 'FP': 0, 'FN': 16, 'TPR': 0.1111111111111111, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 0.1111111111111111, 'F1': 0.19999999999999998}
+mildew 32000 2 0.6
+{'accept': 5, 'reject': 22, 'TP': 5, 'TN': 9, 'FP': 0, 'FN': 13, 'TPR': 0.2777777777777778, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 0.2777777777777778, 'F1': 0.4347826086956522}
+mildew 32000 2 0.7
+{'accept': 5, 'reject': 22, 'TP': 5, 'TN': 9, 'FP': 0, 'FN': 13, 'TPR': 0.2777777777777778, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 0.2777777777777778, 'F1': 0.4347826086956522}
+mildew 32000 2 0.8
+{'accept': 4, 'reject': 23, 'TP': 3, 'TN': 8, 'FP': 1, 'FN': 15, 'TPR': 0.16666666666666666, 'TNR': 0.8888888888888888, 'FPR': 0.1111111111111111, 'FNR': 0, 'precision': 0.75, 'recall': 0.16666666666666666, 'F1': 0.27272727272727276}
+mildew 32000 2 0.9
+{'accept': 9, 'reject': 18, 'TP': 9, 'TN': 9, 'FP': 0, 'FN': 9, 'TPR': 0.5, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 0.5, 'F1': 0.6666666666666666}
+mildew 32000 2 0.99999
+{'accept': 6, 'reject': 21, 'TP': 6, 'TN': 9, 'FP': 0, 'FN': 12, 'TPR': 0.3333333333333333, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 0.3333333333333333, 'F1': 0.5}
+mildew 8000 3 0.5
+{'accept': 5, 'reject': 22, 'TP': 5, 'TN': 9, 'FP': 0, 'FN': 13, 'TPR': 0.2777777777777778, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 0.2777777777777778, 'F1': 0.4347826086956522}
+mildew 8000 3 0.6
+{'accept': 12, 'reject': 15, 'TP': 9, 'TN': 6, 'FP': 3, 'FN': 9, 'TPR': 0.5, 'TNR': 0.6666666666666667, 'FPR': 0.3333333333333333, 'FNR': 0, 'precision': 0.75, 'recall': 0.5, 'F1': 0.6}
+mildew 8000 3 0.7
+{'accept': 7, 'reject': 20, 'TP': 6, 'TN': 8, 'FP': 1, 'FN': 12, 'TPR': 0.3333333333333333, 'TNR': 0.8888888888888888, 'FPR': 0.1111111111111111, 'FNR': 0, 'precision': 0.8571428571428571, 'recall': 0.3333333333333333, 'F1': 0.48}
+mildew 8000 3 0.8
+{'accept': 7, 'reject': 20, 'TP': 7, 'TN': 9, 'FP': 0, 'FN': 11, 'TPR': 0.3888888888888889, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 0.3888888888888889, 'F1': 0.56}
+mildew 8000 3 0.9
+{'accept': 7, 'reject': 20, 'TP': 4, 'TN': 6, 'FP': 3, 'FN': 14, 'TPR': 0.2222222222222222, 'TNR': 0.6666666666666667, 'FPR': 0.3333333333333333, 'FNR': 0, 'precision': 0.5714285714285714, 'recall': 0.2222222222222222, 'F1': 0.32}
+mildew 8000 3 0.99999
+{'accept': 2, 'reject': 25, 'TP': 2, 'TN': 9, 'FP': 0, 'FN': 16, 'TPR': 0.1111111111111111, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 0.1111111111111111, 'F1': 0.19999999999999998}
+mildew 32000 3 0.5
+{'accept': 3, 'reject': 24, 'TP': 3, 'TN': 9, 'FP': 0, 'FN': 15, 'TPR': 0.16666666666666666, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 0.16666666666666666, 'F1': 0.2857142857142857}
+mildew 32000 3 0.6
+{'accept': 8, 'reject': 19, 'TP': 8, 'TN': 9, 'FP': 0, 'FN': 10, 'TPR': 0.4444444444444444, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 0.4444444444444444, 'F1': 0.6153846153846153}
+mildew 32000 3 0.7
+{'accept': 3, 'reject': 24, 'TP': 2, 'TN': 8, 'FP': 1, 'FN': 16, 'TPR': 0.1111111111111111, 'TNR': 0.8888888888888888, 'FPR': 0.1111111111111111, 'FNR': 0, 'precision': 0.6666666666666666, 'recall': 0.1111111111111111, 'F1': 0.1904761904761905}
+mildew 32000 3 0.8
+{'accept': 2, 'reject': 25, 'TP': 2, 'TN': 9, 'FP': 0, 'FN': 16, 'TPR': 0.1111111111111111, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 0.1111111111111111, 'F1': 0.19999999999999998}
+mildew 32000 3 0.9
+{'accept': 7, 'reject': 20, 'TP': 7, 'TN': 9, 'FP': 0, 'FN': 11, 'TPR': 0.3888888888888889, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 0.3888888888888889, 'F1': 0.56}
+mildew 32000 3 0.99999
+{'accept': 3, 'reject': 24, 'TP': 3, 'TN': 9, 'FP': 0, 'FN': 15, 'TPR': 0.16666666666666666, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 0.16666666666666666, 'F1': 0.2857142857142857}
+mildew 8000 4 0.5
+{'accept': 10, 'reject': 17, 'TP': 10, 'TN': 9, 'FP': 0, 'FN': 8, 'TPR': 0.5555555555555556, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 0.5555555555555556, 'F1': 0.7142857142857143}
+mildew 8000 4 0.6
+{'accept': 7, 'reject': 20, 'TP': 7, 'TN': 9, 'FP': 0, 'FN': 11, 'TPR': 0.3888888888888889, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 0.3888888888888889, 'F1': 0.56}
+mildew 8000 4 0.7
+{'accept': 6, 'reject': 21, 'TP': 6, 'TN': 9, 'FP': 0, 'FN': 12, 'TPR': 0.3333333333333333, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 0.3333333333333333, 'F1': 0.5}
+mildew 8000 4 0.8
+{'accept': 5, 'reject': 22, 'TP': 5, 'TN': 9, 'FP': 0, 'FN': 13, 'TPR': 0.2777777777777778, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 0.2777777777777778, 'F1': 0.4347826086956522}
+mildew 8000 4 0.9
+{'accept': 8, 'reject': 19, 'TP': 5, 'TN': 6, 'FP': 3, 'FN': 13, 'TPR': 0.2777777777777778, 'TNR': 0.6666666666666667, 'FPR': 0.3333333333333333, 'FNR': 0, 'precision': 0.625, 'recall': 0.2777777777777778, 'F1': 0.3846153846153846}
+mildew 8000 4 0.99999
+{'accept': 7, 'reject': 20, 'TP': 7, 'TN': 9, 'FP': 0, 'FN': 11, 'TPR': 0.3888888888888889, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 0.3888888888888889, 'F1': 0.56}
+mildew 32000 4 0.5
+{'accept': 8, 'reject': 19, 'TP': 8, 'TN': 9, 'FP': 0, 'FN': 10, 'TPR': 0.4444444444444444, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 0.4444444444444444, 'F1': 0.6153846153846153}
+mildew 32000 4 0.6
+{'accept': 3, 'reject': 24, 'TP': 3, 'TN': 9, 'FP': 0, 'FN': 15, 'TPR': 0.16666666666666666, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 0.16666666666666666, 'F1': 0.2857142857142857}
+mildew 32000 4 0.7
+{'accept': 3, 'reject': 24, 'TP': 2, 'TN': 8, 'FP': 1, 'FN': 16, 'TPR': 0.1111111111111111, 'TNR': 0.8888888888888888, 'FPR': 0.1111111111111111, 'FNR': 0, 'precision': 0.6666666666666666, 'recall': 0.1111111111111111, 'F1': 0.1904761904761905}
+mildew 32000 4 0.8
+{'accept': 7, 'reject': 20, 'TP': 7, 'TN': 9, 'FP': 0, 'FN': 11, 'TPR': 0.3888888888888889, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 0.3888888888888889, 'F1': 0.56}
+mildew 32000 4 0.9
+{'accept': 7, 'reject': 20, 'TP': 7, 'TN': 9, 'FP': 0, 'FN': 11, 'TPR': 0.3888888888888889, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 0.3888888888888889, 'F1': 0.56}
+mildew 32000 4 0.99999
+{'accept': 8, 'reject': 19, 'TP': 7, 'TN': 8, 'FP': 1, 'FN': 11, 'TPR': 0.3888888888888889, 'TNR': 0.8888888888888888, 'FPR': 0.1111111111111111, 'FNR': 0, 'precision': 0.875, 'recall': 0.3888888888888889, 'F1': 0.5384615384615385}
+mildew 8000 5 0.5
+{'accept': 6, 'reject': 21, 'TP': 6, 'TN': 9, 'FP': 0, 'FN': 12, 'TPR': 0.3333333333333333, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 0.3333333333333333, 'F1': 0.5}
+mildew 8000 5 0.6
+{'accept': 4, 'reject': 23, 'TP': 4, 'TN': 9, 'FP': 0, 'FN': 14, 'TPR': 0.2222222222222222, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 0.2222222222222222, 'F1': 0.3636363636363636}
+mildew 8000 5 0.7
+{'accept': 10, 'reject': 17, 'TP': 10, 'TN': 9, 'FP': 0, 'FN': 8, 'TPR': 0.5555555555555556, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 0.5555555555555556, 'F1': 0.7142857142857143}
+mildew 8000 5 0.8
+{'accept': 7, 'reject': 20, 'TP': 7, 'TN': 9, 'FP': 0, 'FN': 11, 'TPR': 0.3888888888888889, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 0.3888888888888889, 'F1': 0.56}
+mildew 8000 5 0.9
+{'accept': 5, 'reject': 22, 'TP': 5, 'TN': 9, 'FP': 0, 'FN': 13, 'TPR': 0.2777777777777778, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 0.2777777777777778, 'F1': 0.4347826086956522}
+mildew 8000 5 0.99999
+{'accept': 4, 'reject': 23, 'TP': 3, 'TN': 8, 'FP': 1, 'FN': 15, 'TPR': 0.16666666666666666, 'TNR': 0.8888888888888888, 'FPR': 0.1111111111111111, 'FNR': 0, 'precision': 0.75, 'recall': 0.16666666666666666, 'F1': 0.27272727272727276}
+mildew 32000 5 0.5
+{'accept': 3, 'reject': 24, 'TP': 3, 'TN': 9, 'FP': 0, 'FN': 15, 'TPR': 0.16666666666666666, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 0.16666666666666666, 'F1': 0.2857142857142857}
+mildew 32000 5 0.6
+{'accept': 2, 'reject': 25, 'TP': 2, 'TN': 9, 'FP': 0, 'FN': 16, 'TPR': 0.1111111111111111, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 0.1111111111111111, 'F1': 0.19999999999999998}
+mildew 32000 5 0.7
+{'accept': 2, 'reject': 25, 'TP': 2, 'TN': 9, 'FP': 0, 'FN': 16, 'TPR': 0.1111111111111111, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 0.1111111111111111, 'F1': 0.19999999999999998}
+mildew 32000 5 0.8
+{'accept': 2, 'reject': 25, 'TP': 2, 'TN': 9, 'FP': 0, 'FN': 16, 'TPR': 0.1111111111111111, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 0.1111111111111111, 'F1': 0.19999999999999998}
+mildew 32000 5 0.9
+{'accept': 6, 'reject': 21, 'TP': 4, 'TN': 7, 'FP': 2, 'FN': 14, 'TPR': 0.2222222222222222, 'TNR': 0.7777777777777778, 'FPR': 0.2222222222222222, 'FNR': 0, 'precision': 0.6666666666666666, 'recall': 0.2222222222222222, 'F1': 0.3333333333333333}
+mildew 32000 5 0.99999
+{'accept': 6, 'reject': 21, 'TP': 6, 'TN': 9, 'FP': 0, 'FN': 12, 'TPR': 0.3333333333333333, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 0.3333333333333333, 'F1': 0.5}
+mildew 8000 6 0.5
+{'accept': 8, 'reject': 19, 'TP': 8, 'TN': 9, 'FP': 0, 'FN': 10, 'TPR': 0.4444444444444444, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 0.4444444444444444, 'F1': 0.6153846153846153}
+mildew 8000 6 0.6
+{'accept': 6, 'reject': 21, 'TP': 5, 'TN': 8, 'FP': 1, 'FN': 13, 'TPR': 0.2777777777777778, 'TNR': 0.8888888888888888, 'FPR': 0.1111111111111111, 'FNR': 0, 'precision': 0.8333333333333334, 'recall': 0.2777777777777778, 'F1': 0.4166666666666667}
+mildew 8000 6 0.7
+{'accept': 7, 'reject': 20, 'TP': 7, 'TN': 9, 'FP': 0, 'FN': 11, 'TPR': 0.3888888888888889, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 0.3888888888888889, 'F1': 0.56}
+mildew 8000 6 0.8
+{'accept': 4, 'reject': 23, 'TP': 4, 'TN': 9, 'FP': 0, 'FN': 14, 'TPR': 0.2222222222222222, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 0.2222222222222222, 'F1': 0.3636363636363636}
+mildew 8000 6 0.9
+{'accept': 5, 'reject': 22, 'TP': 5, 'TN': 9, 'FP': 0, 'FN': 13, 'TPR': 0.2777777777777778, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 0.2777777777777778, 'F1': 0.4347826086956522}
+mildew 8000 6 0.99999
+{'accept': 8, 'reject': 19, 'TP': 6, 'TN': 7, 'FP': 2, 'FN': 12, 'TPR': 0.3333333333333333, 'TNR': 0.7777777777777778, 'FPR': 0.2222222222222222, 'FNR': 0, 'precision': 0.75, 'recall': 0.3333333333333333, 'F1': 0.46153846153846156}
+mildew 32000 6 0.5
+{'accept': 10, 'reject': 17, 'TP': 9, 'TN': 8, 'FP': 1, 'FN': 9, 'TPR': 0.5, 'TNR': 0.8888888888888888, 'FPR': 0.1111111111111111, 'FNR': 0, 'precision': 0.9, 'recall': 0.5, 'F1': 0.6428571428571429}
+mildew 32000 6 0.6
+{'accept': 7, 'reject': 20, 'TP': 7, 'TN': 9, 'FP': 0, 'FN': 11, 'TPR': 0.3888888888888889, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 0.3888888888888889, 'F1': 0.56}
+mildew 32000 6 0.7
+{'accept': 4, 'reject': 23, 'TP': 4, 'TN': 9, 'FP': 0, 'FN': 14, 'TPR': 0.2222222222222222, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 0.2222222222222222, 'F1': 0.3636363636363636}
+mildew 32000 6 0.8
+{'accept': 1, 'reject': 26, 'TP': 1, 'TN': 9, 'FP': 0, 'FN': 17, 'TPR': 0.05555555555555555, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 0.05555555555555555, 'F1': 0.10526315789473684}
+mildew 32000 6 0.9
+{'accept': 2, 'reject': 25, 'TP': 2, 'TN': 9, 'FP': 0, 'FN': 16, 'TPR': 0.1111111111111111, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 0.1111111111111111, 'F1': 0.19999999999999998}
+mildew 32000 6 0.99999
+{'accept': 4, 'reject': 23, 'TP': 4, 'TN': 9, 'FP': 0, 'FN': 14, 'TPR': 0.2222222222222222, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 0.2222222222222222, 'F1': 0.3636363636363636}
+water 1000 1 0.5
+{'accept': 9, 'reject': 6, 'TP': 4, 'TN': 1, 'FP': 5, 'FN': 5, 'TPR': 0.4444444444444444, 'TNR': 0.16666666666666663, 'FPR': 0.8333333333333334, 'FNR': 0, 'precision': 0.4444444444444444, 'recall': 0.4444444444444444, 'F1': 0.4444444444444444}
+water 1000 1 0.6
+{'accept': 11, 'reject': 4, 'TP': 6, 'TN': 1, 'FP': 5, 'FN': 3, 'TPR': 0.6666666666666666, 'TNR': 0.16666666666666663, 'FPR': 0.8333333333333334, 'FNR': 0, 'precision': 0.5454545454545454, 'recall': 0.6666666666666666, 'F1': 0.6}
+water 1000 1 0.7
+{'accept': 12, 'reject': 3, 'TP': 6, 'TN': 0, 'FP': 6, 'FN': 3, 'TPR': 0.6666666666666666, 'TNR': 0.0, 'FPR': 1.0, 'FNR': 0, 'precision': 0.5, 'recall': 0.6666666666666666, 'F1': 0.5714285714285715}
+water 1000 1 0.8
+{'accept': 11, 'reject': 4, 'TP': 6, 'TN': 1, 'FP': 5, 'FN': 3, 'TPR': 0.6666666666666666, 'TNR': 0.16666666666666663, 'FPR': 0.8333333333333334, 'FNR': 0, 'precision': 0.5454545454545454, 'recall': 0.6666666666666666, 'F1': 0.6}
+water 1000 1 0.9
+{'accept': 13, 'reject': 2, 'TP': 7, 'TN': 0, 'FP': 6, 'FN': 2, 'TPR': 0.7777777777777778, 'TNR': 0.0, 'FPR': 1.0, 'FNR': 0, 'precision': 0.5384615384615384, 'recall': 0.7777777777777778, 'F1': 0.6363636363636364}
+water 1000 1 0.99999
+{'accept': 15, 'reject': 0, 'TP': 9, 'TN': 0, 'FP': 6, 'FN': 0, 'TPR': 1.0, 'TNR': 0.0, 'FPR': 1.0, 'FNR': 0, 'precision': 0.6, 'recall': 1.0, 'F1': 0.7499999999999999}
+water 4000 1 0.5
+{'accept': 12, 'reject': 3, 'TP': 6, 'TN': 0, 'FP': 6, 'FN': 3, 'TPR': 0.6666666666666666, 'TNR': 0.0, 'FPR': 1.0, 'FNR': 0, 'precision': 0.5, 'recall': 0.6666666666666666, 'F1': 0.5714285714285715}
+water 4000 1 0.6
+{'accept': 11, 'reject': 4, 'TP': 6, 'TN': 1, 'FP': 5, 'FN': 3, 'TPR': 0.6666666666666666, 'TNR': 0.16666666666666663, 'FPR': 0.8333333333333334, 'FNR': 0, 'precision': 0.5454545454545454, 'recall': 0.6666666666666666, 'F1': 0.6}
+water 4000 1 0.7
+{'accept': 12, 'reject': 3, 'TP': 7, 'TN': 1, 'FP': 5, 'FN': 2, 'TPR': 0.7777777777777778, 'TNR': 0.16666666666666663, 'FPR': 0.8333333333333334, 'FNR': 0, 'precision': 0.5833333333333334, 'recall': 0.7777777777777778, 'F1': 0.6666666666666666}
+water 4000 1 0.8
+{'accept': 12, 'reject': 3, 'TP': 6, 'TN': 0, 'FP': 6, 'FN': 3, 'TPR': 0.6666666666666666, 'TNR': 0.0, 'FPR': 1.0, 'FNR': 0, 'precision': 0.5, 'recall': 0.6666666666666666, 'F1': 0.5714285714285715}
+water 4000 1 0.9
+{'accept': 13, 'reject': 2, 'TP': 7, 'TN': 0, 'FP': 6, 'FN': 2, 'TPR': 0.7777777777777778, 'TNR': 0.0, 'FPR': 1.0, 'FNR': 0, 'precision': 0.5384615384615384, 'recall': 0.7777777777777778, 'F1': 0.6363636363636364}
+water 4000 1 0.99999
+{'accept': 15, 'reject': 0, 'TP': 9, 'TN': 0, 'FP': 6, 'FN': 0, 'TPR': 1.0, 'TNR': 0.0, 'FPR': 1.0, 'FNR': 0, 'precision': 0.6, 'recall': 1.0, 'F1': 0.7499999999999999}
+water 1000 2 0.5
+{'accept': 11, 'reject': 4, 'TP': 6, 'TN': 1, 'FP': 5, 'FN': 3, 'TPR': 0.6666666666666666, 'TNR': 0.16666666666666663, 'FPR': 0.8333333333333334, 'FNR': 0, 'precision': 0.5454545454545454, 'recall': 0.6666666666666666, 'F1': 0.6}
+water 1000 2 0.6
+{'accept': 12, 'reject': 3, 'TP': 6, 'TN': 0, 'FP': 6, 'FN': 3, 'TPR': 0.6666666666666666, 'TNR': 0.0, 'FPR': 1.0, 'FNR': 0, 'precision': 0.5, 'recall': 0.6666666666666666, 'F1': 0.5714285714285715}
+water 1000 2 0.7
+{'accept': 12, 'reject': 3, 'TP': 6, 'TN': 0, 'FP': 6, 'FN': 3, 'TPR': 0.6666666666666666, 'TNR': 0.0, 'FPR': 1.0, 'FNR': 0, 'precision': 0.5, 'recall': 0.6666666666666666, 'F1': 0.5714285714285715}
+water 1000 2 0.8
+{'accept': 12, 'reject': 3, 'TP': 6, 'TN': 0, 'FP': 6, 'FN': 3, 'TPR': 0.6666666666666666, 'TNR': 0.0, 'FPR': 1.0, 'FNR': 0, 'precision': 0.5, 'recall': 0.6666666666666666, 'F1': 0.5714285714285715}
+water 1000 2 0.9
+{'accept': 13, 'reject': 2, 'TP': 7, 'TN': 0, 'FP': 6, 'FN': 2, 'TPR': 0.7777777777777778, 'TNR': 0.0, 'FPR': 1.0, 'FNR': 0, 'precision': 0.5384615384615384, 'recall': 0.7777777777777778, 'F1': 0.6363636363636364}
+water 1000 2 0.99999
+{'accept': 15, 'reject': 0, 'TP': 9, 'TN': 0, 'FP': 6, 'FN': 0, 'TPR': 1.0, 'TNR': 0.0, 'FPR': 1.0, 'FNR': 0, 'precision': 0.6, 'recall': 1.0, 'F1': 0.7499999999999999}
+water 4000 2 0.5
+{'accept': 12, 'reject': 3, 'TP': 6, 'TN': 0, 'FP': 6, 'FN': 3, 'TPR': 0.6666666666666666, 'TNR': 0.0, 'FPR': 1.0, 'FNR': 0, 'precision': 0.5, 'recall': 0.6666666666666666, 'F1': 0.5714285714285715}
+water 4000 2 0.6
+{'accept': 11, 'reject': 4, 'TP': 5, 'TN': 0, 'FP': 6, 'FN': 4, 'TPR': 0.5555555555555556, 'TNR': 0.0, 'FPR': 1.0, 'FNR': 0, 'precision': 0.45454545454545453, 'recall': 0.5555555555555556, 'F1': 0.5}
+water 4000 2 0.7
+{'accept': 13, 'reject': 2, 'TP': 7, 'TN': 0, 'FP': 6, 'FN': 2, 'TPR': 0.7777777777777778, 'TNR': 0.0, 'FPR': 1.0, 'FNR': 0, 'precision': 0.5384615384615384, 'recall': 0.7777777777777778, 'F1': 0.6363636363636364}
+water 4000 2 0.8
+{'accept': 13, 'reject': 2, 'TP': 7, 'TN': 0, 'FP': 6, 'FN': 2, 'TPR': 0.7777777777777778, 'TNR': 0.0, 'FPR': 1.0, 'FNR': 0, 'precision': 0.5384615384615384, 'recall': 0.7777777777777778, 'F1': 0.6363636363636364}
+water 4000 2 0.9
+{'accept': 13, 'reject': 2, 'TP': 7, 'TN': 0, 'FP': 6, 'FN': 2, 'TPR': 0.7777777777777778, 'TNR': 0.0, 'FPR': 1.0, 'FNR': 0, 'precision': 0.5384615384615384, 'recall': 0.7777777777777778, 'F1': 0.6363636363636364}
+water 4000 2 0.99999
+{'accept': 15, 'reject': 0, 'TP': 9, 'TN': 0, 'FP': 6, 'FN': 0, 'TPR': 1.0, 'TNR': 0.0, 'FPR': 1.0, 'FNR': 0, 'precision': 0.6, 'recall': 1.0, 'F1': 0.7499999999999999}
+water 1000 3 0.5
+{'accept': 11, 'reject': 4, 'TP': 6, 'TN': 1, 'FP': 5, 'FN': 3, 'TPR': 0.6666666666666666, 'TNR': 0.16666666666666663, 'FPR': 0.8333333333333334, 'FNR': 0, 'precision': 0.5454545454545454, 'recall': 0.6666666666666666, 'F1': 0.6}
+water 1000 3 0.6
+{'accept': 12, 'reject': 3, 'TP': 6, 'TN': 0, 'FP': 6, 'FN': 3, 'TPR': 0.6666666666666666, 'TNR': 0.0, 'FPR': 1.0, 'FNR': 0, 'precision': 0.5, 'recall': 0.6666666666666666, 'F1': 0.5714285714285715}
+water 1000 3 0.7
+{'accept': 11, 'reject': 4, 'TP': 6, 'TN': 1, 'FP': 5, 'FN': 3, 'TPR': 0.6666666666666666, 'TNR': 0.16666666666666663, 'FPR': 0.8333333333333334, 'FNR': 0, 'precision': 0.5454545454545454, 'recall': 0.6666666666666666, 'F1': 0.6}
+water 1000 3 0.8
+{'accept': 10, 'reject': 5, 'TP': 6, 'TN': 2, 'FP': 4, 'FN': 3, 'TPR': 0.6666666666666666, 'TNR': 0.33333333333333337, 'FPR': 0.6666666666666666, 'FNR': 0, 'precision': 0.6, 'recall': 0.6666666666666666, 'F1': 0.631578947368421}
+water 1000 3 0.9
+{'accept': 12, 'reject': 3, 'TP': 6, 'TN': 0, 'FP': 6, 'FN': 3, 'TPR': 0.6666666666666666, 'TNR': 0.0, 'FPR': 1.0, 'FNR': 0, 'precision': 0.5, 'recall': 0.6666666666666666, 'F1': 0.5714285714285715}
+water 1000 3 0.99999
+{'accept': 15, 'reject': 0, 'TP': 9, 'TN': 0, 'FP': 6, 'FN': 0, 'TPR': 1.0, 'TNR': 0.0, 'FPR': 1.0, 'FNR': 0, 'precision': 0.6, 'recall': 1.0, 'F1': 0.7499999999999999}
+water 4000 3 0.5
+{'accept': 12, 'reject': 3, 'TP': 7, 'TN': 1, 'FP': 5, 'FN': 2, 'TPR': 0.7777777777777778, 'TNR': 0.16666666666666663, 'FPR': 0.8333333333333334, 'FNR': 0, 'precision': 0.5833333333333334, 'recall': 0.7777777777777778, 'F1': 0.6666666666666666}
+water 4000 3 0.6
+{'accept': 13, 'reject': 2, 'TP': 7, 'TN': 0, 'FP': 6, 'FN': 2, 'TPR': 0.7777777777777778, 'TNR': 0.0, 'FPR': 1.0, 'FNR': 0, 'precision': 0.5384615384615384, 'recall': 0.7777777777777778, 'F1': 0.6363636363636364}
+water 4000 3 0.7
+{'accept': 13, 'reject': 2, 'TP': 7, 'TN': 0, 'FP': 6, 'FN': 2, 'TPR': 0.7777777777777778, 'TNR': 0.0, 'FPR': 1.0, 'FNR': 0, 'precision': 0.5384615384615384, 'recall': 0.7777777777777778, 'F1': 0.6363636363636364}
+water 4000 3 0.8
+{'accept': 13, 'reject': 2, 'TP': 7, 'TN': 0, 'FP': 6, 'FN': 2, 'TPR': 0.7777777777777778, 'TNR': 0.0, 'FPR': 1.0, 'FNR': 0, 'precision': 0.5384615384615384, 'recall': 0.7777777777777778, 'F1': 0.6363636363636364}
+water 4000 3 0.9
+{'accept': 13, 'reject': 2, 'TP': 7, 'TN': 0, 'FP': 6, 'FN': 2, 'TPR': 0.7777777777777778, 'TNR': 0.0, 'FPR': 1.0, 'FNR': 0, 'precision': 0.5384615384615384, 'recall': 0.7777777777777778, 'F1': 0.6363636363636364}
+water 4000 3 0.99999
+{'accept': 14, 'reject': 1, 'TP': 8, 'TN': 0, 'FP': 6, 'FN': 1, 'TPR': 0.8888888888888888, 'TNR': 0.0, 'FPR': 1.0, 'FNR': 0, 'precision': 0.5714285714285714, 'recall': 0.8888888888888888, 'F1': 0.6956521739130435}
+water 1000 4 0.5
+{'accept': 9, 'reject': 6, 'TP': 4, 'TN': 1, 'FP': 5, 'FN': 5, 'TPR': 0.4444444444444444, 'TNR': 0.16666666666666663, 'FPR': 0.8333333333333334, 'FNR': 0, 'precision': 0.4444444444444444, 'recall': 0.4444444444444444, 'F1': 0.4444444444444444}
+water 1000 4 0.6
+{'accept': 12, 'reject': 3, 'TP': 6, 'TN': 0, 'FP': 6, 'FN': 3, 'TPR': 0.6666666666666666, 'TNR': 0.0, 'FPR': 1.0, 'FNR': 0, 'precision': 0.5, 'recall': 0.6666666666666666, 'F1': 0.5714285714285715}
+water 1000 4 0.7
+{'accept': 12, 'reject': 3, 'TP': 6, 'TN': 0, 'FP': 6, 'FN': 3, 'TPR': 0.6666666666666666, 'TNR': 0.0, 'FPR': 1.0, 'FNR': 0, 'precision': 0.5, 'recall': 0.6666666666666666, 'F1': 0.5714285714285715}
+water 1000 4 0.8
+{'accept': 11, 'reject': 4, 'TP': 5, 'TN': 0, 'FP': 6, 'FN': 4, 'TPR': 0.5555555555555556, 'TNR': 0.0, 'FPR': 1.0, 'FNR': 0, 'precision': 0.45454545454545453, 'recall': 0.5555555555555556, 'F1': 0.5}
+water 1000 4 0.9
+{'accept': 12, 'reject': 3, 'TP': 6, 'TN': 0, 'FP': 6, 'FN': 3, 'TPR': 0.6666666666666666, 'TNR': 0.0, 'FPR': 1.0, 'FNR': 0, 'precision': 0.5, 'recall': 0.6666666666666666, 'F1': 0.5714285714285715}
+water 1000 4 0.99999
+{'accept': 15, 'reject': 0, 'TP': 9, 'TN': 0, 'FP': 6, 'FN': 0, 'TPR': 1.0, 'TNR': 0.0, 'FPR': 1.0, 'FNR': 0, 'precision': 0.6, 'recall': 1.0, 'F1': 0.7499999999999999}
+water 4000 4 0.5
+{'accept': 12, 'reject': 3, 'TP': 7, 'TN': 1, 'FP': 5, 'FN': 2, 'TPR': 0.7777777777777778, 'TNR': 0.16666666666666663, 'FPR': 0.8333333333333334, 'FNR': 0, 'precision': 0.5833333333333334, 'recall': 0.7777777777777778, 'F1': 0.6666666666666666}
+water 4000 4 0.6
+{'accept': 12, 'reject': 3, 'TP': 6, 'TN': 0, 'FP': 6, 'FN': 3, 'TPR': 0.6666666666666666, 'TNR': 0.0, 'FPR': 1.0, 'FNR': 0, 'precision': 0.5, 'recall': 0.6666666666666666, 'F1': 0.5714285714285715}
+water 4000 4 0.7
+{'accept': 13, 'reject': 2, 'TP': 7, 'TN': 0, 'FP': 6, 'FN': 2, 'TPR': 0.7777777777777778, 'TNR': 0.0, 'FPR': 1.0, 'FNR': 0, 'precision': 0.5384615384615384, 'recall': 0.7777777777777778, 'F1': 0.6363636363636364}
+water 4000 4 0.8
+{'accept': 12, 'reject': 3, 'TP': 7, 'TN': 1, 'FP': 5, 'FN': 2, 'TPR': 0.7777777777777778, 'TNR': 0.16666666666666663, 'FPR': 0.8333333333333334, 'FNR': 0, 'precision': 0.5833333333333334, 'recall': 0.7777777777777778, 'F1': 0.6666666666666666}
+water 4000 4 0.9
+{'accept': 13, 'reject': 2, 'TP': 7, 'TN': 0, 'FP': 6, 'FN': 2, 'TPR': 0.7777777777777778, 'TNR': 0.0, 'FPR': 1.0, 'FNR': 0, 'precision': 0.5384615384615384, 'recall': 0.7777777777777778, 'F1': 0.6363636363636364}
+water 4000 4 0.99999
+{'accept': 15, 'reject': 0, 'TP': 9, 'TN': 0, 'FP': 6, 'FN': 0, 'TPR': 1.0, 'TNR': 0.0, 'FPR': 1.0, 'FNR': 0, 'precision': 0.6, 'recall': 1.0, 'F1': 0.7499999999999999}
+water 1000 5 0.5
+{'accept': 12, 'reject': 3, 'TP': 6, 'TN': 0, 'FP': 6, 'FN': 3, 'TPR': 0.6666666666666666, 'TNR': 0.0, 'FPR': 1.0, 'FNR': 0, 'precision': 0.5, 'recall': 0.6666666666666666, 'F1': 0.5714285714285715}
+water 1000 5 0.6
+{'accept': 12, 'reject': 3, 'TP': 7, 'TN': 1, 'FP': 5, 'FN': 2, 'TPR': 0.7777777777777778, 'TNR': 0.16666666666666663, 'FPR': 0.8333333333333334, 'FNR': 0, 'precision': 0.5833333333333334, 'recall': 0.7777777777777778, 'F1': 0.6666666666666666}
+water 1000 5 0.7
+{'accept': 11, 'reject': 4, 'TP': 6, 'TN': 1, 'FP': 5, 'FN': 3, 'TPR': 0.6666666666666666, 'TNR': 0.16666666666666663, 'FPR': 0.8333333333333334, 'FNR': 0, 'precision': 0.5454545454545454, 'recall': 0.6666666666666666, 'F1': 0.6}
+water 1000 5 0.8
+{'accept': 13, 'reject': 2, 'TP': 7, 'TN': 0, 'FP': 6, 'FN': 2, 'TPR': 0.7777777777777778, 'TNR': 0.0, 'FPR': 1.0, 'FNR': 0, 'precision': 0.5384615384615384, 'recall': 0.7777777777777778, 'F1': 0.6363636363636364}
+water 1000 5 0.9
+{'accept': 13, 'reject': 2, 'TP': 7, 'TN': 0, 'FP': 6, 'FN': 2, 'TPR': 0.7777777777777778, 'TNR': 0.0, 'FPR': 1.0, 'FNR': 0, 'precision': 0.5384615384615384, 'recall': 0.7777777777777778, 'F1': 0.6363636363636364}
+water 1000 5 0.99999
+{'accept': 15, 'reject': 0, 'TP': 9, 'TN': 0, 'FP': 6, 'FN': 0, 'TPR': 1.0, 'TNR': 0.0, 'FPR': 1.0, 'FNR': 0, 'precision': 0.6, 'recall': 1.0, 'F1': 0.7499999999999999}
+water 4000 5 0.5
+{'accept': 12, 'reject': 3, 'TP': 7, 'TN': 1, 'FP': 5, 'FN': 2, 'TPR': 0.7777777777777778, 'TNR': 0.16666666666666663, 'FPR': 0.8333333333333334, 'FNR': 0, 'precision': 0.5833333333333334, 'recall': 0.7777777777777778, 'F1': 0.6666666666666666}
+water 4000 5 0.6
+{'accept': 11, 'reject': 4, 'TP': 6, 'TN': 1, 'FP': 5, 'FN': 3, 'TPR': 0.6666666666666666, 'TNR': 0.16666666666666663, 'FPR': 0.8333333333333334, 'FNR': 0, 'precision': 0.5454545454545454, 'recall': 0.6666666666666666, 'F1': 0.6}
+water 4000 5 0.7
+{'accept': 13, 'reject': 2, 'TP': 7, 'TN': 0, 'FP': 6, 'FN': 2, 'TPR': 0.7777777777777778, 'TNR': 0.0, 'FPR': 1.0, 'FNR': 0, 'precision': 0.5384615384615384, 'recall': 0.7777777777777778, 'F1': 0.6363636363636364}
+water 4000 5 0.8
+{'accept': 13, 'reject': 2, 'TP': 7, 'TN': 0, 'FP': 6, 'FN': 2, 'TPR': 0.7777777777777778, 'TNR': 0.0, 'FPR': 1.0, 'FNR': 0, 'precision': 0.5384615384615384, 'recall': 0.7777777777777778, 'F1': 0.6363636363636364}
+water 4000 5 0.9
+{'accept': 13, 'reject': 2, 'TP': 7, 'TN': 0, 'FP': 6, 'FN': 2, 'TPR': 0.7777777777777778, 'TNR': 0.0, 'FPR': 1.0, 'FNR': 0, 'precision': 0.5384615384615384, 'recall': 0.7777777777777778, 'F1': 0.6363636363636364}
+water 4000 5 0.99999
+{'accept': 15, 'reject': 0, 'TP': 9, 'TN': 0, 'FP': 6, 'FN': 0, 'TPR': 1.0, 'TNR': 0.0, 'FPR': 1.0, 'FNR': 0, 'precision': 0.6, 'recall': 1.0, 'F1': 0.7499999999999999}
+water 1000 6 0.5
+{'accept': 11, 'reject': 4, 'TP': 7, 'TN': 2, 'FP': 4, 'FN': 2, 'TPR': 0.7777777777777778, 'TNR': 0.33333333333333337, 'FPR': 0.6666666666666666, 'FNR': 0, 'precision': 0.6363636363636364, 'recall': 0.7777777777777778, 'F1': 0.7000000000000001}
+water 1000 6 0.6
+{'accept': 12, 'reject': 3, 'TP': 7, 'TN': 1, 'FP': 5, 'FN': 2, 'TPR': 0.7777777777777778, 'TNR': 0.16666666666666663, 'FPR': 0.8333333333333334, 'FNR': 0, 'precision': 0.5833333333333334, 'recall': 0.7777777777777778, 'F1': 0.6666666666666666}
+water 1000 6 0.7
+{'accept': 12, 'reject': 3, 'TP': 7, 'TN': 1, 'FP': 5, 'FN': 2, 'TPR': 0.7777777777777778, 'TNR': 0.16666666666666663, 'FPR': 0.8333333333333334, 'FNR': 0, 'precision': 0.5833333333333334, 'recall': 0.7777777777777778, 'F1': 0.6666666666666666}
+water 1000 6 0.8
+{'accept': 12, 'reject': 3, 'TP': 7, 'TN': 1, 'FP': 5, 'FN': 2, 'TPR': 0.7777777777777778, 'TNR': 0.16666666666666663, 'FPR': 0.8333333333333334, 'FNR': 0, 'precision': 0.5833333333333334, 'recall': 0.7777777777777778, 'F1': 0.6666666666666666}
+water 1000 6 0.9
+{'accept': 13, 'reject': 2, 'TP': 7, 'TN': 0, 'FP': 6, 'FN': 2, 'TPR': 0.7777777777777778, 'TNR': 0.0, 'FPR': 1.0, 'FNR': 0, 'precision': 0.5384615384615384, 'recall': 0.7777777777777778, 'F1': 0.6363636363636364}
+water 1000 6 0.99999
+{'accept': 15, 'reject': 0, 'TP': 9, 'TN': 0, 'FP': 6, 'FN': 0, 'TPR': 1.0, 'TNR': 0.0, 'FPR': 1.0, 'FNR': 0, 'precision': 0.6, 'recall': 1.0, 'F1': 0.7499999999999999}
+water 4000 6 0.5
+{'accept': 10, 'reject': 5, 'TP': 5, 'TN': 1, 'FP': 5, 'FN': 4, 'TPR': 0.5555555555555556, 'TNR': 0.16666666666666663, 'FPR': 0.8333333333333334, 'FNR': 0, 'precision': 0.5, 'recall': 0.5555555555555556, 'F1': 0.5263157894736842}
+water 4000 6 0.6
+{'accept': 11, 'reject': 4, 'TP': 5, 'TN': 0, 'FP': 6, 'FN': 4, 'TPR': 0.5555555555555556, 'TNR': 0.0, 'FPR': 1.0, 'FNR': 0, 'precision': 0.45454545454545453, 'recall': 0.5555555555555556, 'F1': 0.5}
+water 4000 6 0.7
+{'accept': 11, 'reject': 4, 'TP': 6, 'TN': 1, 'FP': 5, 'FN': 3, 'TPR': 0.6666666666666666, 'TNR': 0.16666666666666663, 'FPR': 0.8333333333333334, 'FNR': 0, 'precision': 0.5454545454545454, 'recall': 0.6666666666666666, 'F1': 0.6}
+water 4000 6 0.8
+{'accept': 12, 'reject': 3, 'TP': 6, 'TN': 0, 'FP': 6, 'FN': 3, 'TPR': 0.6666666666666666, 'TNR': 0.0, 'FPR': 1.0, 'FNR': 0, 'precision': 0.5, 'recall': 0.6666666666666666, 'F1': 0.5714285714285715}
+water 4000 6 0.9
+{'accept': 12, 'reject': 3, 'TP': 6, 'TN': 0, 'FP': 6, 'FN': 3, 'TPR': 0.6666666666666666, 'TNR': 0.0, 'FPR': 1.0, 'FNR': 0, 'precision': 0.5, 'recall': 0.6666666666666666, 'F1': 0.5714285714285715}
+water 4000 6 0.99999
+{'accept': 15, 'reject': 0, 'TP': 9, 'TN': 0, 'FP': 6, 'FN': 0, 'TPR': 1.0, 'TNR': 0.0, 'FPR': 1.0, 'FNR': 0, 'precision': 0.6, 'recall': 1.0, 'F1': 0.7499999999999999}
+barley 2000 1 0.5
+{'accept': 7, 'reject': 17, 'TP': 6, 'TN': 6, 'FP': 1, 'FN': 11, 'TPR': 0.35294117647058826, 'TNR': 0.8571428571428572, 'FPR': 0.14285714285714285, 'FNR': 0, 'precision': 0.8571428571428571, 'recall': 0.35294117647058826, 'F1': 0.5}
+barley 2000 1 0.6
+{'accept': 5, 'reject': 19, 'TP': 5, 'TN': 7, 'FP': 0, 'FN': 12, 'TPR': 0.29411764705882354, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 0.29411764705882354, 'F1': 0.45454545454545453}
+barley 2000 1 0.7
+{'accept': 1, 'reject': 23, 'TP': 1, 'TN': 7, 'FP': 0, 'FN': 16, 'TPR': 0.058823529411764705, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 0.058823529411764705, 'F1': 0.1111111111111111}
+barley 2000 1 0.8
+{'accept': 9, 'reject': 15, 'TP': 7, 'TN': 5, 'FP': 2, 'FN': 10, 'TPR': 0.4117647058823529, 'TNR': 0.7142857142857143, 'FPR': 0.2857142857142857, 'FNR': 0, 'precision': 0.7777777777777778, 'recall': 0.4117647058823529, 'F1': 0.5384615384615384}
+barley 2000 1 0.9
+{'accept': 5, 'reject': 19, 'TP': 5, 'TN': 7, 'FP': 0, 'FN': 12, 'TPR': 0.29411764705882354, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 0.29411764705882354, 'F1': 0.45454545454545453}
+barley 2000 1 0.99999
+{'accept': 4, 'reject': 20, 'TP': 3, 'TN': 6, 'FP': 1, 'FN': 14, 'TPR': 0.17647058823529413, 'TNR': 0.8571428571428572, 'FPR': 0.14285714285714285, 'FNR': 0, 'precision': 0.75, 'recall': 0.17647058823529413, 'F1': 0.2857142857142857}
+barley 8000 1 0.5
+{'accept': 3, 'reject': 21, 'TP': 2, 'TN': 6, 'FP': 1, 'FN': 15, 'TPR': 0.11764705882352941, 'TNR': 0.8571428571428572, 'FPR': 0.14285714285714285, 'FNR': 0, 'precision': 0.6666666666666666, 'recall': 0.11764705882352941, 'F1': 0.2}
+barley 8000 1 0.6
+{'accept': 5, 'reject': 19, 'TP': 3, 'TN': 5, 'FP': 2, 'FN': 14, 'TPR': 0.17647058823529413, 'TNR': 0.7142857142857143, 'FPR': 0.2857142857142857, 'FNR': 0, 'precision': 0.6, 'recall': 0.17647058823529413, 'F1': 0.2727272727272727}
+barley 8000 1 0.7
+{'accept': 4, 'reject': 20, 'TP': 3, 'TN': 6, 'FP': 1, 'FN': 14, 'TPR': 0.17647058823529413, 'TNR': 0.8571428571428572, 'FPR': 0.14285714285714285, 'FNR': 0, 'precision': 0.75, 'recall': 0.17647058823529413, 'F1': 0.2857142857142857}
+barley 8000 1 0.8
+{'accept': 6, 'reject': 18, 'TP': 4, 'TN': 5, 'FP': 2, 'FN': 13, 'TPR': 0.23529411764705882, 'TNR': 0.7142857142857143, 'FPR': 0.2857142857142857, 'FNR': 0, 'precision': 0.6666666666666666, 'recall': 0.23529411764705882, 'F1': 0.3478260869565218}
+barley 8000 1 0.9
+{'accept': 6, 'reject': 18, 'TP': 4, 'TN': 5, 'FP': 2, 'FN': 13, 'TPR': 0.23529411764705882, 'TNR': 0.7142857142857143, 'FPR': 0.2857142857142857, 'FNR': 0, 'precision': 0.6666666666666666, 'recall': 0.23529411764705882, 'F1': 0.3478260869565218}
+barley 8000 1 0.99999
+{'accept': 9, 'reject': 15, 'TP': 6, 'TN': 4, 'FP': 3, 'FN': 11, 'TPR': 0.35294117647058826, 'TNR': 0.5714285714285714, 'FPR': 0.42857142857142855, 'FNR': 0, 'precision': 0.6666666666666666, 'recall': 0.35294117647058826, 'F1': 0.46153846153846156}
+barley 2000 2 0.5
+{'accept': 4, 'reject': 20, 'TP': 3, 'TN': 6, 'FP': 1, 'FN': 14, 'TPR': 0.17647058823529413, 'TNR': 0.8571428571428572, 'FPR': 0.14285714285714285, 'FNR': 0, 'precision': 0.75, 'recall': 0.17647058823529413, 'F1': 0.2857142857142857}
+barley 2000 2 0.6
+{'accept': 6, 'reject': 18, 'TP': 5, 'TN': 6, 'FP': 1, 'FN': 12, 'TPR': 0.29411764705882354, 'TNR': 0.8571428571428572, 'FPR': 0.14285714285714285, 'FNR': 0, 'precision': 0.8333333333333334, 'recall': 0.29411764705882354, 'F1': 0.4347826086956522}
+barley 2000 2 0.7
+{'accept': 8, 'reject': 16, 'TP': 7, 'TN': 6, 'FP': 1, 'FN': 10, 'TPR': 0.4117647058823529, 'TNR': 0.8571428571428572, 'FPR': 0.14285714285714285, 'FNR': 0, 'precision': 0.875, 'recall': 0.4117647058823529, 'F1': 0.56}
+barley 2000 2 0.8
+{'accept': 4, 'reject': 20, 'TP': 3, 'TN': 6, 'FP': 1, 'FN': 14, 'TPR': 0.17647058823529413, 'TNR': 0.8571428571428572, 'FPR': 0.14285714285714285, 'FNR': 0, 'precision': 0.75, 'recall': 0.17647058823529413, 'F1': 0.2857142857142857}
+barley 2000 2 0.9
+{'accept': 8, 'reject': 16, 'TP': 6, 'TN': 5, 'FP': 2, 'FN': 11, 'TPR': 0.35294117647058826, 'TNR': 0.7142857142857143, 'FPR': 0.2857142857142857, 'FNR': 0, 'precision': 0.75, 'recall': 0.35294117647058826, 'F1': 0.48}
+barley 2000 2 0.99999
+{'accept': 18, 'reject': 6, 'TP': 15, 'TN': 4, 'FP': 3, 'FN': 2, 'TPR': 0.8823529411764706, 'TNR': 0.5714285714285714, 'FPR': 0.42857142857142855, 'FNR': 0, 'precision': 0.8333333333333334, 'recall': 0.8823529411764706, 'F1': 0.8571428571428571}
+barley 8000 2 0.5
+{'accept': 4, 'reject': 20, 'TP': 1, 'TN': 4, 'FP': 3, 'FN': 16, 'TPR': 0.058823529411764705, 'TNR': 0.5714285714285714, 'FPR': 0.42857142857142855, 'FNR': 0, 'precision': 0.25, 'recall': 0.058823529411764705, 'F1': 0.09523809523809523}
+barley 8000 2 0.6
+{'accept': 5, 'reject': 19, 'TP': 3, 'TN': 5, 'FP': 2, 'FN': 14, 'TPR': 0.17647058823529413, 'TNR': 0.7142857142857143, 'FPR': 0.2857142857142857, 'FNR': 0, 'precision': 0.6, 'recall': 0.17647058823529413, 'F1': 0.2727272727272727}
+barley 8000 2 0.7
+{'accept': 11, 'reject': 13, 'TP': 11, 'TN': 7, 'FP': 0, 'FN': 6, 'TPR': 0.6470588235294118, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 0.6470588235294118, 'F1': 0.7857142857142858}
+barley 8000 2 0.8
+{'accept': 6, 'reject': 18, 'TP': 4, 'TN': 5, 'FP': 2, 'FN': 13, 'TPR': 0.23529411764705882, 'TNR': 0.7142857142857143, 'FPR': 0.2857142857142857, 'FNR': 0, 'precision': 0.6666666666666666, 'recall': 0.23529411764705882, 'F1': 0.3478260869565218}
+barley 8000 2 0.9
+{'accept': 6, 'reject': 18, 'TP': 5, 'TN': 6, 'FP': 1, 'FN': 12, 'TPR': 0.29411764705882354, 'TNR': 0.8571428571428572, 'FPR': 0.14285714285714285, 'FNR': 0, 'precision': 0.8333333333333334, 'recall': 0.29411764705882354, 'F1': 0.4347826086956522}
+barley 8000 2 0.99999
+{'accept': 12, 'reject': 12, 'TP': 10, 'TN': 5, 'FP': 2, 'FN': 7, 'TPR': 0.5882352941176471, 'TNR': 0.7142857142857143, 'FPR': 0.2857142857142857, 'FNR': 0, 'precision': 0.8333333333333334, 'recall': 0.5882352941176471, 'F1': 0.6896551724137931}
+barley 2000 3 0.5
+{'accept': 7, 'reject': 17, 'TP': 6, 'TN': 6, 'FP': 1, 'FN': 11, 'TPR': 0.35294117647058826, 'TNR': 0.8571428571428572, 'FPR': 0.14285714285714285, 'FNR': 0, 'precision': 0.8571428571428571, 'recall': 0.35294117647058826, 'F1': 0.5}
+barley 2000 3 0.6
+{'accept': 7, 'reject': 17, 'TP': 6, 'TN': 6, 'FP': 1, 'FN': 11, 'TPR': 0.35294117647058826, 'TNR': 0.8571428571428572, 'FPR': 0.14285714285714285, 'FNR': 0, 'precision': 0.8571428571428571, 'recall': 0.35294117647058826, 'F1': 0.5}
+barley 2000 3 0.7
+{'accept': 8, 'reject': 16, 'TP': 6, 'TN': 5, 'FP': 2, 'FN': 11, 'TPR': 0.35294117647058826, 'TNR': 0.7142857142857143, 'FPR': 0.2857142857142857, 'FNR': 0, 'precision': 0.75, 'recall': 0.35294117647058826, 'F1': 0.48}
+barley 2000 3 0.8
+{'accept': 10, 'reject': 14, 'TP': 10, 'TN': 7, 'FP': 0, 'FN': 7, 'TPR': 0.5882352941176471, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 0.5882352941176471, 'F1': 0.7407407407407407}
+barley 2000 3 0.9
+{'accept': 11, 'reject': 13, 'TP': 9, 'TN': 5, 'FP': 2, 'FN': 8, 'TPR': 0.5294117647058824, 'TNR': 0.7142857142857143, 'FPR': 0.2857142857142857, 'FNR': 0, 'precision': 0.8181818181818182, 'recall': 0.5294117647058824, 'F1': 0.6428571428571428}
+barley 2000 3 0.99999
+{'accept': 14, 'reject': 10, 'TP': 10, 'TN': 3, 'FP': 4, 'FN': 7, 'TPR': 0.5882352941176471, 'TNR': 0.4285714285714286, 'FPR': 0.5714285714285714, 'FNR': 0, 'precision': 0.7142857142857143, 'recall': 0.5882352941176471, 'F1': 0.6451612903225806}
+barley 8000 3 0.5
+{'accept': 9, 'reject': 15, 'TP': 8, 'TN': 6, 'FP': 1, 'FN': 9, 'TPR': 0.47058823529411764, 'TNR': 0.8571428571428572, 'FPR': 0.14285714285714285, 'FNR': 0, 'precision': 0.8888888888888888, 'recall': 0.47058823529411764, 'F1': 0.6153846153846153}
+barley 8000 3 0.6
+{'accept': 5, 'reject': 19, 'TP': 4, 'TN': 6, 'FP': 1, 'FN': 13, 'TPR': 0.23529411764705882, 'TNR': 0.8571428571428572, 'FPR': 0.14285714285714285, 'FNR': 0, 'precision': 0.8, 'recall': 0.23529411764705882, 'F1': 0.3636363636363636}
+barley 8000 3 0.7
+{'accept': 6, 'reject': 18, 'TP': 5, 'TN': 6, 'FP': 1, 'FN': 12, 'TPR': 0.29411764705882354, 'TNR': 0.8571428571428572, 'FPR': 0.14285714285714285, 'FNR': 0, 'precision': 0.8333333333333334, 'recall': 0.29411764705882354, 'F1': 0.4347826086956522}
+barley 8000 3 0.8
+{'accept': 6, 'reject': 18, 'TP': 4, 'TN': 5, 'FP': 2, 'FN': 13, 'TPR': 0.23529411764705882, 'TNR': 0.7142857142857143, 'FPR': 0.2857142857142857, 'FNR': 0, 'precision': 0.6666666666666666, 'recall': 0.23529411764705882, 'F1': 0.3478260869565218}
+barley 8000 3 0.9
+{'accept': 8, 'reject': 16, 'TP': 7, 'TN': 6, 'FP': 1, 'FN': 10, 'TPR': 0.4117647058823529, 'TNR': 0.8571428571428572, 'FPR': 0.14285714285714285, 'FNR': 0, 'precision': 0.875, 'recall': 0.4117647058823529, 'F1': 0.56}
+barley 8000 3 0.99999
+{'accept': 9, 'reject': 15, 'TP': 6, 'TN': 4, 'FP': 3, 'FN': 11, 'TPR': 0.35294117647058826, 'TNR': 0.5714285714285714, 'FPR': 0.42857142857142855, 'FNR': 0, 'precision': 0.6666666666666666, 'recall': 0.35294117647058826, 'F1': 0.46153846153846156}
+barley 2000 4 0.5
+{'accept': 6, 'reject': 18, 'TP': 5, 'TN': 6, 'FP': 1, 'FN': 12, 'TPR': 0.29411764705882354, 'TNR': 0.8571428571428572, 'FPR': 0.14285714285714285, 'FNR': 0, 'precision': 0.8333333333333334, 'recall': 0.29411764705882354, 'F1': 0.4347826086956522}
+barley 2000 4 0.6
+{'accept': 1, 'reject': 23, 'TP': 0, 'TN': 6, 'FP': 1, 'FN': 17, 'TPR': 0.0, 'TNR': 0.8571428571428572, 'FPR': 0.14285714285714285, 'FNR': 0, 'precision': 0.0, 'recall': 0.0, 'F1': nan}
+barley 2000 4 0.7
+{'accept': 12, 'reject': 12, 'TP': 9, 'TN': 4, 'FP': 3, 'FN': 8, 'TPR': 0.5294117647058824, 'TNR': 0.5714285714285714, 'FPR': 0.42857142857142855, 'FNR': 0, 'precision': 0.75, 'recall': 0.5294117647058824, 'F1': 0.6206896551724139}
+barley 2000 4 0.8
+{'accept': 8, 'reject': 16, 'TP': 7, 'TN': 6, 'FP': 1, 'FN': 10, 'TPR': 0.4117647058823529, 'TNR': 0.8571428571428572, 'FPR': 0.14285714285714285, 'FNR': 0, 'precision': 0.875, 'recall': 0.4117647058823529, 'F1': 0.56}
+barley 2000 4 0.9
+{'accept': 8, 'reject': 16, 'TP': 6, 'TN': 5, 'FP': 2, 'FN': 11, 'TPR': 0.35294117647058826, 'TNR': 0.7142857142857143, 'FPR': 0.2857142857142857, 'FNR': 0, 'precision': 0.75, 'recall': 0.35294117647058826, 'F1': 0.48}
+barley 2000 4 0.99999
+{'accept': 14, 'reject': 10, 'TP': 11, 'TN': 4, 'FP': 3, 'FN': 6, 'TPR': 0.6470588235294118, 'TNR': 0.5714285714285714, 'FPR': 0.42857142857142855, 'FNR': 0, 'precision': 0.7857142857142857, 'recall': 0.6470588235294118, 'F1': 0.7096774193548386}
+barley 8000 4 0.5
+{'accept': 9, 'reject': 15, 'TP': 9, 'TN': 7, 'FP': 0, 'FN': 8, 'TPR': 0.5294117647058824, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 0.5294117647058824, 'F1': 0.6923076923076924}
+barley 8000 4 0.6
+{'accept': 3, 'reject': 21, 'TP': 3, 'TN': 7, 'FP': 0, 'FN': 14, 'TPR': 0.17647058823529413, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 0.17647058823529413, 'F1': 0.3}
+barley 8000 4 0.7
+{'accept': 8, 'reject': 16, 'TP': 5, 'TN': 4, 'FP': 3, 'FN': 12, 'TPR': 0.29411764705882354, 'TNR': 0.5714285714285714, 'FPR': 0.42857142857142855, 'FNR': 0, 'precision': 0.625, 'recall': 0.29411764705882354, 'F1': 0.4}
+barley 8000 4 0.8
+{'accept': 8, 'reject': 16, 'TP': 6, 'TN': 5, 'FP': 2, 'FN': 11, 'TPR': 0.35294117647058826, 'TNR': 0.7142857142857143, 'FPR': 0.2857142857142857, 'FNR': 0, 'precision': 0.75, 'recall': 0.35294117647058826, 'F1': 0.48}
+barley 8000 4 0.9
+{'accept': 5, 'reject': 19, 'TP': 5, 'TN': 7, 'FP': 0, 'FN': 12, 'TPR': 0.29411764705882354, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 0.29411764705882354, 'F1': 0.45454545454545453}
+barley 8000 4 0.99999
+{'accept': 6, 'reject': 18, 'TP': 5, 'TN': 6, 'FP': 1, 'FN': 12, 'TPR': 0.29411764705882354, 'TNR': 0.8571428571428572, 'FPR': 0.14285714285714285, 'FNR': 0, 'precision': 0.8333333333333334, 'recall': 0.29411764705882354, 'F1': 0.4347826086956522}
+barley 2000 5 0.5
+{'accept': 11, 'reject': 13, 'TP': 8, 'TN': 4, 'FP': 3, 'FN': 9, 'TPR': 0.47058823529411764, 'TNR': 0.5714285714285714, 'FPR': 0.42857142857142855, 'FNR': 0, 'precision': 0.7272727272727273, 'recall': 0.47058823529411764, 'F1': 0.5714285714285714}
+barley 2000 5 0.6
+{'accept': 6, 'reject': 18, 'TP': 4, 'TN': 5, 'FP': 2, 'FN': 13, 'TPR': 0.23529411764705882, 'TNR': 0.7142857142857143, 'FPR': 0.2857142857142857, 'FNR': 0, 'precision': 0.6666666666666666, 'recall': 0.23529411764705882, 'F1': 0.3478260869565218}
+barley 2000 5 0.7
+{'accept': 4, 'reject': 20, 'TP': 1, 'TN': 4, 'FP': 3, 'FN': 16, 'TPR': 0.058823529411764705, 'TNR': 0.5714285714285714, 'FPR': 0.42857142857142855, 'FNR': 0, 'precision': 0.25, 'recall': 0.058823529411764705, 'F1': 0.09523809523809523}
+barley 2000 5 0.8
+{'accept': 9, 'reject': 15, 'TP': 7, 'TN': 5, 'FP': 2, 'FN': 10, 'TPR': 0.4117647058823529, 'TNR': 0.7142857142857143, 'FPR': 0.2857142857142857, 'FNR': 0, 'precision': 0.7777777777777778, 'recall': 0.4117647058823529, 'F1': 0.5384615384615384}
+barley 2000 5 0.9
+{'accept': 11, 'reject': 13, 'TP': 9, 'TN': 5, 'FP': 2, 'FN': 8, 'TPR': 0.5294117647058824, 'TNR': 0.7142857142857143, 'FPR': 0.2857142857142857, 'FNR': 0, 'precision': 0.8181818181818182, 'recall': 0.5294117647058824, 'F1': 0.6428571428571428}
+barley 2000 5 0.99999
+{'accept': 13, 'reject': 11, 'TP': 11, 'TN': 5, 'FP': 2, 'FN': 6, 'TPR': 0.6470588235294118, 'TNR': 0.7142857142857143, 'FPR': 0.2857142857142857, 'FNR': 0, 'precision': 0.8461538461538461, 'recall': 0.6470588235294118, 'F1': 0.7333333333333334}
+barley 8000 5 0.5
+{'accept': 6, 'reject': 18, 'TP': 4, 'TN': 5, 'FP': 2, 'FN': 13, 'TPR': 0.23529411764705882, 'TNR': 0.7142857142857143, 'FPR': 0.2857142857142857, 'FNR': 0, 'precision': 0.6666666666666666, 'recall': 0.23529411764705882, 'F1': 0.3478260869565218}
+barley 8000 5 0.6
+{'accept': 4, 'reject': 20, 'TP': 2, 'TN': 5, 'FP': 2, 'FN': 15, 'TPR': 0.11764705882352941, 'TNR': 0.7142857142857143, 'FPR': 0.2857142857142857, 'FNR': 0, 'precision': 0.5, 'recall': 0.11764705882352941, 'F1': 0.19047619047619047}
+barley 8000 5 0.7
+{'accept': 4, 'reject': 20, 'TP': 2, 'TN': 5, 'FP': 2, 'FN': 15, 'TPR': 0.11764705882352941, 'TNR': 0.7142857142857143, 'FPR': 0.2857142857142857, 'FNR': 0, 'precision': 0.5, 'recall': 0.11764705882352941, 'F1': 0.19047619047619047}
+barley 8000 5 0.8
+{'accept': 3, 'reject': 21, 'TP': 3, 'TN': 7, 'FP': 0, 'FN': 14, 'TPR': 0.17647058823529413, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 0.17647058823529413, 'F1': 0.3}
+barley 8000 5 0.9
+{'accept': 2, 'reject': 22, 'TP': 2, 'TN': 7, 'FP': 0, 'FN': 15, 'TPR': 0.11764705882352941, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 0.11764705882352941, 'F1': 0.21052631578947367}
+barley 8000 5 0.99999
+{'accept': 6, 'reject': 18, 'TP': 3, 'TN': 4, 'FP': 3, 'FN': 14, 'TPR': 0.17647058823529413, 'TNR': 0.5714285714285714, 'FPR': 0.42857142857142855, 'FNR': 0, 'precision': 0.5, 'recall': 0.17647058823529413, 'F1': 0.2608695652173913}
+barley 2000 6 0.5
+{'accept': 6, 'reject': 18, 'TP': 4, 'TN': 5, 'FP': 2, 'FN': 13, 'TPR': 0.23529411764705882, 'TNR': 0.7142857142857143, 'FPR': 0.2857142857142857, 'FNR': 0, 'precision': 0.6666666666666666, 'recall': 0.23529411764705882, 'F1': 0.3478260869565218}
+barley 2000 6 0.6
+{'accept': 7, 'reject': 17, 'TP': 5, 'TN': 5, 'FP': 2, 'FN': 12, 'TPR': 0.29411764705882354, 'TNR': 0.7142857142857143, 'FPR': 0.2857142857142857, 'FNR': 0, 'precision': 0.7142857142857143, 'recall': 0.29411764705882354, 'F1': 0.4166666666666667}
+barley 2000 6 0.7
+{'accept': 7, 'reject': 17, 'TP': 5, 'TN': 5, 'FP': 2, 'FN': 12, 'TPR': 0.29411764705882354, 'TNR': 0.7142857142857143, 'FPR': 0.2857142857142857, 'FNR': 0, 'precision': 0.7142857142857143, 'recall': 0.29411764705882354, 'F1': 0.4166666666666667}
+barley 2000 6 0.8
+{'accept': 10, 'reject': 14, 'TP': 8, 'TN': 5, 'FP': 2, 'FN': 9, 'TPR': 0.47058823529411764, 'TNR': 0.7142857142857143, 'FPR': 0.2857142857142857, 'FNR': 0, 'precision': 0.8, 'recall': 0.47058823529411764, 'F1': 0.5925925925925927}
+barley 2000 6 0.9
+{'accept': 10, 'reject': 14, 'TP': 7, 'TN': 4, 'FP': 3, 'FN': 10, 'TPR': 0.4117647058823529, 'TNR': 0.5714285714285714, 'FPR': 0.42857142857142855, 'FNR': 0, 'precision': 0.7, 'recall': 0.4117647058823529, 'F1': 0.5185185185185185}
+barley 2000 6 0.99999
+{'accept': 15, 'reject': 9, 'TP': 12, 'TN': 4, 'FP': 3, 'FN': 5, 'TPR': 0.7058823529411765, 'TNR': 0.5714285714285714, 'FPR': 0.42857142857142855, 'FNR': 0, 'precision': 0.8, 'recall': 0.7058823529411765, 'F1': 0.7500000000000001}
+barley 8000 6 0.5
+{'accept': 4, 'reject': 20, 'TP': 2, 'TN': 5, 'FP': 2, 'FN': 15, 'TPR': 0.11764705882352941, 'TNR': 0.7142857142857143, 'FPR': 0.2857142857142857, 'FNR': 0, 'precision': 0.5, 'recall': 0.11764705882352941, 'F1': 0.19047619047619047}
+barley 8000 6 0.6
+{'accept': 5, 'reject': 19, 'TP': 4, 'TN': 6, 'FP': 1, 'FN': 13, 'TPR': 0.23529411764705882, 'TNR': 0.8571428571428572, 'FPR': 0.14285714285714285, 'FNR': 0, 'precision': 0.8, 'recall': 0.23529411764705882, 'F1': 0.3636363636363636}
+barley 8000 6 0.7
+{'accept': 9, 'reject': 15, 'TP': 6, 'TN': 4, 'FP': 3, 'FN': 11, 'TPR': 0.35294117647058826, 'TNR': 0.5714285714285714, 'FPR': 0.42857142857142855, 'FNR': 0, 'precision': 0.6666666666666666, 'recall': 0.35294117647058826, 'F1': 0.46153846153846156}
+barley 8000 6 0.8
+{'accept': 4, 'reject': 20, 'TP': 4, 'TN': 7, 'FP': 0, 'FN': 13, 'TPR': 0.23529411764705882, 'TNR': 1.0, 'FPR': 0.0, 'FNR': 0, 'precision': 1.0, 'recall': 0.23529411764705882, 'F1': 0.38095238095238093}
+barley 8000 6 0.9
+{'accept': 8, 'reject': 16, 'TP': 5, 'TN': 4, 'FP': 3, 'FN': 12, 'TPR': 0.29411764705882354, 'TNR': 0.5714285714285714, 'FPR': 0.42857142857142855, 'FNR': 0, 'precision': 0.625, 'recall': 0.29411764705882354, 'F1': 0.4}
+barley 8000 6 0.99999
+{'accept': 8, 'reject': 16, 'TP': 5, 'TN': 4, 'FP': 3, 'FN': 12, 'TPR': 0.29411764705882354, 'TNR': 0.5714285714285714, 'FPR': 0.42857142857142855, 'FNR': 0, 'precision': 0.625, 'recall': 0.29411764705882354, 'F1': 0.4}

@@ -1,0 +1,32 @@
+
+yes: The newborn is sick.
+no: The newborn is not sick.
+
+<edge>BirthAsphyxia->HypDistrib</edge>
+<edge>BirthAsphyxia->HypoxiaInO2</edge>
+<edge>BirthAsphyxia->CO2</edge>
+<edge>BirthAsphyxia->ChestXray</edge>
+<edge>BirthAsphyxia->Grunting</edge>
+<edge>BirthAsphyxia->LVHreport</edge>
+<edge>BirthAsphyxia->LowerBodyO2</edge>
+<edge>BirthAsphyxia->RUQO2</edge>
+<edge>BirthAsphyxia->CO2Report</edge>
+<edge>BirthAsphyxia->XrayReport</edge>
+<edge>BirthAsphyxia->Disease</edge>
+<edge>BirthAsphyxia->GruntingReport</edge>
+<edge>HypDistrib->HypoxiaInO2</edge>
+<edge>HypoxiaInO2->CO2</edge>
+<edge>CO2->ChestXray</edge>
+<edge>ChestXray->Grunting</edge>
+<edge>LVHreport->LowerBodyO2</edge>
+<edge>LVHreport->RUQO2</edge>
+<edge>CO2Report->XrayReport</edge>
+<edge>XrayReport->Disease</edge>
+<edge>Disease->Sick</edge>
+<edge>GruntingReport->Sick</edge>
+<edge>Age->DuctFlow</edge>
+<edge>Age->CardiacMixing</edge>
+<edge>Age->LungFlow</edge>
+<edge>Age->LungParench</edge>
+<edge>LVH->DuctFlow</edge>
+<edge>LVH->CardiacMixing</edge>

@@ -1,0 +1,4 @@
+arcs {
+	either => dysp 0.9999;
+	bronc => dysp 0.9999;
+}

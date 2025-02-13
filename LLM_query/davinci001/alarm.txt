@@ -1,0 +1,38 @@
+
+The edge variable is <edge>HISTORY->CVP</edge>. There is a significant medical history related to the patient's current condition.
+
+The edge variable is <edge>HISTORY->PCWP</edge>. There is a significant medical history related to the patient's current condition.
+
+The edge variable is <edge>HYPOVOLEMIA->LVEDVOLUME</edge>. There is a significant relationship between low blood volume and left ventricular end-diastolic volume.
+
+The edge variable is <edge>HYPOVOLEMIA->LVFAILURE</edge>. There is a significant relationship between low blood volume and left ventricular failure.
+
+The edge variable is <edge>STROKEVOLUME->HRBP</edge>. The volume of blood pumped out of the heart with each beat is related to the heart rate blood pressure relationship.
+
+The edge variable is <edge>STROKEVOLUME->HREKG</edge>. The volume of blood pumped out of the heart with each beat is related to the heart rate as measured by an electrocardiogram.
+
+The edge variable is <edge>ERRLOWOUTPUT->HREKG</edge>. There is an error in the measurement of the cardiac output, resulting in a falsely low reading, is related to the heart rate as measured by an electrocardiogram.
+
+The edge variable is <edge>HRSAT->INSUFFANESTH</edge>. The patient's oxygen saturation in relation to their heart rate is related to the patient's level of anesthesia.
+
+The edge variable is <edge>ANAPHYLAXIS->TPR</edge>. The patient's anaphylactic reaction is related to the total peripheral resistance.
+
+The edge variable is <edge>EXPCO2->KINKEDTUBE</edge>. The amount of carbon dioxide exhaled by the patient is related to the presence of a kink in a tube.
+
+The edge variable is <edge>MINVOL->FIO2</edge>. The volume of gas inhaled or exhaled by the patient in one minute is related to the concentration of oxygen in the inspired air.
+
+The edge variable is <edge>PVSAT->SAO2</edge>. The oxygen saturation in the peripheral venous blood is related to the arterial oxygen saturation.
+
+The edge variable is <edge>PAP->PULMEMBOLUS</edge>. The pressure in the pulmonary artery is related to the presence of a pulmonary embolism.
+
+The edge variable is <edge>SHUNT->INTUBATION</edge>. The presence and degree of a shunt is related to the placement of an endotracheal tube.
+
+The edge variable is <edge>PRESS->DISCONNECT</edge>. The pressure in various parts of the respiratory system or related equipment is related to a disconnection in the patient's ventilator circuit.
+
+The edge variable is <edge>MINVOLSET->VENTMACH</edge>. The target minute volume set on the ventilator is related to the performance or status of the ventilator machine.
+
+The edge variable is <edge>VENTTUBE->VENTLUNG</edge>. The patency or status of the ventilator tube is related to the functioning or status of the patient's lungs while on a ventilator.
+
+The edge variable is <edge>VENTLUNG->VENTALV</edge>. The functioning or status of the patient's lungs while on a ventilator is related to the functioning or status of the patient's alveoli while on a ventilator.
+
+The edge variable is <edge>ARTCO2->CATECHOL</edge>. The partial pressure of carbon dioxide in the arterial blood is related to the levels of catecholamines.

@@ -1,0 +1,7 @@
+
+<edge>C_NI_12_00->CKNI_12_00</edge>
+<edge>C_NI_12_15->CKNI_12_15</edge>
+<edge>C_NI_12_30->CKNI_12_30</edge>
+<edge>C_NI_12_45->CKNI_12_45</edge>
+
+The concentration of Kjeldahl nitrogen inorganic (CKNI) ions is directly proportional to the number of nitrogen inorganic ions (C_NI_12_00). As the number of nitrogen inorganic ions increases, so does the concentration of CKNI ions.

@@ -1,0 +1,31 @@
+arcs {
+	Disease -- LVH 1.0; 
+	Grunting -- LungParench 1.0; 
+	Disease -- LungParench 1.0; 
+	CO2Report >> Sick 1.0; 
+	CardiacMixing >> LungFlow 1.0; 
+	ChestXray >> Sick 1.0; 
+	LungParench >> Sick 1.0; 
+	LungFlow >> BirthAsphyxia 1.0; 
+	RUQO2 >> LungFlow 1.0; 
+	Age >> ChestXray 1.0; 
+	RUQO2 >> BirthAsphyxia 1.0; 
+	HypoxiaInO2 >> GruntingReport 1.0; 
+	DuctFlow >> ChestXray 1.0; 
+	Grunting >> LungParench 1.0; 
+	Grunting >> Disease 1.0; 
+	DuctFlow >> LungParench 1.0; 
+	LVH >> LungParench 1.0; 
+	GruntingReport >> LungFlow 1.0; 
+	RUQO2 >> XrayReport 1.0; 
+	LVHreport >> RUQO2 1.0; 
+	HypDistrib >> LungParench 1.0; 
+	RUQO2 >> CO2Report 1.0; 
+	Disease => LowerBodyO2 0.9999; 
+	BirthAsphyxia => LowerBodyO2 0.9999; 
+	BirthAsphyxia => Disease 0.9999; 
+	Disease => HypoxiaInO2 0.9999; 
+	LungParench => LowerBodyO2 0.9999; 
+	BirthAsphyxia => XrayReport 0.9999; 
+	LungParench => HypoxiaInO2 0.9999; 
+}

@@ -1,0 +1,172 @@
+cancer
+{'extra': 1, 'missing': 0, 'reverse': 1, 'fdr': 0.4, 'tpr': 0.75, 'fpr': 0.3333, 'shd': 2, 'nnz': 5, 'precision': 0.5, 'recall': 0.75, 'F1': 0.6, 'gscore': 0.0}
+4 / 6
+variable1 variable2
+Pollution Cancer
+Smoker Cancer
+Smoker Xray
+Xray Cancer
+Dyspnoea Cancer
+Cancer Dyspnoea
+asia
+{'extra': 0, 'missing': 2, 'reverse': 1, 'fdr': 0.1667, 'tpr': 0.625, 'fpr': 0.05, 'shd': 3, 'nnz': 6, 'precision': 0.8333, 'recall': 0.625, 'F1': 0.7143, 'gscore': 0.5}
+6 / 7
+variable1 variable2
+visit_to_asia tuberculosis
+tuberculosis either_turb_or_lung_cancer
+smoking lung_cancer
+smoking bronchitis
+either_turb_or_lung_cancer dyspnoea
+positive_xray either_turb_or_lung_cancer
+either_turb_or_lung_cancer dyspnoea
+child
+{'extra': 16, 'missing': 19, 'reverse': 1, 'fdr': 0.7727, 'tpr': 0.2, 'fpr': 0.103, 'shd': 36, 'nnz': 22, 'precision': 0.2273, 'recall': 0.2, 'F1': 0.2128, 'gscore': 0.0}
+6 / 22
+variable1 variable2
+BirthAsphyxia HypoxiaInO2
+HypoxiaInO2 ChestXray
+HypoxiaInO2 Grunting
+HypoxiaInO2 LVHreport
+HypoxiaInO2 LowerBodyO2
+HypoxiaInO2 RUQO2
+CO2 ChestXray
+ChestXray Grunting
+ChestXray LVHreport
+Grunting XrayReport
+LVHreport Disease
+LowerBodyO2 CO2Report
+RUQO2 CO2Report
+XrayReport LungParench
+XrayReport LungFlow
+Disease LVH
+Disease DuctFlow
+Disease CardiacMixing
+LVH LungParench
+LVH LungFlow
+DuctFlow CardiacMixing
+Sick Disease
+insurance
+{'extra': 5, 'missing': 49, 'reverse': 0, 'fdr': 0.625, 'tpr': 0.0577, 'fpr': 0.0167, 'shd': 54, 'nnz': 8, 'precision': 0.375, 'recall': 0.0577, 'F1': 0.1, 'gscore': 0.0}
+5 / 8
+variable1 variable2
+GoodStudent ThisCarCost
+Age RiskAversion
+VehicleYear ThisCarCost
+ThisCarDam Cushioning
+MakeModel CarValue
+Mileage ThisCarCost
+HomeBase Theft
+OtherCar OtherCarCost
+alarm
+{'extra': 16, 'missing': 27, 'reverse': 3, 'fdr': 0.5429, 'tpr': 0.3478, 'fpr': 0.0306, 'shd': 46, 'nnz': 35, 'precision': 0.4571, 'recall': 0.3478, 'F1': 0.3951, 'gscore': 0.0}
+21 / 35
+variable1 variable2
+HISTORY HYPOVOLEMIA
+CVP HYPOVOLEMIA
+PCWP HYPOVOLEMIA
+HYPOVOLEMIA LVEDVOLUME
+LVEDVOLUME LVFAILURE
+LVFAILURE STROKEVOLUME
+STROKEVOLUME ERRLOWOUTPUT
+HRBP ERRLOWOUTPUT
+HREKG ERRLOWOUTPUT
+ERRLOWOUTPUT CO
+CO BP
+HR CO
+CATECHOL CO
+FIO2 PVSAT
+PVSAT SAO2
+SAO2 BP
+PAP PULMEMBOLUS
+PULMEMBOLUS SHUNT
+SHUNT SAO2
+INTUBATION PRESS
+PRESS DISCONNECT
+DISCONNECT VENTMACH
+VENTMACH VENTTUBE
+VENTTUBE VENTLUNG
+VENTLUNG VENTALV
+VENTALV ARTCO2
+ARTCO2 EXPCO2
+TPR BP
+EXPCO2 HYPOVOLEMIA
+MINVOLSET MINVOL
+MINVOL VENTMACH
+HRSAT INSUFFANESTH
+INSUFFANESTH HREKG
+ANAPHYLAXIS HRSAT
+ERRCAUTER HREKG
+/home/wxy/bty/LLM_CSL/myEva.py:225: RuntimeWarning: invalid value encountered in scalar divide
+  F1 = 2*(recall*precision)/(recall+precision)
+water
+{'extra': 20, 'missing': 66, 'reverse': 0, 'fdr': 1.0, 'tpr': 0.0, 'fpr': 0.0465, 'shd': 86, 'nnz': 20, 'precision': 0.0, 'recall': 0.0, 'F1': nan, 'gscore': 0.0}
+1 / 20
+variable1 variable2
+CBODN_12_00 CKNI_12_00
+CBODN_12_00 CNOD_12_00
+CNOD_12_00 CNON_12_00
+CKNI_12_00 CKND_12_00
+CKND_12_00 CKNN_12_00
+CBODN_12_15 CKNI_12_15
+CBODN_12_15 CNOD_12_15
+CNOD_12_15 CNON_12_15
+CKNI_12_15 CKND_12_15
+CKND_12_15 CKNN_12_15
+CBODN_12_30 CKNI_12_30
+CBODN_12_30 CNOD_12_30
+CNOD_12_30 CNON_12_30
+CKNI_12_30 CKND_12_30
+CKND_12_30 CKNN_12_30
+CBODN_12_45 CKNI_12_45
+CBODN_12_00 CNOD_12_45
+CNOD_12_45 CNON_12_45
+CKNI_12_45 CKND_12_45
+CKND_12_45 CKNN_12_45
+mildew
+{'extra': 19, 'missing': 38, 'reverse': 4, 'fdr': 0.8519, 'tpr': 0.087, 'fpr': 0.0419, 'shd': 61, 'nnz': 27, 'precision': 0.1481, 'recall': 0.087, 'F1': 0.1096, 'gscore': 0.0}
+11 / 27
+variable1 variable2
+variable1 variable2
+lai_0 lai_1
+lai_1 lai_2
+lai_2 lai_3
+lai_3 lai_4
+foto_1 lai_1
+lai_1 foto_2
+foto_2 lai_2
+lai_2 foto_3
+foto_3 lai_3
+lai_3 foto_4
+foto_4 lai_4
+straaling_1 meldug_1
+meldug_1 straaling_2
+straaling_2 meldug_2
+meldug_2 straaling_3
+straaling_3 meldug_3
+meldug_3 straaling_4
+straaling_4 meldug_4
+temp_1 dm_1
+dm_1 temp_2
+temp_2 dm_2
+dm_2 temp_3
+temp_3 dm_3
+dm_3 temp_4
+temp_4 dm_4
+mikro_1 middel_1
+middel_1 meldug_1
+barley
+{'extra': 8, 'missing': 80, 'reverse': 0, 'fdr': 0.6667, 'tpr': 0.0476, 'fpr': 0.0077, 'shd': 88, 'nnz': 12, 'precision': 0.3333, 'recall': 0.0476, 'F1': 0.0833, 'gscore': 0.0}
+7 / 12
+variable1 variable2
+jordtype ngodnt
+komm pesticid
+nedbarea nmin
+aar_mod ngodnt
+forfrugt nmin
+potnmin ngodnt
+jordn ngodnt
+pesticid ngodnt
+exptgens ngodnt
+mod_nmin ngodnt
+nopt nmin
+saatid dgv1059

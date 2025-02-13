@@ -1,0 +1,13 @@
+<edge>CEA->Progression_Time</edge> Reasoning: Carcinoembryonic antigen (CEA) levels are directly associated with cancer progression, as higher levels indicate advanced disease or recurrence.
+
+<edge>CA199->Progression_Time</edge> Reasoning: CA19-9 is a tumor marker strongly correlated with disease progression in gastrointestinal cancers, including rectum cancer.
+
+<edge>T->Progression_Time</edge> Reasoning: The T stage reflects the depth of tumor invasion, which is a key determinant of cancer progression rates.
+
+<edge>N->Progression_Time</edge> Reasoning: Lymph node involvement (N) indicates metastasis and is a strong predictor of progression and patient prognosis.
+
+<edge>Differentiation->Progression_Time</edge>Reasoning: Poorly differentiated tumors are more aggressive, leading to faster disease progression.
+
+<edge>Diameter->T</edge> Reasoning: Tumor size (Diameter) directly contributes to its classification in the T stage. Larger tumors often indicate more advanced stages of local invasion.
+
+<edge>T->N</edge> Reasoning: Increased tumor invasion depth (T) increases the likelihood of lymphatic spread and lymph node involvement (N) through direct metastatic pathways.

@@ -1,0 +1,10 @@
+./data/bdeu/insurance_2000_6.BDeu
+./data/bdeu/insurance_2000_6.BDeu
+anc_file/MINONSx_perform_insurance_2000_6.anc
+10
+0
+out.txt
+BEST
+Time (ms)	Score, followed by ordering next line
+2225	27496674054
+13 1 2 4 8 24 6 23 3 12 9 7 22 5 17 15 18 0 25 16 21 20 26 14 19 10 11 

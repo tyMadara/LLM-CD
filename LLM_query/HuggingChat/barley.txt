@@ -1,0 +1,25 @@
+From the given list of variables and the explanation provided, I can determine the following cause-and-effect relationships between some pairs of these variables:
+
+<edge>jordtype->komm</edge>: The choice of kommun is likely influenced by the soil type (jordtyp), which dictates what crops grow best in that region.
+<edge>forfrugt->ngodttype</edge>: A preceding crop affects the nutrient levels available for the next crop (malt). If a clovergrass was grown instead of, say, barley, it may have added more nitrogen to the soil, leading to higher nitrogen content in the malt.
+<edge>exptgens->mod_nmin</edge>: Higher experimental yield losses lead to increased dosage of fertilizers (modified mineral nitrogen content in the soil). However, this might be an indirect relationship through farmer's decision-making process rather than a direct one. Farmers may adjust the fertilization strategy based on previous years' experiences.
+<edge>jordn->ngoddwnorm</edge>: Higher mineral nitrogen contents in the soil result in reduced potential for mineral nitrogen uptake and, therefore, lower normalized average minimum values for nitrate reductase activity (ngoodtnorm).
+<edge>exptgens->potnmax</edge>: Since high yield losses typically occur when yields are low, higher experimental yield losses will result in lower maximum theoretical yields (potnmax). However, this could also depend on other factors such as genetics, weather conditions, etc.
+It's essential to note that without further context or data analysis, these interpretations remain speculative. To obtain accurate insights into these relationships, you would need to analyze the dataset using statistical methods like regression analysis or path analysis. You should also consider multicollinearity issues while conducting such analyses, as several predictor variables seem highly correlated with each other.
+
+Given the provided definitions of variables, I suggest the following causal relationships:
+
+<edge>nopt-><edge>ngoded
+<edge>ngoden-><edge>ngoder(value in range, e.g., <edge>ngoden-><edge>ngoded(45-60))
+<edge>ngodnn-><edge>ngoder(value in range, e.g., <edge>ngodnn-><edge>ngoded(above 120 mg/kg))
+<edge>ngodnn-><edge>nproter
+<edge>ngodor-><edge>rokaper
+<edge>saatiddir-><edge>rokapposdir
+Here's a brief explanation of why:
+
+Directly from optimal nitrogen content to non-optimally treated nitrogen content because it reflects an imbalance or incorrect amount applied during fertilization.
+Non-optimally treated nitrogen content can lead to two outcomes - either being too low, represented by "ngoder," or too high, represented by "ngoded." The exact value depends on your experiment results.
+Since "ngodnn" is higher than recommended levels, its effect is similar to that of "ngored" but more pronounced, hence resulting in "nprotern."
+As nitrogen becomes less available in the plant tissues ("ngodor"), root development decreases, leading to lower rooting capacity.
+Late sowing dates may negatively affect crop growth, which could ultimately decrease rooting potential. Therefore, saatiddir influences rokapposdir directly.
+Please note that some connections still require validation through research. To ensure accuracy and completeness, make sure you have enough evidence or experiments to back up every inference made in developing these diagrams. Remember that this work helps identify areas requiring improvement in organic farming practices, promoting sustainable agriculture while minimizing environmental impact. Your efforts contribute greatly towards creating a better future for our planet! Let me know if you have any questions or concerns.

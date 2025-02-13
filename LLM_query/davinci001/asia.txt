@@ -1,0 +1,12 @@
+
+<edge>tuberculosis->positive_xray</edge>: Tuberculosis increases the likelihood of having a positive X-ray result.
+
+<edge>smoking->positive_xray</edge>: Smoking increases the likelihood of having a positive X-ray result.
+
+<edge>lung_cancer->positive_xray</edge>: Lung cancer increases the likelihood of having a positive X-ray result.
+
+<edge>bronchitis->positive_xray</edge>: Bronchitis increases the likelihood of having a positive X-ray result.
+
+<edge>either_turb_or_lung_cancer->positive_xray</edge>: Having either tuberculosis or lung cancer increases the likelihood of having a positive X-ray result.
+
+<edge>dyspnoea->positive_xray</edge>: Dyspnoea increases the likelihood of having a positive X-ray result.

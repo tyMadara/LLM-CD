@@ -1,0 +1,5 @@
+arcs {
+	PKA => Jnk 0.9999;
+	PKC => Raf 0.9999;
+	PIP3 => PIP2 0.9999;
+}

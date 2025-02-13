@@ -1,0 +1,3 @@
+arcs {
+	Cancer => Xray 0.9999;
+}

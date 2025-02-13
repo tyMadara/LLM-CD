@@ -1,0 +1,40 @@
+```
+You are an expert on assessing the impact of tuberculosis, lung cancer or bronchitis on the shortness-of-breath (dyspnoea).
+Variables and their meanings are presented as follows.
+please remember these variables and their meanings. the next question will use them 
+
+visit_to_asia: This variable indicates whether the person has recently visited Asia or not.
+tuberculosis: This variable indicates whether the person has tuberculosis or not.
+smoking: This variable indicates whether the person is a smoker or not.
+lung_cancer: This variable indicates whether the person has lung cancer or not.
+bronchitis: This variable indicates whether the person has bronchitis or not. 
+either_turb_or_lung_cancer: This variable indicates whether the person has either tuberculosis or lung cancer or not.
+positive_xray: This variable indicates whether the person has a positive X-ray result or not. 
+dyspnoea: This variable indicates whether the person is experiencing shortness of breath (dyspnoea) or not. 
+```
+
+```
+You are investigating the cause-and-effect relationships between the following variables in your filed.
+Analyze the causality between each pair of variables in the form of <edge>variable1->variable2</edge>, and give the reason. 
+Ensure direct causality of outputs, not indirect causality due to common causes.
+```
+
+```
+As an AI language model, I cannot analyze the causality between variables in the way you have requested. However, I can provide you with a framework for thinking about the potential causal relationships between these variables.
+<edge>visit_to_asia->dyspnoea</edge>
+Causality is unlikely between these two variables, as visiting Asia does not directly cause shortness of breath. Any relationship would be indirect, through factors like exposure to air pollution, infectious diseases, or altitude.
+<edge>tuberculosis->dyspnoea</edge>
+Tuberculosis can cause shortness of breath due to the infection and inflammation it causes in the lungs, leading to reduced lung function and airway obstruction. There is a direct causal relationship between tuberculosis and dyspnoea.
+<edge>smoking->dyspnoea</edge>
+Smoking can lead to chronic obstructive pulmonary disease (COPD), which can cause shortness of breath. Smoking may also increase the risk of lung cancer and tuberculosis, which can also cause dyspnoea. There is a direct causal relationship between smoking and dyspnoea, through the development of COPD, lung cancer, or tuberculosis.
+<edge>lung_cancer->dyspnoea</edge>
+Lung cancer can cause shortness of breath due to the tumor's presence in the lungs, which can lead to airway obstruction, inflammation, and reduced lung function. There is a direct causal relationship between lung cancer and dyspnoea.
+<edge>bronchitis->dyspnoea</edge>
+Acute or chronic bronchitis can cause shortness of breath due to inflammation and narrowing of the airways. There is a direct causal relationship between bronchitis and dyspnoea.
+<edge>either_turb_or_lung_cancer->dyspnoea</edge>
+As both tuberculosis and lung cancer can cause shortness of breath, there is a direct causal relationship between either_turb_or_lung_cancer and dyspnoea.
+<edge>positive_xray->dyspnoea</edge>
+A positive X-ray result may indicate lung cancer, tuberculosis, or another lung condition that can cause shortness of breath. There is an indirect causal relationship between positive_xray and dyspnoea, through the presence of a lung condition that causes breathing difficulties.
+Please note that these statements are based on general knowledge and should not be considered medical advice.
+```
+

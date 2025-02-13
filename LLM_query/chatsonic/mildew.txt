@@ -1,0 +1,71 @@
+```
+You are an expert in the study of winter wheat mildew control.
+Variables and their meanings are presented as follows.
+Analyze the causality between each pair of variables in the form of <edge>variable1->variable2</edge>, and give the reason. 
+Ensure direct causality of outputs, not indirect causality due to common causes.
+dm_1, dm_2, dm_3, dm_4: These variables represent the dry mass of the winter wheat at four different stages of growth.
+foto_1, foto_2, foto_3, foto_4: These variables represent the photosynthetic rate of the winter wheat at the four different stages.
+straaling_1, straaling_2, straaling_3, straaling_4: These variables represent the solar radiation received by the winter wheat during the four different stages. 
+temp_1, temp_2, temp_3, temp_4: These variables represent the temperature at the four different stages of winter wheat growth. 
+lai_1, lai_2, lai_3, lai_4: These variables represent the Leaf Area Index (LAI) of the winter wheat at the four different stages. 
+meldug_1, meldug_2, meldug_3, meldug_4: These variables represent the degree of mildew infestation at the four different stages of winter wheat growth. 
+mikro_1, mikro_2, mikro_3: These variables represent the microclimate conditions during three different periods of winter wheat growth.
+middel_1, middel_2, middel_3: These variables represent the average amount of fungicide applied during the three different periods of winter wheat growth. 
+nedboer_1, nedboer_2, nedboer_3: These variables represent the amount of precipitation during the three different periods of winter wheat growth. 
+udbytte: This variable represents the yield of the winter wheat crop.
+```
+
+```
+ased on the given variables, the causality relationships between them can be represented as follows:
+
+<edge>dm_1->lai_1</edge>: The dry mass of winter wheat at the first growth stage affects the Leaf Area Index (LAI) at the same stage.
+
+<edge>lai_1->foto_1</edge>: The LAI of winter wheat at the first growth stage affects the photosynthetic rate at the same stage.
+
+<edge>straaling_1->foto_1</edge>: The solar radiation received by the winter wheat at the first growth stage affects the photosynthetic rate at the same stage.
+
+<edge>temp_1->meldug_1</edge>: The temperature at the first growth stage affects the degree of mildew infestation at the same stage.
+
+<edge>mikro_1->meldug_1</edge>: The microclimate conditions during the first period of winter wheat growth affect the degree of mildew infestation at the same stage.
+
+<edge>nedboer_1->meldug_1</edge>: The amount of precipitation during the first period of winter wheat growth affects the degree of mildew infestation at the same stage.
+
+<edge>middel_1->meldug_1</edge>: The average amount of fungicide applied during the first period of winter wheat growth affects the degree of mildew infestation at the same stage.
+
+<edge>dm_2->lai_2</edge>: The dry mass of winter wheat at the second growth stage affects the LAI at the same stage.
+
+<edge>lai_2->foto_2</edge>: The LAI of winter wheat at the second growth stage affects the photosynthetic rate at the same stage.
+
+<edge>straaling_2->foto_2</edge>: The solar radiation received by the winter wheat at the second growth stage affects the photosynthetic rate at the same stage.
+
+<edge>temp_2->meldug_2</edge>: The temperature at the second growth stage affects the degree of mildew infestation at the same stage.
+
+<edge>mikro_2->meldug_2</edge>: The microclimate conditions during the second period of winter wheat growth affect the degree of mildew infestation at the same stage.
+
+<edge>nedboer_2->meldug_2</edge>: The amount of precipitation during the second period of winter wheat growth affects the degree of mildew infestation at the same stage.
+
+<edge>middel_2->meldug_2</edge>: The average amount of fungicide applied during the second period of winter wheat growth affects the degree of mildew infestation at the same stage.
+
+<edge>dm_3->lai_3</edge>: The dry mass of winter wheat at the third growth stage affects the LAI at the same stage.
+
+<edge>lai_3->foto_3</edge>: The LAI of winter wheat at the third growth stage affects the photosynthetic rate at the same stage.
+
+<edge>straaling_3->foto_3</edge>: The solar radiation received by the winter wheat at the third growth stage affects the photosynthetic rate at the same stage.
+
+<edge>temp_3->meldug_3</edge>: The temperature at the third growth stage affects the degree of mildew infestation at the same stage.
+
+<edge>mikro_3->meldug_3</edge>: The microclimate conditions during the third period of winter wheat growth affect the degree of mildew infestation at the same stage.
+
+<edge>nedboer_3->meldug_3</edge>: The amount of precipitation during the third period of winter wheat growth affects the degree of mildew infestation at the same stage.
+
+<edge>middel_3->meldug_3</edge>: The average amount of fungicide applied during the third period of winter wheat growth affects the degree of mildew infestation at the same stage.
+
+<edge>dm_4->lai_4</edge>: The dry mass of winter wheat at the fourth growth stage affects the LAI at the same stage.
+
+<edge>lai_4->foto_4</edge>: The LAI of winter wheat at the fourth growth stage affects the photosynthetic rate at the same stage.
+
+<edge>straaling_4->foto_4</edge>: The solar radiation received by the winter wheat at the fourth growth stage affects the photosynthetic rate at the same stage.
+
+meldug_1, meldug_2, meldug_3, meldug_4->udbytte</edge>: The degree of mildew infestation at all four growth stages affects the yield of the winter wheat crop.
+```
+

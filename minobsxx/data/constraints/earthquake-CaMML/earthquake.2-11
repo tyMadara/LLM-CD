@@ -1,0 +1,4 @@
+arcs {
+	Earthquake => Alarm 0.9999;
+	Alarm => MaryCalls 0.9999;
+}

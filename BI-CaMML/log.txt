@@ -1,0 +1,20 @@
+Running 64 bit version
+Using Sun's standard random number generator.
+Using priors: arcs{
+}
+Metropolis search : ML Model Glue  = CPTLearner(MLMultinomialLearner)
+Metropolis search : MML Model Glue = CPTLearner(AdaptiveCodeLearner(0.5,mml=true))
+Metropolis search : TomCoster = camml.core.search.TOMCoster$UniformTOMCoster@79374ffd
+Setting TOMCoster: camml.plugin.tomCoster.ExpertElicitedTOMCoster@1e64a937
+ -- Learning Bayesian Network -- 
+Setting arcProb = 0.5
+RNG = Java. Seed: -1797696529
+Sampling 3936600 TOMs
+500 data points from 27 variables.
+Estimating arcProb
+Null cost = 11332.48743544739
+012345678901234567890123456789012
+IFFFFFFFFFFCCCCCCCCCCAAAAAAAAAAAA
+arcProb = 0.5
+0123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789
+.................

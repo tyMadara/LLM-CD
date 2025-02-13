@@ -1,0 +1,3 @@
+{ command time -f %U,%S timeout 16h ./search ./data/bdeu/child_2000_4.BDeu ./data/all-constraints/child/child-0.1-1 10 0 out.txt; } 2>> tmp.output 
+Number of data points: 2000
+23200

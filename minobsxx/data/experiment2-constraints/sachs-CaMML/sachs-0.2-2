@@ -1,0 +1,22 @@
+arcs {
+	PIP2 -- PIP3 1.0; 
+	Mek -- PKA 1.0; 
+	PKA -- Jnk 1.0; 
+	PKC -- Jnk 1.0; 
+	PIP2 >> PKC 1.0; 
+	P38 >> Raf 1.0; 
+	Erk >> Raf 1.0; 
+	PIP3 >> PKA 1.0; 
+	Jnk >> Plcg 1.0; 
+	Erk >> P38 1.0; 
+	Erk >> PIP3 1.0; 
+	Akt >> Erk 1.0; 
+	PIP2 >> Plcg 1.0; 
+	PIP2 >> PIP3 1.0; 
+	P38 >> Plcg 1.0; 
+	PKC => Mek 0.9999; 
+	Raf => Mek 0.9999; 
+	Plcg => PIP2 0.9999; 
+	PKC => P38 0.9999; 
+	Erk => Akt 0.9999; 
+}

@@ -1,0 +1,24 @@
+The causalities between these variables could include:
+<edge>GoodStudent->Accident</edge>: Good students may be more careful drivers and have fewer accidents.
+
+<edge>Age->Mileage</edge>: Older policyholders tend to drive more miles than younger ones.
+
+<edge>SocioEcon->RuggedAuto</edge>: Policyholders with higher socioeconomic status are more likely to own newer vehicles, which may generally have better safety features compared to older, less expensive options.
+
+<edge>RiskAversion->MakeModel</edge>: Policyholders who prefer safer models for themselves may also be risk-averse.
+
+<edge>RiskAversion->LowerDrivingSkill</edge>: Risk-averse individuals may lack confidence when operating various types of vehicles and therefore may have poorer driving skills than average.
+
+<edge>Accident->HighMedCost</edge>: More severe accidents usually result in greater medical expenses.
+
+<edge>Accident->PotentialDisabilities</edge>: Accidents with disabling injuries increase the likelihood of long-term effects such as paralysis or chronic pain, which require ongoing care and treatment over time.
+
+<edge>VehicleYear->RuggedAuto</edge>: Newer cars typically have stronger frames, air bags, seat belts, etc., reducing potential harm during collisions; thus, they receive fewer claims overall.
+
+<edge>ThisCarDam->RepairExpense</edge>: If the policyholder's automobile incurs extensive damage, the repair bill will be correspondingly high.
+
+<edge>SevereAccident->AntiTheft</edge>: Vehicles involved in serious crashes often sustain major damage discouraging thieves from attempting to steal them.
+
+<edge>PolicyHolderDamagesOthers->Liability</edge>: A driver responsible for inflicting damage on someone else's property or person must pay for the consequences of their actions, increasing liability exposure.
+
+These assumptions are based on standard insurance industry practices and general human behavior patterns, but local regulations, customer demographics, and specific situations may modify how different factors impact costs. Note again that these assume direct causality only and do not consider influences stemming from common root causes.

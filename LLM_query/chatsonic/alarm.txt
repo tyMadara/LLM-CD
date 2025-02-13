@@ -1,0 +1,99 @@
+```
+You are an expert on providing specific text messages advising the user of possible problems in the ALARM monitoring system.
+Variables and their meanings are presented as follows.
+Analyze the causality between each pair of variables in the form of variable1->variable2, and give the reason. 
+Ensure direct causality of outputs, not indirect causality due to common causes.
+HISTORY: A discrete variable with two possible values - TRUE or FALSE. 
+CVP (Central Venous Pressure)
+PCWP (Pulmonary Capillary Wedge Pressure)
+HYPOVOLEMIA: A discrete variable with two possible values - TRUE or FALSE.
+LVEDVOLUME (Left Ventricular End-Diastolic Volume)
+LVFAILURE (Left Ventricular Failure)
+STROKEVOLUME: A discrete variable with three possible values - LOW, NORMAL, or HIGH. 
+ERRLOWOUTPUT (Error Low Output)
+HRBP (Heart Rate Blood Pressure)
+HREKG (Heart Rate Electrocardiogram)
+ERRCAUTER (Error Cauterization)
+HRSAT (Heart Rate Saturation)
+INSUFFANESTH (Insufficient Anesthesia)
+ANAPHYLAXIS: A discrete variable with two possible values - TRUE or FALSE. 
+TPR (Total Peripheral Resistance)
+EXPCO2 (Exhaled Carbon Dioxide)
+KINKEDTUBE: A discrete variable with two possible values - TRUE or FALSE. 
+MINVOL (Minute Volume)
+FIO2 (Fraction of Inspired Oxygen)
+PVSAT (Peripheral Venous Saturation)
+SAO2 (Arterial Oxygen Saturation)
+PAP (Pulmonary Artery Pressure)
+PULMEMBOLUS (Pulmonary Embolism)
+SHUNT: A discrete variable with two possible values - NORMAL or HIGH. 
+INTUBATION: A discrete variable with three possible values - NORMAL, ESOPHAGEAL, or ONESIDED.
+PRESS (Pressure) 
+DISCONNECT: A discrete variable with two possible values - TRUE or FALSE. 
+MINVOLSET (Minute Volume Set)
+VENTMACH (Ventilator Machine)
+VENTTUBE (Ventilator Tube)
+VENTLUNG (Ventilator Lung)
+VENTALV (Ventilator Alveoli)
+ARTCO2 (Arterial Carbon Dioxide)
+CATECHOL (Catecholamines)
+HR (Heart Rate)
+CO (Cardiac Output)
+BP (Blood Pressure)
+```
+
+```
+The causality relationships between the variables are as follows:
+
+
+<edge>HISTORY->CATECHOL</edge>: The patient's medical history can affect the secretion of catecholamines.
+
+<edge>CVP->HYPOVOLEMIA</edge>: A decrease in central venous pressure can indicate hypovolemia.
+
+<edge>PCWP->LVFAILURE</edge>: An increase in pulmonary capillary wedge pressure can indicate left ventricular failure.
+
+<edge>LVEDVOLUME->LVFAILURE</edge>: An increase in left ventricular end-diastolic volume can lead to left ventricular failure.
+
+<edge>LVFAILURE->STROKEVOLUME</edge>: Left ventricular failure can cause a decrease in stroke volume.
+
+<edge>ERRLOWOUTPUT->STROKEVOLUME</edge>: A low output error can lead to a decrease in stroke volume.
+
+<edge>HRBP->ERRLOWOUTPUT</edge>: An increase in heart rate and blood pressure can cause a low output error.
+
+<edge>HREKG->ERRCAUTER</edge>: An abnormal heart rate on electrocardiogram can indicate an error in cautery.
+
+<edge>HRSAT->INSUFFANESTH</edge>: A decrease in heart rate saturation can indicate insufficient anesthesia.
+
+<edge>TPR->BP</edge>: An increase in total peripheral resistance can cause an increase in blood pressure.
+
+<edge>EXPCO2->HYPVENT</edge>: An increase in exhaled carbon dioxide can indicate hyperventilation.
+
+<edge>KINKEDTUBE->VENTALV</edge>: A kinked ventilator tube can cause a decrease in ventilation to the alveoli.
+
+<edge>MINVOL->HYPOVENT</edge>: A decrease in minute volume can indicate hypoventilation.
+
+<edge>FIO2->HYPOXIA</edge>: A decrease in the fraction of inspired oxygen can cause hypoxia.
+
+<edge>PVSAT->SAO2</edge>: Peripheral venous saturation can affect arterial oxygen saturation.
+
+<edge>PAP->PULMEMBOLUS</edge>: An increase in pulmonary artery pressure can indicate a pulmonary embolism.
+
+<edge>SHUNT->HYPOXIA</edge>: An increase in shunt can lead to hypoxia.
+
+<edge>INTUBATION->DISCONNECT</edge>: Incorrect intubation can cause disconnection from the ventilator.
+
+<edge>PRESS->BAROTRAUMA</edge>: High pressure on the lungs can cause barotrauma.
+
+<edge>MINVOLSET->VENTMACH</edge>: The set minute volume can affect the ventilator machine settings.
+
+<edge>VENTMACH->VENTTUBE</edge>: The ventilator machine can affect the ventilator tube.
+
+<edge>VENTTUBE->VENTLUNG</edge>: The ventilator tube can affect the ventilation of the lungs.
+
+<edge>VENTLUNG->ARTCO2</edge>: Ventilation of the lungs affects arterial carbon dioxide levels.
+
+<edge>CATECHOL->HR</edge>: Catecholamines can increase heart rate.
+
+<edge>CO->BP</edge>: An increase in cardiac output can cause an increase in blood pressure.
+```
+

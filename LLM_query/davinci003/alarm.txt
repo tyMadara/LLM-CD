@@ -1,0 +1,34 @@
+
+<edge>HISTORY->CVP</edge>: A patient's medical history can influence their central venous pressure, as certain medical conditions can cause increased pressure within the thoracic vena cava.
+
+<edge>CVP->PCWP</edge>: The central venous pressure is directly related to the pressure in the pulmonary capillaries, as the pressure in the thoracic vena cava will be reflected in the pressure in the pulmonary capillaries.
+
+<edge>PCWP->HYPOVOLEMIA</edge>: An elevated pulmonary capillary wedge pressure can be indicative of hypovolemia, as a decrease in the amount of blood in the body can lead to increased pressure in the pulmonary capillaries.
+
+<edge>HYPOVOLEMIA->LVEDVOLUME</edge>: Low blood volume can lead to a decrease in the volume of blood in the left ventricle at the end of diastole, as the body is unable to fill the ventricle with sufficient blood.
+
+<edge>LVEDVOLUME->LVFAILURE</edge>: A decrease in the volume of blood in the left ventricle at the end of diastole can lead to left ventricular failure, as the ventricle is unable to pump an adequate amount of blood.
+
+<edge>LVFAILURE->STROKEVOLUME</edge>: Left ventricular failure can lead to a decrease in the stroke volume, as the ventricle is unable to pump an adequate amount of blood.
+
+<edge>STROKEVOLUME->ERRLOWOUTPUT</edge>: A decrease in the stroke volume can lead to an error in the measurement of the cardiac output, resulting in a falsely low reading.
+
+<edge>HRBP->HREKG</edge>: The relationship between heart rate and blood pressure is directly related to the heart rate as measured by an electrocardiogram, as the two measurements are closely linked.
+
+<edge>HREKG->ERRCAUTER</edge>: An abnormal heart rate as measured by an electrocardiogram can indicate an error related to a cauterization procedure, as the procedure may have caused an arrhythmia or other abnormal heart rate.
+
+<edge>HRSAT->INSUFFANESTH</edge>: The oxygen saturation in relation to the heart rate can indicate insufficient anesthesia during a procedure, as the patient may not be receiving enough anesthesia to remain unconscious during the procedure.
+
+<edge>INSUFFANESTH->ANAPHYLAXIS</edge>: Insufficient anesthesia during a procedure can lead to an anaphylactic reaction, as the patient may be exposed to allergens or other substances without being adequately sedated.
+
+<edge>TPR->EXPCO2</edge>: The resistance to blood flow in the circulatory system can influence the amount of carbon dioxide exhaled by the patient, as the resistance to blood flow can affect the amount of oxygen and carbon dioxide exchanged in the lungs.
+
+<edge>KINKEDTUBE->MINVOL</edge>: A kink in a tube can impede airflow, resulting in a decrease in the volume of gas inhaled or exhaled by the patient in one minute.
+
+<edge>MINVOL->FIO2</edge>: The volume of gas inhaled or exhaled by the patient in one minute can influence the concentration of oxygen in the inspired air, as the amount of oxygen inhaled will be affected by the rate of inhalation.
+
+<edge>FIO2->PVSAT</edge>: The concentration of oxygen in the inspired air can influence the oxygen saturation in the peripheral venous blood, as the oxygen in the inspired air will be absorbed into the blood.
+
+<edge>PVSAT->SAO2</edge>: The oxygen saturation in the peripheral venous blood is directly related to the percentage of hemoglobin in the arterial blood that is saturated with oxygen, as oxygen will be transferred from the venous blood to the arterial blood.
+
+<edge>SAO2->PAP</edge>: The percentage of hemoglobin in the arterial blood that is saturated with oxygen can influence

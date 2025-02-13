@@ -1,0 +1,96 @@
+(KG2CSL) wxy@wxy-AMD:~/bty/LLM_CSL$  cd /home/wxy/bty/LLM_CSL ; /usr/bin/env /home/wxy/anaconda3/envs/KG2CSL/bin/python /home/wxy/.vscode-server/extensions/ms-python.python-2023.10.1/pythonFiles/lib/python/debugpy/adapter/../../debugpy/launcher 32937 -- /home/wxy/bty/LLM_CSL/LLM_evaluate.py 
+cancer
+{'extra': 1, 'missing': 0, 'reverse': 1, 'fdr': 0.4, 'tpr': 0.75, 'fpr': 0.3333, 'shd': 2, 'nnz': 5, 'precision': 0.6, 'recall': 0.75, 'F1': 0.6667, 'gscore': 0.25}
+4 / 5
+Smoker Cancer
+Pollution Cancer
+Xray Cancer
+Smoker Dyspnoea
+Cancer Dyspnoea
+asia
+{'extra': 5, 'missing': 7, 'reverse': 0, 'fdr': 0.8333, 'tpr': 0.125, 'fpr': 0.25, 'shd': 12, 'nnz': 6, 'precision': 0.1667, 'recall': 0.125, 'F1': 0.1429, 'gscore': 0.0}
+4 / 6
+tuberculosis positive_xray
+smoking positive_xray
+lung_cancer positive_xray
+bronchitis positive_xray
+either_turb_or_lung_cancer positive_xray
+dyspnoea positive_xray
+/home/wxy/bty/LLM_CSL/myEva.py:225: RuntimeWarning: invalid value encountered in scalar divide
+  F1 = 2*(recall*precision)/(recall+precision)
+child
+{'extra': 3, 'missing': 24, 'reverse': 1, 'fdr': 1.0, 'tpr': 0.0, 'fpr': 0.0242, 'shd': 28, 'nnz': 4, 'precision': 0.0, 'recall': 0.0, 'F1': nan, 'gscore': 0.0}
+1 / 4
+BirthAsphyxia HypDistrib
+HypoxiaInO2 CO2
+LVH LowerBodyO2
+Age Disease
+insurance
+{'extra': 15, 'missing': 45, 'reverse': 1, 'fdr': 0.7273, 'tpr': 0.1154, 'fpr': 0.0535, 'shd': 61, 'nnz': 22, 'precision': 0.2609, 'recall': 0.1154, 'F1': 0.16, 'gscore': 0.0}
+15 / 23
+VehicleYear Age
+VehicleYear RiskAversion
+VehicleYear MakeModel
+VehicleYear DrivingSkill
+VehicleYear Mileage
+VehicleYear Theft
+VehicleYear CarValue
+VehicleYear HomeBase
+VehicleYear AntiTheft
+VehicleYear Airbag
+VehicleYear ILiCost
+Age GoodStudent
+Age SocioEcon
+Age RiskAversion
+Age VehicleYear
+Age MakeModel
+Age DrivingSkill
+Age Mileage
+Age Theft
+Age CarValue
+Age HomeBase
+Age AntiTheft
+Age Airbag
+alarm
+{'extra': 10, 'missing': 37, 'reverse': 2, 'fdr': 0.6316, 'tpr': 0.1522, 'fpr': 0.0194, 'shd': 49, 'nnz': 19, 'precision': 0.3684, 'recall': 0.1522, 'F1': 0.2154, 'gscore': 0.0}
+7 / 19
+HISTORY CVP
+HISTORY PCWP
+HYPOVOLEMIA LVEDVOLUME
+HYPOVOLEMIA LVFAILURE
+STROKEVOLUME HRBP
+STROKEVOLUME HREKG
+ERRLOWOUTPUT HREKG
+HRSAT INSUFFANESTH
+ANAPHYLAXIS TPR
+EXPCO2 KINKEDTUBE
+MINVOL FIO2
+PVSAT SAO2
+PAP PULMEMBOLUS
+SHUNT INTUBATION
+PRESS DISCONNECT
+MINVOLSET VENTMACH
+VENTTUBE VENTLUNG
+VENTLUNG VENTALV
+ARTCO2 CATECHOL
+/home/wxy/bty/LLM_CSL/myEva.py:223: RuntimeWarning: invalid value encountered in scalar divide
+  precision = TP/TP_FP
+water
+{'extra': 0, 'missing': 66, 'reverse': 0, 'fdr': 0.0, 'tpr': 0.0, 'fpr': 0.0, 'shd': 66, 'nnz': 0, 'precision': nan, 'recall': 0.0, 'F1': nan, 'gscore': 0.0}
+0 / 0
+mildew
+{'extra': 8, 'missing': 45, 'reverse': 0, 'fdr': 0.8889, 'tpr': 0.0217, 'fpr': 0.0146, 'shd': 53, 'nnz': 9, 'precision': 0.1111, 'recall': 0.0217, 'F1': 0.0364, 'gscore': 0.0}
+3 / 9
+straaling_1 dm_1
+straaling_1 foto_1
+straaling_1 temp_1
+straaling_1 lai_1
+straaling_1 meldug_1
+straaling_1 mikro_1
+straaling_1 middel_1
+straaling_1 nedboer_1
+straaling_1 udbytte
+barley
+{'extra': 1, 'missing': 84, 'reverse': 0, 'fdr': 1.0, 'tpr': 0.0, 'fpr': 0.001, 'shd': 85, 'nnz': 1, 'precision': 0.0, 'recall': 0.0, 'F1': nan, 'gscore': 0.0}
+0 / 1
+jordtype komm

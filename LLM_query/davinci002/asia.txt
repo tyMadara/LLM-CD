@@ -1,0 +1,12 @@
+
+<edge>visit_to_asia->tuberculosis</edge>: The person has recently visited Asia, so they are more likely to have been exposed to tuberculosis and to have contracted the disease.
+
+<edge>tuberculosis->dyspnoea</edge>: The person has tuberculosis, which can cause shortness of breath (dyspnoea).
+
+<edge>smoking->lung_cancer</edge>: The person is a smoker, which increases their risk of developing lung cancer.
+
+<edge>lung_cancer->dyspnoea</edge>: The person has lung cancer, which can cause shortness of breath (dyspnoea).
+
+<edge>bronchitis->dyspnoea</edge>: The person has bronchitis, which can cause shortness of breath (dyspnoea).
+
+<edge>either_turb_or_lung_cancer->positive_xray</edge>: The person has either tuberculosis or lung cancer, which would show up on a positive X-ray.

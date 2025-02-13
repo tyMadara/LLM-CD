@@ -1,0 +1,3 @@
+arcs {
+	Pollution => Dyspnoea 0.9999;
+}

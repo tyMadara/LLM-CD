@@ -1,0 +1,41 @@
+<edge>BirthAsphyxia->HypoxiaInO2</edge>: The lack of oxygen during birth can cause hypoxia in the body.
+
+<edge>HypDistrib->HypoxiaInO2</edge>: If blood flow is unevenly distributed, some areas may not receive enough oxygen and result in hypoxia.
+
+<edge>CO2->HypoxiaInO2</edge>: When carbon dioxide levels are high, it can displace oxygen in the body and lead to hypoxia.
+
+<edge>ChestXray->Oligaemic</edge>: Reduced blood flow in the body may be reflected in an oligaemic appearance on the chest X-ray.
+
+<edge>ChestXray->Plethoric</edge>: Increased blood flow in the body may be reflected in a plethoric appearance on the chest X-ray.
+
+<edge>ChestXray->Grd_Glass</edge>: Ground-glass opacity on the chest X-ray may indicate fluid accumulation, inflammation, or infection in the lungs.
+
+<edge>ChestXray->Asy/Patch: Asymmetric or patchy appearance on the chest X-ray may suggest lung disease or infection.
+
+<edge>Grunting->Disease</edge>: Grunting may be a symptom of various conditions such as lung disease, persistent fetal circulation, or transposition of the great arteries.
+
+<edge>LVHreport->LVH</edge>: The presence of LVH in the medical report indicates its presence in the newborn.
+
+<edge>LowerBodyO2->HypoxiaInO2</edge>: Low oxygen saturation levels in the lower body may suggest hypoxia in other parts of the body.
+
+<edge>RUQO2->HypoxiaInO2</edge>: Low oxygen saturation levels in the right upper quadrant of the body may suggest hypoxia in other parts of the body.
+
+<edge>CO2Report->CO2</edge>: CO2 levels in the medical report indicate the carbon dioxide levels in the body.
+
+<edge>XrayReport->Oligaemic</edge>: Oligaemic appearance on the chest X-ray in the medical report may suggest reduced blood flow.
+
+<edge>XrayReport->Plethoric</edge>: Plethoric appearance on the chest X-ray in the medical report may suggest increased blood flow.
+
+<edge>XrayReport->Grd_Glass</edge>: Ground-glass opacity on the chest X-ray in the medical report may suggest fluid accumulation, inflammation, or infection in the lungs.
+
+<edge>XrayReport->Asy/Patchy: Asymmetric or patchy appearance on the chest X-ray in the medical report may suggest lung disease or infection.
+
+<edge>Age->Disease</edge>: The age of the newborn may affect the likelihood of certain diseases.
+
+<edge>LVH->CardiacMixing</edge>: LVH can affect the mixing of blood in the heart.
+
+<edge>DuctFlow->CardiacMixing</edge>: The direction of blood flow in the ductus arteriosus can affect the mixing of blood in the heart.
+
+<edge>LungParench->LungFlow</edge>: Abnormal lung parenchyma may affect blood flow in the lungs.
+
+<edge>Sick->Disease</edge>: Newborns who are sick may be more susceptible to certain diseases.

@@ -1,0 +1,98 @@
+d=rectum_cancer s=155 r=1 conf=0.99999 palim=0 prior=n prior_type=n pruning=None score=MML prior_source=GPT4
+{'extra': 0, 'missing': 3, 'reverse': 2, 'fdr': 0.6667, 'tpr': 0.1667, 'fpr': 0.0667, 'shd': 5, 'nnz': 3, 'precision': 0.3333, 'recall': 0.1667, 'F1': 0.2222, 'gscore': 0.0, 'time': 0.7615103721618652}
+d=rectum_cancer s=155 r=1 conf=0.99999 palim=0 prior=a prior_type=p pruning=None score=MML prior_source=GPT4
+{'extra': 4, 'missing': 2, 'reverse': 1, 'fdr': 0.625, 'tpr': 0.5, 'fpr': 0.1667, 'shd': 7, 'nnz': 8, 'precision': 0.375, 'recall': 0.5, 'F1': 0.4286, 'gscore': 0.0, 'time': 1.037964105606079}
+d=rectum_cancer s=155 r=1 conf=0.99999 palim=0 prior=a prior_type=p pruning=None score=MML prior_source=GPT4
+{'extra': 3, 'missing': 4, 'reverse': 0, 'fdr': 0.6, 'tpr': 0.3333, 'fpr': 0.1, 'shd': 7, 'nnz': 5, 'precision': 0.4, 'recall': 0.3333, 'F1': 0.3636, 'gscore': 0.0, 'time': 1.0393898487091064}
+d=rectum_cancer s=155 r=1 conf=0.99999 palim=0 prior=a prior_type=p pruning=None score=MML prior_source=GPT4
+{'extra': 3, 'missing': 4, 'reverse': 0, 'fdr': 0.6, 'tpr': 0.3333, 'fpr': 0.1, 'shd': 7, 'nnz': 5, 'precision': 0.4, 'recall': 0.3333, 'F1': 0.3636, 'gscore': 0.0, 'time': 1.034834384918213}
+d=rectum_cancer s=155 r=1 conf=0.99999 palim=0 prior=a prior_type=p pruning=None score=MML prior_source=GPT4
+{'extra': 4, 'missing': 2, 'reverse': 1, 'fdr': 0.625, 'tpr': 0.5, 'fpr': 0.1667, 'shd': 7, 'nnz': 8, 'precision': 0.375, 'recall': 0.5, 'F1': 0.4286, 'gscore': 0.0, 'time': 1.0588130950927734}
+d=rectum_cancer s=155 r=1 conf=0.99999 palim=0 prior=a prior_type=p pruning=None score=MML prior_source=GPT4
+{'extra': 3, 'missing': 3, 'reverse': 1, 'fdr': 0.6667, 'tpr': 0.3333, 'fpr': 0.1333, 'shd': 7, 'nnz': 6, 'precision': 0.3333, 'recall': 0.3333, 'F1': 0.3333, 'gscore': 0.0, 'time': 1.1470403671264648}
+d=rectum_cancer s=155 r=1 conf=0.99999 palim=0 prior=a prior_type=p pruning=None score=MML prior_source=GPT4
+{'extra': 3, 'missing': 3, 'reverse': 1, 'fdr': 0.6667, 'tpr': 0.3333, 'fpr': 0.1333, 'shd': 7, 'nnz': 6, 'precision': 0.3333, 'recall': 0.3333, 'F1': 0.3333, 'gscore': 0.0, 'time': 1.0932137966156006}
+d=rectum_cancer s=155 r=1 conf=0.99999 palim=0 prior=a prior_type=p pruning=None score=MML prior_source=GPT4
+{'extra': 3, 'missing': 4, 'reverse': 0, 'fdr': 0.6, 'tpr': 0.3333, 'fpr': 0.1, 'shd': 7, 'nnz': 5, 'precision': 0.4, 'recall': 0.3333, 'F1': 0.3636, 'gscore': 0.0, 'time': 0.9389734268188477}
+d=rectum_cancer s=155 r=1 conf=0.99999 palim=0 prior=a prior_type=p pruning=None score=MML prior_source=GPT4
+{'extra': 3, 'missing': 3, 'reverse': 1, 'fdr': 0.6667, 'tpr': 0.3333, 'fpr': 0.1333, 'shd': 7, 'nnz': 6, 'precision': 0.3333, 'recall': 0.3333, 'F1': 0.3333, 'gscore': 0.0, 'time': 1.0019619464874268}
+d=rectum_cancer s=155 r=1 conf=0.99999 palim=0 prior=a prior_type=p pruning=None score=MML prior_source=GPT4
+{'extra': 4, 'missing': 2, 'reverse': 1, 'fdr': 0.625, 'tpr': 0.5, 'fpr': 0.1667, 'shd': 7, 'nnz': 8, 'precision': 0.375, 'recall': 0.5, 'F1': 0.4286, 'gscore': 0.0, 'time': 1.0727946758270264}
+d=rectum_cancer s=155 r=1 conf=0.99999 palim=0 prior=n prior_type=n pruning=None score=MML prior_source=GPT4
+{'extra': 0, 'missing': 3, 'reverse': 1, 'fdr': 0.3333, 'tpr': 0.3333, 'fpr': 0.0333, 'shd': 4, 'nnz': 3, 'precision': 0.6667, 'recall': 0.3333, 'F1': 0.4444, 'gscore': 0.1667, 'time': 0.717167854309082}
+d=rectum_cancer s=155 r=1 conf=0.99999 palim=0 prior=n prior_type=n pruning=None score=MML prior_source=GPT4
+{'extra': 1, 'missing': 3, 'reverse': 1, 'fdr': 0.5, 'tpr': 0.3333, 'fpr': 0.0667, 'shd': 5, 'nnz': 4, 'precision': 0.5, 'recall': 0.3333, 'F1': 0.4, 'gscore': 0.0, 'time': 0.7295949459075928}
+d=rectum_cancer s=155 r=1 conf=0.99999 palim=0 prior=n prior_type=n pruning=None score=MML prior_source=GPT4
+{'extra': 0, 'missing': 3, 'reverse': 2, 'fdr': 0.6667, 'tpr': 0.1667, 'fpr': 0.0667, 'shd': 5, 'nnz': 3, 'precision': 0.3333, 'recall': 0.1667, 'F1': 0.2222, 'gscore': 0.0, 'time': 0.7632002830505371}
+d=rectum_cancer s=155 r=1 conf=0.99999 palim=0 prior=n prior_type=n pruning=None score=MML prior_source=GPT4
+{'extra': 0, 'missing': 3, 'reverse': 1, 'fdr': 0.3333, 'tpr': 0.3333, 'fpr': 0.0333, 'shd': 4, 'nnz': 3, 'precision': 0.6667, 'recall': 0.3333, 'F1': 0.4444, 'gscore': 0.1667, 'time': 0.7234647274017334}
+d=rectum_cancer s=155 r=1 conf=0.99999 palim=0 prior=n prior_type=n pruning=None score=MML prior_source=GPT4
+{'extra': 0, 'missing': 3, 'reverse': 2, 'fdr': 0.6667, 'tpr': 0.1667, 'fpr': 0.0667, 'shd': 5, 'nnz': 3, 'precision': 0.3333, 'recall': 0.1667, 'F1': 0.2222, 'gscore': 0.0, 'time': 0.742560863494873}
+d=rectum_cancer s=155 r=1 conf=0.99999 palim=0 prior=n prior_type=n pruning=None score=MML prior_source=GPT4
+{'extra': 0, 'missing': 4, 'reverse': 1, 'fdr': 0.5, 'tpr': 0.1667, 'fpr': 0.0333, 'shd': 5, 'nnz': 2, 'precision': 0.5, 'recall': 0.1667, 'F1': 0.25, 'gscore': 0.0, 'time': 0.7319133281707764}
+d=rectum_cancer s=155 r=1 conf=0.99999 palim=0 prior=n prior_type=n pruning=None score=MML prior_source=GPT4
+{'extra': 0, 'missing': 3, 'reverse': 2, 'fdr': 0.6667, 'tpr': 0.1667, 'fpr': 0.0667, 'shd': 5, 'nnz': 3, 'precision': 0.3333, 'recall': 0.1667, 'F1': 0.2222, 'gscore': 0.0, 'time': 0.7780532836914062}
+d=rectum_cancer s=155 r=1 conf=0.99999 palim=0 prior=n prior_type=n pruning=None score=MML prior_source=GPT4
+{'extra': 0, 'missing': 4, 'reverse': 0, 'fdr': 0.0, 'tpr': 0.3333, 'fpr': 0.0, 'shd': 4, 'nnz': 2, 'precision': 1.0, 'recall': 0.3333, 'F1': 0.5, 'gscore': 0.3333, 'time': 0.8092408180236816}
+d=rectum_cancer s=155 r=1 conf=0.99999 palim=0 prior=n prior_type=n pruning=None score=MML prior_source=GPT4
+{'extra': 0, 'missing': 3, 'reverse': 1, 'fdr': 0.3333, 'tpr': 0.3333, 'fpr': 0.0333, 'shd': 4, 'nnz': 3, 'precision': 0.6667, 'recall': 0.3333, 'F1': 0.4444, 'gscore': 0.1667, 'time': 0.823859691619873}
+d=rectum_cancer s=155 r=1 conf=0.99999 palim=0 prior=n prior_type=n pruning=None score=MML prior_source=GPT4
+{'extra': 0, 'missing': 3, 'reverse': 2, 'fdr': 0.6667, 'tpr': 0.1667, 'fpr': 0.0667, 'shd': 5, 'nnz': 3, 'precision': 0.3333, 'recall': 0.1667, 'F1': 0.2222, 'gscore': 0.0, 'time': 0.785254716873169}
+d=rectum_cancer s=155 r=1 conf=0.99999 palim=0 prior=a prior_type=p pruning=None score=MML prior_source=GPT4
+{'extra': 4, 'missing': 2, 'reverse': 1, 'fdr': 0.625, 'tpr': 0.5, 'fpr': 0.1667, 'shd': 7, 'nnz': 8, 'precision': 0.375, 'recall': 0.5, 'F1': 0.4286, 'gscore': 0.0, 'time': 0.9270727634429932}
+d=rectum_cancer s=155 r=1 conf=0.99999 palim=0 prior=a prior_type=p pruning=None score=MML prior_source=GPT4
+{'extra': 5, 'missing': 3, 'reverse': 1, 'fdr': 0.75, 'tpr': 0.3333, 'fpr': 0.2, 'shd': 9, 'nnz': 8, 'precision': 0.25, 'recall': 0.3333, 'F1': 0.2857, 'gscore': 0.0, 'time': 1.1586742401123047}
+d=rectum_cancer s=155 r=1 conf=0.99999 palim=0 prior=a prior_type=p pruning=None score=MML prior_source=GPT4
+{'extra': 3, 'missing': 3, 'reverse': 1, 'fdr': 0.6667, 'tpr': 0.3333, 'fpr': 0.1333, 'shd': 7, 'nnz': 6, 'precision': 0.3333, 'recall': 0.3333, 'F1': 0.3333, 'gscore': 0.0, 'time': 1.0368270874023438}
+d=rectum_cancer s=155 r=1 conf=0.99999 palim=0 prior=a prior_type=p pruning=None score=MML prior_source=GPT4
+{'extra': 4, 'missing': 2, 'reverse': 1, 'fdr': 0.625, 'tpr': 0.5, 'fpr': 0.1667, 'shd': 7, 'nnz': 8, 'precision': 0.375, 'recall': 0.5, 'F1': 0.4286, 'gscore': 0.0, 'time': 1.0691149234771729}
+d=rectum_cancer s=155 r=1 conf=0.99999 palim=0 prior=a prior_type=p pruning=None score=MML prior_source=GPT4
+{'extra': 4, 'missing': 3, 'reverse': 0, 'fdr': 0.5714, 'tpr': 0.5, 'fpr': 0.1333, 'shd': 7, 'nnz': 7, 'precision': 0.4286, 'recall': 0.5, 'F1': 0.4615, 'gscore': 0.0, 'time': 1.0664777755737305}
+d=rectum_cancer s=155 r=1 conf=0.99999 palim=0 prior=a prior_type=p pruning=None score=MML prior_source=GPT4
+{'extra': 5, 'missing': 3, 'reverse': 1, 'fdr': 0.75, 'tpr': 0.3333, 'fpr': 0.2, 'shd': 9, 'nnz': 8, 'precision': 0.25, 'recall': 0.3333, 'F1': 0.2857, 'gscore': 0.0, 'time': 1.0342929363250732}
+d=rectum_cancer s=155 r=1 conf=0.99999 palim=0 prior=a prior_type=p pruning=None score=MML prior_source=GPT4
+{'extra': 4, 'missing': 2, 'reverse': 1, 'fdr': 0.625, 'tpr': 0.5, 'fpr': 0.1667, 'shd': 7, 'nnz': 8, 'precision': 0.375, 'recall': 0.5, 'F1': 0.4286, 'gscore': 0.0, 'time': 1.0474927425384521}
+d=rectum_cancer s=155 r=1 conf=0.99999 palim=0 prior=a prior_type=p pruning=None score=MML prior_source=GPT4
+{'extra': 4, 'missing': 4, 'reverse': 0, 'fdr': 0.6667, 'tpr': 0.3333, 'fpr': 0.1333, 'shd': 8, 'nnz': 6, 'precision': 0.3333, 'recall': 0.3333, 'F1': 0.3333, 'gscore': 0.0, 'time': 1.0833747386932373}
+d=rectum_cancer s=155 r=1 conf=0.99999 palim=0 prior=a prior_type=p pruning=None score=MML prior_source=GPT4
+{'extra': 4, 'missing': 4, 'reverse': 0, 'fdr': 0.6667, 'tpr': 0.3333, 'fpr': 0.1333, 'shd': 8, 'nnz': 6, 'precision': 0.3333, 'recall': 0.3333, 'F1': 0.3333, 'gscore': 0.0, 'time': 1.1379740238189697}
+d=rectum_cancer s=155 r=1 conf=0.99999 palim=0 prior=a prior_type=p pruning=None score=MML prior_source=GPT4
+{'extra': 4, 'missing': 4, 'reverse': 0, 'fdr': 0.6667, 'tpr': 0.3333, 'fpr': 0.1333, 'shd': 8, 'nnz': 6, 'precision': 0.3333, 'recall': 0.3333, 'F1': 0.3333, 'gscore': 0.0, 'time': 1.1535365581512451}
+d=rectum_cancer s=155 r=1 conf=0.99999 palim=0 prior=a prior_type=p pruning=None score=MML prior_source=GPT4
+{'extra': 4, 'missing': 4, 'reverse': 0, 'fdr': 0.6667, 'tpr': 0.3333, 'fpr': 0.1333, 'shd': 8, 'nnz': 6, 'precision': 0.3333, 'recall': 0.3333, 'F1': 0.3333, 'gscore': 0.0, 'time': 1.1013953685760498}
+d=rectum_cancer s=155 r=1 conf=0.99999 palim=0 prior=a prior_type=p pruning=None score=MML prior_source=GPT4
+{'extra': 4, 'missing': 2, 'reverse': 1, 'fdr': 0.625, 'tpr': 0.5, 'fpr': 0.1667, 'shd': 7, 'nnz': 8, 'precision': 0.375, 'recall': 0.5, 'F1': 0.4286, 'gscore': 0.0, 'time': 0.9305403232574463}
+d=rectum_cancer s=155 r=1 conf=0.99999 palim=0 prior=a prior_type=p pruning=None score=MML prior_source=GPT4
+{'extra': 4, 'missing': 2, 'reverse': 1, 'fdr': 0.625, 'tpr': 0.5, 'fpr': 0.1667, 'shd': 7, 'nnz': 8, 'precision': 0.375, 'recall': 0.5, 'F1': 0.4286, 'gscore': 0.0, 'time': 0.8893857002258301}
+d=rectum_cancer s=155 r=1 conf=0.99999 palim=0 prior=a prior_type=p pruning=None score=MML prior_source=GPT4
+{'extra': 3, 'missing': 2, 'reverse': 1, 'fdr': 0.5714, 'tpr': 0.5, 'fpr': 0.1333, 'shd': 6, 'nnz': 7, 'precision': 0.4286, 'recall': 0.5, 'F1': 0.4615, 'gscore': 0.0, 'time': 1.0312869548797607}
+d=rectum_cancer s=155 r=1 conf=0.99999 palim=0 prior=a prior_type=p pruning=None score=MML prior_source=GPT4
+{'extra': 3, 'missing': 2, 'reverse': 1, 'fdr': 0.5714, 'tpr': 0.5, 'fpr': 0.1333, 'shd': 6, 'nnz': 7, 'precision': 0.4286, 'recall': 0.5, 'F1': 0.4615, 'gscore': 0.0, 'time': 0.9859991073608398}
+d=rectum_cancer s=155 r=1 conf=0.99999 palim=0 prior=a prior_type=p pruning=None score=MML prior_source=GPT4
+{'extra': 3, 'missing': 2, 'reverse': 1, 'fdr': 0.5714, 'tpr': 0.5, 'fpr': 0.1333, 'shd': 6, 'nnz': 7, 'precision': 0.4286, 'recall': 0.5, 'F1': 0.4615, 'gscore': 0.0, 'time': 1.0937185287475586}
+d=rectum_cancer s=155 r=1 conf=0.99999 palim=0 prior=a prior_type=p pruning=None score=MML prior_source=GPT4
+{'extra': 3, 'missing': 2, 'reverse': 1, 'fdr': 0.5714, 'tpr': 0.5, 'fpr': 0.1333, 'shd': 6, 'nnz': 7, 'precision': 0.4286, 'recall': 0.5, 'F1': 0.4615, 'gscore': 0.0, 'time': 0.9666345119476318}
+d=rectum_cancer s=155 r=1 conf=0.99999 palim=0 prior=a prior_type=p pruning=None score=MML prior_source=GPT4
+{'extra': 3, 'missing': 2, 'reverse': 1, 'fdr': 0.5714, 'tpr': 0.5, 'fpr': 0.1333, 'shd': 6, 'nnz': 7, 'precision': 0.4286, 'recall': 0.5, 'F1': 0.4615, 'gscore': 0.0, 'time': 1.0189824104309082}
+d=rectum_cancer s=155 r=1 conf=0.99999 palim=0 prior=a prior_type=p pruning=None score=MML prior_source=GPT4
+{'extra': 3, 'missing': 2, 'reverse': 1, 'fdr': 0.5714, 'tpr': 0.5, 'fpr': 0.1333, 'shd': 6, 'nnz': 7, 'precision': 0.4286, 'recall': 0.5, 'F1': 0.4615, 'gscore': 0.0, 'time': 1.0222442150115967}
+d=rectum_cancer s=155 r=1 conf=0.99999 palim=0 prior=a prior_type=p pruning=None score=MML prior_source=GPT4
+{'extra': 3, 'missing': 4, 'reverse': 0, 'fdr': 0.6, 'tpr': 0.3333, 'fpr': 0.1, 'shd': 7, 'nnz': 5, 'precision': 0.4, 'recall': 0.3333, 'F1': 0.3636, 'gscore': 0.0, 'time': 1.014742136001587}
+d=rectum_cancer s=155 r=1 conf=0.99999 palim=0 prior=a prior_type=p pruning=None score=MML prior_source=GPT4
+{'extra': 3, 'missing': 4, 'reverse': 0, 'fdr': 0.6, 'tpr': 0.3333, 'fpr': 0.1, 'shd': 7, 'nnz': 5, 'precision': 0.4, 'recall': 0.3333, 'F1': 0.3636, 'gscore': 0.0, 'time': 1.010610580444336}
+d=rectum_cancer s=155 r=1 conf=0.99999 palim=0 prior=a prior_type=p pruning=None score=MML prior_source=GPT4
+{'extra': 4, 'missing': 2, 'reverse': 1, 'fdr': 0.625, 'tpr': 0.5, 'fpr': 0.1667, 'shd': 7, 'nnz': 8, 'precision': 0.375, 'recall': 0.5, 'F1': 0.4286, 'gscore': 0.0, 'time': 0.9222941398620605}
+d=rectum_cancer s=155 r=1 conf=0.99999 palim=0 prior=a prior_type=p pruning=None score=MML prior_source=GPT4
+{'extra': 4, 'missing': 2, 'reverse': 1, 'fdr': 0.625, 'tpr': 0.5, 'fpr': 0.1667, 'shd': 7, 'nnz': 8, 'precision': 0.375, 'recall': 0.5, 'F1': 0.4286, 'gscore': 0.0, 'time': 1.0463063716888428}
+d=rectum_cancer s=155 r=1 conf=0.99999 palim=0 prior=n prior_type=n pruning=None score=MML prior_source=GPT4
+{'extra': 1, 'missing': 3, 'reverse': 1, 'fdr': 0.5, 'tpr': 0.3333, 'fpr': 0.0667, 'shd': 5, 'nnz': 4, 'precision': 0.5, 'recall': 0.3333, 'F1': 0.4, 'gscore': 0.0, 'time': 0.7484145164489746}
+d=rectum_cancer s=155 r=1 conf=0.99999 palim=0 prior=n prior_type=n pruning=None score=MML prior_source=GPT4
+{'extra': 1, 'missing': 3, 'reverse': 1, 'fdr': 0.5, 'tpr': 0.3333, 'fpr': 0.0667, 'shd': 5, 'nnz': 4, 'precision': 0.5, 'recall': 0.3333, 'F1': 0.4, 'gscore': 0.0, 'time': 0.7298228740692139}
+d=rectum_cancer s=155 r=1 conf=0.99999 palim=0 prior=n prior_type=n pruning=None score=MML prior_source=GPT4
+{'extra': 1, 'missing': 3, 'reverse': 1, 'fdr': 0.5, 'tpr': 0.3333, 'fpr': 0.0667, 'shd': 5, 'nnz': 4, 'precision': 0.5, 'recall': 0.3333, 'F1': 0.4, 'gscore': 0.0, 'time': 0.7483596801757812}
+d=rectum_cancer s=155 r=1 conf=0.99999 palim=0 prior=n prior_type=n pruning=None score=MML prior_source=GPT4
+{'extra': 0, 'missing': 3, 'reverse': 2, 'fdr': 0.6667, 'tpr': 0.1667, 'fpr': 0.0667, 'shd': 5, 'nnz': 3, 'precision': 0.3333, 'recall': 0.1667, 'F1': 0.2222, 'gscore': 0.0, 'time': 0.7746717929840088}
+d=rectum_cancer s=155 r=1 conf=0.99999 palim=0 prior=n prior_type=n pruning=None score=MML prior_source=GPT4
+{'extra': 0, 'missing': 3, 'reverse': 1, 'fdr': 0.3333, 'tpr': 0.3333, 'fpr': 0.0333, 'shd': 4, 'nnz': 3, 'precision': 0.6667, 'recall': 0.3333, 'F1': 0.4444, 'gscore': 0.1667, 'time': 0.729987382888794}
+d=rectum_cancer s=155 r=1 conf=0.99999 palim=0 prior=n prior_type=n pruning=None score=MML prior_source=GPT4
+{'extra': 0, 'missing': 3, 'reverse': 2, 'fdr': 0.6667, 'tpr': 0.1667, 'fpr': 0.0667, 'shd': 5, 'nnz': 3, 'precision': 0.3333, 'recall': 0.1667, 'F1': 0.2222, 'gscore': 0.0, 'time': 0.7607421875}

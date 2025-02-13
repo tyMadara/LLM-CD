@@ -1,0 +1,27 @@
+
+
+<edge>variable1->variable2
+
+<edge>Smoker->Cancer</edge>:
+
+There is a direct causality between smoking and cancer. Smoking causes cancer.
+
+<edge>Pollution->Cancer</edge>:
+
+There is a direct causality between pollution and cancer. Pollution increases the risk of cancer.
+
+<edge>Xray->Cancer</edge>:
+
+There is a direct causality between X-ray results and cancer. X-ray results can show whether an individual has cancer or not.
+
+<edge>variable1->variable2
+
+<edge>Smoker->Dyspnoea</edge>:
+
+There is a direct causality between smoking and dyspnea. Smoking increases the risk of dyspnea.
+
+<edge>variable1->variable2
+
+<edge>Cancer->Dyspnoea</edge>:
+
+There is a direct causality between cancer and dyspnea. Cancer causes dyspnea.

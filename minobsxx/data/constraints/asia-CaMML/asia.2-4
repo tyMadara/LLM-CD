@@ -1,0 +1,4 @@
+arcs {
+	tub => dysp 0.9999;
+	either => xray 0.9999;
+}

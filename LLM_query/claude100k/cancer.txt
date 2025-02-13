@@ -1,0 +1,72 @@
+```
+You are an expert on the effects of smoking on cancer
+You are investigating the cause-and-effect relationships between the following variables in your filed.
+Variable abbreviations and values are presented as follows.
+Please understand the real meaning of each variable according to their possible values, and explain them in order.
+variable Pollution {
+type discrete [ 2 ] { low, high };
+}
+variable Smoker {
+type discrete [ 2 ] { True, False };
+}
+variable Cancer {
+type discrete [ 2 ] { True, False };
+}
+variable Xray {
+type discrete [ 2 ] { positive, negative };
+}
+variable Dyspnoea {
+type discrete [ 2 ] { True, False };
+}
+
+The variables relate to cancer risks:
+
+Pollution: The level of environmental pollution, with possible values low or high
+
+Smoker: Whether the person smokes cigarettes, with values True or False
+
+Cancer: Whether the person has cancer, with values True or False
+
+Xray: The result of an X-ray test for abnormalities, with values positive or negative
+
+Dyspnoea: Whether the person has shortness of breath, with values True or False
+```
+
+```
+Analyze the causality between each pair of variables in the form of <edge>variable1->variable2</edge>, and give the reason. Ensure direct causality of outputs, not indirect causality due to common causes.
+```
+
+```
+<edge>Smoker->Cancer</edge>
+Reason: Smoking cigarettes can cause cancer.
+
+<edge>Pollution->Cancer</edge>
+Reason: High environmental pollution can increase the risk of cancer.
+
+<edge>Cancer->Xray</edge>
+Reason: Cancer can cause abnormalities that show up on an X-ray.
+
+<edge>Cancer->Dyspnoea</edge>
+Reason: Cancer, especially lung cancer, can cause shortness of breath.
+```
+
+```
+4
+4
+```
+
+```
+{'extra': 0,
+ 'missing': 0,
+ 'reverse': 0,
+ 'fdr': 0.0,
+ 'tpr': 1.0,
+ 'fpr': 0.0,
+ 'shd': 0,
+ 'nnz': 4,
+ 'precision': 1.0,
+ 'recall': 1.0,
+ 'F1': 1.0,
+ 'gscore': 1.0}
+```
+

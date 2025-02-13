@@ -1,0 +1,7 @@
+arcs {
+	smoke => xray 0.9999;
+	asia => xray 0.9999;
+	tub => xray 0.9999;
+	asia => either 0.9999;
+	either => dysp 0.9999;
+}

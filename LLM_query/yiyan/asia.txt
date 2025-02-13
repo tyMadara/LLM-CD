@@ -1,0 +1,7 @@
+<edge>visit_to_asia->tuberculosis</edge>: If a person visits Asia, there is a risk of contracting tuberculosis. Therefore, visit_to_asia causes tuberculosis.
+<edge>smoking->lung_cancer</edge>: Smoking is a primary cause of lung cancer. Therefore, smoking causes lung_cancer.
+<edge>smoking->bronchitis</edge>: Smoking is also a cause of bronchitis. Therefore, smoking causes bronchitis.
+<edge>tuberculosis->dyspnoea</edge>: Tuberculosis can cause shortness-of-breath (dyspnoea) as it affects the lungs. Therefore, tuberculosis causes dyspnoea.
+<edge>lung_cancer->dyspnoea</edge>: Lung cancer can cause shortness-of-breath (dyspnoea) as it affects the lungs. Therefore, lung_cancer causes dyspnoea.
+<edge>bronchitis->dyspnoea</edge>: Bronchitis can also cause shortness-of-breath (dyspnoea) as it affects the lungs. Therefore, bronchitis causes dyspnoea.
+<edge>positive_xray->either_turb_or_lung_cancer</edge>: A positive X-ray indicates the presence of either tuberculosis or lung cancer. Therefore, positive_xray causes either_turb_or_lung_cancer.

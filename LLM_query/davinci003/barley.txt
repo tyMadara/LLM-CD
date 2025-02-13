@@ -1,0 +1,36 @@
+
+<edge>jordtype->komm</edge>: No direct causality. Both variables are affected by common causes, such as climate, topography, and land use.
+
+<edge>komm->nedbarea</edge>: No direct causality. Both variables are affected by common causes, such as climate, topography, and land use.
+
+<edge>nedbarea->nmin</edge>: Yes. Precipitation affects the amount of mineral nitrogen in the soil, as it is a source of nitrogen.
+
+<edge>nmin->aar_mod</edge>: No direct causality. Both variables are affected by common causes, such as climate, topography, and land use.
+
+<edge>aar_mod->forfrugt</edge>: No direct causality. Both variables are affected by common causes, such as climate, topography, and land use.
+
+<edge>forfrugt->potnmin</edge>: No direct causality. Both variables are affected by common causes, such as climate, topography, and land use.
+
+<edge>potnmin->jordn</edge>: Yes. Potential mineral nitrogen content in the soil affects the soil nitrogen content.
+
+<edge>jordn->pesticid</edge>: No direct causality. Both variables are affected by common causes, such as climate, topography, and land use.
+
+<edge>pesticid->exptgens</edge>: Yes. Pesticide usage affects the experimental yield loss percentage, as it can lead to a decrease in yield.
+
+<edge>exptgens->mod_nmin</edge>: No direct causality. Both variables are affected by common causes, such as climate, topography, and land use.
+
+<edge>mod_nmin->ngodnt</edge>: Yes. Modified mineral nitrogen content in the soil affects the nitrogen content in the grain at optimal nitrogen treatment.
+
+<edge>ngodnt->nopt</edge>: Yes. Nitrogen content in the grain at optimal nitrogen treatment affects the optimal nitrogen content.
+
+<edge>nopt->ngodnn</edge>: Yes. Optimal nitrogen content affects the nitrogen content in the grain at non-optimal nitrogen treatment.
+
+<edge>ngodnn->ngodn</edge>: Yes. Nitrogen content in the grain at non-optimal nitrogen treatment affects the nitrogen content in the grain.
+
+<edge>ngodn->nprot</edge>: Yes. Nitrogen content in the grain affects the nitrogen content in the protein.
+
+<edge>nprot->saatid</edge>: No direct causality. Both variables are affected by common causes, such as climate, topography, and land use.
+
+<edge>saatid->rokap</edge>: No direct causality. Both variables are affected by common causes, such as climate, topography, and land use.
+
+<edge>rokap->dgv1059</edge>: Yes. Rooting capacity affects the grain yield at 10.5% moisture content, as it affects the plants' ability to absorb water and nutrients.

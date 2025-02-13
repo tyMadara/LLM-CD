@@ -1,0 +1,3 @@
+arcs {
+	Burglary => Alarm 0.9999;
+}

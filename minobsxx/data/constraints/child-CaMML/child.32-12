@@ -1,0 +1,34 @@
+arcs {
+	LungParench => CO2Report 0.9999;
+	Disease => HypDistrib 0.9999;
+	LVH => LVHreport 0.9999;
+	BirthAsphyxia => DuctFlow 0.9999;
+	BirthAsphyxia => Grunting 0.9999;
+	CO2 => CO2Report 0.9999;
+	Sick => Grunting 0.9999;
+	BirthAsphyxia => Disease 0.9999;
+	LungParench => LowerBodyO2 0.9999;
+	CardiacMixing => LowerBodyO2 0.9999;
+	LungParench => XrayReport 0.9999;
+	BirthAsphyxia => LowerBodyO2 0.9999;
+	LungParench => GruntingReport 0.9999;
+	HypoxiaInO2 => RUQO2 0.9999;
+	Sick => Age 0.9999;
+	CardiacMixing => HypoxiaInO2 0.9999;
+	BirthAsphyxia => LVHreport 0.9999;
+	BirthAsphyxia => RUQO2 0.9999;
+	Disease => LowerBodyO2 0.9999;
+	Disease => LungFlow 0.9999;
+	Disease => Sick 0.9999;
+	Disease => ChestXray 0.9999;
+	CardiacMixing => HypDistrib 0.9999;
+	BirthAsphyxia => CO2 0.9999;
+	HypDistrib => LowerBodyO2 0.9999;
+	BirthAsphyxia => HypDistrib 0.9999;
+	ChestXray => XrayReport 0.9999;
+	BirthAsphyxia => Sick 0.9999;
+	DuctFlow => HypDistrib 0.9999;
+	Disease => Age 0.9999;
+	BirthAsphyxia => LVH 0.9999;
+	BirthAsphyxia => XrayReport 0.9999;
+}

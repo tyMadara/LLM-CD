@@ -1,0 +1,4 @@
+arcs {
+	Pollution => Dyspnoea 0.9999;
+	Smoker => Xray 0.9999;
+}

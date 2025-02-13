@@ -1,0 +1,8 @@
+arcs {
+	PIP3 -- PIP2 1.0; 
+	Mek >> Raf 1.0; 
+	PIP2 >> Plcg 1.0; 
+	Akt >> PIP2 1.0; 
+	PKC => Akt 0.9999; 
+	PKA => Jnk 0.9999; 
+}

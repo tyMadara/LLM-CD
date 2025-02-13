@@ -1,0 +1,4 @@
+arcs {
+	smoke => lung 0.9999;
+	asia => either 0.9999;
+}

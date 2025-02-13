@@ -1,0 +1,17 @@
+Based on my analysis, here are the causality relationships between variables you mentioned:
+
+<edge>BirthAsphyxia->Grunting</edge>: The breathlessness caused by Birth Asphyxia can lead to excessive grunting sounds while breathing, indicating a worsening condition.
+<edge>Grunting->Disease</edge>: Grunting might indicate respiratory distress syndrome or pneumonia, both of which could explain the cause of the infant's sickness.
+
+<edge>HypoxiaInO2->DuctFlow</edge>: Decreased Oxygen levels in the blood (Hypoxemia) alter pressure gradients forcing open the fetal circulatory pathway (ductus arteriosus), allowing increased pulmonary blood flow, reversed postpartum. Duct flow direction helps diagnose persistent patency (Left-to-Right Shunt).
+<edge>DuctFlow->CardiacMixing</edge>: Changes in the direction of blood flow through the ductus arteriosus influence the degree of mixing between oxygenated and deoxygenated blood within the heart.
+
+
+<edge>LVHreport->LungFlow</edge>: Left Ventricular Hypertrophy leads to increases in afterload causing decreases in stroke volume and Frank-Starling mechanism leading to pulmonary congestion ultimately influencing lung perfusion.
+
+<edge>CO2Report->CO2</edge>: Carbon dioxide concentration reported in blood samples provides evidence of its value.
+<edge>XrayReport->ChestXray</edge>: Descriptions found in radiological reports confirm observations made about chest x-ray images, potentially providing additional information beyond visual assessments alone.
+
+<edge>LowerBodyO2->Age</edge>: Lower oxygen saturation levels below critical values may affect growth and developmental milestones leading to delayed motor skills at certain ages. However, this relationship would depend on the severity, duration, and timing of exposure.
+
+<edge>Disease->GruntingReport</edge>: Specific illnesses that present early in life like respiratory distress syndrome or neonatal sepsis coincide with more pronounced symptoms and signs including g

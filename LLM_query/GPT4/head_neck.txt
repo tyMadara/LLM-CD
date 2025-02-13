@@ -1,0 +1,20 @@
+
+<edge>Age->PreRadiotherapy_NRS2002</edge> Age significantly influences nutritional risk as older patients are more likely to have decreased nutritional intake or malnutrition.</reasoning>
+
+<edge>PreRadiotherapy_Albumin->PostRadiotherapy_Albumin</edge> Pre-radiotherapy albumin levels directly determine the baseline nutritional and inflammatory status, which in turn impacts post-radiotherapy albumin levels.</reasoning>
+
+<edge>Smoking_Status->Oral_Mucosa_Status</edge> Smoking directly damages mucosal tissues, increasing susceptibility to oral mucositis during radiotherapy.</reasoning>
+
+<edge>Drinking_Status->Gastrointestinal_Reaction</edge> Alcohol consumption is directly associated with gastrointestinal irritation and increased vulnerability to radiotherapy-induced gastrointestinal reactions.</reasoning>
+
+<edge>Sex->KPS_Score</edge> Sex differences can influence functional status (KPS score) due to biological and social factors, including differences in treatment tolerance and support systems.</reasoning>
+
+<edge>KPS_Score->Clinical_Stage</edge> Lower KPS scores often result from more advanced disease stages (clinical stage), linking performance status directly to disease severity.</reasoning>
+
+<edge>T->Clinical_Stage</edge> The tumor size (T) is a direct determinant of the clinical stage in cancer staging systems.</reasoning>
+
+<edge>N->Clinical_Stage</edge> Lymph node involvement (N) is a core determinant in defining clinical stage according to TNM classification.</reasoning>
+
+<edge>PreRadiotherapy_NRS2002->PreRadiotherapy_Albumin</edge> Higher nutritional risk scores (NRS2002) are directly associated with lower albumin levels, reflecting poor nutritional status.</reasoning>
+
+<edge>PostRadiotherapy_Albumin->Gastrointestinal_Reaction</edge> Post-radiotherapy albumin levels reflect the patient’s nutritional and inflammatory status after treatment. Low levels are directly associated with more severe gastrointestinal reactions.

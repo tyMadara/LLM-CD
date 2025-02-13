@@ -1,0 +1,14 @@
+Here is a potential causality analysis between the variables in the form of <edge>variable1->variable2</edge>:
+
+<edge>C_NI_12_00->CKNI_12_00</edge>: The number of nitrogen inorganic ions at time 00' (C_NI_12_00) may cause the concentration of Kjeldahl nitrogen inorganic (CKNI_12_00) ions at time 00'.
+<edge>C_NI_12_15->CKNI_12_15</edge>: The number of nitrogen inorganic ions at time 15' (C_NI_12_15) may cause the concentration of Kjeldahl nitrogen inorganic (CKNI_12_15) ions at time 15'.
+<edge>C_NI_12_30->CKNI_12_30</edge>: The number of nitrogen inorganic ions at time 30' (C_NI_12_30) may cause the concentration of Kjeldahl nitrogen inorganic (CKNI_12_30) ions at time 30'.
+<edge>C_NI_12_45->CKNI_12_45</edge>: The number of nitrogen inorganic ions at time 45' (C_NI_12_45) may cause the concentration of Kjeldahl nitrogen inorganic (CKNI_12_45) ions at time 45'.
+<edge>CKNI_12_00->CBODD_12_00</edge>: The concentration of Kjeldahl nitrogen inorganic (CKNI) ions at time 00' (CKNI_12_00) may cause the carbonaceous biochemical oxygen demand (CBOD) for degradable organic matter at time 00' (CBODD_12_00).
+<edge>CKNI_12_15->CBODD_12_15</edge>: The concentration of Kjeldahl nitrogen inorganic (CKNI) ions at time 15' (CKNI_12_15) may cause the carbonaceous biochemical oxygen demand (CBOD) for degradable organic matter at time 15' (CBODD_12_15).
+<edge>CKNI_12_30->CBODD_12_30</edge>: The concentration of Kjeldahl nitrogen inorganic (CKNI) ions at time 30' (CKNI_12_30) may cause the carbonaceous biochemical oxygen demand (CBOD) for degradable organic matter at time 30' (CBODD_12_30).
+<edge>CKNI_12_45->CBODD_12_45</edge>: The concentration of Kjeldahl nitrogen inorganic (CKNI) ions at time 45' (CKNI_12_45) may cause the carbonaceous biochemical oxygen demand (CBOD) for degradable organic matter at time 45' (CBODD_12_45).
+<edge>CKND_12_00->CNOD_12_00</edge>: The concentration of Kjeldahl nitrogen degradable (CKND) ions at time 00' (CKND_12_00) may cause the concentration of nitrogen oxide (CNOD) ions at time 00' (CNOD_12_00).
+<edge>CKND_12_15->CNOD_12_15</edge>: The concentration of Kjeldahl nitrogen degradable (CKND) ions at time 15' (CKND_12_15) may cause the concentration of nitrogen oxide (CNOD) ions at time 15' (CNOD_12_15).
+<edge>CKND_12_30->CNOD_12_30</edge>: The concentration of Kjeldahl nitrogen degradable (CKND) ions at time 30' (CKND_12_30) may cause the concentration of nitrogen oxide (CNOD) ions at time 30' (CNOD_12_30).
+<edge>CKND_12_45->CNOD_12_45</edge>: The concentration of Kjeldahl nitrogen degradable (CKND) ions at

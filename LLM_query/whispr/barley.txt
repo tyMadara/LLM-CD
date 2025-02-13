@@ -1,0 +1,16 @@
+<edge>jordtype->dgv1059</edge>: The type of soil can have an impact on the grain yield at 10.5% moisture content, with certain soil types being more conducive to a higher yield than others.
+<edge>komm->jordtype</edge>: The community or municipality in which the malt is being grown may have an influence on the soil type present in the area.
+<edge>nedbarea->dgv1059</edge>: The amount of precipitation received can impact the grain yield at 10.5% moisture content, with higher precipitation ranges potentially resulting in higher yields.
+<edge>nmin->mod_nmin</edge>: The original mineral nitrogen content in the soil is a direct cause of the modified mineral nitrogen content in the soil.
+<edge>aar_mod->dgv1059</edge>: The year modifier can have an impact on grain yield at 10.5% moisture content, with certain years potentially being more conducive to a higher yield than others.
+<edge>forfrugt->dgv1059</edge>: The preceding crop can potentially impact the grain yield at 10.5% moisture content due to factors such as nutrient depletion or residue buildup.
+<edge>potnmin->ngodnt</edge>: The potential mineral nitrogen content in the soil is a direct cause of the nitrogen content in the grain at optimal nitrogen treatment.
+<edge>jordn->ngodnn</edge>: The soil nitrogen content is a direct cause of the nitrogen content in the grain at non-optimal nitrogen treatment.
+<edge>pesticid->dgv1059</edge>: The usage or non-usage of pesticides can potentially impact the grain yield at 10.5% moisture content.
+<edge>exptgens->dgv1059</edge>: The experimental yield loss percentage is a direct cause of the grain yield at 10.5% moisture content.
+<edge>ngodnt->nopt</edge>: The nitrogen content in the grain at optimal nitrogen treatment can be a direct cause of the optimal nitrogen content.
+<edge>nopt->ngodnn</edge>: The optimal nitrogen content is a direct cause of the nitrogen content in the grain at non-optimal nitrogen treatment.
+<edge>ngodnn->ngodn</edge>: The nitrogen content in the grain at non-optimal nitrogen treatment is a direct cause of the overall nitrogen content in the grain.
+<edge>nprot->dgv1059</edge>: The nitrogen content in the protein can potentially impact the grain yield at 10.5% moisture content.
+<edge>saatid->dgv1059</edge>: The sowing date can potentially impact the grain yield at 10.5% moisture content, with earlier or later sowing dates potentially resulting in lower yields.
+<edge>rokap->dgv1059</edge>: The rooting capacity can potentially impact the grain yield at 10.5% moisture content, with higher rooting capacities potentially resulting in higher yields.

@@ -1,0 +1,110 @@
+```
+You are an expert on assessing the impact of tuberculosis, lung cancer or bronchitis on the shortness-of-breath (dyspnoea).
+You are investigating the cause-and-effect relationships between the following variables in your filed.
+Variable abbreviations and values are presented as follows.
+Please understand the real meaning of each variable according to their possible values, and explain them in order.
+
+network unknown {
+}
+variable visit_to_asia {
+type discrete [ 2 ] { yes, no };
+}
+variable tuberculosis {
+type discrete [ 2 ] { yes, no };
+}
+variable smoking {
+type discrete [ 2 ] { yes, no };
+}
+variable lung_cancer {
+type discrete [ 2 ] { yes, no };
+}
+variable bronchitis {
+type discrete [ 2 ] { yes, no };
+}
+variable either_turb_or_lung_cancer {
+type discrete [ 2 ] { yes, no };
+}
+variable positive_xray {
+type discrete [ 2 ] { yes, no };
+}
+variable dyspnoea {
+type discrete [ 2 ] { yes, no };
+}
+```
+
+```
+Here is the explanation of the variables in order:
+
+visit_to_asia: Indicates if the patient has visited Asia recently (yes) or not (no). This is relevant because tuberculosis is more common in Asia.
+
+tuberculosis: Indicates if the patient has active tuberculosis (yes) or not (no).
+
+smoking: Indicates if the patient smokes (yes) or not (no). Smoking is a risk factor for lung cancer and bronchitis.
+
+lung_cancer: Indicates if the patient has lung cancer (yes) or not (no).
+
+bronchitis: Indicates if the patient has bronchitis (yes) or not (no).
+
+either_turb_or_lung_cancer: Indicates if the patient has either tuberculosis or lung cancer (yes) or not (no).
+
+positive_xray: Indicates if the chest X-ray is positive, showing signs of tuberculosis, lung cancer or bronchitis (yes) or is normal (no).
+
+dyspnoea: Indicates if the patient experiences shortness of breath (yes) or not (no). Shortness of breath can be caused by tuberculosis, lung cancer, bronchitis or other lung diseases.
+
+Visit to Asia increases the risk of tuberculosis.
+Smoking increases the risks of lung cancer and bronchitis.
+Tuberculosis, lung cancer or bronchitis can cause abnormalities on chest X-ray.
+Tuberculosis, lung cancer or bronchitis can lead to shortness of breath or dyspnoea.
+
+So there are causal relationships between:
+<edge>visit_to_asia->tuberculosis</edge>
+<edge>smoking->lung_cancer</edge>
+<edge>smoking->bronchitis</edge>
+<edge>tuberculosis->either_turb_or_lung_cancer</edge>
+<edge>lung_cancer->either_turb_or_lung_cancer</edge>
+<edge>bronchitis->either_turb_or_lung_cancer</edge>
+<edge>either_turb_or_lung_cancer->positive_xray</edge>
+<edge>tuberculosis->dyspnoea</edge>
+<edge>lung_cancer->dyspnoea</edge>
+<edge>bronchitis->dyspnoea</edge>
+```
+
+```
+Analyze the causality between each pair of variables in the form of <edge>variable1->variable2</edge>, and give the reason. Ensure direct causality of outputs, not indirect causality due to common causes.
+```
+
+```
+So there are causal relationships between:
+visit_to_asia -> tuberculosis
+smoking -> lung_cancer
+smoking -> bronchitis
+tuberculosis -> either_tb_or_lung_cancer
+lung_cancer -> either_tb_or_lung_cancer
+bronchitis -> either_tb_or_lung_cancer
+either_tb_or_lung_cancer -> positive_xray
+tuberculosis -> dyspnoea
+lung_cancer -> dyspnoea
+bronchitis -> dyspnoea
+```
+
+```
+bronchitis either_turb_or_lung_cancer
+10
+9
+```
+
+```
+{'extra': 3,
+ 'missing': 1,
+ 'reverse': 0,
+ 'fdr': 0.3,
+ 'tpr': 0.875,
+ 'fpr': 0.15,
+ 'shd': 4,
+ 'nnz': 10,
+ 'precision': 0.7,
+ 'recall': 0.875,
+ 'F1': 0.7778,
+ 'gscore': 0.5}
+```
+

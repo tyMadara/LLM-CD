@@ -1,0 +1,36 @@
+
+<edge>straaling_1->dm_1</edge>:
+
+There is a positive correlation between the solar radiation received by the winter wheat and the dry mass of the winter wheat. This means that as the solar radiation increases, the dry mass of the winter wheat also increases. The reason for this is that the solar radiation provides the energy necessary for the winter wheat to grow.
+
+<edge>straaling_1->foto_1</edge>:
+
+There is a positive correlation between the solar radiation received by the winter wheat and the photosynthetic rate of the winter wheat. This means that as the solar radiation increases, the photosynthetic rate of the winter wheat also increases. The reason for this is that the solar radiation provides the energy necessary for the winter wheat to grow.
+
+<edge>straaling_1->temp_1</edge>:
+
+There is a positive correlation between the solar radiation received by the winter wheat and the temperature at the winter wheat. This means that as the solar radiation increases, the temperature at the winter wheat also increases. The reason for this is that the solar radiation provides the energy necessary for the winter wheat to grow.
+
+<edge>straaling_1->lai_1</edge>:
+
+There is a positive correlation between the solar radiation received by the winter wheat and the Leaf Area Index (LAI) of the winter wheat. This means that as the solar radiation increases, the LAI of the winter wheat also increases. The reason for this is that the solar radiation provides the energy necessary for the winter wheat to grow.
+
+<edge>straaling_1->meldug_1</edge>:
+
+There is a positive correlation between the solar radiation received by the winter wheat and the degree of mildew infestation at the winter wheat. This means that as the solar radiation increases, the degree of mildew infestation at the winter wheat also increases. The reason for this is that the solar radiation provides the energy necessary for the winter wheat to grow.
+
+<edge>straaling_1->mikro_1</edge>:
+
+There is a positive correlation between the solar radiation received by the winter wheat and the microclimate conditions during the winter wheat. This means that as the solar radiation increases, the microclimate conditions during the winter wheat also increase. The reason for this is that the solar radiation provides the energy necessary for the winter wheat to grow.
+
+<edge>straaling_1->middel_1</edge>:
+
+There is a positive correlation between the solar radiation received by the winter wheat and the average amount of fungicide applied during the winter wheat. This means that as the solar radiation increases, the average amount of fungicide applied during the winter wheat also increases. The reason for this is that the solar radiation provides the energy necessary for the winter wheat to grow.
+
+<edge>straaling_1->nedboer_1</edge>:
+
+There is a positive correlation between the solar radiation received by the winter wheat and the amount of precipitation during the winter wheat. This means that as the solar radiation increases, the amount of precipitation during the winter wheat also increases. The reason for this is that the solar radiation provides the energy necessary for the winter wheat to grow.
+
+<edge>straaling_1->udbytte</edge>:
+
+There is a positive correlation between the solar radiation received by the winter wheat and the yield of the winter wheat. This means that as the solar radiation increases, the yield of the winter wheat also increases. The reason for this is that the solar radiation provides the energy necessary for the winter wheat to grow.

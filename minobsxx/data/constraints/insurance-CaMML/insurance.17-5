@@ -1,0 +1,19 @@
+arcs {
+	Age => GoodStudent 0.9999;
+	VehicleYear => OtherCarCost 0.9999;
+	Accident => OtherCarCost 0.9999;
+	MakeModel => Theft 0.9999;
+	Antilock => OtherCarCost 0.9999;
+	RiskAversion => DrivingSkill 0.9999;
+	SeniorTrain => ILiCost 0.9999;
+	Mileage => MedCost 0.9999;
+	SocioEcon => VehicleYear 0.9999;
+	RiskAversion => PropCost 0.9999;
+	DrivingSkill => OtherCarCost 0.9999;
+	SocioEcon => DrivingSkill 0.9999;
+	SocioEcon => DrivQuality 0.9999;
+	DrivQuality => ThisCarCost 0.9999;
+	SocioEcon => ThisCarDam 0.9999;
+	Mileage => Accident 0.9999;
+	RuggedAuto => Cushioning 0.9999;
+}

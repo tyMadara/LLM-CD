@@ -1,0 +1,14 @@
+Here is a potential causality analysis between the variables in the form of <edge>variable1->variable2</edge>:
+
+<edge>jordtype->komm</edge>: The type of soil (jordtype) can affect the growth of malt (komm). Different soil types may require different amounts of water, nutrients, and other growth factors to support healthy plant growth.
+<edge>jordtype->nedbarea</edge>: The type of soil (jordtype) can also affect the area of the field (nedbarea) that can be used for malt growth. Soils with poor drainage or other constraints may limit the usable area.
+<edge>nedbarea->nmin</edge>: The area of the field (nedbarea) can affect the minimum number of plants required to cover the area (nmin). Larger fields may require more plants to cover the area, while smaller fields may require fewer plants.
+<edge>nmin->aar_mod</edge>: The minimum number of plants required (nmin) can affect the modification of the growth process (aar_mod). If fewer plants are required, then the growth process may need to be modified to ensure sufficient yield and quality.
+<edge>forfrugt->potnmin</edge>: The availability of fruit (forfrugt) can affect the minimum number of plants required for pollination (potnmin). If there is sufficient fruit available, then fewer plants may be required to ensure pollination.
+<edge>jordn->pesticid</edge>: The nitrogen content of the soil (jordn) can affect the need for pesticides during the growth process (pesticid). Soils with low nitrogen may require more pesticides to maintain healthy plant growth.
+<edge>exptgens->mod_nmin</edge>: The experimental generation (exptgens) can affect the minimum number of plants required for each experiment (mod_nmin). Each experimental generation may require a different number of plants to ensure sufficient data collection.
+<edge>ngodnt->ngodnn</edge>: The number of good quality plants (ngodnt) can affect the number of plants used for pollination (ngodnn). If there are sufficient good quality plants available, then more of them may be used for pollination.
+<edge>ngodnt->ngodn</edge>: The number of good quality plants (ngodnt) can also affect the number of plants used for malt growth (ngodn). If there are sufficient good quality plants available, then more of them may be used for malt growth.
+<edge>ngodn->nprot</edge>: The number of plants used for malt growth (ngodn) can affect the number of protected plants (nprot). If more plants are used for malt growth, then there may be more protected plants available.
+<edge>saatid->rokap</edge>: The planting date (saatid) can affect the roasting ability (rokap) of the malt. Planting at an appropriate time can ensure proper development and quality of the malt.
+<edge>dgv1059->exptgens</edge>: The degree of genetic similarity (dgv1059) can affect the experimental generation (exptgens) required for the experiment. If the genetic similarity is low, then more experimental generations may be required to observe meaningful results.

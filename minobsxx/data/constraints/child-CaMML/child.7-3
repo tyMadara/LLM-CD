@@ -1,0 +1,9 @@
+arcs {
+	CardiacMixing => RUQO2 0.9999;
+	Disease => LVH 0.9999;
+	BirthAsphyxia => XrayReport 0.9999;
+	LungParench => CO2 0.9999;
+	LungParench => XrayReport 0.9999;
+	Disease => DuctFlow 0.9999;
+	LungParench => Grunting 0.9999;
+}

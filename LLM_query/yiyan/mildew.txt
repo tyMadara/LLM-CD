@@ -1,0 +1,23 @@
+Here is a potential causality analysis between the variables in the form of <edge>variable1->variable2</edge>:
+
+<edge>dm_1->meldug_1</edge>: Higher dry mass at the first stage of growth may lead to a higher degree of mildew infestation at the first stage.
+<edge>foto_1->meldug_1</edge>: Higher photosynthetic rate at the first stage may lead to a higher degree of mildew infestation at the first stage.
+<edge>straaling_1->meldug_1</edge>: Higher solar radiation received at the first stage may lead to a higher degree of mildew infestation at the first stage.
+<edge>temp_1->meldug_1</edge>: Higher temperature at the first stage may lead to a higher degree of mildew infestation at the first stage.
+<edge>lai_1->meldug_1</edge>: Higher Leaf Area Index (LAI) at the first stage may lead to a higher degree of mildew infestation at the first stage.
+<edge>dm_2->meldug_2</edge>: Higher dry mass at the second stage of growth may lead to a higher degree of mildew infestation at the second stage.
+<edge>foto_2->meldug_2</edge>: Higher photosynthetic rate at the second stage may lead to a higher degree of mildew infestation at the second stage.
+<edge>straaling_2->meldug_2</edge>: Higher solar radiation received at the second stage may lead to a higher degree of mildew infestation at the second stage.
+<edge>temp_2->meldug_2</edge>: Higher temperature at the second stage may lead to a higher degree of mildew infestation at the second stage.
+<edge>lai_2->meldug_2</edge>: Higher Leaf Area Index (LAI) at the second stage may lead to a higher degree of mildew infestation at the second stage.
+<edge>dm_3->meldug_3</edge>: Higher dry mass at the third stage of growth may lead to a higher degree of mildew infestation at the third stage.
+<edge>foto_3->meldug_3</edge>: Higher photosynthetic rate at the third stage may lead to a higher degree of mildew infestation at the third stage.
+<edge>straaling_3->meldug_3</edge>: Higher solar radiation received at the third stage may lead to a higher degree of mildew infestation at the third stage.
+<edge>temp_3->meldug_3</edge>: Higher temperature at the third stage may lead to a higher degree of mildew infestation at the third stage.
+<edge>lai_3->meldug_3</edge>: Higher Leaf Area Index (LAI) at the third stage may lead to a higher degree of mildew infestation at the third stage.
+<edge>mikro_1->meldug_1</edge>: The microclimate conditions during the first period of winter wheat growth may affect the degree of mildew infestation at the first stage.
+<edge>mikro_2->meldug_2</edge>: The microclimate conditions during the second period of winter wheat growth may affect the degree of mildew infestation at the second stage.
+<edge>mikro_3->meldug_3</edge>: The microclimate conditions during the third period of winter wheat growth may affect the degree of mildew infestation at the third stage.
+<edge>middel_1-> Nedboer_1</edge>: The first variable represents the temperature and humidity conditions during a certain period of winter wheat growth, while the second variable represents the number of plants that have died due to disease at the first stage. Therefore, there may be a relationship between these two variables.
+<edge>middel_2->Nedboer_2</edge>: The first variable represents the temperature and humidity conditions during a certain period of winter wheat growth, while the second variable represents the number of plants that have died due to disease at the second stage. Therefore, there may be a relationship between these two variables.
+<edge>middel_3->Nedboer_3</edge>: The first variable represents the temperature and humidity conditions during a certain period of winter wheat growth, while the second variable represents the number of

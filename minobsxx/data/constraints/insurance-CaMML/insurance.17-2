@@ -1,0 +1,19 @@
+arcs {
+	SocioEcon => HomeBase 0.9999;
+	SocioEcon => VehicleYear 0.9999;
+	AntiTheft => ThisCarCost 0.9999;
+	Antilock => ILiCost 0.9999;
+	MakeModel => OtherCarCost 0.9999;
+	Age => OtherCar 0.9999;
+	Antilock => MedCost 0.9999;
+	Antilock => PropCost 0.9999;
+	RiskAversion => Antilock 0.9999;
+	SocioEcon => OtherCarCost 0.9999;
+	RiskAversion => PropCost 0.9999;
+	Age => ILiCost 0.9999;
+	MakeModel => ThisCarDam 0.9999;
+	Age => MakeModel 0.9999;
+	Age => RiskAversion 0.9999;
+	Age => CarValue 0.9999;
+	SocioEcon => RiskAversion 0.9999;
+}

@@ -1,0 +1,177 @@
+```
+You are an expert on childhood diseases.
+You are investigating the cause-and-effect relationships between the following variables in your filed.
+Variable abbreviations and values are presented as follows.
+Please understand the real meaning of each variable according to their possible values, and explain them in order.
+
+network unknown {
+}
+variable BirthAsphyxia {
+type discrete [ 2 ] { yes, no };
+}
+variable HypDistrib {
+type discrete [ 2 ] { Equal, Unequal };
+}
+variable HypoxiaInO2 {
+type discrete [ 3 ] { Mild, Moderate, Severe };
+}
+variable CO2 {
+type discrete [ 3 ] { Normal, Low, High };
+}
+variable ChestXray {
+type discrete [ 5 ] { Normal, Oligaemic, Plethoric, Grd_Glass, Asy/Patch };
+}
+variable Grunting {
+type discrete [ 2 ] { yes, no };
+}
+variable LVHreport {
+type discrete [ 2 ] { yes, no };
+}
+variable LowerBodyO2 {
+type discrete [ 3 ] { <5, 5-12, 12+ };
+}
+variable RUQO2 {
+type discrete [ 3 ] { <5, 5-12, 12+ };
+}
+variable CO2Report {
+type discrete [ 2 ] { <7.5, >=7.5 };
+}
+variable XrayReport {
+type discrete [ 5 ] { Normal, Oligaemic, Plethoric, Grd_Glass, Asy/Patchy };
+}
+variable Disease {
+type discrete [ 6 ] { PFC, TGA, Fallot, PAIVS, TAPVD, Lung };
+}
+variable GruntingReport {
+type discrete [ 2 ] { yes, no };
+}
+variable Age {
+type discrete [ 3 ] { 0-3_days, 4-10_days, 11-30_days };
+}
+variable LVH {
+type discrete [ 2 ] { yes, no };
+}
+variable DuctFlow {
+type discrete [ 3 ] { Lt_to_Rt, None, Rt_to_Lt };
+}
+variable CardiacMixing {
+type discrete [ 4 ] { None, Mild, Complete, Transp. };
+}
+variable LungParench {
+type discrete [ 3 ] { Normal, Congested, Abnormal };
+}
+variable LungFlow {
+type discrete [ 3 ] { Normal, Low, High };
+}
+variable Sick {
+type discrete [ 2 ] { yes, no };
+}
+
+```
+
+```
+Here are the variables explained in order:
+
+BirthAsphyxia: Indicates if the child experienced birth asphyxia (lack of oxygen during birth), with values 'yes' or 'no'.
+
+HypDistrib: Indicates if oxygen levels are distributed equally or unequally in the body, with values 'Equal' or 'Unequal'.
+
+HypoxiaInO2: Indicates the severity of hypoxia (low oxygen levels) in the body, with values 'Mild', 'Moderate', or 'Severe'.
+
+CO2: Indicates carbon dioxide levels in the blood, with values 'Normal', 'Low', or 'High'.
+
+ChestXray: Categorizes the appearance of the child's chest x-ray, with values 'Normal', 'Oligaemic' (low blood volume), 'Plethoric' (high blood volume), 'Grd_Glass' (ground glass opacity), or 'Asy/Patch' (asymmetric opacities/patchy infiltrates).
+
+Grunting: Indicates if the child is grunting, with values 'yes' or 'no'.
+
+LVHreport: Indicates if left ventricular hypertrophy was reported, with values 'yes' or 'no'.
+
+LowerBodyO2: Indicates oxygen levels in the lower body, with levels '<5', '5-12', or '12+'.
+
+RUQO2: Indicates oxygen levels in the right upper quadrant of the body, with levels '<5', '5-12', or '12+'.
+
+CO2Report: Indicates if carbon dioxide levels are below or above 7.5, with values '<7.5' or '>=7.5'.
+
+XrayReport: Categorizes the reported chest x-ray appearance, same as ChestXray variable.
+
+Disease: Indicates the suspected disease, with values 'PFC' (persistent fetal circulation), 'TGA' (transposition of the great arteries), 'Fallot', 'PAIVS' (pulmonary atresia with intact ventricular septum), 'TAPVD' (total anomalous pulmonary venous drainage), or 'Lung' (lung disease).
+
+GruntingReport: Indicates if grunting was reported, same as Grunting variable.
+
+Age: Indicates the child's age in days, with ranges '0-3_days', '4-10_days', or '11-30_days'.
+
+LVH: Indicates if left ventricular hypertrophy is present, same as LVHreport variable.
+
+DuctFlow: Indicates the direction of ductal (fetal circulatory system) flow, with values 'Lt_to_Rt' (left to right), 'None', or 'Rt_to_Lt' (right to left).
+
+CardiacMixing: Indicates the degree of mixing of oxygenated and deoxygenated blood within the heart, with values 'None', 'Mild', 'Complete', or 'Transp.' (transposition).
+
+LungParench: Describes the lung parenchyma (tissue), with values 'Normal', 'Congested', or 'Abnormal'.
+
+LungFlow: Indicates lung blood flow, with values 'Normal', 'Low', or 'High'.
+
+Sick: Indicates if the child is considered sick, with values 'yes' or 'no'.
+```
+
+```
+Analyze the causality between each pair of variables in the form of <edge>variable1->variable2</edge>, and give the reason. Ensure direct causality of outputs, not indirect causality due to common causes.
+```
+
+```
+<edge>BirthAsphyxia->HypoxiaInO2</edge> - Birth asphyxia can cause hypoxia in the body.
+
+<edge>HypoxiaInO2->CO2</edge> - Severe hypoxia can affect the body's ability to regulate carbon dioxide levels.
+
+<edge>HypoxiaInO2->ChestXray</edge> - Hypoxia can affect the appearance of the chest x-ray.
+
+<edge>HypoxiaInO2->Grunting</edge> - Severe hypoxia can cause a child to grunt.
+
+<edge>HypoxiaInO2->LVHreport</edge> - Severe hypoxia can lead to left ventricular hypertrophy.
+
+<edge>HypoxiaInO2->LowerBodyO2</edge> - Severe hypoxia reduces oxygen levels in the body, including the lower body.
+
+<edge>HypoxiaInO2->RUQO2</edge> - Severe hypoxia reduces oxygen levels throughout the body, including the right upper quadrant.
+
+<edge>CO2->CO2Report</edge> - Carbon dioxide levels affect the reported value of carbon dioxide.
+
+<edge>ChestXray->XrayReport</edge> - The appearance of the chest x-ray affects the reported chest x-ray results.
+
+<edge>Grunting->GruntingReport</edge> - The presence of grunting affects whether grunting is reported.
+
+<edge>LVHreport->LVH</edge> - The reported presence of left ventricular hypertrophy determines if LVH is identified.
+
+<edge>DuctFlow->CardiacMixing</edge> - The direction of ductal flow can affect the degree of blood mixing within the heart.
+
+<edge>LungParench->LungFlow</edge> - The state of the lung parenchyma impacts blood flow through the lungs.
+
+<edge>HypoxiaInO2->Sick</edge> - Severe hypoxia can make a child sick.
+```
+
+```
+HypoxiaInO2 CO2
+HypoxiaInO2 ChestXray
+HypoxiaInO2 Grunting
+HypoxiaInO2 LVHreport
+HypoxiaInO2 Sick
+LVHreport LVH
+DuctFlow CardiacMixing
+LungParench LungFlow
+14
+6
+```
+
+```
+{'extra': 8,
+ 'missing': 19,
+ 'reverse': 1,
+ 'fdr': 0.6429,
+ 'tpr': 0.2,
+ 'fpr': 0.0545,
+ 'shd': 28,
+ 'nnz': 14,
+ 'precision': 0.3571,
+ 'recall': 0.2,
+ 'F1': 0.2564,
+ 'gscore': 0.0}
+```
+

@@ -1,0 +1,15 @@
+<edge>C_NI_12_00->CKNI_12_00</edge>: The concentration of Kjeldahl nitrogen inorganic ions is directly affected by the number of nitrogen inorganic ions at 12:00, as the latter serves as a precursor for the former.
+
+<edge>CKNI_12_15->CNOD_12_15</edge>: The concentration of nitrogenous oxygen demand at 12:15 is directly affected by the concentration of Kjeldahl nitrogen inorganic ions, as the latter contributes to the former.
+
+<edge>CBODD_12_30->CNOD_12_30</edge>: The concentration of nitrogenous oxygen demand at 12:30 is directly affected by the carbonaceous biochemical oxygen demand for degradable organic matter, as the latter is a source of nutrients for the growth of microorganisms that consume oxygen in the process of degradation.
+
+<edge>CKND_12_45->CBODN_12_45</edge>: The carbonaceous biochemical oxygen demand for nitrogenous matter at 12:45 is directly affected by the concentration of Kjeldahl nitrogen degradable ions, as the latter serves as a precursor for the former.
+
+<edge>CKNN_12_15->CNON_12_15</edge>: The concentration of nitrogenous non-degradable organic nitrogen at 12:15 is directly affected by the concentration of Kjeldahl nitrogen non-degradable ions, as the latter serves as a precursor for the former.
+
+<edge>CBODN_12_30->CBODD_12_45</edge>: The carbonaceous biochemical oxygen demand for degradable organic matter at 12:30 is directly affected by the carbonaceous biochemical oxygen demand for nitrogenous matter at 12:45, as the former is a byproduct resulting from the degradation of the latter.
+
+<edge>CNON_12_00->CNOD_12_15</edge>: The concentration of nitrogenous oxygen demand at 12:15 is directly affected by the concentration of nitrogenous non-degradable organic nitrogen at 12:00, as the latter contributes to the former.
+
+<edge>C_NI_12_45->CKNI_12_45</edge>: The concentration of Kjeldahl nitrogen inorganic ions is directly affected by the number of nitrogen inorganic ions at 12:45, as the latter serves as a precursor for the former.

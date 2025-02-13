@@ -1,0 +1,165 @@
+cancer
+{'extra': 0, 'missing': 0, 'reverse': 0, 'fdr': 0.0, 'tpr': 1.0, 'fpr': 0.0, 'shd': 0, 'nnz': 4, 'precision': 1.0, 'recall': 1.0, 'F1': 1.0, 'gscore': 1.0}
+4 / 4
+Smoker Cancer
+Pollution Cancer
+Cancer Xray
+Cancer Dyspnoea
+asia
+{'extra': 2, 'missing': 4, 'reverse': 0, 'fdr': 0.3333, 'tpr': 0.5, 'fpr': 0.1, 'shd': 6, 'nnz': 6, 'precision': 0.6667, 'recall': 0.5, 'F1': 0.5714, 'gscore': 0.25}
+6 / 6
+visit_to_asia tuberculosis
+tuberculosis dyspnoea
+smoking lung_cancer
+lung_cancer dyspnoea
+bronchitis dyspnoea
+either_turb_or_lung_cancer positive_xray
+child
+{'extra': 26, 'missing': 23, 'reverse': 0, 'fdr': 0.9286, 'tpr': 0.08, 'fpr': 0.1576, 'shd': 49, 'nnz': 28, 'precision': 0.0714, 'recall': 0.08, 'F1': 0.0755, 'gscore': 0.0}
+13 / 28
+BirthAsphyxia HypDistrib
+BirthAsphyxia HypoxiaInO2
+BirthAsphyxia CO2
+BirthAsphyxia ChestXray
+BirthAsphyxia Grunting
+BirthAsphyxia LVHreport
+BirthAsphyxia LowerBodyO2
+BirthAsphyxia RUQO2
+BirthAsphyxia CO2Report
+BirthAsphyxia XrayReport
+BirthAsphyxia Disease
+BirthAsphyxia GruntingReport
+HypDistrib HypoxiaInO2
+HypoxiaInO2 CO2
+CO2 ChestXray
+ChestXray Grunting
+LVHreport LowerBodyO2
+LVHreport RUQO2
+CO2Report XrayReport
+XrayReport Disease
+Disease Sick
+GruntingReport Sick
+Age DuctFlow
+Age CardiacMixing
+Age LungFlow
+Age LungParench
+LVH DuctFlow
+LVH CardiacMixing
+insurance
+{'extra': 15, 'missing': 41, 'reverse': 8, 'fdr': 0.8846, 'tpr': 0.0577, 'fpr': 0.0769, 'shd': 64, 'nnz': 26, 'precision': 0.1154, 'recall': 0.0577, 'F1': 0.0769, 'gscore': 0.0}
+6 / 26
+GoodStudent Age
+Age SocioEcon
+SocioEcon RiskAversion
+RiskAversion VehicleYear
+VehicleYear ThisCarDam
+ThisCarDam RuggedAuto
+RuggedAuto Accident
+Accident MakeModel
+MakeModel DrivQuality
+DrivQuality Mileage
+Mileage Antilock
+Antilock DrivingSkill
+DrivingSkill SeniorTrain
+SeniorTrain ThisCarCost
+ThisCarCost Theft
+Theft CarValue
+CarValue HomeBase
+HomeBase AntiTheft
+AntiTheft PropCost
+PropCost OtherCarCost
+OtherCarCost OtherCar
+OtherCar MedCost
+MedCost Cushioning
+Cushioning Airbag
+Airbag ILiCost
+ILiCost DrivHist
+alarm
+{'extra': 13, 'missing': 35, 'reverse': 4, 'fdr': 0.7083, 'tpr': 0.1522, 'fpr': 0.0274, 'shd': 52, 'nnz': 24, 'precision': 0.2917, 'recall': 0.1522, 'F1': 0.2, 'gscore': 0.0}
+8 / 24
+HISTORY CVP
+CVP PCWP
+PCWP HYPOVOLEMIA
+HYPOVOLEMIA LVEDVOLUME
+LVEDVOLUME STROKEVOLUME
+STROKEVOLUME LVFAILURE
+LVFAILURE ERRLOWOUTPUT
+ERRLOWOUTPUT HRBP
+HRBP HREKG
+HREKG ERRCAUTER
+ERRCAUTER HRSAT
+HRSAT INSUFFANESTH
+INSUFFANESTH ANAPHYLAXIS
+ANAPHYLAXIS TPR
+TPR EXPCO2
+EXPCO2 KINKEDTUBE
+KINKEDTUBE MINVOL
+MINVOL FIO2
+FIO2 PVSAT
+PVSAT SAO2
+SAO2 PAP
+PAP PULMEMBOLUS
+PULMEMBOLUS SHUNT
+SHUNT INTUBATION
+/home/wxy/bty/LLM_CSL/myEva.py:225: RuntimeWarning: invalid value encountered in scalar divide
+  F1 = 2*(recall*precision)/(recall+precision)
+water
+{'extra': 4, 'missing': 66, 'reverse': 0, 'fdr': 1.0, 'tpr': 0.0, 'fpr': 0.0093, 'shd': 70, 'nnz': 4, 'precision': 0.0, 'recall': 0.0, 'F1': nan, 'gscore': 0.0}
+0 / 4
+C_NI_12_00 CKNI_12_00
+C_NI_12_15 CKNI_12_15
+C_NI_12_30 CKNI_12_30
+C_NI_12_45 CKNI_12_45
+mildew
+{'extra': 12, 'missing': 26, 'reverse': 12, 'fdr': 0.75, 'tpr': 0.1739, 'fpr': 0.0437, 'shd': 50, 'nnz': 32, 'precision': 0.25, 'recall': 0.1739, 'F1': 0.2051, 'gscore': 0.0}
+11 / 32
+dm_1 foto_1
+dm_2 foto_2
+dm_3 foto_3
+dm_4 foto_4
+straaling_1 foto_1
+straaling_2 foto_2
+straaling_3 foto_3
+straaling_4 foto_4
+temp_1 foto_1
+temp_2 foto_2
+temp_3 foto_3
+temp_4 foto_4
+foto_1 lai_1
+foto_2 lai_2
+foto_3 lai_3
+foto_4 lai_4
+lai_1 meldug_1
+lai_2 meldug_2
+lai_3 meldug_3
+lai_4 meldug_4
+mikro_1 meldug_1
+mikro_2 meldug_2
+mikro_3 meldug_3
+meldug_1 middel_1
+meldug_2 middel_2
+meldug_3 middel_3
+nedboer_1 middel_1
+nedboer_2 middel_2
+nedboer_3 middel_3
+middel_1 udbytte
+middel_2 udbytte
+middel_3 udbytte
+barley
+{'extra': 7, 'missing': 76, 'reverse': 0, 'fdr': 0.4667, 'tpr': 0.0952, 'fpr': 0.0067, 'shd': 83, 'nnz': 15, 'precision': 0.5333, 'recall': 0.0952, 'F1': 0.1616, 'gscore': 0.0119}
+9 / 15
+jordtype nedbarea
+komm nedbarea
+nedbarea nmin
+nmin aar_mod
+forfrugt potnmin
+potnmin jordn
+pesticid exptgens
+exptgens mod_nmin
+mod_nmin ngodnt
+mod_nmin nopt
+mod_nmin ngodnn
+mod_nmin ngodn
+ngodn nprot
+saatid rokap
+rokap dgv1059

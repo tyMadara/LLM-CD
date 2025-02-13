@@ -1,0 +1,104 @@
+```
+You are an expert on assessing the impact of tuberculosis, lung cancer or bronchitis on the shortness-of-breath (dyspnoea).
+You are investigating the cause-and-effect relationships between the following variables in your filed.
+Variable abbreviations and values are presented as follows.
+Please understand the real meaning of each variable according to their possible values, and explain them in order.
+
+network unknown {
+}
+variable visit_to_asia {
+type discrete [ 2 ] { yes, no };
+}
+variable tuberculosis {
+type discrete [ 2 ] { yes, no };
+}
+variable smoking {
+type discrete [ 2 ] { yes, no };
+}
+variable lung_cancer {
+type discrete [ 2 ] { yes, no };
+}
+variable bronchitis {
+type discrete [ 2 ] { yes, no };
+}
+variable either_turb_or_lung_cancer {
+type discrete [ 2 ] { yes, no };
+}
+variable positive_xray {
+type discrete [ 2 ] { yes, no };
+}
+variable dyspnoea {
+type discrete [ 2 ] { yes, no };
+}
+```
+
+```
+The variables represent the following:
+
+visit_to_asia: Whether the patient has visited Asia, coded as yes or no
+
+tuberculosis: Whether the patient has tuberculosis, coded as yes or no
+
+smoking: Whether the patient smokes, coded as yes or no
+
+lung_cancer: Whether the patient has lung cancer, coded as yes or no
+
+bronchitis: Whether the patient has bronchitis, coded as yes or no
+
+either_turb_or_lung_cancer: Whether the patient has either tuberculosis or lung cancer, coded as yes or no
+
+positive_xray: Whether the patient has an abnormal chest x-ray, coded as yes or no
+
+dyspnoea: Whether the patient has shortness of breath (dyspnoea), coded as yes or no
+
+So in summary, these variables relate to risk factors and conditions that could potentially cause or contribute to shortness of breath. You're investigating the relationships between these variables and dyspnoea.
+```
+
+```
+Analyze the causality between each pair of variables in the form of <edge>variable1->variable2</edge>, and give the reason. Ensure direct causality of outputs, not indirect causality due to common causes.
+```
+
+```
+<edge>tuberculosis->dyspnoea</edge>
+Reason: Tuberculosis can directly cause shortness of breath.
+
+<edge>lung_cancer->dyspnoea</edge>
+Reason: Lung cancer can directly cause shortness of breath.
+
+<edge>bronchitis->dyspnoea</edge>
+Reason: Bronchitis can directly cause shortness of breath.
+
+<edge>either_turb_or_lung_cancer->dyspnoea</edge>
+Reason: Either tuberculosis or lung cancer can directly cause shortness of breath.
+
+<edge>positive_xray->dyspnoea</edge>
+Reason: An abnormal chest x-ray could indicate a condition that directly causes shortness of breath.
+
+<edge>smoking->lung_cancer</edge>
+Reason: Smoking can directly cause lung cancer.
+
+<edge>visit_to_asia->tuberculosis</edge>
+Reason: Visiting areas with high tuberculosis rates can directly lead to tuberculosis infection.
+```
+
+```
+positive_xray dyspnoea
+7
+6
+```
+
+```
+{'extra': 3,
+ 'missing': 4,
+ 'reverse': 0,
+ 'fdr': 0.4286,
+ 'tpr': 0.5,
+ 'fpr': 0.15,
+ 'shd': 7,
+ 'nnz': 7,
+ 'precision': 0.5714,
+ 'recall': 0.5,
+ 'F1': 0.5333,
+ 'gscore': 0.125}
+```
+

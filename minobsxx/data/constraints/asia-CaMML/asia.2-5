@@ -1,0 +1,4 @@
+arcs {
+	lung => dysp 0.9999;
+	lung => either 0.9999;
+}

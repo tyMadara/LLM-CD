@@ -1,0 +1,28 @@
+
+
+<edge>GoodStudent->Age</edge>: Age is a factor in determining if a student is considered "good" or not.
+<edge>Age->SocioEcon</edge>: Age is often correlated with socioeconomic status.
+<edge>SocioEcon->RiskAversion</edge>: Socioeconomic status often affects an individual's risk aversion level.
+<edge>RiskAversion->VehicleYear</edge>: Risk aversion affects the likelihood of a policyholder purchasing a newer vehicle.
+<edge>VehicleYear->ThisCarDam</edge>: Older vehicles are more likely to have more damage than newer vehicles.
+<edge>ThisCarDam->RuggedAuto</edge>: The extent of damage to a vehicle often affects its ruggedness.
+<edge>RuggedAuto->Accident</edge>: Rugged vehicles are more likely to withstand an accident without severe damage.
+<edge>Accident->MakeModel</edge>: The make and model of the vehicle will often determine the severity of the damage in an accident.
+<edge>MakeModel->DrivQuality</edge>: The make and model of the vehicle can affect the quality of the driving.
+<edge>DrivQuality->Mileage</edge>: Poor driving can lead to higher mileage on the vehicle.
+<edge>Mileage->Antilock</edge>: Higher mileage vehicles are more likely to have worn out antilock brakes.
+<edge>Antilock->DrivingSkill</edge>: Antilock brakes can help improve driving skill.
+<edge>DrivingSkill->SeniorTrain</edge>: Senior drivers may require specialized training to improve their driving skills.
+<edge>SeniorTrain->ThisCarCost</edge>: Specialized training may increase the cost of a vehicle.
+<edge>ThisCarCost->Theft</edge>: Expensive vehicles are more likely to be stolen.
+<edge>Theft->CarValue</edge>: A stolen vehicle will often have a lower value than an undamaged vehicle.
+<edge>CarValue->HomeBase</edge>: The value of a vehicle can affect the home location security level of the policyholder.
+<edge>HomeBase->AntiTheft</edge>: Home location security can affect the likelihood of a policyholder installing an anti-theft system.
+<edge>AntiTheft->PropCost</edge>: An anti-theft system may reduce the cost of property damage, if any.
+<edge>PropCost->OtherCarCost</edge>: Property damage can lead to damage to other cars.
+<edge>OtherCarCost->OtherCar</edge>: Damage to other cars can lead to the policyholder damaging another car.
+<edge>OtherCar->MedCost</edge>: Damaging another car can lead to medical expenses for the policyholder.
+<edge>MedCost->Cushioning</edge>: Medical expenses can be affected by the cushioning quality of the vehicle.
+<edge>Cushioning->Airbag</edge>: Cushioning quality can affect the likelihood of a vehicle having airbags.
+<edge>Airbag->ILiCost</edge>: Airbags can reduce the cost of injury liability, if any.
+<edge>ILiCost->DrivHist</edge>: Injury liability costs can be affected by the policyholder's driving history.

@@ -1,0 +1,125 @@
+cancer
+{'extra': 0, 'missing': 0, 'reverse': 0, 'fdr': 0.0, 'tpr': 1.0, 'fpr': 0.0, 'shd': 0, 'nnz': 4, 'precision': 1.0, 'recall': 1.0, 'F1': 1.0, 'gscore': 1.0}
+4 / 4
+Smoker Cancer
+Pollution Cancer
+Cancer Xray
+Cancer Dyspnoea
+asia
+{'extra': 3, 'missing': 4, 'reverse': 0, 'fdr': 0.4286, 'tpr': 0.5, 'fpr': 0.15, 'shd': 7, 'nnz': 7, 'precision': 0.5714, 'recall': 0.5, 'F1': 0.5333, 'gscore': 0.125}
+6 / 7
+tuberculosis dyspnoea
+smoking tuberculosis
+smoking lung_cancer
+lung_cancer dyspnoea
+bronchitis dyspnoea
+either_turb_or_lung_cancer positive_xray
+visit_to_asia tuberculosis
+/home/wxy/bty/LLM_CSL/myEva.py:225: RuntimeWarning: invalid value encountered in scalar divide
+  F1 = 2*(recall*precision)/(recall+precision)
+child
+{'extra': 10, 'missing': 24, 'reverse': 1, 'fdr': 1.0, 'tpr': 0.0, 'fpr': 0.0667, 'shd': 35, 'nnz': 11, 'precision': 0.0, 'recall': 0.0, 'F1': nan, 'gscore': 0.0}
+2 / 11
+BirthAsphyxia HypDistrib
+HypDistrib HypoxiaInO2
+CO2 ChestXray
+Grunting LVHreport
+LowerBodyO2 RUQO2
+CO2Report XrayReport
+Disease GruntingReport
+Age LVH
+DuctFlow CardiacMixing
+LungParench LungFlow
+Sick Disease
+insurance
+{'extra': 15, 'missing': 41, 'reverse': 8, 'fdr': 0.8846, 'tpr': 0.0577, 'fpr': 0.0769, 'shd': 64, 'nnz': 26, 'precision': 0.1154, 'recall': 0.0577, 'F1': 0.0769, 'gscore': 0.0}
+6 / 26
+GoodStudent Age
+Age SocioEcon
+SocioEcon RiskAversion
+RiskAversion VehicleYear
+VehicleYear ThisCarDam
+ThisCarDam RuggedAuto
+RuggedAuto Accident
+Accident MakeModel
+MakeModel DrivQuality
+DrivQuality Mileage
+Mileage Antilock
+Antilock DrivingSkill
+DrivingSkill SeniorTrain
+SeniorTrain ThisCarCost
+ThisCarCost Theft
+Theft CarValue
+CarValue HomeBase
+HomeBase AntiTheft
+AntiTheft PropCost
+PropCost OtherCarCost
+OtherCarCost OtherCar
+OtherCar MedCost
+MedCost Cushioning
+Cushioning Airbag
+Airbag ILiCost
+ILiCost DrivHist
+alarm
+{'extra': 11, 'missing': 40, 'reverse': 2, 'fdr': 0.7647, 'tpr': 0.087, 'fpr': 0.021, 'shd': 53, 'nnz': 17, 'precision': 0.2353, 'recall': 0.087, 'F1': 0.127, 'gscore': 0.0}
+5 / 17
+HISTORY CVP
+CVP PCWP
+PCWP HYPOVOLEMIA
+HYPOVOLEMIA LVEDVOLUME
+LVEDVOLUME LVFAILURE
+LVFAILURE STROKEVOLUME
+STROKEVOLUME ERRLOWOUTPUT
+HRBP HREKG
+HREKG ERRCAUTER
+HRSAT INSUFFANESTH
+INSUFFANESTH ANAPHYLAXIS
+TPR EXPCO2
+KINKEDTUBE MINVOL
+MINVOL FIO2
+FIO2 PVSAT
+PVSAT SAO2
+SAO2 PAP
+water
+{'extra': 0, 'missing': 58, 'reverse': 0, 'fdr': 0.0, 'tpr': 0.1212, 'fpr': 0.0, 'shd': 58, 'nnz': 8, 'precision': 1.0, 'recall': 0.1212, 'F1': 0.2162, 'gscore': 0.1212}
+8 / 8
+C_NI_12_00 C_NI_12_15
+CKNI_12_00 CKNI_12_15
+CBODD_12_00 CBODD_12_15
+CKND_12_00 CKND_12_15
+CNOD_12_00 CNOD_12_15
+CBODN_12_00 CBODN_12_15
+CKNN_12_00 CKNN_12_15
+CNON_12_00 CNON_12_15
+mildew
+{'extra': 4, 'missing': 42, 'reverse': 2, 'fdr': 0.75, 'tpr': 0.0435, 'fpr': 0.0109, 'shd': 48, 'nnz': 8, 'precision': 0.25, 'recall': 0.0435, 'F1': 0.0741, 'gscore': 0.0}
+3 / 8
+dm_1 foto_1
+foto_1 dm_2
+straaling_1 foto_1
+temp_1 foto_1
+lai_1 meldug_1
+mikro_1 meldug_1
+middel_1 meldug_1
+nedboer_1 meldug_1
+barley
+{'extra': 8, 'missing': 74, 'reverse': 0, 'fdr': 0.4444, 'tpr': 0.119, 'fpr': 0.0077, 'shd': 82, 'nnz': 18, 'precision': 0.5556, 'recall': 0.119, 'F1': 0.1961, 'gscore': 0.0238}
+10 / 18
+jordtype komm
+komm nedbarea
+nedbarea nmin
+nmin aar_mod
+aar_mod forfrugt
+forfrugt potnmin
+potnmin jordn
+jordn pesticid
+pesticid exptgens
+exptgens mod_nmin
+mod_nmin ngodnt
+ngodnt nopt
+nopt ngodnn
+ngodnn ngodn
+ngodn nprot
+nprot saatid
+saatid rokap
+rokap dgv1059

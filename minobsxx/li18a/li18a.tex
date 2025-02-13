@@ -1,0 +1,897 @@
+\documentclass[twoside,11pt]{article}
+\usepackage{pgm}
+
+
+
+\usepackage[english]{babel}
+\usepackage{hhline}
+\usepackage[table]{xcolor}
+\usepackage{pgf, tikz}
+\usetikzlibrary{arrows, automata}
+\usepackage{float}
+\restylefloat{table}
+\usepackage{tabularx,ragged2e,booktabs,caption}
+\usepackage{makecell}
+\usepackage{float}
+\usepackage{amsmath}
+\usepackage{latexsym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{multirow}
+\usepackage{pdflscape}
+\usepackage{relsize}
+\usepackage{url}
+\usepackage{graphicx}
+\usepackage{subcaption}
+\usepackage{bm}
+\usepackage{enumitem}
+\usepackage{graphicx}
+\usepackage[titlenotnumbered,algoruled,longend]{algorithm2e}
+\usepackage{colortbl}
+
+\usepackage[utf8]{inputenc}
+\inputencoding{utf8}
+
+\usepackage{hyperref,color,soul,booktabs}
+\setulcolor{blue}
+\newcommand{\BibTeX}{\textsc{B\kern-0.1emi\kern-0.017emb}\kern-0.15em\TeX}
+
+
+\ShortHeadings{Bayesian Network Structure Learning with Side Constraints}{Li and van Beek}
+
+\title{ Bayesian Network Structure Learning with Side Constraints }
+
+\author{\Name{Andrew C. Li} \Email{acli@uwaterloo.ca}\and
+   \Name{Peter van Beek} \Email{vanbeek@cs.uwaterloo.ca}\\
+   \addr 	Cheriton School of Computer Science  \\
+	University of Waterloo \\ }
+
+\begin{document}
+\maketitle
+\raggedbottom
+
+% Abstract and keywords
+\begin{abstract}%   <- trailing '%' for backward compatibility of .sty file
+Hybrid methods for Bayesian network structure learning that incorporate
+both observed data and expert knowledge have proven to be important in
+many fields. Previous studies have presented both exact and approximate
+hybrid methods for structure learning. In this paper, we propose an
+approximate method based on local search that is capable of efficiently
+handling a variety of prior knowledge constraints, including an
+important class of non-decomposable \emph{ancestral} constraints that
+assert indirect causation between random variables. In our experiments,
+our proposed approximate method is able to significantly outperform an
+existing state-of-the-art approximate method in finding feasible solutions
+when \emph{hard constraints} are imposed. Our approach is able to find
+near-optimal networks while scaling up to almost fifty random variables.
+In contrast,
+previous exact methods are unable to handle more than twenty
+random variables. Furthermore, we show that when prior knowledge is
+integrated, we are often able to produce a network much closer to the
+ground truth network, particularly when the amount of data is limited.
+\end{abstract}
+
+\begin{keywords}
+Bayesian network; structure learning; local search; expert knowledge; hard constraints; ancestral constraints.
+\end{keywords}
+
+%
+% Provide a clear statement of the problem addressed in the paper.
+%
+% Provide motivation for the problem.
+% Why is the problem interesting? important? challenging?
+%
+% Review of previous work. Describe the work that other researchers
+% have done on this problem and show why these previous approaches
+% are inadequate (or put this in a separate section or subsection).
+%
+% Provide a summary of results.
+%
+\section{Introduction}
+
+A Bayesian network (BN) is a probabilistic graphical model of a probability distribution
+with applications in various fields including medicine \citep{Flores2011}, ecology \citep{Pollino2007},
+and bioinformatics \citep{Friedman2000}. 
+
+\smallskip
+In practice, BNs are usually either fully specified by an expert or learned directly from observed data; however,
+both approaches have major drawbacks. Experts usually do not have sufficient domain knowledge to produce the
+full network, especially as the number of random variables increases. On the other hand, the task of learning the 
+BN structure directly from data is NP-hard, even to approximate to within a reasonable factor 
+\citep{ChickeringMH03,Dasgupta1999} and data is often limited or expensive.
+
+\subsection{Expert Knowledge Constraints.}
+In many fields, hybrid methods for BN structure learning that incorporate both expert knowledge and data
+have been applied to obtain superior results; e.g. \cite{Flores2011, Sesen2013, Oyen2016, Antal2004}. These studies use approximate
+search methods with informative priors, allowing an expert to specify confidence levels in various constraints. 
+In contrast, we focus on incorporating prior knowledge as \emph{hard constraints}. Our method builds on MINOBS, a local search based
+memetic algorithm for BN structure learning by \cite{Lee2017}. We are able to handle the following types of constraints in our
+method.
+
+\begin{enumerate}[label=({\arabic*})]
+	\itemsep0em
+	\item \emph{Existence of an arc:} assert that a directed arc $xy$ exists. The user can also specify that an undirected arc $xy$ exists if the direction is not known.
+	
+	\item \emph{Absence of an arc:} assert that the directed arc $xy$ does \emph{not} exist. 
+	
+	\item \emph{Ordering constraint:} assert $x$ comes before $y$ in some ordering of the nodes in the BN. This implies that there exists no directed $y, x$-path (but the converse does not necessarily hold).
+	
+	\item \emph{(Positive) Ancestral constraint:} assert the existence of a directed $x, y$-path. 
+
+\end{enumerate}
+
+We refer to such constraints collectively as \emph{side constraints}.
+These side constraints are expressive enough to indirectly handle some other common constraints, such as undirected arc absence (no arc $xy$ or $yx$),
+causal tiers (only arcs from a lower tier variable to a higher tier variable are permitted) and specifying root nodes and leaves. 
+
+\smallskip
+The primary challenge of our work was incorporating ancestral constraints which cannot be
+handled locally (by modifying the parents of a single node), or by pruning the space of orderings.
+They are notoriously difficult to incorporate into the structure learning process \citep{Chen2016}. However, ancestral constraints are important 
+for a number of reasons. First, although ancestral
+constraints are weaker than directed arc existence constraints, direct dependencies can only be known given a high degree of 
+domain knowledge. Experts are more likely to provide useful information when less specific constraints can also be asserted \citep{Flores2011}.
+Secondly, ancestral constraints can assert that one variable is an indirect cause of another, which is an abundant form of expert
+knowledge in many domains (e.g. \cite{Sahin2006, Ma2017, Leu2013, Chen2014, Giordano2013}). Thirdly, ideally BNs built for knowledge discovery
+or knowledge representation should encode all known causal dependencies. In our experiments, we demonstrate that imposing ancestral
+constraints produces a BN much closer to the ground truth network in terms of their causal statements. In fact, BN structure
+learning from data alone cannot distinguish between causation and correlation.
+
+\subsection{Results.} We present a novel hybrid BN structure learning method that can incorporate expert knowledge as hard constraints,
+including ancestral constraints. In our experimental evaluation, we demonstrate that our method is able to find high-quality solutions to 
+constrained problems, while scaling to more variables than other existing methods. To the best of our knowledge, we are the first to 
+successfully incorporate ancestral constraints into a local search based BN structure learning approach. 
+
+%We also believe the hill climbing method we used to incorporate ancestral constraints can 
+%potentially be applied in the future to other global constraints that are currently out of reach for local search algorithms. 
+%One example is \emph{d-separation}, which allows an expert to assert conditional independence statements. 
+
+\subsection{Related work.} We briefly discuss some related work on BN structure learning algorithms.
+
+\smallskip
+In a classic paper by \cite{Tsamardinos2006}, greedy hill-climbing was used efficiently and accurately for standard BN structure learning.
+Another local search algorithm by \cite{CamposC07} was able to handle precisely the constraints (1) -- (3). However, this
+local search method is based on the space of DAGs while our proposed method primarily searches
+over the space of topological orderings.
+
+\smallskip
+A recent exact approach by \cite{Chen2016} called EC Tree was specifically designed to handle ancestral constraints. EC Tree can also handle constraints asserting
+ the absence of a directed path and finds solutions with guaranteed optimality
+which our proposed method cannot. However, their method does not scale beyond $n = 20$ random variables when using the BDeu score.
+GOBNILP \citep{Bartlett2017}, a widely-used exact approach, is able to handle a large variety of
+constraints. \cite{Chen2016} demonstrated that GOBNILP can be made to handle ancestral constraints, but requires orders of magnitude
+more time than EC Tree.
+
+\smallskip
+Causal discovery via MML (CaMML) \citep{Korb2010} uses stochastic search based on Markov Chain Monte Carlo. 
+It is capable of handling all of the constraints (1)-(4) except for arc absence. One is also able to
+assert that two variables are correlated (i.e. not independent) and all constraints can be specified as a soft constraint by setting confidence levels. We
+compare CaMML with our proposed method in our experimental evaluation. 
+
+%
+% Background material. Include enough background material so that
+% the paper will be understandable to the intended audience.
+%
+\section{Background}
+\label{SECTION:Background}
+
+We begin by reviewing preliminary details on Bayesian networks (BNs). 
+A BN consists of a DAG $G$ with nodes $V = \{v_1, \ldots , v_n\}$, where each node is a random variable, and a conditional probability distribution
+$P(v_i \text{ }| \text{ par}(v_i))$ for each random variable $v_i$, where $\text{par}(v_i)$ is the set of parents of $v_i$ in $G$. Arcs in $G$ from one node to another
+represent direct dependencies, and the full structure $G$ encodes all conditional dependencies between the $n$ variables. 
+In this paper, we focus on the \emph{score-and-search} method for BN structure learning. A scoring function $\sigma( \mathit{G} )$ is chosen where
+every DAG $G$ on $n$ variables is assigned a score based on how well $G$ fits the observed data (we assume a lower score is better).
+A common property of most scoring functions, such as BIC/MDL \citep{Schwarz78}, and BDeu \citep{HeckermanGC95}, is \emph{decomposability}, meaning the score of 
+the DAG is the sum of its local scores at each node: 
+$$\sigma( \mathit{G} ) = \sum_{i = 1}^{n} \sigma(v_i,\text{ par}(v_i))$$
+It is common practice to precompute the scores for each random variable $v_i$ and each candidate parent set $p \subseteq 2^{V \setminus \{v_i\} }$. \emph{Parent set
+identification} involves pruning parent sets that never appear in optimal scoring solutions (further 
+discussed in Section 3). \emph{Structure optimization} is the task of assigning a parent set for each node to achieve a minimum scoring acyclic network.
+
+\smallskip
+In order to incorporate prior knowledge, we wish to solve the BN structure learning problem with additional hard constraints. We formally present the problem we focus on for this paper.
+
+\begin{definition}[\textbf{Constrained Bayesian network structure learning problem}]
+
+Given a data set $D = \{d_1, \ldots, d_N\}$, where each $d_i$
+is a vector of discrete values over features/random variables
+$\mathit{V}$, a scoring function $\sigma$ that measures how
+well a candidate structure is supported by the observed data $D$,
+and arbitrarily many constraints of one of the following forms:
+\begin{enumerate}
+\itemsep0em
+\item $x \rightarrow y$ (directed arc existence) or  $x \text{ \textemdash \  } y$ (undirected arc existence)
+\item $x \nrightarrow y$ (directed arc absence)
+\item $x < y$ (topological ordering constraint)
+\item $x \rightsquigarrow y$ (ancestral constraint)
+\end{enumerate}
+The \emph{constrained Bayesian network structure learning problem} is to
+find a directed acyclic graph $\mathit{G}$ over $\mathit{V}$ minimizing the score $\sigma( \mathit{G} )$ subject to
+the following:
+
+\begin{itemize}
+\itemsep0em
+\item for every constraint $x \rightarrow y$, the arc $xy$ is in $G$.
+\item for every constraint $x \text{ \textemdash \  } y$, one of the arcs $xy$ or $yx$ is in $G$.
+\item for every constraint $x \nrightarrow y$, the arc $xy$ is \emph{not} in $G$
+\item there exists an ordering $\mathcal{O}$ such that for all constraints $x < y$, $x$ comes before $y$ in $\mathcal{O}$ and $\mathcal{O}$ is a
+	topological ordering for $G$
+\item for every constraint $x \rightsquigarrow y$, there exists a directed path from $x$ to $y$ in $G$
+
+\end{itemize}
+\end{definition}
+
+\smallskip
+
+MINOBS applies the \emph{ordering-based search} \citep{TeyssierK05} approach to BN structure learning. Given a topological ordering $\mathcal{O}$ of the nodes, the optimal DAG consistent with $\mathcal{O}$ can be found in polynomial time, assuming parent sets are restricted to some constant size at most $k$. This approach searches over the $O(n!)$ size space of orderings on $n$ variables, where the score of an ordering is the minimum score of a BN consistent with that ordering. 
+
+\smallskip
+The rest of the paper focuses on the methods used to approximately solve the \emph{constrained BN structure learning problem} . 
+
+
+%
+% Statement of technical solutions. Provides a clear statement of the
+% techniques used to solve the problem. Shows how the problem was
+% approached, by what methods and techniques.
+%
+\section{Parent Set Identification}
+\label{SECTION:ParentSetIdentification}
+
+Score-and-search approaches to BN structure learning rely on effective pruning strategies to reduce the number of candidate parent sets for each
+variable. The problem of \emph{parent set identification} is to determine which parent sets do not appear in optimal solutions and hence do not need to further be considered.
+Unfortunately, existing pruning rules preserve the optimal solution under the assumption that we are solving the problem with \emph{no} side constraints, but can be
+incorrect in the presence of side constraints. 
+For example, consider the following widely used pruning rule.
+
+\begin{lemma}[\cite{TeyssierK05}]
+
+Let $x_i$ be a node, $\Pi, \Pi'$ potential parent sets for $x_i$ such that 
+$\Pi \subset \Pi'$ and $\sigma(x_i, \Pi) < \sigma(x_i, \Pi')$. Then $\Pi'$ is
+not the parent set of $x_i$ in an optimal DAG $G^*$. 
+\end{lemma}
+
+In the \emph{(unconstrained) BN structure learning problem}, this rule allows $\Pi'$ to be pruned since for any DAG $G'$ containing $\Pi'$ as a parent of $x_i$, 
+one can instead assign $\Pi$ as the parent of $x_i$ resulting in a DAG $G$ with a strictly lower score than $G'$. However, when the addition of constraints are considered, this rule 
+no longer holds, as $G'$ may satisfy arc existence or ancestral constraints that $G$ does not. Therefore this pruning technique should not be used. 
+
+\smallskip
+Our method uses new approaches to parent set identification specific to the \emph{constrained BN structure learning} problem. For example, the following rules use constraints to eliminate infeasible solutions.
+
+\begin{itemize}
+\itemsep0em
+\item[(P1)] If $x \rightarrow y$, then any parent set of $y$ that does not contain $x$ can be pruned.
+
+\item[(P2)] If $x \nrightarrow y$, then we may prune all parent sets of $y$ containing $x$.
+
+\item[(P3)] If $x < y$, then we may prune parent sets of $x$ containing $y$.
+	
+\item[(P4)] If $x \rightsquigarrow y$, $\Pi$ is a parent set of $y$, and for all nodes $p \in \Pi$, $p < x$, then $\Pi$ may be pruned (since assigning $\Pi$ as the parent set of $y$ immediately makes satisfaction of $x \rightsquigarrow y$ impossible).
+
+\end{itemize}
+
+Using these rules to prune the candidate parent sets, any DAG constructed from the remaining candidate parent sets must satisfy 
+all constraints of the form $x \rightarrow y$ and $x \nrightarrow y$. If we wish to only consider DAGs consistent with some ordering $\mathcal{O}$, 
+we can easily handle the constraint $x \text{ \textemdash \  } y$ using (P1) as the direction of the arc can be deduced from $\mathcal{O}$. 
+The next rule is \emph{inexact} but is able to drastically reduce the number of candidate parent sets.
+
+\smallskip
+\noindent
+\emph{
+\emph{(P5)} Let $x_i$ be a node, $\Pi, \Pi'$ potential parent sets for $x_i$, $\lambda \ge 1$ a constant such that 
+$\Pi \subset \Pi'$ and $\lambda \sigma(x_i, \Pi) <  \sigma(x_i, \Pi')$. Then $\Pi'$ is
+pruned from the set of candidate parent sets.
+}
+
+\medskip
+Notice that this pruning rule is equivalent to Lemma 2 if $\lambda = 1$ is chosen. We prune a parent set $\Pi'$ if its score is significantly 
+worse than one of its subsets $\Pi$, as $\Pi'$ is unlikely to appear in
+optimal solutions to the \emph{constrained BN structure learning problem}. The choice of $\lambda$ is important; overpruning can be detrimental to the quality of DAGs found while underpruning is inefficient. We compute an initial value of $\lambda$ using the formula,
+
+$$\lambda = 1 + \omega (\frac{n}{N})(1 - (1 - \frac{m_{\text{anc}}}{n(n-1)})^2),$$
+
+\noindent
+where $n$ is number of random variables, $N$ is number of data points, $m_{\text{anc}}$ is number of 
+ancestral constraints, and $\omega$ is a constant.
+
+\smallskip
+This formula satisfies some key desiderata. Consider $G$ and $H$, the optimal-scoring DAGs without and with ancestral constraints imposed, respectively. 
+We expect $G$ and $H$ to be close in structure and score if (i) the number of data points is large (as both approach the ground truth network, or an I-equivalent network)
+or (ii) the number of ancestral constraints is small. Therefore, in these cases we wish to have a small $\lambda$ in order to prune parent sets with poor scores more liberally.
+  
+\smallskip
+In our approach, we restart the search with a higher value of $\lambda$ if feasible solutions cannot be found. We also specify a value of $\omega$ in our experimental procedure.
+
+
+% Hill Climbing for Constraint Satisfaction
+\section{Constraint-based Hill Climbing}
+\label{SECTION:ConstraintBasedHillClimbing}
+
+\begin{algorithm}[t]
+	\caption{hillClimbDAG($G$, $\mathcal{O}$)}
+ 		\emph{allParents} $\leftarrow$ allParentSets() \tcc*[r]{sorted by increasing score} 
+		
+		\While {true} {
+			\For {$p$ in allParents} {
+				$x$ $\leftarrow$ child($p$) \;
+				\If {not tabu$(x)$ and feasible$(p, \mathcal{O})$} {
+					$G'$ $\leftarrow$ $G$\;
+					$G'$.parentOf($x$) $\leftarrow$ $p$ \;
+					\If {$G'$ improves $G$} {
+						$G$ $\leftarrow$ $G'$ \;
+						break \;
+					}
+				}
+			}
+			
+			\If {no improvement found} {
+				\eIf {random$(0,1)$ $<$ walkProb} { 
+					$p$ $\leftarrow$ random feasible parent set\;
+					$x$ $\leftarrow$ child($p$) \;
+					$G$.parentOf($x$) $\leftarrow$ $p$ \;
+					tabu $x$ for $3$ iterations \;
+				}
+				 {
+					break \;
+				}
+			}
+			
+		}
+	
+	return $G$ \;
+\end{algorithm}
+\begin{algorithm}[t]
+	\caption{bestDAGForOrdering($\mathcal{O}$)}
+ 		$G_0$ $\leftarrow$ initialDAG($\mathcal{O}$) \;
+		return hillClimbDAG($G_0$, $\mathcal{O}$) \;
+\end{algorithm}
+
+In this section, we discuss how to search for an optimal solution consistent with a given ordering $\mathcal{O}$ that satisfies all constraints. Recall that  $x \rightarrow y$, $x \nrightarrow y$, and $x \text{ \textemdash \  } y$ can all be handled in parent set identification. We assume that $\mathcal{O}$ is consistent with all ordering constraints as this is handled in the next section. Here we show how to handle ancestral constraints.
+For convenience, we denote $\phi($G$)$ to be the number of ancestral constraints $x \rightsquigarrow y$ that are satisfied by a DAG $G$.
+
+\begin{definition} [Parent assignment neighbour]
+
+Two DAGs $G$ and $G'$ with the same nodes
+are \emph{parent assignment neighbours} if and only if the parent set of a single node differs between $G$ and $G'$.
+\end{definition}
+
+In Algorithm 2, the minimum scoring DAG consistent with $\mathcal{O}$ is computed and set as the initial DAG $G_0$. 
+We then apply the hill climbing method in Algorithm 1 on $G_0$.
+At each iteration of the hill climb, we choose an \emph{improving parent assignment neighbour} $G'$ of $G$, replacing $G$ with $G'$. 
+Here, we say that $G'$ is an \emph{improvement} over $G$ if and only if $\phi(G') > \phi(G)$ or $\phi(G) = \phi(G'), \sigma(G') < \sigma(G)$,
+i.e. satisfying the most ancestral constraints is the primary objective, 
+with score optimization as a secondary objective. The list of candidate parent sets, $\emph{allParents}$, is sorted in increasing order of score. 
+For each candidate parent set $p$ for node $v$, we consider $G'$, the \emph{parent assignment neighbour} of $G$ that results from assigning $p$ as the parent 
+for $v$ in $G$. As the number of candidate parent sets can be large, we adopt a \emph{first improvement} neighbour selection strategy. 
+Unfortunately, computing $\phi(G')$ can be quite expensive, performing a depth-first search to check each ancestral constraint $x \rightsquigarrow y$ in
+the worst case. However, a constraint $x \rightsquigarrow y$ that is satisfied in $G$
+must be satisfied in $G'$ unless $v$ is a descendant of $x$ and an ancestor of $y$ in $G$. Furthermore, if a constraint $x \rightsquigarrow y$ is not satisfied in $G$,
+then it is satisfied in $G'$ if and only if $v$ is an ancestor of $y$ and $v$ has a parent in $G'$ that was a descendant of $x$ in $G$. Thus, the number of depth first searches can
+be reduced by precomputing which ancestral constraints are satisfied, and the descendants and ancestors of nodes involved in ancestral constraints.
+
+\smallskip
+A problem with the \emph{parent assignment neighbourhood} is that it is small and the hill climbing algorithm can become stuck in low-quality 
+local minima. We solve this by introducing random walks and a tabu list. When the hill climb reaches a local minimum, it moves 
+to a random non-improving solution with some small probability \emph{walkProb}. The node whose parent set was affected is then declared tabu for the next three iterations of the hill climb
+so the change is not immediately undone (while a node is tabu, it cannot have its parent set reassigned).
+
+\section{Ordering-based Search}
+
+In this section, we focus on hill climbing over the space of topological orderings. The score of an ordering $\mathcal{O}$ is the minimum value of $\sigma(G)$
+for DAGs $G$ consistent with $\mathcal{O}$ and satisfying all constraints. As the true minimum-scoring DAG is difficult to find, we treat the best DAG found by
+Algorithm 2 as the score for $\mathcal{O}$.
+
+\smallskip
+We follow roughly the same search strategy and neighbourhood that is outlined in MINOBS 
+\citep{Lee2017} which uses the \emph{insert neighbourhood} and \emph{swap-adjacent neighbourhood}. Simply, $\mathcal{O'}$ is an 
+\emph{insert neighbour} of $\mathcal{O}$ if it results from selecting an element of $\mathcal{O}$ and inserting it to a new index (e.g. $\{x_1,x_2,x_3,x_4\}$ and $\{x_1,x_4,x_2,x_3\}$
+are \emph{insert neighbours}). A \emph{swap-adjacent neighbour} of $\mathcal{O}$ is an ordering resulting from swapping an element of $\mathcal{O}$ with its preceding element 
+(e.g. $\{x_1,x_2,x_3,x_4\}$ and $\{x_1,x_2,x_4,x_3\}$ are \emph{swap-adjacent neighbours}).
+
+\smallskip
+The \emph{insert neighbourhood} of $\mathcal{O}$ can be traversed using a series of \emph{swap-adjacent} moves. Each \emph{swap-adjacent} move only affects
+the choice of parent sets for the two swapped elements when no additional constraints are present, but this is not the case with side constraints. 
+We found the following strategy to be effective. Let the current ordering be $\mathcal{O} = (x_1, ..., x_i, x_{i+1}, ..., x_n)$ and the best feasible DAG found consistent with $\mathcal{O}$ be $G$.
+Suppose index $i$ is being swapped with index $i+1$ and we wish to find the best feasible DAG consistent with 
+$\mathcal{O}' = (x_1, ..., x_{i+1}, x_i, ... , x_n)$. We found that using $G$ as the initial starting point for hill climbing on $\mathcal{O'}$ improved the running time, as $G$ satisfies all ancestral constraints and is likely of high quality. If the parent set of 
+$x_{i+1}$ in $G$ contains $x_i$, then $G$ is not feasible under $\mathcal{O'}$ but we fix this by replacing the parent of $x_{i+1}$ with the lowest-scoring
+feasible parent under $\mathcal{O'}$.
+
+%
+% Evaluation of the proposal. Shows how successful our solutions were,
+% and why they were successful. Provide convincing evidence in support
+% of all claims. Carefully evaluate the strengths and limitations
+% of the contribution. Some dimensions for evaluation include empirical
+% results and theoretical analyses.
+%
+\section{Experimental Evaluation}
+\label{SECTION:Experimental}
+
+In our experiments, we compare our proposed method, denoted by MINOBSx\footnote{Code is available at https://github.com/acliuw/MINOBS-anc},
+against the CaMML\footnote{http://bayesian-intelligence.com/software/} software. CaMML was chosen for comparison as it is widely
+used in application fields (see, e.g. \cite{Flores2011}, \cite{Kennett2001}, \cite{Sesen2013}) and is also based on a stochastic score-and-search approach. 
+It is important to note that the learning problem is significantly easier without ancestral constraints (adding any of the other constraints also generally improves
+performance), therefore we did not find it useful to compare MINOBSx against methods that could not handle ancestral constraints. 
+Unfortunately, the source code for EC Tree was not made available.
+
+\smallskip
+Our test instances consist of all small and medium networks in the Bayesian Network Repository\footnote{http://www.bnlearn.com/bnrepository/}, the largest of 
+which is \emph{barley} (48 nodes). We randomly sampled 6 small datasets and 6 large datasets from the associated joint
+probability distributions of these ground truth networks. Two sets of experiments were run:
+(i) only imposing ancestral constraints and (ii) imposing various constraints. For each set of experiments, we selected 4 fixed percentages and sampled 5 sets of constraints
+at that percentage from the ground truth network. For a percentage $p\%$, we sampled constraints in the following way.
+
+\begin{itemize}
+\itemsep0em
+\item We choose $p\%$ of all directed arcs in the ground truth network. For each arc $xy$ we report $x \rightarrow y$ with probability $\frac{1}{2}$, otherwise we report 
+$x \text{ \textemdash \  } y$.
+
+\item We choose $p\%$ of all pairs $(x, y)$ such that there is no directed arc $xy$ in the ground truth network and report $x \nrightarrow y$. 
+
+\item We choose $p\%$ of all pairs $(x, y)$ such that there is a directed $x, y$-path in the ground truth network and report $x \rightsquigarrow y$.
+
+\item We use topological sort to retrieve an arbitrary topological ordering $\mathcal{O}$ of the ground truth network and report $p\%$ of the $n \choose 2$ possible ordering constraints $x < y$ for
+$\mathcal{O}$. 
+\end{itemize}
+
+When comparing MINOBSx and CaMML, we excluded arc absence constraints as CaMML does not accept these. 
+For each dataset and each constraint set, we ran both MINOBSx and CaMML, providing the dataset and constraint set as input. 
+
+\subsection{Setup.}
+
+All tests were run on a single core of an Intel ``Broadwell" E5-2683 v4 CPU @ 2.1 Ghz with a memory limit of 512 MB for small networks and 4 GB for medium networks. 
+
+\smallskip
+The parent set scores for MINOBSx were generated using GOBNILP \citep{Bartlett2017} with a parent limit of 3, due to limited disk space.\footnote{For the largest case, \emph{barley}, the number of parent sets
+generated is $48*({48-1 \choose 3} + {48-1 \choose 2} + {48-1 \choose 1} + {48-1 \choose 0}) = $ 832,512 with a parent limit of 3. If the parent limit is increased to 4, the number of parent sets generated is 9,394,032.}
+The running time for GOBNILP is included in 
+the running time for MINOBSx in the results. MINOBSx was run for 50 generations on small networks and 10 generations on medium networks. The parameter
+$\omega$ described in Section 3 was tuned to a value of $50$ using the \emph{cancer}, \emph{child}, and \emph{barley} instances. 
+
+\smallskip
+CaMML was run under its default settings. We allowed CaMML more running time than MINOBSx as CaMML
+is implemented in Java while MINOBSx is implemented in C++. All constraints passed to CaMML were specified with a confidence level of $1.0$ (hard constraint) except ancestral constraints, which were assigned a confidence of $0.9999$. CaMML was often unable to produce any solutions except on very small networks when the 
+confidence level for ancestral constraints was set to $1.0$. Surprisingly, by changing the confidence to $0.9999$ for ancestral constraints, CaMML was able to completely solve
+some instances that it otherwise was not able to find any solutions to. 
+
+\subsection{Results.}
+
+\begin{table}[ht]
+\captionof{table}{Performance results for ancestral constraints only (first number in each pair) and with various constraints (second number in each pair).
+$N$ is number of observations, $\%$ is the fixed percentage used to sample constraints, $\%$ feasible is the percentage of cases where the solution satisfied \emph{all} constraints imposed, $\%$ sat is the percentage of satisfied constraints out of those constraints imposed, $t$ is the running time required by the program. Highlighted cells indicate that not all
+constraints were able to be satisfied.} 
+\scriptsize
+\renewcommand\theadfont{}
+\centering
+\begin{tabular}{@{}c | c | c || c | c | c || c | c | c@{}}
+
+
+\multirow{2}{*}{instance} & \multirow{2}{*}{$N$} & \multirow{2}{*}{$\%$} & \multicolumn{3}{c||}{MINOBSx} & \multicolumn{3}{c}{CaMML} \\ [2ex]
+	& & &  \% feasible & \% sat & $t$ (seconds) & \% feasible & \% sat & $t$ (seconds) \\
+	
+\hhline {=|=|=||=|=|=||=|=|=}
+
+%ASIA
+\multirow{8}{*}{\thead{\textbf{asia} \\ \\ 8 variables \\ 18 params}} & \multirow{4}{*}{250} 
+
+& 10 / 5  & 100 / 100 & 100 / 100 & 1.1 / 0.5 & 100 / 100 & 100 / 100 & 5.8 / 5.4 \\
+
+& & 25 / 10 & 100 / 100 & 100 / 100 & 1.3 / 0.5  & 100 / 100 & 100 / 100 & 6.3 / 5.5 \\
+	
+& & 50 / 15 & 100 / 100 & 100 / 100 & 0.9 / 0.3 & 100 / 100 & 100 / 100 & 6.8 / 5.9 \\
+
+& & 100 / 20 & 100 / 100 & 100 / 100  & 0.5 / 0.2 & 100 / 100 & 100 / 100 & 8.3 / 5.7 \\
+
+\hhline {~|-|-||-|-|-||-|-|-}
+
+& \multirow{4}{*}{1000}
+
+& 10 / 5 & 100 / 100 & 100 / 100 & 0.9 / 0.4 & 100 / 100 & 100 / 100 & 5.5 / 5.0  \\
+
+& & 25 / 10 & 100 / 100 & 100 / 100 & 1.1 / 0.4 & 100 / 100 & 100 / 100 & 6.0 / 5.3 \\
+	
+& & 50 / 15 & 100 / 100 & 100 / 100 & 0.7 / 0.3 & \cellcolor{yellow!100} 100 / 96.7 & \cellcolor{yellow!100} 100 / 99.7 & 6.3 / 5.6 \\
+
+& & 100 / 20 & 100 / 100 & 100 / 100 & 0.4 / 0.2 & 100 / 100 & 100 / 100 & 7.3 / 5.6 \\
+
+%INSURANCE
+\hhline {=|=|=||=|=|=||=|=|=}
+
+\multirow{8}{*}{\thead{\textbf{insurance} \\ \\ 27 variables \\ 984 params}} & \multirow{4}{*}{500}
+& 10 / 5  & 100 / 100 & 100 / 100 & 180.5 / 104.9 & \cellcolor{yellow!100} 50.0 / 70.0 & \cellcolor{yellow!100} 95.9 / 99.0 & 439.5 / 325.3  \\
+& & 25 / 10 & 100 / 100 & 100 / 100 & 318.9 / 56.5 &\cellcolor{yellow!100}  56.7 / 50.0 & \cellcolor{yellow!100} 98.0 / 98.9 & 723.9 / 385.0  \\
+& & 50 / 15 & 100 / 100 & 100 / 100 & 328.7 / 52.8 & \cellcolor{yellow!100} 30.0 / 33.3 & \cellcolor{yellow!100} 98.5 / 98.1 & 1165.6 / 485.2  \\
+& & 100 / 20 & 100 / 100 & 100 / 100 & 292.5 / 37.4 & \cellcolor{yellow!100} 0 / 53.3 & \cellcolor{yellow!100} 98.1 / 99.6 & 2052.3 / 571.7 \\
+
+\hhline {~|-|-||-|-|-||-|-|-}
+
+& \multirow{4}{*}{2000}
+& 10 / 5 & 100 / 100 & 100 / 100 & 124.0 / 88.3 &  \cellcolor{yellow!100} 0 / 53.3 &  \cellcolor{yellow!100} 78.8 / 98.1 & 438.5 / 309.8  \\
+& & 25 / 10 & 100 / 100  & 100 / 100 & 236.3 / 49.6 & \cellcolor{yellow!100}  16.7 / 23.3 &  \cellcolor{yellow!100} 92.4 / 96.8 & 748.6 / 393.2 \\
+& & 50 / 15 & 100 / 100 & 100 / 100  & 251.5 / 48.2 &  \cellcolor{yellow!100} 3.3 / 10.0 &  \cellcolor{yellow!100} 94.4 / 96.6 & 1175.2 / 487.9  \\
+& & 100 / 20 & 100 / 100 & 100 / 100 & 233.1 / 33.4 & \cellcolor{yellow!100}  0 / 10.0  &  \cellcolor{yellow!100} 95.6 / 98.8 & 1956.8 / 571.1 \\
+
+%BARLEY
+\hhline{=|=|=||=|=|=|=|=|=}
+\multirow{8}{*}{\thead{\textbf{barley} \\ \\ 48 variables \\ 114005 params}} & \multirow{4}{*}{2000} 
+& 10 / 5 & 100 / 100 & 100 / 100 & 2321.4 / 5866.8 & \cellcolor{yellow!100} 0 / 0 & \cellcolor{yellow!100} 70.3 / 89.3 & 19824.8 / 11666.1  \\
+& & 25 / 10 & 100 / 100  & 100 / 100 & 4228.9 / 2941.3 & \cellcolor{yellow!100} 0 / 0 & \cellcolor{yellow!100} 74.4 / 93.6  & 37034.3 / 14864.9 \\
+& & 50 / 15 & 100 / 100 & 100 / 100  & 7163.0 / 3518.9 & \cellcolor{yellow!100} 0 / 0 & \cellcolor{yellow!100} 73.9 / 95.0 & 70433.0 / 20339.2  \\
+& & 100 / 20 & 100 / 100 & 100 / 100 & 7246.6 / 1806.3 & \cellcolor{yellow!100} 0 / 0 & \cellcolor{yellow!100} 80.9 / 96.3 & 114036.7 / 22366.9 \\
+
+\hhline {~|-|-||-|-|-||-|-|-}
+& \multirow{4}{*}{8000}
+& 10 / 5 & 100 / 100 & 100 / 100 & 4761.1 / 6032.7 & \cellcolor{yellow!100} 0 / 0 & \cellcolor{yellow!100} 44.0 / 82.8 & 18092.6 / 10759.6 \\
+& & 25 / 10 & 100 / 100  & 100 / 100 & 4063.8 / 3620.0 & \cellcolor{yellow!100} 0 / 0 & \cellcolor{yellow!100} 52.5 / 91.8 & 35308.3 / 14477.5 \\
+& & 50 / 15 & 100 / 100 & 100 / 100  & 5137.8 / 3022.8 & \cellcolor{yellow!100} 0 / 0 & \cellcolor{yellow!100} 54.0 / 95.1 & 64893.5 / 18142.0  \\
+& & 100 / 20 & 100 / 100 & 100 / 100 & 5675.6 / 1638.8 & \cellcolor{yellow!100} 0 / 0 & \cellcolor{yellow!100} 53.4 / 95.1 & 111338.4 / 21184.4 \\
+\end{tabular}
+\end{table}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{table}[ht]
+\captionof{table}{Results for medium networks, with ancestral constraints only (first number in each pair) and with various constraints (second number in each pair).
+Rows marked $0^*$ under the $\%$ column indicate optimal solutions produced by GOBNILP \emph{without side constraints}.
+} 
+\scriptsize
+\centering
+\renewcommand\theadfont{}
+\begin{tabular}{ c | c | c || c | c | c | c | c  }
+
+instance & $N$ & \% & Missing & Extra & Reversed & SID & Score (BDeu) \\
+
+\hhline{=|=|=||=|=|=|=|=}
+\multirow{10}{*}{\thead{\textbf{asia} \\ \\ 8 variables \\ 18 parameters}} & \multirow{5}{*}{250} 
+& $0^*$ & 1.5 & 1.7 & 1.0 & 12.2 & 0\% \\
+& & 10 / 5 & 1.4 / 1.4 & 1.6 / 1.6 & 0.7 / 0.9 & 10.3 / 11.1 & 0.0\% / 0.0\% \\
+& & 25 / 10 & 1.2 / 1.4 & 1.8 / 1.6 & 0.5 / 0.6 & 7.2 / 8.9 & 0.1\% / 0.1\% \\
+& & 50 / 15 & 1.0 / 0.8 & 2.0 / 1.4 & 0.3 / 0.4 & 4.3 / 4.4 & 0.2\% / 0.3\% \\
+& & 100 / 20 & 0.5 / 0.7 & 1.7 / 1.1 & 0.0 / 0.2 & 1.8 / 3.9 & 0.3\% / 0.3\% \\
+
+\hhline{~|-|-||-|-|-|-|-} 
+& \multirow{5}{*}{1000}
+& $0^*$ & 0.8 & 0.3 & 1 & 9.0 & 0\% \\
+& & 10 / 5 & 0.7 / 0.8 & 0.4 / 0.4 & 0.9 / 1.1 & 7.3 / 9.0 & 0.0\% / 0.0\% \\
+& & 25 / 10 & 0.4 / 0.5 & 0.5 / 0.3 & 0.4 / 0.8 & 4.2 / 6.4 & 0.0\% / 0.0\% \\
+& & 50 / 15 & 0.2 / 0.3 & 0.4 / 0.4 & 0.0 / 0.5 & 0.4 / 3.6 & 0.0\% / 0.0\% \\
+& & 100 / 20 & 0.0 / 0.2 & 0.3 / 0.3 & 0.0 / 0.4 & 0 / 3.1 & 0.0\% / 0.0\% \\
+
+\hhline{=|=|=||=|=|=|=|=}
+
+\multirow{10}{*}{\thead{\textbf{child} \\ \\ 20 variables \\ 230 parameters}}  & \multirow{5}{*}{500}
+
+& $0^*$ & 5.3 & 1.0 & 3.0 & 115.7 & 0\% \\
+& & 10 / 5 & 4.8 / 4.8 & 1.1 / 0.8 & 1.9 / 1.3 & 91.4 / 82.6 & 0.1\% / 0.2\% \\
+& & 25 / 10 & 4.7 / 4.3 & 1.9 / 1.6 & 1.6 / 1.8 & 93.9 / 79.4 & 0.2\% / 0.3\% \\
+& & 50 / 15 & 3.9 / 4.2 & 1.4 / 1.2 & 1.7 / 0.7 & 76.1 / 69.9 & 0.3\% / 0.4\% \\
+& & 100 / 20 & 2.2 / 3.6 & 2.2 / 0.8 & 0.0 / 0.3 & 35.8 / 57.6 & 0.9\% / 0.4\% \\
+
+
+\hhline{~|-|-||-|-|-|-|-}
+
+& \multirow{5}{*}{2000}
+
+& $0^*$ & 1.7 & 0.2 & 3.5 & 79.2 & 0\% \\
+& & 10 / 5 & 1.5 / 1.3 & 0.2 / 0.2 & 0.5 / 0.1 & 26.0 / 20.8 & 0.0\% / 0.0\% \\
+& & 25 / 10 & 0.7 / 1.0 & 0.3 / 0.3 & 0.3 / 0.5 & 12.1 / 18.0 & 0.0\% / 0.0\% \\
+& & 50 / 15 & 0.7 / 1.0 & 0.3 / 0.3 & 0.5 / 0.0 & 12.2 / 16.2 & 0.0\% / 0.0\% \\
+& & 100 / 20 & 0.2 / 1.0 & 0.3 / 0.1 & 0.0 / 0.0 & 2.5 / 16.6 & 0.1\% / 0.0\% \\
+
+\hhline{=|=|=||=|=|=|=|=}
+\multirow{10}{*}{\thead{\textbf{alarm} \\ \\ 37 variables \\ 509 parameters}} & \multirow{5}{*}{1000} 
+& $0^*$ & 2.2 & 5.8 & 1.3 & 45.7 & 0\% \\
+& & 10 / 5 & 2.0 / 1.6 & 6.2 / 5.5 & 1.1 / 1.6 & 34.7 / 46.4 & 0.0\% / 0.1\% \\
+& & 25 / 10 & 2.0 / 1.8 & 6.3 / 5.4 & 0.7 / 0.8 & 27.7 / 32.2 & 0.1\% / 0.1\% \\
+& & 50 / 15 & 2.0 / 1.5 & 6.1 / 5.0 & 0.3 / 0.6 & 22.4 / 27.7 & 0.1\% / 0.2\% \\
+& & 100 / 20 & 2.0 / 1.5 & 6.2 / 4.4 & 0.0 / 0.1 & 18.0 / 18.3 & 0.1\% / 0.2\% \\
+
+\hhline{~|-|-||-|-|-|-|-} 
+& \multirow{5}{*}{4000}
+& $0^*$ & 2.0 & 3.2 & 1.8 & 39.5 & 0\% \\
+& & 10 / 5 & 2.0 / 1.6 & 4.6 / 4.5 & 0.6 / 1.2 & 24.9 / 38.8 & 0.0\% / 0.0\% \\
+& & 25 / 10 & 2.0 / 1.8 & 4.5 / 4.3 & 0.3 / 0.6 & 20.1 / 28.0 & 0.0\% / 0.0\% \\
+& & 50 / 15 & 2.0 / 1.5 & 4.1 / 4.2 & 0.0 / 0.4 & 18.0 / 22.3 & 0.0\% / 0.1\% \\
+& & 100 / 20 & 1.7 / 1.4 & 4.2 / 3.7 & 0.0 / 0.3 & 12.3 / 20.4 & 0.0\% / 0.1\% \\
+
+
+\hhline{=|=|=||=|=|=|=|=}
+\multirow{10}{*}{\thead{\textbf{barley} \\ \\ 48 variables \\ 114005 parameters}} & \multirow{5}{*}{2000} 
+& $0^*$ & 32.3 & 8.2 & 9.7 & 949.5 & 0\% \\
+& & 10 / 5 & 33.3 / 31.7 & 14.4 / 12.2 & 5.1 / 4.4 & 792.9 / 756.7 & 0.6\% / 1.4\% \\
+& & 25 / 10 & 31.9 / 31.0 & 15.6 / 13.8 & 5.3 / 4.8 & 802.6 / 741.5 & 0.9\% / 1.7\% \\
+& & 50 / 15 & 31.0 / 27.5 & 17.4 / 11.3 & 3.0 / 3.2 & 699.4 / 666.9 & 1.4\% / 2.9\% \\
+& & 100 / 20 & 30.2 / 26.4 & 19.5 / 11.8 & 0.0 / 1.5 & 619.3 / 628.1 & 2.4\% / 3.9\% \\
+
+
+\hhline{~|-|-||-|-|-|-|-} 
+& \multirow{5}{*}{8000}
+& $0^*$ & 25.5 & 3.7 & 9.7 & 794.7 & 0\% \\
+& & 10 / 5 & 25.6 / 24.6 & 8.9 / 8.0 & 5.3 / 5.2 & 636.6 / 625.4 & 0.3\% / 0.8\% \\
+& & 25 / 10 & 25.0 / 24.0 & 10.4 / 8.8 & 5.5 / 4.3 & 644.4 / 584.7 & 0.4\% / 0.9\% \\
+& & 50 / 15 & 22.1 / 20.5 & 9.2 / 7.6 & 3.3 / 1.9 & 541.7 / 487.4 & 0.6\% / 1.4\% \\
+& & 100 / 20 & 20.8 / 19.3 & 12.0 / 7.0 & 0.0 / 1.6 & 457.2 / 507.2 & 0.9\% / 1.8\% \\
+
+\end{tabular}
+\end{table}
+
+MINOBSx was able to find feasible solutions incorporating all constraints imposed \emph{for all tests}. CaMML was able to consistently incorporate most constraints on small networks,
+but performed poorly on all larger cases. Results for 3 of the 11 networks are explicitly specified in Table 1. \footnote{Extended versions of Table 1 and Table 2 containing full results are available at github.com/acliuw/MINOBS-anc.}
+
+\smallskip
+We also compare the quality of the networks learned by MINOBSx against the ground truth networks. We do not compare against the 
+networks learned by CaMML as the two methods use different scoring functions, which can have a large impact on results. For instances with only ancestral constraints,
+we directly analyze the results produced in the previous group of experiments; however, for instances with various constraints, we re-ran MINOBSx on constraint sets
+that included arc absence constraints. 
+We report the number of missing/extra/reversed arcs and the structural
+intervention distance (SID) \citep{Peters2015} (which measures the difference in causal statements) between the learned and ground truth networks. We also report the percentage
+difference between the BDeu score of the learned network and the optimal score produced by GOBNILP\footnote{A parent limit of 8 was imposed for small networks, 6 on medium networks (except for \emph{mildew} and \emph{barley}), and 4 for
+\emph{mildew} and \emph{barley} due to time constraints.} on the instance \emph{without side constraints}. The results for 4 networks of varying sizes are displayed in Table 2; however, the other networks produced similar results. 
+
+\smallskip
+From these results, MINOBSx appears much more robust than CaMML, especially as the number of variables increases. Even when it spends significantly more time than
+MINOBSx, CaMML is often unable to find feasible solutions (e.g. see the \emph{barley} case). Also, the percentage difference between
+the BDeu scores to the constrained problem and the unconstrained problem is small and never over $4\%$.
+Hence, solutions produced by MINOBSx are within a $4\%$ error margin of the optimal \emph{constrained} solution in the worst case. 
+
+\smallskip
+When we analyze the affect of ancestral constraints on solution quality, we see that the number of missing and reversed arcs tends to decrease while the number of extra arcs
+does not change or worsens. However, in some cases, the number of missing arcs does not improve, even when $100\%$ of ancestral constraints are added.
+A small number of various constraints seems to offer more noticeable and consistent improvements to missing and extra arcs. 
+ A likely reason is that arc existence and absence constraints can directly fix a missing or extra arc whereas ancestral constraints are 
+ambiguous. If an incorrect path is used to satisfy an ancestral constraint, this may create additional extra arcs while not improving the number of missing arcs. 
+On the other hand, ancestral constraints alone appear to significantly improve the SID. This is expected, since ancestral constraints assert
+indirect causes and the SID measures differences in causal statements.
+
+\smallskip
+One pitfall we note is that due to the low parent limit of 3, MINOBSx is unable to recover the ground truth network in some cases, while CaMML does not explicitly set a parent limit. 
+This is observed in the results for \emph{alarm} which contains a node with 4 parents. However, this is generally insignificant as large parent sets result in overly complex models that are unlikely to appear in optimal
+solutions, especially when the amount of data is small. 
+
+
+\section{Conclusion}
+
+We present a novel method for incorporating prior knowledge constraints into a local search algorithm for Bayesian network structure learning, including non-decomposable \emph{ancestral constraints}. While previous exact methods could handle up to twenty random variables, we demonstrate that our stochastic search method
+is able to scale up to nearly fifty random variables while producing high quality networks. When compared against CaMML, a software widely used by researchers in applied
+fields, our proposed method shows much more robust and consistent performance on networks with more than twenty nodes. 
+
+\smallskip
+For future work,
+similar techniques to those presented in this paper may prove useful for efficiently handling other non-decomposable constraints. One such example 
+is $d$-separation, which can be used to assert conditional independence relationships between variables.
+
+
+\subsection{Acknowledgements.}
+
+	This research was supported in part by WestGrid\footnote{https://www.westgrid.ca}, Compute Canada\footnote{www.computecanada.ca},
+and an NSERC USRA Award. 
+
+\bibliography{probabilistic}
+
+
+%\section{Appendix A}
+%\subsection{Dynamic Programming for Number of Arcs Constraint}
+%
+%Suppose we are given an ordering of nodes $\theta = (x_1, x_2, ..., x_n)$, a number $k$, and a decomposable scoring function $\sigma( \mathit{G} ) = \sum_{i = 1}^{n} \sigma(x_i,\text{ par}_G(x_i))$. We wish to find a DAG $G$ with exactly $k$ arcs minimizing the total score of the graph $\sigma( \mathit{G} )$.
+%
+%\bigskip{}
+%For convenience, we will define $Sc(G, m) = \sum_{i=1}^{m}{ \sigma(x_i, \text{ par}_G(x_i)) }$ (i.e. the sum of local scores on the first $m$ nodes), and $A(G, m) = \sum_{i=1}^{m}{|\text{par}_G(x_i)|}$ (i.e. the number of arcs used among the first $m$ nodes). Thus, our problem is to find the DAG $G$ with topological ordering $\theta$ minimizing $Sc(G,n)$ such that $A(G, n) = k$. 
+%
+%\bigskip{}
+%Define $D(i, j)$ for $0 \le i \le n$,  $0 \le j \le k$ to be the minimum value of $Sc(G,i)$ (over permissible DAGs $G$) such that $A(G,i) = j$. Note that $D(0, 0) = 0$ and $D(0, z) = \infty$ when $z > 0$.
+%
+%\bigskip{}
+%Now we present the following recurrence for $i > 0$:
+%
+%$$D(i, j) = \text{min} \{ D(i-1, j-|p|) + \sigma(X_i, p) : p \in \mathcal{P}_i, \text{$ p$ respects }\theta, j \ge |p| \}$$
+%
+%We say that a parent set $p$ for $X_i$ respects $\theta$ if and only if $p \subseteq \{X_1, X_2, ..., X_{i-1} \}$ (i.e. $p$ only contains elements occurring before $X_i$ in $\theta$). 
+%
+%
+%\bigskip
+%We prove the recurrence as follows. Let $\hat{G}$ be a minimum-scoring DAG with topological ordering $\theta$ satisfying $A(\hat{G}, i) = j$. Thus, by definition $Sc(\hat{G},i) = D(i, j)$. 
+%Consider $\hat{G}$ on the first $i-1$ nodes. Note that $A(\hat{G}, i-1) = A(\hat{G}, i) - |pa_{\hat{G}}(X_i)|) = j - |pa_{\hat{G}}(X_i)|$. Suppose for a contradiction that $\hat{G}$ does not have an optimal score on the first $i-1$ nodes (of DAGs with the same number of arcs). In other words, $Sc(\hat{G}, i-1) > D(i-1, j-|pa_{\hat{G}}(X_i)|)$. Then there must exist another feasible DAG $H$ such that $A(H, i-1) = j-|pa_{\hat{G}}(X_i)|$ and $Sc(H, i-1) = D(i-1, j-|pa_{\hat{G}}(X_i)|)$. Modify $H$ into $H'$ by setting the parent set of $X_i$ in $H$ to be $pa_{\hat{G}}(X_i)$ (i.e. give $X_i$ the same set of parents as in $\hat{G}$). Note that $H'$ still respects the ordering $\theta$ which also implies $H'$ is a DAG. Also, $$A(H', i) = A(H', i-1) + |pa_{H'}(X_i)| = A(H, i-1) + |pa_{\hat{G}}(X_i)| = j$$
+%and 
+%
+%\begin{align*}
+%Sc(H', i) &= Sc(H', i-1) + \sigma(X_i,  |pa_{H'}(X_i)|)  \\
+%&= Sc(H, i-1) + \sigma(X_i, |pa_{\hat{G}}(X_i)|) \\
+%&= D(i-1, j-|pa_{\hat{G}}(X_i)|) + \sigma(X_i, |pa_{\hat{G}}(X_i)|) \\
+%&< Sc(\hat{G}, i-1) + \sigma(X_i, |pa_{\hat{G}}(X_i)|) \\
+%&= Sc(\hat{G}, i)
+%\end{align*}
+%contradicting the optimality of $\hat{G}$ on the first $i$ nodes, with $j$ arcs. Hence, if $\hat{G}$ is optimal over the first $i$ nodes, $j$ arcs, then $\hat{G}$ must also be optimal over the first $i-1$ nodes, $j-|pa_{\hat{G}}(X_i)|$ arcs. 
+%
+%\bigskip
+%Hence, the value of $D(i, j)$ for $i > 0$ can be computed by enumerating over all parent sets of $X_i$ that respect $\theta$, yielding the desired recurrence. 
+%
+%\bigskip
+%\textbf{Example:}
+%
+%\bigskip
+%Consider the ordering $\theta = (X_1, X_2, X_3)$ and the following parent sets and scores.
+%
+%\begin{align*}
+%X_1&: \{\}, 4.0\\
+%X_2&: \{\}, 17.0 \hspace{2.5mm} \{X_1\}, 10.0\\
+%X_3&: \{\}, 20.0 \hspace{2.5mm} \{X_1\}, 6.0 \hspace{2.5mm} \{X_2\}, 5.0  \hspace{2.5mm} \{X_1, X_2\}, 1.0
+%\end{align*}
+%
+%\bigskip
+%We compute the table of values for $D(i, j)$ in the natural order (by increasing order of $i$, then by increasing order of $j$ for equal values of $i$). 
+%
+%\begin{center}
+%    \begin{tabular}{ | c | c | c | c | c |}
+%    \hline
+%    i $\backslash$ j& 0 & 1 & 2 & 3 \\ \hline
+%    0 & 0 & $\infty$ & $\infty$ & $\infty$ \\ \hline
+%    1 & 4.0 & $\infty$ & $\infty$ & $\infty$ \\ \hline
+%    2 & 21.0 & 14.0 & $\infty$ & $\infty$ \\ \hline
+%    3 & 41.0 & 26.0 & 19.0 & 15.0 \\ \hline
+%    \end{tabular}
+%\end{center}
+%
+%Note that this method computes $D(n, j)$ for all $0 \le j \le k$. Thus, the optimal DAGs with $0, 1, 2, 3$ arcs, respectively, are given. The DAGs can be retrieved by backtracking through the table.
+%
+%$0$ arcs (Score 41.0)
+%\bigskip
+%
+%    \begin{tikzpicture}[
+%            > = stealth, % arrow head style
+%            shorten > = 1pt, % don't touch arrow head to node
+%            auto,
+%            node distance = 3cm, % distance between nodes
+%            semithick % line style
+%        ]
+%	
+%
+%        \tikzstyle{every state}=[
+%            draw = black,
+%            thick,
+%            fill = white,
+%            minimum size = 4mm
+%        ]
+%        
+%        \node[state] (x1) {$X_1$};
+%        \node[state] (x2) [above right of=x1]{$X_2$};
+%        \node[state] (x3) [below right of=x2] {$X_3$};
+%
+%    \end{tikzpicture}
+%    
+%\bigskip
+%$1$ arc (Score 26.0)
+%\bigskip
+%
+%    \begin{tikzpicture}[
+%            > = stealth, % arrow head style
+%            shorten > = 1pt, % don't touch arrow head to node
+%            auto,
+%            node distance = 3cm, % distance between nodes
+%            semithick % line style
+%        ]
+%	
+%
+%        \tikzstyle{every state}=[
+%            draw = black,
+%            thick,
+%            fill = white,
+%            minimum size = 4mm
+%        ]
+%        
+%        \node[state] (x1) {$X_1$};
+%        \node[state] (x2) [above right of=x1]{$X_2$};
+%        \node[state] (x3) [below right of=x2] {$X_3$};
+%
+%	\path[->] (x2) edge node {} (x3);
+%	
+%    \end{tikzpicture}
+% 
+%\bigskip
+%$2$ arcs (Score 19.0)
+%\bigskip
+%
+%    \begin{tikzpicture}[
+%            > = stealth, % arrow head style
+%            shorten > = 1pt, % don't touch arrow head to node
+%            auto,
+%            node distance = 3cm, % distance between nodes
+%            semithick % line style
+%        ]
+%	
+%
+%        \tikzstyle{every state}=[
+%            draw = black,
+%            thick,
+%            fill = white,
+%            minimum size = 4mm
+%        ]
+%        
+%        \node[state] (x1) {$X_1$};
+%        \node[state] (x2) [above right of=x1]{$X_2$};
+%        \node[state] (x3) [below right of=x2] {$X_3$};
+%
+%	\path[->] (x2) edge node {} (x3);
+%	\path[->] (x1) edge node {} (x2);
+%	
+%    \end{tikzpicture}
+%
+%\bigskip
+%$3$ arcs (Score 15.0)
+%\bigskip
+%
+%    \begin{tikzpicture}[
+%            > = stealth, % arrow head style
+%            shorten > = 1pt, % don't touch arrow head to node
+%            auto,
+%            node distance = 3cm, % distance between nodes
+%            semithick % line style
+%        ]
+%	
+%
+%        \tikzstyle{every state}=[
+%            draw = black,
+%            thick,
+%            fill = white,
+%            minimum size = 4mm
+%        ]
+%        
+%        \node[state] (x1) {$X_1$};
+%        \node[state] (x2) [above right of=x1]{$X_2$};
+%        \node[state] (x3) [below right of=x2] {$X_3$};
+%
+%	\path[->] (x2) edge node {} (x3);
+%	\path[->] (x1) edge node {} (x3);
+%	\path[->] (x1) edge node {} (x2);
+%	
+%    \end{tikzpicture}
+%
+%\subsection{DP for Constraining Number of Parentless Nodes}
+%
+%Let $D(i, j)$ be the minimum value of $Sc(G, i)$ over all acceptable DAGs $G$ such that the number of nodes in $\{X_1,..., X_i\}$ with no parents is exactly $j$. 
+%We use the following recurrence. 
+%
+%\bigskip{}
+%$D(0,0) = 0$
+%
+%$D(0, z) = \infty$ for $z > 0$
+%
+%\begin{equation}
+%    D(i, j) = \text{min}
+%    \begin{cases}
+%      D(i-1, j-1) + \sigma(X_i, \emptyset)\\
+%      \text{min} \{ D(i-1, j) + \sigma(X_i, p) : p \in \mathcal{P}_i \setminus \emptyset, \text{$ p$ respects }\theta \}
+%    \end{cases}
+%  \end{equation}
+% 
+%when $i > 0$. 
+%
+%\bigskip{}
+% To prove the recursive part of this formula, let $\hat{G}$ be any DAG over the ordering $\theta$ such that $Sc(\hat{G}, i) = D(i, j)$ and $\hat{G}$ has $j$ parentless nodes in the first $i$ nodes. If $X_i$ is parentless in $\hat{G}$, then $j-1$ of the first $i-1$ nodes in $\hat{G}$ are parentless, and moreover, $Sc(\hat{G}, i-1)$ must be minimal over all DAGs where $j-1$ of the first $i-1$ nodes are parentless (otherwise, we could again show $\hat{G}$ is not optimal). Hence, $Sc(\hat{G}, i) = D(i-1, j-1) + \sigma(X_i, \emptyset)$ for this case. 
+% 
+% \bigskip{}
+% The other case where $X_i$ is not parentless is very similar and yields $$Sc(\hat{G}, i) = \text{min} \{ D(i-1, j) + \sigma(X_i, p) : p \in \mathcal{P}_i \setminus \emptyset, \text{$ p$ respects }\theta \}$$
+% 
+% Thus, the recursive formula provided considers all cases and therefore gives the optimal value over all acceptable DAGs. 
+%
+%
+%\subsection{DP for Both Constraints Simultaneously}
+%
+%Let $D(i, j_1, j_2)$ be the minimum value of $Sc(G, i)$ over all acceptable DAGs $G$ such $A(G, i) = j_1$ and the number of nodes in $\{X_1,..., X_i\}$ with no parents is exactly
+% $j_2$. 
+% 
+% \bigskip{}
+%$D(0, 0, 0) = 0$
+%
+%$D(0, z_1, z_2) = \infty$ for $z_1 > 0$ or $z_2 > 0$. 
+%
+%\begin{equation}
+%    D(i, j_1, j_2) = \text{min}
+%    \begin{cases}
+%      D(i-1, j_1, j_2-1) + \sigma(X_i, \emptyset)\\
+%      \text{min} \{ D(i-1, j_1 - |p|, j_2) + \sigma(X_i, p) : p \in \mathcal{P}_i \setminus \emptyset, \text{$ p$ respects }\theta \}
+%    \end{cases}
+%  \end{equation}
+%
+%\bigskip{}
+%The proof of correctness is similar to those for the above cases. In the computation for $D(i, j_1, j_2)$ we consider all choices of parent sets for $X_i$. Note the similarity of this problem to the \textit{Knapsack Problem}, where each item has two weight properties (say, ``weight" and ``size") and we wish to maximize/minimize the value of items selected given limits on both weight properties. Number of arcs can be thought of as ``weight" and number of parentless nodes can be thought of as ``size". A parent set $p$ has ``weight" $|p|$ and ``size" $1$ if $p$ is empty, $0$ otherwise. 
+
+
+\end{document}

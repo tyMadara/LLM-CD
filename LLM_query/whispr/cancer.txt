@@ -1,0 +1,16 @@
+The causality between each pair of variables in the field of smoking and cancer is as follows:
+
+1.<edge>Pollution->Cancer</edge>:
+High levels of air pollution can cause cancer due to the harmful chemicals and toxins present in polluted air. However, this causation is not direct as air pollution is not the only cause of cancer.
+
+2.<edge>Smoker->Cancer</edge>:
+Smoking is a well-known cause of cancer, particularly lung cancer. Smokers inhale carcinogens present in tobacco smoke which damages the DNA of cells and leads to the development of cancer. This is a direct causality relationship.
+
+3.<edge>Smoker->Dyspnoea</edge>:
+Smoking is a major cause of respiratory issues, including dyspnea. Smoking damages the air passages in the lungs, leading to inflammation and narrowing of airways. Thus, smokers are more likely to experience difficulty in breathing, leading to dyspnea. This is a direct causality relationship.
+
+4.<edge>Cancer->Xray</edge>:
+Cancer can be detected through an X-ray examination. If an individual has cancer, the X-ray will show signs of abnormality. Thus, there is a direct causality relationship between cancer and positive X-ray results.
+
+5.<edge>Dyspnoea->Xray</edge>:
+Dyspnea can be caused by various factors, including lung cancer. If an individual experiences dyspnea, they may undergo an X-ray examination to diagnose the underlying cause. Thus, there is a direct causality relationship between dyspnea and X-ray results.

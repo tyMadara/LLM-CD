@@ -1,0 +1,19 @@
+arcs {
+	Antilock => ThisCarCost 0.9999;
+	RuggedAuto => PropCost 0.9999;
+	DrivingSkill => ILiCost 0.9999;
+	SeniorTrain => MedCost 0.9999;
+	Accident => OtherCarCost 0.9999;
+	DrivingSkill => PropCost 0.9999;
+	MakeModel => Cushioning 0.9999;
+	AntiTheft => Theft 0.9999;
+	VehicleYear => ThisCarCost 0.9999;
+	DrivQuality => OtherCarCost 0.9999;
+	RiskAversion => HomeBase 0.9999;
+	VehicleYear => Accident 0.9999;
+	Mileage => OtherCarCost 0.9999;
+	Age => PropCost 0.9999;
+	Age => MakeModel 0.9999;
+	Age => DrivHist 0.9999;
+	SocioEcon => CarValue 0.9999;
+}

@@ -1,0 +1,7 @@
+arcs {
+	Earthquake -> Alarm 1.0; 
+	Burglary >> Earthquake 1.0; 
+	JohnCalls >> MaryCalls 1.0; 
+	Alarm => JohnCalls 0.9999; 
+	Earthquake => Alarm 0.9999; 
+}

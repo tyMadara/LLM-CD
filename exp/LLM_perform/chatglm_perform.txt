@@ -1,0 +1,132 @@
+cancer
+{'extra': 1, 'missing': 1, 'reverse': 2, 'fdr': 0.75, 'tpr': 0.25, 'fpr': 0.5, 'shd': 4, 'nnz': 4, 'precision': 0.25, 'recall': 0.25, 'F1': 0.25, 'gscore': 0.0}
+1 / 4
+variable1 variable2
+Pollution Smoker
+Smoker Cancer
+Xray Cancer
+Dyspnoea Cancer
+asia
+{'extra': 5, 'missing': 6, 'reverse': 0, 'fdr': 0.7143, 'tpr': 0.25, 'fpr': 0.25, 'shd': 11, 'nnz': 7, 'precision': 0.2857, 'recall': 0.25, 'F1': 0.2667, 'gscore': 0.0}
+6 / 7
+variable1 variable2
+visit_to_asia dyspnoea
+tuberculosis dyspnoea
+smoking dyspnoea
+lung_cancer dyspnoea
+bronchitis dyspnoea
+either_turb_or_lung_cancer dyspnoea
+positive_xray dyspnoea
+child
+{'extra': 11, 'missing': 24, 'reverse': 0, 'fdr': 0.9167, 'tpr': 0.04, 'fpr': 0.0667, 'shd': 35, 'nnz': 12, 'precision': 0.0833, 'recall': 0.04, 'F1': 0.0541, 'gscore': 0.0}
+2 / 12
+variable1 variable2
+BirthAsphyxia HypDistrib
+HypDistrib HypoxiaInO2
+HypoxiaInO2 CO2
+CO2 ChestXray
+ChestXray Grunting
+Grunting GruntingReport
+GruntingReport LVHreport
+LVH DuctFlow
+DuctFlow CardiacMixing
+CardiacMixing LungParench
+LungParench LungFlow
+LungFlow Sick
+insurance
+{'extra': 13, 'missing': 42, 'reverse': 5, 'fdr': 0.7826, 'tpr': 0.0962, 'fpr': 0.0602, 'shd': 60, 'nnz': 23, 'precision': 0.2174, 'recall': 0.0962, 'F1': 0.1333, 'gscore': 0.0}
+9 / 23
+variable1 variable2
+GoodStudent Accident
+Age RiskAversion
+SocioEcon VehicleYear
+RiskAversion ThisCarDam
+VehicleYear ThisCarDam
+ThisCarDam RuggedAuto
+Accident ThisCarDam
+MakeModel ThisCarDam
+DrivQuality Mileage
+Mileage Antilock
+Antilock DrivingSkill
+DrivingSkill Accident
+SeniorTrain DrivingSkill
+ThisCarCost Theft
+Theft CarValue
+CarValue HomeBase
+AntiTheft Theft
+PropCost Theft
+OtherCarCost Theft
+MedCost Accident
+Cushioning Airbag
+Airbag ILiCost
+DrivHist Accident
+alarm
+{'extra': 7, 'missing': 42, 'reverse': 1, 'fdr': 0.7273, 'tpr': 0.0652, 'fpr': 0.0129, 'shd': 50, 'nnz': 11, 'precision': 0.2727, 'recall': 0.0652, 'F1': 0.1053, 'gscore': 0.0}
+3 / 11
+variable1 variable2
+HISTORY HYPOVOLEMIA
+CVP PCWP
+HYPOVOLEMIA LVEDVOLUME
+LVEDVOLUME LVFAILURE
+STROKEVOLUME ERRLOWOUTPUT
+HRBP HREKG
+ERRCAUTER HRSAT
+INSUFFANESTH ANAPHYLAXIS
+PAP SHUNT
+CO DISCONNECT
+MINVOLSET VENTMACH
+/home/wxy/bty/LLM_CSL/myEva.py:225: RuntimeWarning: invalid value encountered in scalar divide
+  F1 = 2*(recall*precision)/(recall+precision)
+water
+{'extra': 16, 'missing': 66, 'reverse': 0, 'fdr': 1.0, 'tpr': 0.0, 'fpr': 0.0372, 'shd': 82, 'nnz': 16, 'precision': 0.0, 'recall': 0.0, 'F1': nan, 'gscore': 0.0}
+0 / 16
+variable1 variable2
+CBODN_12_00 CBODD_12_00
+CBODN_12_15 CBODD_12_15
+CBODN_12_30 CBODD_12_30
+CBODN_12_45 CBODD_12_45
+CKNI_12_00 CNOD_12_00
+CKNI_12_15 CNOD_12_15
+CKNI_12_30 CNOD_12_30
+CKNI_12_45 CNOD_12_45
+CKND_12_00 CNOD_12_00
+CKND_12_15 CNOD_12_15
+CKND_12_30 CNOD_12_30
+CKND_12_45 CNOD_12_45
+CKNN_12_00 CNOD_12_00
+CKNN_12_15 CNOD_12_15
+CKNN_12_30 CNOD_12_30
+CKNN_12_45 CNOD_12_45
+mildew
+{'extra': 4, 'missing': 37, 'reverse': 5, 'fdr': 0.6923, 'tpr': 0.087, 'fpr': 0.0164, 'shd': 46, 'nnz': 13, 'precision': 0.3077, 'recall': 0.087, 'F1': 0.1356, 'gscore': 0.0}
+4 / 13
+variable1 variable2
+dm_1 foto_1
+dm_2 foto_2
+dm_3 straaling_3
+dm_4 straaling_4
+temp_1 foto_1
+temp_2 foto_2
+temp_3 foto_3
+temp_4 foto_4
+lai_1 meldug_1
+lai_2 meldug_2
+lai_3 meldug_3
+mikro_1 meldug_1
+mikro_2 meldug_2
+barley
+{'extra': 4, 'missing': 76, 'reverse': 1, 'fdr': 0.4167, 'tpr': 0.0833, 'fpr': 0.0048, 'shd': 81, 'nnz': 12, 'precision': 0.5833, 'recall': 0.0833, 'F1': 0.1458, 'gscore': 0.0238}
+7 / 12
+variable1 variable2
+jordtype komm
+komm nedbarea
+nedbarea nmin
+nmin aar_mod
+forfrugt potnmin
+potnmin mod_nmin
+mod_nmin ngodnt
+ngodnt nopt
+ngodnn ngodn
+nprot ngodn
+saatid dgv1059
+rokap dgv1059

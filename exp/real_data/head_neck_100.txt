@@ -1,0 +1,100 @@
+d=head_neck s=100 r=1 conf=0.99999 palim=0 prior=n prior_type=n pruning=None score=MML prior_source=GPT4
+{'extra': 6, 'missing': 0, 'reverse': 0, 'fdr': 1.0, 'tpr': 0.0, 'fpr': 0.0659, 'shd': 6, 'nnz': 6, 'precision': 0.0, 'recall': nan, 'F1': nan, 'gscore': 0, 'time': 1.822164535522461}
+d=head_neck s=100 r=1 conf=0.99999 palim=0 prior=a prior_type=p pruning=None score=MML prior_source=GPT4
+{'extra': 15, 'missing': 0, 'reverse': 0, 'fdr': 1.0, 'tpr': 0.0, 'fpr': 0.1648, 'shd': 15, 'nnz': 15, 'precision': 0.0, 'recall': nan, 'F1': nan, 'gscore': 0, 'time': 4.903282880783081}
+d=head_neck s=100 r=1 conf=0.99999 palim=0 prior=a prior_type=p pruning=None score=MML prior_source=GPT4
+{'extra': 13, 'missing': 0, 'reverse': 0, 'fdr': 1.0, 'tpr': 0.0, 'fpr': 0.1429, 'shd': 13, 'nnz': 13, 'precision': 0.0, 'recall': nan, 'F1': nan, 'gscore': 0, 'time': 3.86598801612854}
+d=head_neck s=100 r=1 conf=0.99999 palim=0 prior=a prior_type=p pruning=None score=MML prior_source=GPT4
+{'extra': 14, 'missing': 0, 'reverse': 0, 'fdr': 1.0, 'tpr': 0.0, 'fpr': 0.1538, 'shd': 14, 'nnz': 14, 'precision': 0.0, 'recall': nan, 'F1': nan, 'gscore': 0, 'time': 3.842726707458496}
+d=head_neck s=100 r=1 conf=0.99999 palim=0 prior=n prior_type=n pruning=None score=MML prior_source=GPT4
+{'extra': 6, 'missing': 0, 'reverse': 0, 'fdr': 1.0, 'tpr': 0.0, 'fpr': 0.0659, 'shd': 6, 'nnz': 6, 'precision': 0.0, 'recall': nan, 'F1': nan, 'gscore': 0, 'time': 1.8516862392425537}
+d=head_neck s=100 r=1 conf=0.99999 palim=0 prior=n prior_type=n pruning=None score=MML prior_source=GPT4
+{'extra': 7, 'missing': 0, 'reverse': 0, 'fdr': 1.0, 'tpr': 0.0, 'fpr': 0.0769, 'shd': 7, 'nnz': 7, 'precision': 0.0, 'recall': nan, 'F1': nan, 'gscore': 0, 'time': 1.8304369449615479}
+d=head_neck s=100 r=1 conf=0.99999 palim=0 prior=n prior_type=n pruning=None score=MML prior_source=GPT4
+{'extra': 6, 'missing': 0, 'reverse': 0, 'fdr': 1.0, 'tpr': 0.0, 'fpr': 0.0659, 'shd': 6, 'nnz': 6, 'precision': 0.0, 'recall': nan, 'F1': nan, 'gscore': 0, 'time': 1.9402377605438232}
+d=head_neck s=100 r=1 conf=0.99999 palim=0 prior=n prior_type=n pruning=None score=MML prior_source=GPT4
+{'extra': 7, 'missing': 0, 'reverse': 0, 'fdr': 1.0, 'tpr': 0.0, 'fpr': 0.0769, 'shd': 7, 'nnz': 7, 'precision': 0.0, 'recall': nan, 'F1': nan, 'gscore': 0, 'time': 1.9119873046875}
+d=head_neck s=100 r=1 conf=0.99999 palim=0 prior=n prior_type=n pruning=None score=MML prior_source=GPT4
+{'extra': 7, 'missing': 0, 'reverse': 0, 'fdr': 1.0, 'tpr': 0.0, 'fpr': 0.0769, 'shd': 7, 'nnz': 7, 'precision': 0.0, 'recall': nan, 'F1': nan, 'gscore': 0, 'time': 1.8744244575500488}
+d=head_neck s=100 r=1 conf=0.99999 palim=0 prior=n prior_type=n pruning=None score=MML prior_source=GPT4
+{'extra': 6, 'missing': 0, 'reverse': 0, 'fdr': 1.0, 'tpr': 0.0, 'fpr': 0.0659, 'shd': 6, 'nnz': 6, 'precision': 0.0, 'recall': nan, 'F1': nan, 'gscore': 0, 'time': 1.878333330154419}
+d=head_neck s=100 r=1 conf=0.99999 palim=0 prior=n prior_type=n pruning=None score=MML prior_source=GPT4
+{'extra': 6, 'missing': 0, 'reverse': 0, 'fdr': 1.0, 'tpr': 0.0, 'fpr': 0.0659, 'shd': 6, 'nnz': 6, 'precision': 0.0, 'recall': nan, 'F1': nan, 'gscore': 0, 'time': 1.8126230239868164}
+d=head_neck s=100 r=1 conf=0.99999 palim=0 prior=n prior_type=n pruning=None score=MML prior_source=GPT4
+{'extra': 7, 'missing': 0, 'reverse': 0, 'fdr': 1.0, 'tpr': 0.0, 'fpr': 0.0769, 'shd': 7, 'nnz': 7, 'precision': 0.0, 'recall': nan, 'F1': nan, 'gscore': 0, 'time': 1.9082801342010498}
+d=head_neck s=100 r=1 conf=0.99999 palim=0 prior=n prior_type=n pruning=None score=MML prior_source=GPT4
+{'extra': 6, 'missing': 0, 'reverse': 0, 'fdr': 1.0, 'tpr': 0.0, 'fpr': 0.0659, 'shd': 6, 'nnz': 6, 'precision': 0.0, 'recall': nan, 'F1': nan, 'gscore': 0, 'time': 1.8250622749328613}
+d=head_neck s=100 r=1 conf=0.99999 palim=0 prior=n prior_type=n pruning=None score=MML prior_source=GPT4
+{'extra': 7, 'missing': 0, 'reverse': 0, 'fdr': 1.0, 'tpr': 0.0, 'fpr': 0.0769, 'shd': 7, 'nnz': 7, 'precision': 0.0, 'recall': nan, 'F1': nan, 'gscore': 0, 'time': 2.0236570835113525}
+d=head_neck s=100 r=1 conf=0.99999 palim=0 prior=n prior_type=n pruning=None score=MML prior_source=GPT4
+{'extra': 6, 'missing': 0, 'reverse': 0, 'fdr': 1.0, 'tpr': 0.0, 'fpr': 0.0659, 'shd': 6, 'nnz': 6, 'precision': 0.0, 'recall': nan, 'F1': nan, 'gscore': 0, 'time': 1.9491462707519531}
+d=head_neck s=100 r=1 conf=0.99999 palim=0 prior=n prior_type=n pruning=None score=MML prior_source=GPT4
+{'extra': 6, 'missing': 0, 'reverse': 0, 'fdr': 1.0, 'tpr': 0.0, 'fpr': 0.0659, 'shd': 6, 'nnz': 6, 'precision': 0.0, 'recall': nan, 'F1': nan, 'gscore': 0, 'time': 1.9032611846923828}
+d=head_neck s=100 r=1 conf=0.99999 palim=0 prior=n prior_type=n pruning=None score=MML prior_source=GPT4
+{'extra': 6, 'missing': 0, 'reverse': 0, 'fdr': 1.0, 'tpr': 0.0, 'fpr': 0.0659, 'shd': 6, 'nnz': 6, 'precision': 0.0, 'recall': nan, 'F1': nan, 'gscore': 0, 'time': 1.9023566246032715}
+d=head_neck s=100 r=1 conf=0.99999 palim=0 prior=n prior_type=n pruning=None score=MML prior_source=GPT4
+{'extra': 7, 'missing': 0, 'reverse': 0, 'fdr': 1.0, 'tpr': 0.0, 'fpr': 0.0769, 'shd': 7, 'nnz': 7, 'precision': 0.0, 'recall': nan, 'F1': nan, 'gscore': 0, 'time': 1.914048433303833}
+d=head_neck s=100 r=1 conf=0.99999 palim=0 prior=n prior_type=n pruning=None score=MML prior_source=GPT4
+{'extra': 7, 'missing': 0, 'reverse': 0, 'fdr': 1.0, 'tpr': 0.0, 'fpr': 0.0769, 'shd': 7, 'nnz': 7, 'precision': 0.0, 'recall': nan, 'F1': nan, 'gscore': 0, 'time': 1.8586368560791016}
+d=head_neck s=100 r=1 conf=0.99999 palim=0 prior=n prior_type=n pruning=None score=MML prior_source=GPT4
+{'extra': 7, 'missing': 0, 'reverse': 0, 'fdr': 1.0, 'tpr': 0.0, 'fpr': 0.0769, 'shd': 7, 'nnz': 7, 'precision': 0.0, 'recall': nan, 'F1': nan, 'gscore': 0, 'time': 1.854034423828125}
+d=head_neck s=100 r=1 conf=0.99999 palim=0 prior=n prior_type=n pruning=None score=MML prior_source=GPT4
+{'extra': 6, 'missing': 0, 'reverse': 0, 'fdr': 1.0, 'tpr': 0.0, 'fpr': 0.0659, 'shd': 6, 'nnz': 6, 'precision': 0.0, 'recall': nan, 'F1': nan, 'gscore': 0, 'time': 1.8852057456970215}
+d=head_neck s=100 r=1 conf=0.99999 palim=0 prior=n prior_type=n pruning=None score=MML prior_source=GPT4
+{'extra': 6, 'missing': 0, 'reverse': 0, 'fdr': 1.0, 'tpr': 0.0, 'fpr': 0.0659, 'shd': 6, 'nnz': 6, 'precision': 0.0, 'recall': nan, 'F1': nan, 'gscore': 0, 'time': 1.8398537635803223}
+d=head_neck s=100 r=1 conf=0.99999 palim=0 prior=a prior_type=p pruning=None score=MML prior_source=GPT4
+{'extra': 14, 'missing': 0, 'reverse': 0, 'fdr': 1.0, 'tpr': 0.0, 'fpr': 0.1538, 'shd': 14, 'nnz': 14, 'precision': 0.0, 'recall': nan, 'F1': nan, 'gscore': 0, 'time': 3.5148203372955322}
+d=head_neck s=100 r=1 conf=0.99999 palim=0 prior=n prior_type=n pruning=None score=MML prior_source=GPT4
+{'extra': 7, 'missing': 0, 'reverse': 0, 'fdr': 1.0, 'tpr': 0.0, 'fpr': 0.0769, 'shd': 7, 'nnz': 7, 'precision': 0.0, 'recall': nan, 'F1': nan, 'gscore': 0, 'time': 1.7940239906311035}
+d=head_neck s=100 r=1 conf=0.99999 palim=0 prior=n prior_type=n pruning=None score=MML prior_source=GPT4
+{'extra': 7, 'missing': 0, 'reverse': 0, 'fdr': 1.0, 'tpr': 0.0, 'fpr': 0.0769, 'shd': 7, 'nnz': 7, 'precision': 0.0, 'recall': nan, 'F1': nan, 'gscore': 0, 'time': 1.8792376518249512}
+d=head_neck s=100 r=1 conf=0.99999 palim=0 prior=n prior_type=n pruning=None score=MML prior_source=GPT4
+{'extra': 7, 'missing': 0, 'reverse': 0, 'fdr': 1.0, 'tpr': 0.0, 'fpr': 0.0769, 'shd': 7, 'nnz': 7, 'precision': 0.0, 'recall': nan, 'F1': nan, 'gscore': 0, 'time': 1.8027808666229248}
+d=head_neck s=100 r=1 conf=0.99999 palim=0 prior=n prior_type=n pruning=None score=MML prior_source=GPT4
+{'extra': 6, 'missing': 0, 'reverse': 0, 'fdr': 1.0, 'tpr': 0.0, 'fpr': 0.0659, 'shd': 6, 'nnz': 6, 'precision': 0.0, 'recall': nan, 'F1': nan, 'gscore': 0, 'time': 1.8270065784454346}
+d=head_neck s=100 r=1 conf=0.99999 palim=0 prior=n prior_type=n pruning=None score=MML prior_source=GPT4
+{'extra': 7, 'missing': 0, 'reverse': 0, 'fdr': 1.0, 'tpr': 0.0, 'fpr': 0.0769, 'shd': 7, 'nnz': 7, 'precision': 0.0, 'recall': nan, 'F1': nan, 'gscore': 0, 'time': 1.8702194690704346}
+d=head_neck s=100 r=1 conf=0.99999 palim=0 prior=n prior_type=n pruning=None score=MML prior_source=GPT4
+{'extra': 6, 'missing': 0, 'reverse': 0, 'fdr': 1.0, 'tpr': 0.0, 'fpr': 0.0659, 'shd': 6, 'nnz': 6, 'precision': 0.0, 'recall': nan, 'F1': nan, 'gscore': 0, 'time': 1.8645544052124023}
+d=head_neck s=100 r=1 conf=0.99999 palim=0 prior=n prior_type=n pruning=None score=MML prior_source=GPT4
+{'extra': 6, 'missing': 0, 'reverse': 0, 'fdr': 1.0, 'tpr': 0.0, 'fpr': 0.0659, 'shd': 6, 'nnz': 6, 'precision': 0.0, 'recall': nan, 'F1': nan, 'gscore': 0, 'time': 2.0098209381103516}
+d=head_neck s=100 r=1 conf=0.99999 palim=0 prior=n prior_type=n pruning=None score=MML prior_source=GPT4
+{'extra': 6, 'missing': 0, 'reverse': 0, 'fdr': 1.0, 'tpr': 0.0, 'fpr': 0.0659, 'shd': 6, 'nnz': 6, 'precision': 0.0, 'recall': nan, 'F1': nan, 'gscore': 0, 'time': 1.9579968452453613}
+d=head_neck s=100 r=1 conf=0.99999 palim=0 prior=n prior_type=n pruning=None score=MML prior_source=GPT4
+{'extra': 7, 'missing': 0, 'reverse': 0, 'fdr': 1.0, 'tpr': 0.0, 'fpr': 0.0769, 'shd': 7, 'nnz': 7, 'precision': 0.0, 'recall': nan, 'F1': nan, 'gscore': 0, 'time': 1.8721976280212402}
+d=head_neck s=100 r=1 conf=0.99999 palim=0 prior=n prior_type=n pruning=None score=MML prior_source=GPT4
+{'extra': 6, 'missing': 0, 'reverse': 0, 'fdr': 1.0, 'tpr': 0.0, 'fpr': 0.0659, 'shd': 6, 'nnz': 6, 'precision': 0.0, 'recall': nan, 'F1': nan, 'gscore': 0, 'time': 1.9154901504516602}
+d=head_neck s=100 r=1 conf=0.99999 palim=0 prior=n prior_type=n pruning=None score=MML prior_source=GPT4
+{'extra': 6, 'missing': 0, 'reverse': 0, 'fdr': 1.0, 'tpr': 0.0, 'fpr': 0.0659, 'shd': 6, 'nnz': 6, 'precision': 0.0, 'recall': nan, 'F1': nan, 'gscore': 0, 'time': 2.00046706199646}
+d=head_neck s=100 r=1 conf=0.99999 palim=0 prior=n prior_type=n pruning=None score=MML prior_source=GPT4
+{'extra': 7, 'missing': 0, 'reverse': 0, 'fdr': 1.0, 'tpr': 0.0, 'fpr': 0.0769, 'shd': 7, 'nnz': 7, 'precision': 0.0, 'recall': nan, 'F1': nan, 'gscore': 0, 'time': 1.8349666595458984}
+d=head_neck s=100 r=1 conf=0.99999 palim=0 prior=n prior_type=n pruning=None score=MML prior_source=GPT4
+{'extra': 6, 'missing': 0, 'reverse': 0, 'fdr': 1.0, 'tpr': 0.0, 'fpr': 0.0659, 'shd': 6, 'nnz': 6, 'precision': 0.0, 'recall': nan, 'F1': nan, 'gscore': 0, 'time': 1.8492720127105713}
+d=head_neck s=100 r=1 conf=0.99999 palim=0 prior=n prior_type=n pruning=None score=MML prior_source=GPT4
+{'extra': 7, 'missing': 0, 'reverse': 0, 'fdr': 1.0, 'tpr': 0.0, 'fpr': 0.0769, 'shd': 7, 'nnz': 7, 'precision': 0.0, 'recall': nan, 'F1': nan, 'gscore': 0, 'time': 1.8862409591674805}
+d=head_neck s=100 r=1 conf=0.99999 palim=0 prior=n prior_type=n pruning=None score=MML prior_source=GPT4
+{'extra': 7, 'missing': 0, 'reverse': 0, 'fdr': 1.0, 'tpr': 0.0, 'fpr': 0.0769, 'shd': 7, 'nnz': 7, 'precision': 0.0, 'recall': nan, 'F1': nan, 'gscore': 0, 'time': 1.8060603141784668}
+d=head_neck s=100 r=1 conf=0.99999 palim=0 prior=n prior_type=n pruning=None score=MML prior_source=GPT4
+{'extra': 7, 'missing': 0, 'reverse': 0, 'fdr': 1.0, 'tpr': 0.0, 'fpr': 0.0769, 'shd': 7, 'nnz': 7, 'precision': 0.0, 'recall': nan, 'F1': nan, 'gscore': 0, 'time': 1.8951137065887451}
+d=head_neck s=100 r=1 conf=0.99999 palim=0 prior=n prior_type=n pruning=None score=MML prior_source=GPT4
+{'extra': 7, 'missing': 0, 'reverse': 0, 'fdr': 1.0, 'tpr': 0.0, 'fpr': 0.0769, 'shd': 7, 'nnz': 7, 'precision': 0.0, 'recall': nan, 'F1': nan, 'gscore': 0, 'time': 1.8554000854492188}
+d=head_neck s=100 r=1 conf=0.99999 palim=0 prior=n prior_type=n pruning=None score=MML prior_source=GPT4
+{'extra': 7, 'missing': 0, 'reverse': 0, 'fdr': 1.0, 'tpr': 0.0, 'fpr': 0.0769, 'shd': 7, 'nnz': 7, 'precision': 0.0, 'recall': nan, 'F1': nan, 'gscore': 0, 'time': 1.83034086227417}
+d=head_neck s=100 r=1 conf=0.99999 palim=0 prior=n prior_type=n pruning=None score=MML prior_source=GPT4
+{'extra': 7, 'missing': 0, 'reverse': 0, 'fdr': 1.0, 'tpr': 0.0, 'fpr': 0.0769, 'shd': 7, 'nnz': 7, 'precision': 0.0, 'recall': nan, 'F1': nan, 'gscore': 0, 'time': 1.973534345626831}
+d=head_neck s=100 r=1 conf=0.99999 palim=0 prior=n prior_type=n pruning=None score=MML prior_source=GPT4
+{'extra': 7, 'missing': 0, 'reverse': 0, 'fdr': 1.0, 'tpr': 0.0, 'fpr': 0.0769, 'shd': 7, 'nnz': 7, 'precision': 0.0, 'recall': nan, 'F1': nan, 'gscore': 0, 'time': 1.9831547737121582}
+d=head_neck s=100 r=1 conf=0.99999 palim=0 prior=n prior_type=n pruning=None score=MML prior_source=GPT4
+{'extra': 7, 'missing': 0, 'reverse': 0, 'fdr': 1.0, 'tpr': 0.0, 'fpr': 0.0769, 'shd': 7, 'nnz': 7, 'precision': 0.0, 'recall': nan, 'F1': nan, 'gscore': 0, 'time': 1.8185954093933105}
+d=head_neck s=100 r=1 conf=0.99999 palim=0 prior=n prior_type=n pruning=None score=MML prior_source=GPT4
+{'extra': 7, 'missing': 0, 'reverse': 0, 'fdr': 1.0, 'tpr': 0.0, 'fpr': 0.0769, 'shd': 7, 'nnz': 7, 'precision': 0.0, 'recall': nan, 'F1': nan, 'gscore': 0, 'time': 1.9832277297973633}
+d=head_neck s=100 r=1 conf=0.99999 palim=0 prior=n prior_type=n pruning=None score=MML prior_source=GPT4
+{'extra': 6, 'missing': 0, 'reverse': 0, 'fdr': 1.0, 'tpr': 0.0, 'fpr': 0.0659, 'shd': 6, 'nnz': 6, 'precision': 0.0, 'recall': nan, 'F1': nan, 'gscore': 0, 'time': 1.8839452266693115}
+d=head_neck s=100 r=1 conf=0.99999 palim=0 prior=n prior_type=n pruning=None score=MML prior_source=GPT4
+{'extra': 6, 'missing': 0, 'reverse': 0, 'fdr': 1.0, 'tpr': 0.0, 'fpr': 0.0659, 'shd': 6, 'nnz': 6, 'precision': 0.0, 'recall': nan, 'F1': nan, 'gscore': 0, 'time': 1.982863187789917}
+d=head_neck s=100 r=1 conf=0.99999 palim=0 prior=n prior_type=n pruning=None score=MML prior_source=GPT4
+{'extra': 6, 'missing': 0, 'reverse': 0, 'fdr': 1.0, 'tpr': 0.0, 'fpr': 0.0659, 'shd': 6, 'nnz': 6, 'precision': 0.0, 'recall': nan, 'F1': nan, 'gscore': 0, 'time': 1.9024462699890137}
+d=head_neck s=100 r=1 conf=0.99999 palim=0 prior=n prior_type=n pruning=None score=MML prior_source=GPT4
+{'extra': 7, 'missing': 0, 'reverse': 0, 'fdr': 1.0, 'tpr': 0.0, 'fpr': 0.0769, 'shd': 7, 'nnz': 7, 'precision': 0.0, 'recall': nan, 'F1': nan, 'gscore': 0, 'time': 1.8748116493225098}
+d=head_neck s=100 r=1 conf=0.99999 palim=0 prior=n prior_type=n pruning=None score=MML prior_source=GPT4
+{'extra': 7, 'missing': 0, 'reverse': 0, 'fdr': 1.0, 'tpr': 0.0, 'fpr': 0.0769, 'shd': 7, 'nnz': 7, 'precision': 0.0, 'recall': nan, 'F1': nan, 'gscore': 0, 'time': 1.8839190006256104}

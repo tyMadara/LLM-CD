@@ -1,0 +1,33 @@
+```
+You are an expert on assessing the impact of tuberculosis, lung cancer or bronchitis on the shortness-of-breath (dyspnoea).
+Variables and their meanings are presented as follows.
+You are investigating the cause-and-effect relationships between the following variables in your filed.
+Analyze the causality between each pair of variables in the form of <edge>variable1->variable2</edge>, and give the reason. 
+Ensure direct causality of outputs, not indirect causality due to common causes.
+
+visit_to_asia: This variable indicates whether the person has recently visited Asia or not.
+tuberculosis: This variable indicates whether the person has tuberculosis or not.
+smoking: This variable indicates whether the person is a smoker or not.
+lung_cancer: This variable indicates whether the person has lung cancer or not.
+bronchitis: This variable indicates whether the person has bronchitis or not. 
+either_turb_or_lung_cancer: This variable indicates whether the person has either tuberculosis or lung cancer or not.
+positive_xray: This variable indicates whether the person has a positive X-ray result or not. 
+dyspnoea: This variable indicates whether the person is experiencing shortness of breath (dyspnoea) or not. 
+```
+
+```
+The causality between the variables is as follows:
+<edge>visit_to_asia->tuberculosis</edge>: Recent visit to Asia is a known risk factor for tuberculosis [1].
+<edge>tuberculosis->positive_xray</edge>: A positive X-ray is a common diagnostic tool for tuberculosis [1].
+<edge>smoking->lung_cancer</edge>: Smoking is a major risk factor for lung cancer [1].
+<edge>smoking->bronchitis</edge>: Smoking is a known cause of bronchitis [1].
+<edge>tuberculosis->either_turb_or_lung_cancer</edge>: Tuberculosis is a known risk factor for both tuberculosis and lung cancer [2].
+<edge>lung_cancer->positive_xray</edge>: A positive X-ray is a common diagnostic tool for lung cancer [1].
+<edge>either_turb_or_lung_cancer->dyspnoea</edge>: Both tuberculosis and lung cancer can cause shortness of breath (dyspnoea) [1].
+
+References:
+[1] Pulmonary tuberculosis as differential diagnosis of lung ...
+[2] Effects of age on the association between pulmonary ...
+[3] Effect of tiotropium inhaler use on mortality in patients with ...
+```
+

@@ -1,0 +1,29 @@
+<edge>HISTORY->CVP</edge>: No direct causality between these variables.
+<edge>CVP->PCWP</edge>: The pressure in the thoracic vena cava affects the pressure in the pulmonary capillaries, so CVP directly causes changes in PCWP.
+<edge>HYPOVOLEMIA->CVP</edge>: Low blood volume can cause a decrease in CVP due to reduced fluid in the circulatory system.
+<edge>LVEDVOLUME->PCWP</edge>: An increase in left ventricular end-diastolic volume can cause an increase in PCWP due to the increased volume of blood being pumped into the left atrium.
+<edge>LVFAILURE->STROKEVOLUME</edge>: Left ventricular failure can lead to a decrease in stroke volume due to reduced cardiac output.
+<edge>ERRLOWOUTPUT->CO</edge>: An error in the measurement of cardiac output can lead to a falsely low reading of CO.
+<edge>HRBP->CVP</edge>: There is no direct causality between these variables.
+<edge>HREKG->HR</edge>: Heart rate as measured by an electrocardiogram directly correlates with the patient's heart rate.
+<edge>ERRCAUTER->PRESS</edge>: There is no direct causality between these variables.
+<edge>HRSAT->SAO2</edge>: The patient's oxygen saturation in relation to their heart rate can affect the percentage of hemoglobin in the arterial blood that is saturated with oxygen.
+<edge>INSUFFANESTH->HRBP</edge>: Insufficient anesthesia during a procedure can cause an increase in heart rate and blood pressure.
+<edge>ANAPHYLAXIS->PRESS</edge>: Anaphylactic reactions can cause changes in pressure in various parts of the respiratory system or related equipment.
+<edge>TPR->CO</edge>: Total peripheral resistance can affect the amount of blood the heart pumps per minute, so there is a direct causal relationship between these variables.
+<edge>CATECHOL->HR</edge>: Increased levels of catecholamines can cause an increase in heart rate.
+<edge>HR->CO</edge>: The patient's heart rate directly affects the amount of blood the heart pumps per minute.
+<edge>BP->CO</edge>: Blood pressure can affect the amount of blood the heart pumps per minute, so there is a direct causal relationship between these variables.
+<edge>EXPCO2->ARTCO2</edge>: The amount of carbon dioxide exhaled by the patient directly affects the partial pressure of carbon dioxide in the arterial blood.
+<edge>KINKEDTUBE->MINVOL</edge>: A kink in a tube, such as an endotracheal or ventilator tube, can impede airflow and affect the patient's minute volume.
+<edge>FIO2->SAO2</edge>: The concentration of oxygen in the inspired air can affect the percentage of hemoglobin in the arterial blood that is saturated with oxygen.
+<edge>PVSAT->SAO2</edge>: The oxygen saturation in the peripheral venous blood can affect the percentage of hemoglobin in the arterial blood that is saturated with oxygen.
+<edge>PAP->PCWP</edge>: The pressure in the pulmonary artery can affect the pressure in the left atrium, so there is a direct causal relationship between these variables.
+<edge>PULMEMBOLUS->PRESS</edge>: Pulmonary embolisms can cause changes in pressure in various parts of the respiratory system or related equipment.
+<edge>SHUNT->SAO2</edge>: The presence and degree of a shunt can affect the percentage of hemoglobin in the arterial blood that is saturated with oxygen.
+<edge>INTUBATION->VENTTUBE</edge>: The placement of an endotracheal tube affects the patency or status of the tube.
+<edge>PRESS->DISCONNECT</edge>: Changes in pressure in various parts of the respiratory system or related equipment can indicate if there is a disconnection in the patient's ventilator circuit.
+<edge>MINVOLSET->MINVOL</edge>: The target minute volume set on the ventilator directly affects the patient's minute volume.
+<edge>VENTMACH->VENTTUBE</edge>: The performance or status of the ventilator machine affects the patency or status of the ventilator tube.
+<edge>VENTTUBE->VENTLUNG</edge>: The patency or status of the ventilator tube directly affects the functioning or status of the patient's lungs while on a ventilator.
+<edge>VENTLUNG->VENTALV</edge>: The functioning or status of the patient's lungs while on a ventilator directly affects the functioning or status of the patient's alveoli while on a ventilator.

@@ -1,0 +1,18 @@
+barley 8000 5
+{'extra': 15, 'missing': 31, 'reverse': 9, 'fdr': 0.3529, 'tpr': 0.5238, 'fpr': 0.023, 'shd': 55, 'nnz': 68, 'precision': 0.6471, 'recall': 0.5238, 'F1': 0.5789, 'gscore': 0.2381, 'time': 191.72349309921265, 'statisfy': 24}
+barley 8000 2
+{'extra': 14, 'missing': 27, 'reverse': 12, 'fdr': 0.3662, 'tpr': 0.5357, 'fpr': 0.0249, 'shd': 53, 'nnz': 71, 'precision': 0.6338, 'recall': 0.5357, 'F1': 0.5806, 'gscore': 0.2262, 'time': 208.95398926734924, 'statisfy': 24}
+barley 8000 4
+{'extra': 16, 'missing': 31, 'reverse': 12, 'fdr': 0.4058, 'tpr': 0.4881, 'fpr': 0.0268, 'shd': 59, 'nnz': 69, 'precision': 0.5942, 'recall': 0.4881, 'F1': 0.5359, 'gscore': 0.1548, 'time': 222.53665351867676, 'statisfy': 24}
+barley 8000 3
+{'extra': 12, 'missing': 26, 'reverse': 13, 'fdr': 0.3571, 'tpr': 0.5357, 'fpr': 0.0239, 'shd': 51, 'nnz': 70, 'precision': 0.6429, 'recall': 0.5357, 'F1': 0.5844, 'gscore': 0.2381, 'time': 246.2447030544281, 'statisfy': 24}
+barley 2000 1
+{'extra': 11, 'missing': 32, 'reverse': 4, 'fdr': 0.2381, 'tpr': 0.5714, 'fpr': 0.0144, 'shd': 47, 'nnz': 63, 'precision': 0.7619, 'recall': 0.5714, 'F1': 0.6531, 'gscore': 0.3929, 'time': 12282.205734014511, 'statisfy': 24}
+barley 2000 4
+{'extra': 16, 'missing': 34, 'reverse': 3, 'fdr': 0.2879, 'tpr': 0.5595, 'fpr': 0.0182, 'shd': 53, 'nnz': 66, 'precision': 0.7121, 'recall': 0.5595, 'F1': 0.6267, 'gscore': 0.3333, 'time': 13128.318336486816, 'statisfy': 24}
+barley 2000 2
+{'extra': 17, 'missing': 33, 'reverse': 6, 'fdr': 0.3382, 'tpr': 0.5357, 'fpr': 0.022, 'shd': 56, 'nnz': 68, 'precision': 0.6618, 'recall': 0.5357, 'F1': 0.5921, 'gscore': 0.2619, 'time': 13171.200302362442, 'statisfy': 24}
+barley 2000 5
+{'extra': 15, 'missing': 33, 'reverse': 4, 'fdr': 0.2879, 'tpr': 0.5595, 'fpr': 0.0182, 'shd': 52, 'nnz': 66, 'precision': 0.7121, 'recall': 0.5595, 'F1': 0.6267, 'gscore': 0.3333, 'time': 13273.194768190384, 'statisfy': 24}
+barley 2000 6
+{'extra': 16, 'missing': 32, 'reverse': 4, 'fdr': 0.2941, 'tpr': 0.5714, 'fpr': 0.0192, 'shd': 52, 'nnz': 68, 'precision': 0.7059, 'recall': 0.5714, 'F1': 0.6316, 'gscore': 0.3333, 'time': 13281.436857938766, 'statisfy': 24}

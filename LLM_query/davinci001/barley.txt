@@ -1,0 +1,8 @@
+
+yldloss: Grain yield loss (0-25, 25-40, 41-50, 51-60, 61-70, and above 70%).
+
+dt: Days from sowing to harvest. This variable represents the number of days from sowing to harvest in increments of 5 days.
+
+<edge>jordtype->komm</edge>
+
+There is a positive relationship between soil type and municipality. Soil type affects the municipality in which the malt is grown.

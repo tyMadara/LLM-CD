@@ -1,0 +1,8 @@
+arcs {
+	either -- tub 1.0; 
+	tub >> asia 1.0; 
+	xray >> tub 1.0; 
+	asia >> smoke 1.0; 
+	smoke => lung 0.9999; 
+	tub => xray 0.9999; 
+}

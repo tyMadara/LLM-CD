@@ -1,0 +1,12 @@
+arcs {
+	either -> dysp 1.0; 
+	lung -> either 1.0; 
+	tub >> smoke 1.0; 
+	xray >> either 1.0; 
+	asia >> lung 1.0; 
+	tub >> asia 1.0; 
+	asia >> bronc 1.0; 
+	asia => either 0.9999; 
+	asia => tub 0.9999; 
+	asia => xray 0.9999; 
+}

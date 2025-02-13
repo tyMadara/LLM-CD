@@ -1,0 +1,31 @@
+arcs {
+	lai_1 => dm_4 0.9999;
+	meldug_3 => lai_3 0.9999;
+	lai_3 => mikro_3 0.9999;
+	meldug_1 => lai_1 0.9999;
+	lai_4 => udbytte 0.9999;
+	middel_1 => mikro_2 0.9999;
+	dm_1 => udbytte 0.9999;
+	meldug_1 => foto_4 0.9999;
+	meldug_4 => foto_4 0.9999;
+	lai_2 => mikro_2 0.9999;
+	lai_2 => foto_4 0.9999;
+	nedboer_3 => udbytte 0.9999;
+	meldug_1 => dm_1 0.9999;
+	meldug_2 => foto_4 0.9999;
+	lai_4 => foto_4 0.9999;
+	lai_2 => dm_3 0.9999;
+	lai_3 => udbytte 0.9999;
+	meldug_3 => foto_3 0.9999;
+	meldug_3 => meldug_4 0.9999;
+	dm_2 => dm_4 0.9999;
+	temp_3 => lai_4 0.9999;
+	lai_1 => dm_2 0.9999;
+	middel_1 => dm_3 0.9999;
+	meldug_2 => dm_3 0.9999;
+	lai_2 => meldug_3 0.9999;
+	mikro_2 => meldug_3 0.9999;
+	meldug_2 => lai_3 0.9999;
+	lai_2 => dm_2 0.9999;
+	lai_3 => foto_4 0.9999;
+}

@@ -1,0 +1,9 @@
+arcs {
+	Disease => Sick 0.9999;
+	Sick => GruntingReport 0.9999;
+	CO2 => CO2Report 0.9999;
+	Disease => LVHreport 0.9999;
+	HypoxiaInO2 => RUQO2 0.9999;
+	BirthAsphyxia => Disease 0.9999;
+	LungParench => CO2Report 0.9999;
+}

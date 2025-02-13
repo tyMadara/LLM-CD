@@ -1,0 +1,59 @@
+<edge>dm_1->foto_1</edge>: The dry mass of the winter wheat at the initial stage determines the amount of photosynthesis that can occur, as more dry mass can result in more leaf area and more chlorophyll for photosynthesis.
+
+<edge>foto_1->dm_2</edge>: Photosynthetic rate at the initial stage influences the accumulation of dry mass at the subsequent stage, as more photosynthesis can result in more biomass accumulation.
+
+<edge>straaling_1->foto_1</edge>: The amount of solar radiation received by the winter wheat at the initial stage has an effect on the photosynthetic rate, as more sunlight provides more energy for photosynthesis.
+
+<edge>temp_1->foto_1</edge>: Temperature at the initial stage affects photosynthetic rate, as temperature can affect the rate of biochemical reactions.
+
+<edge>lai_1->foto_1</edge>: A higher Leaf Area Index at the initial stage implies more photosynthetic area that can result in a higher photosynthetic rate.
+
+<edge>foto_1->meldug_2</edge>: A high photosynthetic rate at the initial stage can lead to a high degree of mildew infestation at the subsequent stage, as mildew thrives on actively growing and actively photosynthesizing leaves.
+
+<edge>mikro_1->meldug_2</edge>: A specific microclimate condition can result in different possibilities of mildew infestation, as certain conditions may be more favorable for mildew growth.
+
+<edge>middel_1->meldug_2</edge>: A higher amount of fungicide applied during the initial stage can lead to a lower degree of mildew infestation at the subsequent stage, as fungicides can limit the growth of fungal pathogens.
+
+<edge>nedboer_1->meldug_2</edge>: Precipitation during the initial stage can affect the degree of mildew infestation, as moist conditions can favor fungal growth.
+
+<edge>meldug_2->udbytte</edge>: The degree of mildew infestation at the subsequent stage can have a negative effect on the yield of the winter wheat crop, as mildew can reduce the amount of photosynthesis and dry mass accumulation.
+
+<edge>dm_2->foto_2</edge>: The dry mass of the winter wheat at the subsequent stage determines the amount of photosynthesis that can occur, as more dry mass can result in more leaf area and more chlorophyll for photosynthesis.
+
+<edge>foto_2->dm_3</edge>: Photosynthetic rate at the subsequent stage influences the accumulation of dry mass at the next stage, as more photosynthesis can result in more biomass accumulation.
+
+<edge>straaling_2->foto_2</edge>: The amount of solar radiation received by the winter wheat at the subsequent stage has an effect on the photosynthetic rate, as more sunlight provides more energy for photosynthesis.
+
+<edge>temp_2->foto_2</edge>: Temperature at the subsequent stage affects photosynthetic rate, as temperature can affect the rate of biochemical reactions.
+
+<edge>lai_2->foto_2</edge>: A higher Leaf Area Index at the subsequent stage implies more photosynthetic area that can result in a higher photosynthetic rate.
+
+<edge>foto_2->meldug_3</edge>: A high photosynthetic rate at the subsequent stage can lead to a high degree of mildew infestation at the next stage, as mildew thrives on actively growing and actively photosynthesizing leaves.
+
+<edge>mikro_2->meldug_3</edge>: A specific microclimate condition can result in different possibilities of mildew infestation, as certain conditions may be more favorable for mildew growth.
+
+<edge>middel_2->meldug_3</edge>: A higher amount of fungicide applied during the subsequent stage can lead to a lower degree of mildew infestation at the next stage, as fungicides can limit the growth of fungal pathogens.
+
+<edge>nedboer_2->meldug_3</edge>: Precipitation during the subsequent stage can affect the degree of mildew infestation, as moist conditions can favor fungal growth.
+
+<edge>meldug_3->udbytte</edge>: The degree of mildew infestation at the next stage can have a negative effect on the yield of the winter wheat crop, as mildew can reduce the amount of photosynthesis and dry mass accumulation.
+
+<edge>dm_3->foto_3</edge>: The dry mass of the winter wheat at the following stage determines the amount of photosynthesis that can occur, as more dry mass can result in more leaf area and more chlorophyll for photosynthesis.
+
+<edge>foto_3->dm_4</edge>: Photosynthetic rate at the following stage influences the accumulation of dry mass at the final stage, as more photosynthesis can result in more biomass accumulation.
+
+<edge>straaling_3->foto_3</edge>: The amount of solar radiation received by the winter wheat at the following stage has an effect on the photosynthetic rate, as more sunlight provides more energy for photosynthesis.
+
+<edge>temp_3->foto_3</edge>: Temperature at the following stage affects photosynthetic rate, as temperature can affect the rate of biochemical reactions.
+
+<edge>lai_3->foto_3</edge>: A higher Leaf Area Index at the following stage implies more photosynthetic area that can result in a higher photosynthetic rate.
+
+<edge>foto_3->meldug_4</edge>: A high photosynthetic rate at the following stage can lead to a high degree of mildew infestation at the final stage, as mildew thrives on actively growing and actively photosynthesizing leaves.
+
+<edge>mikro_3->meldug_4</edge>: A specific microclimate condition can result in different possibilities of mildew infestation, as certain conditions may be more favorable for mildew growth.
+
+<edge>middel_3->meldug_4</edge>: A higher amount of fungicide applied during the following stage can lead to a lower degree of mildew infestation at the final stage, as fungicides can limit the growth of fungal pathogens.
+
+<edge>nedboer_3->meldug_4</edge>: Precipitation during the following stage can affect the degree of mildew infestation, as moist conditions can favor fungal growth.
+
+<edge>meldug_4->udbytte</edge>: The degree of mildew infestation at the final stage can have a negative effect on the yield of the winter wheat crop, as mildew can reduce the amount of photosynthesis and dry mass accumulation.

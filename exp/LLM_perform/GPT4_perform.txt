@@ -1,0 +1,136 @@
+cancer
+{'extra': 1, 'missing': 0, 'reverse': 0, 'fdr': 0.2, 'tpr': 1.0, 'fpr': 0.1667, 'shd': 1, 'nnz': 5, 'precision': 0.8, 'recall': 1.0, 'F1': 0.8889, 'gscore': 0.75}
+5 / 5
+variable1 variable2
+Pollution Cancer
+Smoker Cancer
+Smoker Dyspnoea
+Cancer Xray
+Cancer Dyspnoea
+asia
+{'extra': 2, 'missing': 1, 'reverse': 0, 'fdr': 0.2222, 'tpr': 0.875, 'fpr': 0.1, 'shd': 3, 'nnz': 9, 'precision': 0.7778, 'recall': 0.875, 'F1': 0.8235, 'gscore': 0.625}
+9 / 9
+variable1 variable2
+variable1 variable2
+visit_to_asia tuberculosis
+smoking lung_cancer
+smoking bronchitis
+tuberculosis either_turb_or_lung_cancer
+lung_cancer either_turb_or_lung_cancer
+either_turb_or_lung_cancer positive_xray
+bronchitis dyspnoea
+lung_cancer dyspnoea
+tuberculosis dyspnoea
+child
+{'extra': 3, 'missing': 18, 'reverse': 0, 'fdr': 0.3, 'tpr': 0.28, 'fpr': 0.0182, 'shd': 21, 'nnz': 10, 'precision': 0.7, 'recall': 0.28, 'F1': 0.4, 'gscore': 0.16}
+8 / 10
+variable1 variable2
+BirthAsphyxia HypoxiaInO2
+HypoxiaInO2 Grunting
+CO2 CO2Report
+ChestXray XrayReport
+LVH LVHreport
+Grunting GruntingReport
+Disease CardiacMixing
+LungParench ChestXray
+LungFlow HypDistrib
+Disease Sick
+insurance
+{'extra': 3, 'missing': 45, 'reverse': 0, 'fdr': 0.3, 'tpr': 0.1346, 'fpr': 0.01, 'shd': 48, 'nnz': 10, 'precision': 0.7, 'recall': 0.1346, 'F1': 0.2258, 'gscore': 0.0769}
+10 / 10
+variable1 variable2
+Age DrivingSkill
+DrivingSkill DrivQuality
+DrivingSkill Accident
+VehicleYear ThisCarDam
+MakeModel CarValue
+ThisCarDam PropCost
+Accident MedCost
+HomeBase Theft
+AntiTheft Theft
+Airbag Cushioning
+alarm
+{'extra': 7, 'missing': 32, 'reverse': 1, 'fdr': 0.381, 'tpr': 0.2826, 'fpr': 0.0129, 'shd': 40, 'nnz': 21, 'precision': 0.619, 'recall': 0.2826, 'F1': 0.3881, 'gscore': 0.1087}
+20 / 21
+HYPOVOLEMIA CVP
+HYPOVOLEMIA PCWP
+LVFAILURE LVEDVOLUME
+LVFAILURE STROKEVOLUME
+STROKEVOLUME CO
+CO BP
+HRSAT HR
+ANAPHYLAXIS TPR
+TPR BP
+KINKEDTUBE MINVOL
+FIO2 PVSAT
+PVSAT SAO2
+PULMEMBOLUS PAP
+INTUBATION MINVOL
+DISCONNECT MINVOL
+DISCONNECT PRESS
+MINVOLSET VENTMACH
+VENTMACH MINVOL
+ARTCO2 EXPCO2
+CATECHOL HR
+CATECHOL BP
+water
+{'extra': 6, 'missing': 57, 'reverse': 0, 'fdr': 0.4, 'tpr': 0.1364, 'fpr': 0.014, 'shd': 63, 'nnz': 15, 'precision': 0.6, 'recall': 0.1364, 'F1': 0.2222, 'gscore': 0.0455}
+9 / 15
+variable1 variable2
+CKNI_12_00 C_NI_12_15
+CKND_12_00 CNOD_12_15
+CBODD_12_00 CBODN_12_15
+CKNN_12_00 CNON_12_15
+CBODD_12_00 CNOD_12_15
+CKNI_12_15 C_NI_12_30
+CKND_12_15 CNOD_12_30
+CBODD_12_15 CBODN_12_30
+CKNN_12_15 CNON_12_30
+CBODD_12_15 CNOD_12_30
+CKNI_12_30 C_NI_12_45
+CKND_12_30 CNOD_12_45
+CBODD_12_30 CBODN_12_45
+CKNN_12_30 CNON_12_45
+CBODD_12_30 CNOD_12_45
+mildew
+{'extra': 5, 'missing': 43, 'reverse': 0, 'fdr': 0.625, 'tpr': 0.0652, 'fpr': 0.0091, 'shd': 48, 'nnz': 8, 'precision': 0.375, 'recall': 0.0652, 'F1': 0.1111, 'gscore': 0.0}
+5 / 8
+variable1 variable2
+temp_1 dm_1
+straaling_1 foto_1
+foto_1 dm_1
+lai_1 dm_1
+mikro_1 meldug_1
+nedboer_1 meldug_1
+middel_1 meldug_1
+dm_4 udbytte
+barley
+{'extra': 13, 'missing': 73, 'reverse': 1, 'fdr': 0.5833, 'tpr': 0.119, 'fpr': 0.0134, 'shd': 87, 'nnz': 24, 'precision': 0.4167, 'recall': 0.119, 'F1': 0.1852, 'gscore': 0.0}
+17 / 24
+variable1 variable2
+jordtype jordn
+jordtype potnmin
+forfrugt nmin
+nedbarea nmin
+nmin jordn
+nmin mod_nmin
+pesticid exptgens
+potnmin ngodn
+ngodnt nopt
+ngodnn ngodn
+saatid exptgens
+saatid dgv1059
+rokap dgv1059
+variable1 variable2
+nplac ngtilg
+nplac ntilg
+saamng antplnt
+tkvs sorttkv
+saakern aks_m2
+partigerm jordinf
+saamng aks_vgt
+keraks saakern
+srtsize ksort
+protein srtprot
+jordinf udb
+variable1 variable2

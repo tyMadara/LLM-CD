@@ -1,0 +1,18 @@
+
+dgv: Grain yield (0-25, 25-40, 41-50, 51-60, 61-70, and above 70%).
+
+<edge>jordtype->nedbarea</edge>
+<edge>komm->nedbarea</edge>
+<edge>nedbarea->nmin</edge>
+<edge>nmin->aar_mod</edge>
+<edge>forfrugt->potnmin</edge>
+<edge>potnmin->jordn</edge>
+<edge>pesticid->exptgens</edge>
+<edge>exptgens->mod_nmin</edge>
+<edge>mod_nmin->ngodnt</edge>
+<edge>mod_nmin->nopt</edge>
+<edge>mod_nmin->ngodnn</edge>
+<edge>mod_nmin->ngodn</edge>
+<edge>ngodn->nprot</edge>
+<edge>saatid->rokap</edge>
+<edge>rokap->dgv1059</edge>

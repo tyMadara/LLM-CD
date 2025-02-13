@@ -1,0 +1,143 @@
+cancer
+{'extra': 0, 'missing': 0, 'reverse': 0, 'fdr': 0.0, 'tpr': 1.0, 'fpr': 0.0, 'shd': 0, 'nnz': 4, 'precision': 1.0, 'recall': 1.0, 'F1': 1.0, 'gscore': 1.0}
+4 / 4
+variable1 variable2
+Smoker Cancer
+Pollution Cancer
+Cancer Xray
+Cancer Dyspnoea
+asia
+{'extra': 3, 'missing': 4, 'reverse': 0, 'fdr': 0.4286, 'tpr': 0.5, 'fpr': 0.15, 'shd': 7, 'nnz': 7, 'precision': 0.5714, 'recall': 0.5, 'F1': 0.5333, 'gscore': 0.125}
+6 / 7
+variable1 variable2
+tuberculosis dyspnoea
+lung_cancer dyspnoea
+bronchitis dyspnoea
+either_turb_or_lung_cancer dyspnoea
+positive_xray dyspnoea
+smoking lung_cancer
+visit_to_asia tuberculosis
+child
+{'extra': 8, 'missing': 19, 'reverse': 1, 'fdr': 0.6429, 'tpr': 0.2, 'fpr': 0.0545, 'shd': 28, 'nnz': 14, 'precision': 0.3571, 'recall': 0.2, 'F1': 0.2564, 'gscore': 0.0}
+6 / 14
+variable1 variable2
+BirthAsphyxia HypoxiaInO2
+HypoxiaInO2 CO2
+HypoxiaInO2 ChestXray
+HypoxiaInO2 Grunting
+HypoxiaInO2 LVHreport
+HypoxiaInO2 LowerBodyO2
+HypoxiaInO2 RUQO2
+CO2 CO2Report
+ChestXray XrayReport
+Grunting GruntingReport
+LVHreport LVH
+DuctFlow CardiacMixing
+LungParench LungFlow
+HypoxiaInO2 Sick
+insurance
+{'extra': 8, 'missing': 40, 'reverse': 1, 'fdr': 0.45, 'tpr': 0.2115, 'fpr': 0.0301, 'shd': 49, 'nnz': 20, 'precision': 0.55, 'recall': 0.2115, 'F1': 0.3056, 'gscore': 0.0385}
+16 / 20
+variable1 variable2
+VehicleYear ThisCarDam
+RuggedAuto ThisCarDam
+Accident ThisCarDam
+MakeModel RuggedAuto
+DrivQuality Accident
+Mileage ThisCarDam
+Antilock Accident
+DrivingSkill Accident
+SeniorTrain Accident
+Theft ThisCarCost
+CarValue ThisCarCost
+HomeBase Theft
+AntiTheft Theft
+PropCost ThisCarCost
+OtherCarCost PropCost
+OtherCar PropCost
+MedCost ThisCarCost
+Cushioning MedCost
+Airbag MedCost
+DrivHist Accident
+alarm
+{'extra': 7, 'missing': 41, 'reverse': 1, 'fdr': 0.6667, 'tpr': 0.087, 'fpr': 0.0129, 'shd': 49, 'nnz': 12, 'precision': 0.3077, 'recall': 0.087, 'F1': 0.1356, 'gscore': 0.0}
+5 / 13
+variable1 variable2
+HISTORY HYPOVOLEMIA
+CVP HYPOVOLEMIA
+PCWP HYPOVOLEMIA
+HYPOVOLEMIA CVP
+LVEDVOLUME LVFAILURE
+LVFAILURE STROKEVOLUME
+STROKEVOLUME ERRLOWOUTPUT
+HRBP ERRCAUTER
+PRESS DISCONNECT
+VENTMACH VENTTUBE
+INTUBATION VENTTUBE
+HR CO
+CO BP
+/home/wxy/bty/LLM_CSL/myEva.py:225: RuntimeWarning: invalid value encountered in scalar divide
+  F1 = 2*(recall*precision)/(recall+precision)
+water
+{'extra': 28, 'missing': 66, 'reverse': 0, 'fdr': 1.0, 'tpr': 0.0, 'fpr': 0.0651, 'shd': 94, 'nnz': 28, 'precision': 0.0, 'recall': 0.0, 'F1': nan, 'gscore': 0.0}
+0 / 28
+variable1 variable2
+CBODD_12_00 C_NI_12_00
+CKNI_12_00 C_NI_12_00
+CBODD_12_00 CBODN_12_00
+CKND_12_00 C_NI_12_00
+CNOD_12_00 C_NI_12_00
+CKNN_12_00 C_NI_12_00
+CNON_12_00 C_NI_12_00
+CBODD_12_15 C_NI_12_15
+CKNI_12_15 C_NI_12_15
+CBODD_12_15 CBODN_12_15
+CKND_12_15 C_NI_12_15
+CNOD_12_15 C_NI_12_15
+CKNN_12_15 C_NI_12_15
+CNON_12_15 C_NI_12_15
+CBODD_12_30 C_NI_12_30
+CKNI_12_30 C_NI_12_30
+CBODD_12_30 CBODN_12_30
+CKND_12_30 C_NI_12_30
+CNOD_12_30 C_NI_12_30
+CKNN_12_30 C_NI_12_30
+CNON_12_30 C_NI_12_30
+CBODD_12_45 C_NI_12_45
+CKNI_12_45 C_NI_12_45
+CBODD_12_45 CBODN_12_45
+CKND_12_45 C_NI_12_45
+CNOD_12_45 C_NI_12_45
+CKNN_12_45 C_NI_12_45
+CNON_12_45 C_NI_12_45
+mildew
+{'extra': 6, 'missing': 40, 'reverse': 0, 'fdr': 0.5, 'tpr': 0.1304, 'fpr': 0.0109, 'shd': 46, 'nnz': 12, 'precision': 0.5, 'recall': 0.1304, 'F1': 0.2069, 'gscore': 0.0}
+7 / 12
+variable1 variable2
+dm_1 meldug_1
+foto_1 meldug_1
+straaling_1 foto_1
+temp_1 foto_1
+lai_1 foto_1
+meldug_1 dm_2
+dm_1 dm_2
+foto_1 foto_2
+straaling_1 straaling_2
+temp_1 temp_2
+lai_1 lai_2
+meldug_1 meldug_2
+barley
+{'extra': 7, 'missing': 80, 'reverse': 0, 'fdr': 0.6364, 'tpr': 0.0476, 'fpr': 0.0067, 'shd': 87, 'nnz': 11, 'precision': 0.3636, 'recall': 0.0476, 'F1': 0.0842, 'gscore': 0.0}
+5 / 11
+variable1 variable2
+jordtype nmin
+nedbarea nmin
+forfrugt jordn
+nmin potnmin
+jordn mod_nmin
+ngodnt ngodnn
+ngodnn ngodn
+ngodn nprot
+saatid ngodnt
+rokap exptgens
+dgv1059 exptgens

@@ -1,0 +1,278 @@
+```
+You are an expert in designing decision support systems for growing malt without the use of pesticides.
+You are investigating the cause-and-effect relationships between the following variables in your filed.
+Variable abbreviations and values are presented as follows.
+Please understand the real meaning of each variable according to their possible values, and explain them in order.
+
+network unknown {
+}
+variable jordtype {
+type discrete [ 9 ] { Jb_1_, JB_2, JB_3, JB_4, JB_5, JB_6, Jb_7, JB_8, JB_9 };
+}
+variable komm {
+type discrete [ 5 ] { state0, state1, state2, state3, state4 };
+}
+variable nedbarea {
+type discrete [ 3 ] { x1___375_, x2__375_500_, x3___500_ };
+}
+variable nmin {
+type discrete [ 6 ] { x0_15, x15_30, x30_45, x45_60, x60_75, x_75 };
+}
+variable aar_mod {
+type discrete [ 11 ] { x_25, x_20, x_15, x_10, x_5, x0, x5, x10, x15, x20, x25 };
+}
+variable forfrugt {
+type discrete [ 5 ] { Cereals, Cer_rotation, Beets, Clovergrass, Other };
+}
+variable potnmin {
+type discrete [ 8 ] { x0_15, x15_30, x30_45, x45_60, x60_75, x75_90, x90_105, x_105 };
+}
+variable jordn {
+type discrete [ 9 ] { x0_15, x15_30, x30_45, x45_60, x60_75, x75_90, x90_105, x105_120, x_120 };
+}
+variable pesticid {
+type discrete [ 2 ] { x_, x_2 };
+}
+variable exptgens {
+type discrete [ 6 ] { x_30, x30_40, x40_50, x50_60, x60_70, x_70 };
+}
+variable mod_nmin {
+type discrete [ 6 ] { x0_15, x15_30, x30_45, x45_60, x60_75, x_75 };
+}
+variable ngodnt {
+type discrete [ 10 ] { x_45, x45_60, x60_75, x75_90, x90_105, x105_120, x120_135, x135_150, x150_165, x_165 };
+}
+variable nopt {
+type discrete [ 6 ] { x_120, x120_135, x135_150, x150_165, x165_180, x_180 };
+}
+variable ngodnn {
+type discrete [ 10 ] { x_45, x45_60, x60_75, x75_90, x90_105, x105_120, x120_135, x135_150, x150_165, x_165 };
+}
+variable ngodn {
+type discrete [ 10 ] { x_45, x45_60, x60_75, x75_90, x90_105, x105_120, x120_135, x135_150, x150_165, x_165 };
+}
+variable nprot {
+type discrete [ 8 ] { x_40, x40_60, x60_80, x80_100, x100_120, x120_140, x140_160, x_160 };
+}
+variable saatid {
+type discrete [ 5 ] { x_26_3, x26_3_10_4, x11_4_20_4, x21_4_26_4, x_26_4 };
+}
+variable rokap {
+type discrete [ 7 ] { x37_5_62_5, x62_5_87_5, x87_5_112_5, x112_5_137_5, x137_5_162_5, x162_5_187_5, x187_5_212_5 };
+}
+variable dgv1059 {
+type discrete [ 6 ] { x_25, x25_40, x41_50, x51_60, x61_70, x_70 };
+}
+```
+
+```
+The variables relate to factors that affect growing malt barley without pesticides:
+
+jordtype - Soil type
+
+komm - Sowing time
+
+nedbarea - Region with different levels of precipitation
+
+nmin - Amount of nitrogen fertilizer
+
+aar_mod - Moisture adjustment (irrigation or drainage)
+
+forfrugt - Previous crop
+
+potnmin - Potential nitrogen supply from soil and fertilizer
+
+jordn - Soil nitrogen levels
+
+pesticid - Use of pesticide (or not)
+
+exptgens - Expected yield
+
+mod_nmin - Modified nitrogen fertilizer recommendation
+
+ngodnt - Nitrogen uptake early in growth
+
+nopt - Nitrogen optimum
+
+ngodnn - Nitrogen uptake later in growth
+
+ngodn - Total nitrogen uptake
+
+nprot - Nitrogen content in grain
+
+saatid - Growth stages
+
+rokap - Accumulated temperature during growing season
+
+dgv1059 - Infestation of pests and diseases like mildew
+```
+
+```
+
+You are an expert in designing decision support systems for growing malt without the use of pesticides.
+You are investigating the cause-and-effect relationships between the following variables in your filed.
+Variable abbreviations and values are presented as follows.
+Please understand the real meaning of each variable according to their possible values, and explain them in order.
+
+network unknown {
+}
+variable jordtype {
+type discrete [ 9 ] { Jb_1_, JB_2, JB_3, JB_4, JB_5, JB_6, Jb_7, JB_8, JB_9 };
+}
+variable komm {
+type discrete [ 5 ] { state0, state1, state2, state3, state4 };
+}
+variable nedbarea {
+type discrete [ 3 ] { x1___375_, x2__375_500_, x3___500_ };
+}
+variable nmin {
+type discrete [ 6 ] { x0_15, x15_30, x30_45, x45_60, x60_75, x_75 };
+}
+variable aar_mod {
+type discrete [ 11 ] { x_25, x_20, x_15, x_10, x_5, x0, x5, x10, x15, x20, x25 };
+}
+variable forfrugt {
+type discrete [ 5 ] { Cereals, Cer_rotation, Beets, Clovergrass, Other };
+}
+variable potnmin {
+type discrete [ 8 ] { x0_15, x15_30, x30_45, x45_60, x60_75, x75_90, x90_105, x_105 };
+}
+variable jordn {
+type discrete [ 9 ] { x0_15, x15_30, x30_45, x45_60, x60_75, x75_90, x90_105, x105_120, x_120 };
+}
+variable pesticid {
+type discrete [ 2 ] { x_, x_2 };
+}
+variable exptgens {
+type discrete [ 6 ] { x_30, x30_40, x40_50, x50_60, x60_70, x_70 };
+}
+variable mod_nmin {
+type discrete [ 6 ] { x0_15, x15_30, x30_45, x45_60, x60_75, x_75 };
+}
+variable ngodnt {
+type discrete [ 10 ] { x_45, x45_60, x60_75, x75_90, x90_105, x105_120, x120_135, x135_150, x150_165, x_165 };
+}
+variable nopt {
+type discrete [ 6 ] { x_120, x120_135, x135_150, x150_165, x165_180, x_180 };
+}
+variable ngodnn {
+type discrete [ 10 ] { x_45, x45_60, x60_75, x75_90, x90_105, x105_120, x120_135, x135_150, x150_165, x_165 };
+}
+variable ngodn {
+type discrete [ 10 ] { x_45, x45_60, x60_75, x75_90, x90_105, x105_120, x120_135, x135_150, x150_165, x_165 };
+}
+variable nprot {
+type discrete [ 8 ] { x_40, x40_60, x60_80, x80_100, x100_120, x120_140, x140_160, x_160 };
+}
+variable saatid {
+type discrete [ 5 ] { x_26_3, x26_3_10_4, x11_4_20_4, x21_4_26_4, x_26_4 };
+}
+variable rokap {
+type discrete [ 7 ] { x37_5_62_5, x62_5_87_5, x87_5_112_5, x112_5_137_5, x137_5_162_5, x162_5_187_5, x187_5_212_5 };
+}
+variable dgv1059 {
+type discrete [ 6 ] { x_25, x25_40, x41_50, x51_60, x61_70, x_70 };
+}
+
+The variables relate to factors that affect growing malt barley without pesticides:
+
+jordtype - Soil type
+
+komm - Sowing time
+
+nedbarea - Region with different levels of precipitation
+
+nmin - Amount of nitrogen fertilizer
+
+aar_mod - Moisture adjustment (irrigation or drainage)
+
+forfrugt - Previous crop
+
+potnmin - Potential nitrogen supply from soil and fertilizer
+
+jordn - Soil nitrogen levels
+
+pesticid - Use of pesticide (or not)
+
+exptgens - Expected yield
+
+mod_nmin - Modified nitrogen fertilizer recommendation
+
+ngodnt - Nitrogen uptake early in growth
+
+nopt - Nitrogen optimum
+
+ngodnn - Nitrogen uptake later in growth
+
+ngodn - Total nitrogen uptake
+
+nprot - Nitrogen content in grain
+
+saatid - Growth stages
+
+rokap - Accumulated temperature during growing season
+
+dgv1059 - Infestation of pests and diseases like mildew
+
+Analyze the causality between each pair of variables in the form of <edge>variable1->variable2</edge>, and give the reason. Ensure direct causality of outputs, not indirect causality due to common causes.
+
+<edge>jordtype->nmin</edge>
+Reason: The soil type affects the recommended amount of nitrogen fertilizer.
+
+<edge>nedbarea->nmin</edge>
+Reason: Regions with different precipitation levels require different nitrogen fertilizer amounts.
+
+<edge>forfrugt->jordn</edge>
+Reason: The previous crop impacts the soil nitrogen levels.
+
+<edge>nmin->potnmin</edge>
+Reason: The applied nitrogen fertilizer affects the total potential nitrogen available.
+
+<edge>jordn->mod_nmin</edge>
+Reason: The soil nitrogen levels influence the modified nitrogen fertilizer recommendation.
+
+<edge>ngodnt->ngodnn</edge>
+Reason: The nitrogen uptake early in growth affects the later nitrogen uptake.
+
+<edge>ngodnn->ngodn</edge>
+Reason: The total nitrogen uptake includes uptake later in growth.
+
+<edge>ngodn->nprot</edge>
+Reason: The total nitrogen uptake impacts the nitrogen content in the grain.
+
+<edge>saatid->ngodnt</edge>
+Reason: The different growth stages affect when nitrogen is taken up.
+
+<edge>rokap->exptgens</edge>
+Reason: The accumulated temperature affects the expected yield.
+
+<edge>dgv1059->exptgens</edge>
+Reason: Higher infestation of pests and disease can reduce expected yield.
+```
+
+```
+nmin potnmin
+jordn mod_nmin
+ngodnt ngodnn
+saatid ngodnt
+rokap exptgens
+dgv1059 exptgens
+10
+4
+```
+
+```
+{'extra': 7,
+ 'missing': 81,
+ 'reverse': 0,
+ 'fdr': 0.7,
+ 'tpr': 0.0357,
+ 'fpr': 0.0067,
+ 'shd': 88,
+ 'nnz': 10,
+ 'precision': 0.3,
+ 'recall': 0.0357,
+ 'F1': 0.0638,
+ 'gscore': 0.0}
+```
+

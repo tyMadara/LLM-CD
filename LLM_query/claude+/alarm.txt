@@ -1,0 +1,276 @@
+```
+User:
+You are an expert on providing specific text messages advising the user of possible problems in the ALARM monitoring system.
+You are investigating the cause-and-effect relationships between the following variables in your filed.
+Variable abbreviations and values are presented as follows.
+Please understand the real meaning of each variable according to their possible values, and explain them in order.
+
+network unknown {
+}
+variable HISTORY {
+type discrete [ 2 ] { TRUE, FALSE };
+}
+variable CVP {
+type discrete [ 3 ] { LOW, NORMAL, HIGH };
+}
+variable PCWP {
+type discrete [ 3 ] { LOW, NORMAL, HIGH };
+}
+variable HYPOVOLEMIA {
+type discrete [ 2 ] { TRUE, FALSE };
+}
+variable LVEDVOLUME {
+type discrete [ 3 ] { LOW, NORMAL, HIGH };
+}
+variable LVFAILURE {
+type discrete [ 2 ] { TRUE, FALSE };
+}
+variable STROKEVOLUME {
+type discrete [ 3 ] { LOW, NORMAL, HIGH };
+}
+variable ERRLOWOUTPUT {
+type discrete [ 2 ] { TRUE, FALSE };
+}
+variable HRBP {
+type discrete [ 3 ] { LOW, NORMAL, HIGH };
+}
+variable HREKG {
+type discrete [ 3 ] { LOW, NORMAL, HIGH };
+}
+variable ERRCAUTER {
+type discrete [ 2 ] { TRUE, FALSE };
+}
+variable HRSAT {
+type discrete [ 3 ] { LOW, NORMAL, HIGH };
+}
+variable INSUFFANESTH {
+type discrete [ 2 ] { TRUE, FALSE };
+}
+variable ANAPHYLAXIS {
+type discrete [ 2 ] { TRUE, FALSE };
+}
+variable TPR {
+type discrete [ 3 ] { LOW, NORMAL, HIGH };
+}
+variable EXPCO2 {
+type discrete [ 4 ] { ZERO, LOW, NORMAL, HIGH };
+}
+variable KINKEDTUBE {
+type discrete [ 2 ] { TRUE, FALSE };
+}
+variable MINVOL {
+type discrete [ 4 ] { ZERO, LOW, NORMAL, HIGH };
+}
+variable FIO2 {
+type discrete [ 2 ] { LOW, NORMAL };
+}
+variable PVSAT {
+type discrete [ 3 ] { LOW, NORMAL, HIGH };
+}
+variable SAO2 {
+type discrete [ 3 ] { LOW, NORMAL, HIGH };
+}
+variable PAP {
+type discrete [ 3 ] { LOW, NORMAL, HIGH };
+}
+variable PULMEMBOLUS {
+type discrete [ 2 ] { TRUE, FALSE };
+}
+variable SHUNT {
+type discrete [ 2 ] { NORMAL, HIGH };
+}
+variable INTUBATION {
+type discrete [ 3 ] { NORMAL, ESOPHAGEAL, ONESIDED };
+}
+variable PRESS {
+type discrete [ 4 ] { ZERO, LOW, NORMAL, HIGH };
+}
+variable DISCONNECT {
+type discrete [ 2 ] { TRUE, FALSE };
+}
+variable MINVOLSET {
+type discrete [ 3 ] { LOW, NORMAL, HIGH };
+}
+variable VENTMACH {
+type discrete [ 4 ] { ZERO, LOW, NORMAL, HIGH };
+}
+variable VENTTUBE {
+type discrete [ 4 ] { ZERO, LOW, NORMAL, HIGH };
+}
+variable VENTLUNG {
+type discrete [ 4 ] { ZERO, LOW, NORMAL, HIGH };
+}
+variable VENTALV {
+type discrete [ 4 ] { ZERO, LOW, NORMAL, HIGH };
+}
+variable ARTCO2 {
+type discrete [ 3 ] { LOW, NORMAL, HIGH };
+}
+variable CATECHOL {
+type discrete [ 2 ] { NORMAL, HIGH };
+}
+variable HR {
+type discrete [ 3 ] { LOW, NORMAL, HIGH };
+}
+variable CO {
+type discrete [ 3 ] { LOW, NORMAL, HIGH };
+}
+variable BP {
+type discrete [ 3 ] { LOW, NORMAL, HIGH };
+}
+```
+
+```
+Here is the explanation of the variables in order:
+
+HISTORY: Indicates if there is any previous history of a medical condition. True means there is a history, false means no known history.
+
+CVP: Central Venous Pressure which measures the blood pressure in the veins leading to the heart. Low, normal or high values indicate the volume status of the patient.
+
+PCWP: Pulmonary Capillary Wedge Pressure which measures the fluid pressure in the lungs. It indicates if the fluid volume in the lungs is low, normal or high.
+
+HYPOVOLEMIA: Indicates if the patient has low blood volume (true) or normal blood volume (false).
+
+LVEDVOLUME: Left Ventricular End Diastolic Volume which measures the volume of blood in the left ventricle at the end of diastole. Low, normal or high values indicate if there is adequate filling of the left ventricle.
+
+LVFAILURE: Indicates if there is failure of the left ventricle of the heart (true) or if the left ventricle function is normal (false).
+
+STROKEVOLUME: The volume of blood pumped out of the left ventricle with each beat. Low, normal or high values indicate the adequacy of the stroke volume.
+
+ERRLOWOUTPUT: Indicates if there is low cardiac output (true) or normal cardiac output (false).
+
+HRBP: Heart Rate from the blood pressure cuff. Low, normal or high values indicate the heart rate.
+
+HREKG: Heart Rate from the EKG monitor. Low, normal or high values indicate the heart rate.
+
+ERRCAUTER: Indicates if the blood pressure cuff is not functioning properly (true) or functioning normally (false).
+
+HRSAT: Heart Rate from the Pulse Oximeter. Low, normal or high values indicate the heart rate.
+
+INSUFFANESTH: Indicates if there is inadequate anesthesia/sedation (true) or adequate anesthesia/sedation (false).
+
+ANAPHYLAXIS: Indicates if there is an anaphylactic reaction (true) or no anaphylactic reaction (false).
+
+TPR: Temperature from a rectal probe. Low, normal or high values indicate the core body temperature.
+
+EXPCO2: Exhaled CO2. Zero, low, normal or high values indicate the exhaled CO2 level.
+
+KINKEDTUBE: Indicates if the breathing tube is kinked (true) or not kinked (false).
+
+MINVOL: Minute Volume (volume of air inhaled/exhaled per minute. Zero, low, normal or high values indicate the adequacy of minute ventilation.
+
+FIO2: Fraction of inspired oxygen. Low or normal values indicate the concentration of oxygen being delivered.
+
+PVSAT: Pulse oximeter plethysmograph variation. Low, normal or high values indicate the variability in the pulse oximeter signal with each breath.
+
+SAO2: Oxygen saturation from the pulse oximeter. Low, normal or high values indicate the arterial oxygen saturation.
+
+PAP: Pulmonary Artery Pressure. Low, normal or high values indicate the blood pressure within the pulmonary artery.
+
+PULMEMBOLUS: Indicates if there is a pulmonary embolus (true) or no pulmonary embolus (false).
+
+SHUNT: Indicates if there is an abnormal shunt in the circulation (normal or high).
+
+INTUBATION: Indicates if the breathing tube position is normal, in the esophagus or one-sided.
+
+PRESS: Airway pressure. Zero, low, normal or high values indicate the pressure within the breathing circuit or airway.
+
+DISCONNECT: Indicates if there is disconnection in the breathing circuit (true) or no disconnection (false).
+
+MINVOLSET: Set Minute Volume on the ventilator. Low, normal or high values indicate the set ventilator target volume.
+
+VENTMACH: Ventilator machine issues. Zero, low, normal or high values indicate issues with the ventilator machine.
+
+VENTTUBE: Ventilator tubing issues. Zero, low, normal or high values indicate issues with the ventilator tubing.
+
+VENTLUNG: Ventilator issues related to the patient's lungs. Zero, low, normal or high values indicate lung-related issues with the ventilator.
+
+VENTALV: Ventilator issues related to the patient's airway or alveoli. Zero, low, normal or high values indicate alveoli/airway-related issues with the ventilator.
+
+ARTCO2: Arterial CO2 level. Low, normal or high values indicate the CO2 level in the arteries.
+
+CATECHOL: Catecholamine level. Normal or high values indicate the level of natural or administered catecholamines like epinephrine or norepinephrine.
+
+HR: Heart rate. Low, normal or high values indicate the heart rate.
+
+CO: Cardiac output. Low, normal or high values indicate the total blood flow from the heart.
+
+BP: Blood pressure. Low, normal or high values indicate the pressure of the blood within the arteries.
+```
+
+```
+Analyze the causality between each pair of variables in the form of <edge>variable1->variable2</edge>, and give the reason. Ensure direct causality of outputs, not indirect causality due to common causes.
+```
+
+```
+Here are the causal relationships between variables:
+
+<edge>HYPOVOLEMIA->CVP</edge>
+Reason: Low blood volume (hypovolemia) causes low central venous pressure.
+
+<edge>HYPOVOLEMIA->PCWP</edge>
+Reason: Low blood volume (hypovolemia) causes low pulmonary capillary wedge pressure.
+
+<edge>LVEDVOLUME->STROKEVOLUME</edge>
+Reason: Low left ventricular end-diastolic volume causes low stroke volume.
+
+<edge>LVFAILURE->ERRLOWOUTPUT</edge>
+Reason: Left ventricular failure causes low cardiac output.
+
+<edge>STROKEVOLUME->CO</edge>
+Reason: Low stroke volume causes low cardiac output.
+
+<edge>INSUFFANESTH->HRBP</edge>
+Reason: Inadequate anesthesia causes high heart rate on the blood pressure monitor.
+
+<edge>INSUFFANESTH->HREKG</edge>
+Reason: Inadequate anesthesia causes high heart rate on the EKG monitor.
+
+<edge>ANAPHYLAXIS->TPR</edge>
+Reason: An anaphylactic reaction causes a high temperature.
+
+<edge>KINKEDTUBE->MINVOL</edge>
+Reason: A kinked breathing tube causes low minute volume.
+
+<edge>DISCONNECT->PRESS</edge>
+Reason: A disconnection in the breathing circuit causes loss of airway pressure.
+
+<edge>MINVOLSET->VENTMACH</edge>
+Reason: A low set minute volume on the ventilator can indicate issues with the ventilator machine.
+
+<edge>ARTCO2->VENTLUNG</edge>
+Reason: A high arterial CO2 level can indicate issues related to the patient's lungs and the ventilator.
+
+<edge>CATECHOL->HR</edge>
+Reason: High catecholamine levels cause an increased heart rate.
+
+<edge>CATECHOL->CO</edge>
+Reason: High catecholamine levels cause an increased cardiac output.
+
+<edge>CATECHOL->BP</edge>
+Reason: High catecholamine levels cause an increased blood pressure.
+```
+
+```
+LVEDVOLUME STROKEVOLUME
+LVFAILURE ERRLOWOUTPUT
+ARTCO2 VENTLUNG
+15
+12
+```
+
+```
+{'extra': 11,
+ 'missing': 42,
+ 'reverse': 0,
+ 'fdr': 0.7333,
+ 'tpr': 0.087,
+ 'fpr': 0.0177,
+ 'shd': 53,
+ 'nnz': 15,
+ 'precision': 0.2667,
+ 'recall': 0.087,
+ 'F1': 0.1311,
+ 'gscore': 0.0}
+```
+

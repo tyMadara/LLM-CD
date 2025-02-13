@@ -1,0 +1,6 @@
+arcs {
+	either -- dysp 1.0; 
+	xray >> smoke 1.0; 
+	xray >> bronc 1.0; 
+	lung => dysp 0.9999; 
+}

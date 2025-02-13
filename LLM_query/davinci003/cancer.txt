@@ -1,0 +1,9 @@
+
+
+<edge>Smoker->Cancer</edge>: Smoking is a known cause of cancer, so there is a direct causal relationship between these two variables.
+
+<edge>Pollution->Cancer</edge>: Pollution can be a contributing factor to cancer, so there is a direct causal relationship between these two variables.
+
+<edge>Cancer->Xray</edge>: If someone has cancer, they may have an X-ray to detect it, so there is a direct causal relationship between these two variables.
+
+<edge>Cancer->Dyspnoea</edge>: Cancer can cause shortness of breath or difficulty in breathing, so there is a direct causal relationship between these two variables.

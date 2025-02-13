@@ -1,0 +1,24 @@
+<edge>HISTORY->CVP</edge>: A significant medical history may be associated with changes in central venous pressure.
+<edge>CVP->PCWP</edge>: Central venous pressure is a measure of the pressure in the thoracic vena cava, which is in close proximity to the left atrium.
+<edge>PCWP->HYPOVOLEMIA</edge>: Pulmonary capillary wedge pressure is a measure of the pressure in the pulmonary capillaries, which reflects the pressure in the left atrium. Left atrial pressure is a good predictor of hypovolemia.
+<edge>HYPOVOLEMIA->LVEDVOLUME</edge>: Low blood volume can lead to a decrease in left ventricular end-diastolic volume.
+<edge>LVEDVOLUME->STROKEVOLUME</edge>: Left ventricular end-diastolic volume is a measure of the volume of blood in the left ventricle at the end of diastole, before the ventricle contracts. Stroke volume is the volume of blood pumped out of the heart with each beat.
+<edge>STROKEVOLUME->LVFAILURE</edge>: Reduced stroke volume can lead to left ventricular failure.
+<edge>LVFAILURE->ERRLOWOUTPUT</edge>: Left ventricular failure can lead to a falsely low reading of cardiac output.
+<edge>ERRLOWOUTPUT->HRBP</edge>: An error in the measurement of cardiac output can result in a false reading of the heart rate-blood pressure relationship.
+<edge>HRBP->HREKG</edge>: The heart rate-blood pressure relationship can be used to determine the heart rate as measured by an electrocardiogram.
+<edge>HREKG->ERRCAUTER</edge>: An abnormal heart rate as measured by an electrocardiogram can lead to errors in cauterization procedures.
+<edge>ERRCAUTER->HRSAT</edge>: Errors in cauterization procedures can lead to a decrease in the patient's oxygen saturation in relation to their heart rate.
+<edge>HRSAT->INSUFFANESTH</edge>: A decrease in the patient's oxygen saturation in relation to their heart rate can indicate insufficient anesthesia.
+<edge>INSUFFANESTH->ANAPHYLAXIS</edge>: Insufficient anesthesia can lead to anaphylaxis.
+<edge>ANAPHYLAXIS->TPR</edge>: Anaphylaxis can lead to an increase in total peripheral resistance.
+<edge>TPR->EXPCO2</edge>: Total peripheral resistance is a measure of the resistance to blood flow within the circulatory system. The resistance to blood flow can affect the amount of carbon dioxide exhaled by the patient.
+<edge>EXPCO2->KINKEDTUBE</edge>: Carbon dioxide exhaled by the patient can accumulate in tubing, such as an endotracheal tube, and cause a kink that impedes airflow.
+<edge>KINKEDTUBE->MINVOL</edge>: A kink in tubing can decrease the minute volume of gas inhaled or exhaled by the patient.
+<edge>MINVOL->FIO2</edge>: The minute volume of gas inhaled or exhaled by the patient can affect the concentration of oxygen in the inspired air.
+<edge>FIO2->PVSAT</edge>: The concentration of oxygen in the inspired air can affect the oxygen saturation in the peripheral venous blood.
+<edge>PVSAT->SAO2</edge>: The oxygen saturation in the peripheral venous blood can affect the arterial oxygen saturation.
+<edge>SAO2->PAP</edge>: The arterial oxygen saturation can affect the pulmonary artery pressure.
+<edge>PAP->PULMEMBOLUS</edge>: High pulmonary artery pressure can lead to pulmonary embolism.
+<edge>PULMEMBOLUS->SHUNT</edge>: Pulmonary embolism can lead to a shunt.
+<edge>SHUNT->INTUBATION</edge>: A shunt can necessitate intubation.

@@ -1,0 +1,239 @@
+```
+You are an expert on estimating the expected claim costs for a car insurance policyholder.
+You are investigating the cause-and-effect relationships between the following variables in your filed.
+Variable abbreviations and values are presented as follows.
+Please understand the real meaning of each variable according to their possible values, and explain them in order.
+network unknown {
+}
+variable GoodStudent {
+type discrete [ 2 ] { True, False };
+}
+variable Age {
+type discrete [ 3 ] { Adolescent, Adult, Senior };
+}
+variable SocioEcon {
+type discrete [ 4 ] { Prole, Middle, UpperMiddle, Wealthy };
+}
+variable RiskAversion {
+type discrete [ 4 ] { Psychopath, Adventurous, Normal, Cautious };
+}
+variable VehicleYear {
+type discrete [ 2 ] { Current, Older };
+}
+variable ThisCarDam {
+type discrete [ 4 ] { None, Mild, Moderate, Severe };
+}
+variable RuggedAuto {
+type discrete [ 3 ] { EggShell, Football, Tank };
+}
+variable Accident {
+type discrete [ 4 ] { None, Mild, Moderate, Severe };
+}
+variable MakeModel {
+type discrete [ 5 ] { SportsCar, Economy, FamilySedan, Luxury, SuperLuxury };
+}
+variable DrivQuality {
+type discrete [ 3 ] { Poor, Normal, Excellent };
+}
+variable Mileage {
+type discrete [ 4 ] { FiveThou, TwentyThou, FiftyThou, Domino };
+}
+variable Antilock {
+type discrete [ 2 ] { True, False };
+}
+variable DrivingSkill {
+type discrete [ 3 ] { SubStandard, Normal, Expert };
+}
+variable SeniorTrain {
+type discrete [ 2 ] { True, False };
+}
+variable ThisCarCost {
+type discrete [ 4 ] { Thousand, TenThou, HundredThou, Million };
+}
+variable Theft {
+type discrete [ 2 ] { True, False };
+}
+variable CarValue {
+type discrete [ 5 ] { FiveThou, TenThou, TwentyThou, FiftyThou, Million };
+}
+variable HomeBase {
+type discrete [ 4 ] { Secure, City, Suburb, Rural };
+}
+variable AntiTheft {
+type discrete [ 2 ] { True, False };
+}
+variable PropCost {
+type discrete [ 4 ] { Thousand, TenThou, HundredThou, Million };
+}
+variable OtherCarCost {
+type discrete [ 4 ] { Thousand, TenThou, HundredThou, Million };
+}
+variable OtherCar {
+type discrete [ 2 ] { True, False };
+}
+variable MedCost {
+type discrete [ 4 ] { Thousand, TenThou, HundredThou, Million };
+}
+variable Cushioning {
+type discrete [ 4 ] { Poor, Fair, Good, Excellent };
+}
+variable Airbag {
+type discrete [ 2 ] { True, False };
+}
+variable ILiCost {
+type discrete [ 4 ] { Thousand, TenThou, HundredThou, Million };
+}
+variable DrivHist {
+type discrete [ 3 ] { Zero, One, Many };
+}
+
+```
+
+```
+Here is my understanding of the real meaning of each variable based on their possible values:
+
+GoodStudent: Whether the policyholder is a good student or not. True means good student, False means not a good student.
+
+Age: The age group of the policyholder. Adolescent, Adult or Senior.
+
+SocioEcon: The socioeconomic status of the policyholder. Prole means lower class, Middle means middle class, UpperMiddle means upper middle class, and Wealthy means high income.
+
+RiskAversion: The level of risk aversion of the policyholder. Psychopath means no risk aversion, Adventurous means low risk aversion, Normal means average risk aversion, and Cautious means high risk aversion.
+
+VehicleYear: Whether the vehicle is a current year model or older. Current or Older.
+
+ThisCarDam: The level of damage the policyholder's vehicle has sustained. None, Mild, Moderate or Severe.
+
+RuggedAuto: How rugged the vehicle is. EggShell means not rugged, Football means moderately rugged, and Tank means very rugged.
+
+Accident: The severity of any accidents the policyholder has been involved in. None, Mild, Moderate or Severe.
+
+MakeModel: The make and model type of the vehicle. Ranging from SportsCar to SuperLuxury.
+
+DrivQuality: The quality of the policyholder's driving. Poor, Normal or Excellent.
+
+Mileage: The mileage on the vehicle. FiveThou means under 5,000 miles, TwentyThou means 20,000 miles, FiftyThou means 50,000 miles, and Domino means over 100,000 miles.
+
+Antilock: Whether the vehicle has antilock brakes. True or False.
+
+DrivingSkill: The policyholder's driving skill level. SubStandard, Normal or Expert.
+
+SeniorTrain: Whether the senior policyholder has received any specific accident avoidance training. True or False.
+
+ThisCarCost: The cost of the insured vehicle. Thousand means under $1,000, TenThou means $10,000-$100,000, HundredThou means $100,000-$1,000,000, and Million means over $1,000,000.
+
+Theft: Whether the vehicle has been subject to theft. True or False.
+
+CarValue: The value of the vehicle. Ranging from $5,000 to over $1,000,000.
+
+HomeBase: Where the vehicle is based (kept). Secure, City, Suburb or Rural.
+
+AntiTheft: Whether the vehicle has an anti-theft system. True or False.
+
+PropCost: The cost of property damage in any accidents. Thousand to Million range.
+
+OtherCarCost: The cost of any other vehicles involved in accidents with the insured. Thousand to Million range.
+
+OtherCar: Whether any other vehicles were involved in accidents with the insured. True or False.
+
+MedCost: The medical costs associated with any accidents. Thousand to Million range.
+
+Cushioning: The cushioning/safety provided by the vehicle. Poor to Excellent.
+
+Airbag: Whether the vehicle has airbags. True or False.
+
+ILiCost: The cost of injury liability claims against the insured. Thousand to Million range.
+
+DrivHist: The policyholder's driving history. Zero means clean, One means one violation, Many means multiple violations.
+```
+
+```
+Analyze the causality between each pair of variables in the form of <edge>variable1->variable2</edge>, and give the reason. Ensure direct causality of outputs, not indirect causality due to common causes.
+```
+
+```
+<edge>VehicleYear->ThisCarDam</edge>
+Reason: Older vehicles tend to have more damage due to age.
+
+<edge>RuggedAuto->ThisCarDam</edge>
+Reason: More rugged vehicles tend to have less damage due to their sturdier construction.
+
+<edge>Accident->ThisCarDam</edge>
+Reason: Accidents can cause damage to the vehicle.
+
+<edge>MakeModel->RuggedAuto</edge>
+Reason: Certain vehicle makes and models tend to be more or less rugged.
+
+<edge>DrivQuality->Accident</edge>
+Reason: Poor driving quality can lead to more accidents.
+
+<edge>Mileage->ThisCarDam</edge>
+Reason: Higher mileage vehicles tend to have more wear and tear damage.
+
+<edge>Antilock->Accident</edge>
+Reason: Antilock brakes can help reduce the chance of accidents.
+
+<edge>DrivingSkill->Accident</edge>
+Reason: Better driving skill can reduce the chance of accidents.
+
+<edge>SeniorTrain->Accident</edge>
+Reason: Senior training can help reduce the chance of accidents.
+
+<edge>Theft->ThisCarCost</edge>
+Reason: Theft can increase the cost to repair or replace a vehicle.
+
+<edge>CarValue->ThisCarCost</edge>
+Reason: More valuable vehicles tend to cost more.
+
+<edge>HomeBase->Theft</edge>
+Reason: Where a vehicle is based can impact the chance of theft.
+
+<edge>AntiTheft->Theft</edge>
+Reason: Anti-theft systems reduce the chance of theft.
+
+<edge>PropCost->ThisCarCost</edge>
+Reason: Property damage costs contribute to the total cost of the vehicle.
+
+<edge>OtherCarCost->PropCost</edge>
+Reason: Damage to other vehicles in an accident increases property damage costs.
+
+<edge>OtherCar->PropCost</edge>
+Reason: Whether other vehicles are involved impacts property damage costs.
+
+<edge>MedCost->ThisCarCost</edge>
+Reason: Medical costs from accidents contribute to the total cost.
+
+<edge>Cushioning->MedCost</edge>
+Reason: Better cushioning can reduce the severity of injuries and medical costs.
+
+<edge>Airbag->MedCost</edge>
+Reason: Airbags can reduce the severity of injuries and medical costs.
+
+<edge>DrivHist->Accident</edge>
+Reason: A poor driving history with violations indicates a higher chance of accidents.
+```
+
+```
+PropCost ThisCarCost
+OtherCar PropCost
+MedCost ThisCarCost
+DrivHist Accident
+20
+16
+```
+
+```
+{'extra': 8,
+ 'missing': 40,
+ 'reverse': 1,
+ 'fdr': 0.45,
+ 'tpr': 0.2115,
+ 'fpr': 0.0301,
+ 'shd': 49,
+ 'nnz': 20,
+ 'precision': 0.55,
+ 'recall': 0.2115,
+ 'F1': 0.3056,
+ 'gscore': 0.0385}
+```
+

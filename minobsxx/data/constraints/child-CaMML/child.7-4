@@ -1,0 +1,9 @@
+arcs {
+	BirthAsphyxia => LVH 0.9999;
+	BirthAsphyxia => DuctFlow 0.9999;
+	Disease => LungFlow 0.9999;
+	Disease => HypDistrib 0.9999;
+	Disease => HypoxiaInO2 0.9999;
+	CardiacMixing => HypDistrib 0.9999;
+	BirthAsphyxia => RUQO2 0.9999;
+}

@@ -1,0 +1,32 @@
+arcs {
+	Mileage -> CarValue 1.0; 
+	Accident -> OtherCarCost 1.0; 
+	RiskAversion -> MakeModel 1.0; 
+	Theft >> AntiTheft 1.0; 
+	OtherCarCost >> SocioEcon 1.0; 
+	OtherCarCost >> DrivingSkill 1.0; 
+	Cushioning >> Theft 1.0; 
+	MakeModel >> AntiTheft 1.0; 
+	MakeModel >> Mileage 1.0; 
+	ThisCarDam >> Theft 1.0; 
+	MedCost >> CarValue 1.0; 
+	Accident >> AntiTheft 1.0; 
+	CarValue >> SocioEcon 1.0; 
+	VehicleYear >> MakeModel 1.0; 
+	Accident >> HomeBase 1.0; 
+	GoodStudent >> DrivingSkill 1.0; 
+	ThisCarDam >> VehicleYear 1.0; 
+	VehicleYear >> RiskAversion 1.0; 
+	Antilock >> OtherCar 1.0; 
+	MedCost >> Airbag 1.0; 
+	RuggedAuto >> Mileage 1.0; 
+	MakeModel => OtherCarCost 0.9999; 
+	Age => AntiTheft 0.9999; 
+	SocioEcon => Antilock 0.9999; 
+	Age => Cushioning 0.9999; 
+	VehicleYear => Cushioning 0.9999; 
+	RiskAversion => ThisCarCost 0.9999; 
+	SeniorTrain => MedCost 0.9999; 
+	RuggedAuto => PropCost 0.9999; 
+	SeniorTrain => DrivHist 0.9999; 
+}

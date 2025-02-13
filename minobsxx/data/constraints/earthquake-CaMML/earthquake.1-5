@@ -1,0 +1,3 @@
+arcs {
+	Alarm => MaryCalls 0.9999;
+}

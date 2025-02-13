@@ -1,0 +1,17 @@
+Here is a potential causality analysis between the variables in the form of <edge>variable1->variable2</edge>:
+
+<edge>Pollution->Cancer</edge>: Pollution can cause lung cancer and other types of cancer through the inhalation of harmful substances. The higher the level of pollution, the higher the risk of cancer.
+<edge>Smoker->Cancer</edge>: Smoking can cause lung cancer and other types of cancer through the??of harmful substances. The more cigarettes smoked, the higher the risk of cancer.
+<edge>Cancer->Dyspnoea</edge>: Cancer can cause dyspnea or shortness of breath because it can affect the lungs and other respiratory organs. The more advanced the cancer, the more severe the dyspnea.
+<edge>Xray->Cancer</edge>: An X-ray examination can detect the presence of cancer in the lungs or other organs. If the X-ray result is positive, it may indicate the presence of cancer.
+<edge>Pollution->Dyspnoea</edge>: Pollution can cause dyspnea or shortness of breath because it can affect the lungs and other respiratory organs. The higher the level of pollution, the more severe the dyspnea.
+<edge>Smoker->Dyspnoea</edge>: Smoking can cause dyspnea or shortness of breath because it can affect the lungs and other respiratory organs. The more cigarettes smoked, the more severe the dyspnea.
+<edge>Cancer->Xray</edge>: An X-ray examination may be used to detect the presence of cancer in the lungs or other organs. If cancer is present, the X-ray result may be positive.
+<edge>Pollution->Xray</edge>: An X-ray examination may be used to detect the presence of cancer in the lungs or other organs. If the level of pollution is high, the X-ray result may be positive.
+<edge>Smoker->Xray</edge>: An X-ray examination may be used to detect the presence of cancer in the lungs or other organs. If the person is a smoker, the X-ray result may be positive.
+<edge>Dyspnoea->Cancer</edge>: Dyspnea or shortness of breath may be a symptom of cancer in the lungs or other organs. If the person experiences dyspnea, there may be a chance that they have cancer.
+<edge>Dyspnoea->Pollution</edge>: Dyspnea or shortness of breath may be a symptom of pollution-induced lung damage or other respiratory problems. If the person experiences dyspnea, there may be a link to pollution.
+<edge>Dyspnoea->Smoker</edge>: Dyspnea or shortness of breath may be a symptom of smoking-induced lung damage or other respiratory problems. If the person experiences dyspnea, there may be a link to smoking.
+<edge>Xray->Cancer</edge>: An X-ray examination may be used to detect the presence of cancer in the lungs or other organs. If the X-ray result is positive, it may indicate the presence of cancer.
+<edge>Xray->Pollution</edge>: An X-ray examination may be used to detect the presence of cancer in the lungs or other organs. If the level of pollution is high, the X-ray result may be positive.
+<edge>Xray->Smoker</edge>: An X-ray examination may be used to detect the presence of cancer in the lungs or other organs. If the person is a smoker, the X-ray result may be positive.

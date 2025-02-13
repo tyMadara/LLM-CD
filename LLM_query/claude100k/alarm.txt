@@ -1,0 +1,224 @@
+```
+User:
+You are an expert on providing specific text messages advising the user of possible problems in the ALARM monitoring system.
+You are investigating the cause-and-effect relationships between the following variables in your filed.
+Variable abbreviations and values are presented as follows.
+Please understand the real meaning of each variable according to their possible values, and explain them in order.
+
+network unknown {
+}
+variable HISTORY {
+type discrete [ 2 ] { TRUE, FALSE };
+}
+variable CVP {
+type discrete [ 3 ] { LOW, NORMAL, HIGH };
+}
+variable PCWP {
+type discrete [ 3 ] { LOW, NORMAL, HIGH };
+}
+variable HYPOVOLEMIA {
+type discrete [ 2 ] { TRUE, FALSE };
+}
+variable LVEDVOLUME {
+type discrete [ 3 ] { LOW, NORMAL, HIGH };
+}
+variable LVFAILURE {
+type discrete [ 2 ] { TRUE, FALSE };
+}
+variable STROKEVOLUME {
+type discrete [ 3 ] { LOW, NORMAL, HIGH };
+}
+variable ERRLOWOUTPUT {
+type discrete [ 2 ] { TRUE, FALSE };
+}
+variable HRBP {
+type discrete [ 3 ] { LOW, NORMAL, HIGH };
+}
+variable HREKG {
+type discrete [ 3 ] { LOW, NORMAL, HIGH };
+}
+variable ERRCAUTER {
+type discrete [ 2 ] { TRUE, FALSE };
+}
+variable HRSAT {
+type discrete [ 3 ] { LOW, NORMAL, HIGH };
+}
+variable INSUFFANESTH {
+type discrete [ 2 ] { TRUE, FALSE };
+}
+variable ANAPHYLAXIS {
+type discrete [ 2 ] { TRUE, FALSE };
+}
+variable TPR {
+type discrete [ 3 ] { LOW, NORMAL, HIGH };
+}
+variable EXPCO2 {
+type discrete [ 4 ] { ZERO, LOW, NORMAL, HIGH };
+}
+variable KINKEDTUBE {
+type discrete [ 2 ] { TRUE, FALSE };
+}
+variable MINVOL {
+type discrete [ 4 ] { ZERO, LOW, NORMAL, HIGH };
+}
+variable FIO2 {
+type discrete [ 2 ] { LOW, NORMAL };
+}
+variable PVSAT {
+type discrete [ 3 ] { LOW, NORMAL, HIGH };
+}
+variable SAO2 {
+type discrete [ 3 ] { LOW, NORMAL, HIGH };
+}
+variable PAP {
+type discrete [ 3 ] { LOW, NORMAL, HIGH };
+}
+variable PULMEMBOLUS {
+type discrete [ 2 ] { TRUE, FALSE };
+}
+variable SHUNT {
+type discrete [ 2 ] { NORMAL, HIGH };
+}
+variable INTUBATION {
+type discrete [ 3 ] { NORMAL, ESOPHAGEAL, ONESIDED };
+}
+variable PRESS {
+type discrete [ 4 ] { ZERO, LOW, NORMAL, HIGH };
+}
+variable DISCONNECT {
+type discrete [ 2 ] { TRUE, FALSE };
+}
+variable MINVOLSET {
+type discrete [ 3 ] { LOW, NORMAL, HIGH };
+}
+variable VENTMACH {
+type discrete [ 4 ] { ZERO, LOW, NORMAL, HIGH };
+}
+variable VENTTUBE {
+type discrete [ 4 ] { ZERO, LOW, NORMAL, HIGH };
+}
+variable VENTLUNG {
+type discrete [ 4 ] { ZERO, LOW, NORMAL, HIGH };
+}
+variable VENTALV {
+type discrete [ 4 ] { ZERO, LOW, NORMAL, HIGH };
+}
+variable ARTCO2 {
+type discrete [ 3 ] { LOW, NORMAL, HIGH };
+}
+variable CATECHOL {
+type discrete [ 2 ] { NORMAL, HIGH };
+}
+variable HR {
+type discrete [ 3 ] { LOW, NORMAL, HIGH };
+}
+variable CO {
+type discrete [ 3 ] { LOW, NORMAL, HIGH };
+}
+variable BP {
+type discrete [ 3 ] { LOW, NORMAL, HIGH };
+}
+```
+
+```
+Here are the meanings of the variables in the ALARM monitoring system:
+
+HISTORY: The patient's medical history, with possible values TRUE (there is a relevant history) or FALSE (no relevant history)
+
+CVP: Central venous pressure, with possible values LOW, NORMAL or HIGH
+
+PCWP: Pulmonary capillary wedge pressure, same possible values as CVP
+
+HYPOVOLEMIA: State of low blood volume, with possible values TRUE or FALSE
+
+LVEDVOLUME: Left ventricular end diastolic volume, with possible values LOW, NORMAL or HIGH
+
+LVFAILURE: Left ventricular failure, with possible values TRUE or FALSE
+
+STROKEVOLUME: Cardiac stroke volume, with possible values LOW, NORMAL or HIGH
+
+ERRLOWOUTPUT: Error indicating low cardiac output, with possible values TRUE or FALSE
+
+HRBP: Heart rate measured by blood pressure cuff, with possible values LOW, NORMAL or HIGH
+
+...
+HR: Heart rate, with possible values LOW, NORMAL or HIGH
+
+CO: Cardiac output, with possible values LOW, NORMAL or HIGH
+
+BP: Blood pressure, with possible values LOW, NORMAL or HIGH
+```
+
+```
+Analyze the causality between each pair of variables in the form of <edge>variable1->variable2</edge>, and give the reason. Ensure direct causality of outputs, not indirect causality due to common causes.
+```
+
+```
+<edge>HISTORY->HYPOVOLEMIA</edge>
+Reason: The patient's medical history can indicate if they have a condition that causes hypovolaemia.
+
+<edge>CVP->HYPOVOLEMIA</edge>
+Reason: A low CVP can indicate hypovolaemia.
+
+<edge>PCWP->HYPOVOLEMIA</edge>
+Reason: A low PCWP can indicate hypovolaemia.
+
+<edge>HYPOVOLEMIA->CVP</edge>
+Reason: Hypovolaemia can cause a low CVP.
+
+<edge>LVEDVOLUME->LVFAILURE</edge>
+Reason: A low LVED volume can lead to left ventricular failure.
+
+<edge>LVFAILURE->STROKEVOLUME</edge>
+Reason: Left ventricular failure can cause a low stroke volume.
+
+<edge>STROKEVOLUME->ERRLOWOUTPUT</edge>
+Reason: A low stroke volume can indicate a low cardiac output error.
+
+<edge>HRBP->ERRCAUTER</edge>
+Reason: Discrepancies between the HRBP and other heart rate measurements can indicate an error with the blood pressure cuff.
+
+<edge>PRESS->DISCONNECT</edge>
+Reason: A zero pressure reading can indicate a ventilator tube has become disconnected.
+
+<edge>VENTMACH->VENTTUBE</edge>
+Reason: Faults in the ventilator machine can cause issues with the ventilator tubes.
+
+<edge>INTUBATION->VENTTUBE</edge>
+Reason: Incorrect endotracheal tube intubation can cause issues with the ventilator tubes.
+
+<edge>HR->CO</edge>
+Reason: The heart rate affects the cardiac output.
+
+<edge>CO->BP</edge>
+Reason: The cardiac output affects the blood pressure.
+```
+
+```
+HISTORY HYPOVOLEMIA
+CVP HYPOVOLEMIA
+PCWP HYPOVOLEMIA
+LVEDVOLUME LVFAILURE
+STROKEVOLUME ERRLOWOUTPUT
+HRBP ERRCAUTER
+INTUBATION VENTTUBE
+PRESS DISCONNECT
+13
+5
+```
+
+```
+{'extra': 7,
+ 'missing': 41,
+ 'reverse': 1,
+ 'fdr': 0.6667,
+ 'tpr': 0.087,
+ 'fpr': 0.0129,
+ 'shd': 49,
+ 'nnz': 12,
+ 'precision': 0.3077,
+ 'recall': 0.087,
+ 'F1': 0.1356,
+ 'gscore': 0.0}
+```
+

@@ -1,0 +1,18 @@
+arcs {
+	BirthAsphyxia => LungParench 0.9999;
+	Sick => GruntingReport 0.9999;
+	ChestXray => XrayReport 0.9999;
+	Sick => Age 0.9999;
+	BirthAsphyxia => HypoxiaInO2 0.9999;
+	Sick => Grunting 0.9999;
+	LungParench => Grunting 0.9999;
+	BirthAsphyxia => LungFlow 0.9999;
+	Disease => HypDistrib 0.9999;
+	LungFlow => XrayReport 0.9999;
+	HypoxiaInO2 => RUQO2 0.9999;
+	Disease => RUQO2 0.9999;
+	BirthAsphyxia => Sick 0.9999;
+	Disease => LungParench 0.9999;
+	BirthAsphyxia => HypDistrib 0.9999;
+	BirthAsphyxia => CO2Report 0.9999;
+}

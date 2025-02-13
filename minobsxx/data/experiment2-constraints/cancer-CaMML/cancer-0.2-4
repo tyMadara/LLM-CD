@@ -1,0 +1,7 @@
+arcs {
+	Cancer -> Dyspnoea 1.0; 
+	Cancer >> Pollution 1.0; 
+	Dyspnoea >> Pollution 1.0; 
+	Cancer => Dyspnoea 0.9999; 
+	Pollution => Xray 0.9999; 
+}

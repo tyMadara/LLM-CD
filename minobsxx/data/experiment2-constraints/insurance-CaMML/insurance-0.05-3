@@ -1,0 +1,32 @@
+arcs {
+	Antilock -> Accident 1.0; 
+	Age -> SeniorTrain 1.0; 
+	Theft -- AntiTheft 1.0; 
+	SeniorTrain >> SocioEcon 1.0; 
+	MakeModel >> Age 1.0; 
+	Cushioning >> SeniorTrain 1.0; 
+	Airbag >> RiskAversion 1.0; 
+	PropCost >> CarValue 1.0; 
+	DrivHist >> Age 1.0; 
+	HomeBase >> Age 1.0; 
+	RiskAversion >> SocioEcon 1.0; 
+	DrivingSkill >> Age 1.0; 
+	ILiCost >> Age 1.0; 
+	ThisCarDam >> DrivQuality 1.0; 
+	Theft >> DrivingSkill 1.0; 
+	Accident >> SeniorTrain 1.0; 
+	SeniorTrain >> AntiTheft 1.0; 
+	ThisCarDam >> Antilock 1.0; 
+	HomeBase >> AntiTheft 1.0; 
+	ILiCost >> DrivingSkill 1.0; 
+	VehicleYear >> DrivHist 1.0; 
+	SeniorTrain => DrivHist 0.9999; 
+	Age => Theft 0.9999; 
+	SocioEcon => MakeModel 0.9999; 
+	AntiTheft => ThisCarCost 0.9999; 
+	MakeModel => ThisCarDam 0.9999; 
+	VehicleYear => OtherCarCost 0.9999; 
+	SocioEcon => VehicleYear 0.9999; 
+	Age => DrivQuality 0.9999; 
+	Mileage => OtherCarCost 0.9999; 
+}

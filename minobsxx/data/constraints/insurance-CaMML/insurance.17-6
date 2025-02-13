@@ -1,0 +1,19 @@
+arcs {
+	SeniorTrain => OtherCarCost 0.9999;
+	SocioEcon => Airbag 0.9999;
+	RiskAversion => AntiTheft 0.9999;
+	SocioEcon => HomeBase 0.9999;
+	VehicleYear => Airbag 0.9999;
+	Age => RiskAversion 0.9999;
+	VehicleYear => Accident 0.9999;
+	SocioEcon => VehicleYear 0.9999;
+	Age => ThisCarCost 0.9999;
+	Cushioning => MedCost 0.9999;
+	Mileage => ThisCarCost 0.9999;
+	SocioEcon => Accident 0.9999;
+	VehicleYear => ThisCarDam 0.9999;
+	Antilock => Accident 0.9999;
+	DrivQuality => ThisCarDam 0.9999;
+	DrivQuality => OtherCarCost 0.9999;
+	Mileage => PropCost 0.9999;
+}

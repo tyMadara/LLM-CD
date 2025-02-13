@@ -1,0 +1,6 @@
+arcs {
+	lung -> either 1.0; 
+	dysp >> asia 1.0; 
+	dysp >> smoke 1.0; 
+	tub => dysp 0.9999; 
+}

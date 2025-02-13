@@ -1,0 +1,18 @@
+
+<edge>dm_1->foto_1</edge>: Dry mass of the winter wheat at the first stage of growth affects photosynthetic rate of the winter wheat at the same stage. This is because photosynthesis requires energy and nutrients, which are provided by the dry mass of the winter wheat. 
+
+<edge>foto_1->dm_2</edge>: Photosynthetic rate of the winter wheat at the first stage of growth affects dry mass of the winter wheat at the second stage of growth. This is because photosynthesis produces energy and nutrients, which are used by the winter wheat to grow and increase its dry mass.
+
+<edge>straaling_1->foto_1</edge>: Solar radiation received by the winter wheat during the first stage of growth affects photosynthetic rate of the winter wheat at the same stage. This is because photosynthesis requires energy from the sun to produce energy and nutrients.
+
+<edge>temp_1->foto_1</edge>: Temperature at the first stage of growth affects photosynthetic rate of the winter wheat at the same stage. This is because photosynthesis requires a certain temperature range to occur.
+
+<edge>lai_1->meldug_1</edge>: Leaf Area Index (LAI) of the winter wheat at the first stage of growth affects degree of mildew infestation at the same stage. This is because mildew grows on the leaves of the winter wheat, and the more leaves there are, the more susceptible the winter wheat is to mildew.
+
+<edge>mikro_1->meldug_1</edge>: Microclimate conditions during the first period of winter wheat growth affect degree of mildew infestation at the same stage. This is because mildew thrives in certain conditions, such as wet and warm conditions, and is inhibited by other conditions, such as dry and cold conditions.
+
+<edge>middel_1->meldug_1</edge>: Average amount of fungicide applied during the first period of winter wheat growth affects degree of mildew infestation at the same stage. This is because fungicides kill mildew, and the more fungicide that is applied, the less mildew there will be.
+
+<edge>nedboer_1->meldug_1</edge>: Amount of precipitation during the first period of winter wheat growth affects degree of mildew infestation at the same stage. This is because mildew thrives in wet conditions, and the more precipitation there is, the more likely it is for mildew to grow.
+
+<edge>udbytte->dm_4: Yield of the winter wheat crop affects dry mass of the winter wheat at the fourth stage of growth. This is because the more yield there is, the more nutrients and energy are available for the winter wheat to grow, which increases its dry mass.

@@ -1,0 +1,10 @@
+<edge>HISTORY->CVP</edge>: If there is a significant medical history related to the patient's current condition, it may affect the patient's central venous pressure.
+<edge>HISTORY->PCWP</edge>: Medical history related to the patient's current condition may also affect the pulmonary capillary wedge pressure.
+<edge>HYPOVOLEMIA->LVEDVOLUME</edge>: If the patient is experiencing low blood volume, it may lead to reduced left ventricular end-diastolic volume.
+<edge>LVFAILURE->CVP</edge>: Left ventricular failure can cause an increase in central venous pressure.
+<edge>LVFAILURE->PCWP</edge>: Left ventricular failure can also cause an increase in pulmonary capillary wedge pressure.
+<edge>STROKEVOLUME->CVP</edge>: The volume of blood pumped out of the heart with each beat can affect the central venous pressure.
+<edge>ERRLOWOUTPUT->CVP</edge>: If there is an error in the measurement of cardiac output, it may result in a falsely low central venous pressure reading.
+<edge>HRBP->PCWP</edge>: The relationship between heart rate and blood pressure can affect the pulmonary capillary wedge pressure.
+<edge>HREKG->PCWP</edge>: The heart rate as measured by an electrocardiogram can affect the pulmonary capillary wedge pressure.
+<edge>ERRCAUTER->PCWP</edge>: If there is an error related to a cauterization procedure, it may affect the pulmonary capillary wedge pressure.

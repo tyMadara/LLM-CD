@@ -1,0 +1,11 @@
+
+yes: The newborn is sick.
+no: The newborn is not sick.
+
+<edge>BirthAsphyxia->HypDistrib</edge>: Birth asphyxia causes an unequal distribution of blood flow in the body.
+
+<edge>HypoxiaInO2->CO2</edge>: Hypoxia (low oxygen levels) in the body causes an increase in CO2 levels.
+
+<edge>LVH->LowerBodyO2</edge>: Left ventricular hypertrophy (LVH) causes a decrease in oxygen saturation levels in the lower body.
+
+<edge>Age->Disease</edge>: Age is a risk factor for disease.

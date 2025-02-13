@@ -1,0 +1,13 @@
+<edge>visit_to_asia->tuberculosis</edge>: The variable visit_to_asia could be an indirect cause of tuberculosis, as the person may have been exposed to the bacteria in Asia. However, visit_to_asia itself is not a direct cause of tuberculosis.
+
+<edge>smoking->lung_cancer</edge>: Smoking is a direct cause of lung cancer, as it damages the cells in the lungs over time and increases the likelihood of cancerous growths.
+
+<edge>smoking->bronchitis</edge>: Smoking is a direct cause of bronchitis, as it causes irritation and inflammation in the airways, leading to coughing and mucus production.
+
+<edge>tuberculosis->either_turb_or_lung_cancer</edge>: Tuberculosis is a direct cause of either tuberculosis or lung cancer, as it can damage lung tissue and increase the risk of cancer development.
+
+<edge>lung_cancer->either_turb_or_lung_cancer</edge>: Lung cancer is a direct cause of either tuberculosis or lung cancer, as it is a type of cancer that can affect the lungs.
+
+<edge>either_turb_or_lung_cancer->positive_xray</edge>: Either tuberculosis or lung cancer can be detected on a positive X-ray, making it a direct cause of a positive X-ray result.
+
+<edge>positive_xray->dyspnoea</edge>: A positive X-ray can indicate the presence of lung damage or disease, which can lead to dyspnoea as a direct result.

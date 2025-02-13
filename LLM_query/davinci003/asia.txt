@@ -1,0 +1,14 @@
+
+<edge>tuberculosis->dyspnoea</edge>: Tuberculosis causes inflammation of the lungs which leads to shortness of breath (dyspnoea).
+
+<edge>smoking->tuberculosis</edge>: Smoking increases the risk of developing tuberculosis.
+
+<edge>smoking->lung_cancer</edge>: Smoking increases the risk of developing lung cancer.
+
+<edge>lung_cancer->dyspnoea</edge>: Lung cancer can cause symptoms such as shortness of breath (dyspnoea).
+
+<edge>bronchitis->dyspnoea</edge>: Bronchitis causes inflammation of the lungs which leads to shortness of breath (dyspnoea).
+
+<edge>either_turb_or_lung_cancer->positive_xray</edge>: People with either tuberculosis or lung cancer are more likely to have a positive X-ray result.
+
+<edge>visit_to_asia->tuberculosis</edge>: Visiting Asia increases the risk of developing tuberculosis.

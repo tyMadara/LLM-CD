@@ -1,0 +1,3 @@
+arcs {
+	Smoker => Cancer 0.9999;
+}

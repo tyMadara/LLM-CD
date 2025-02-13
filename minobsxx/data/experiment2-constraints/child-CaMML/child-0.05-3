@@ -1,0 +1,18 @@
+arcs {
+	Sick -> Grunting 1.0; 
+	HypoxiaInO2 -- RUQO2 1.0; 
+	LowerBodyO2 >> LungFlow 1.0; 
+	RUQO2 >> GruntingReport 1.0; 
+	HypDistrib >> CO2Report 1.0; 
+	ChestXray >> LungFlow 1.0; 
+	LVHreport >> DuctFlow 1.0; 
+	Age >> Grunting 1.0; 
+	Disease >> BirthAsphyxia 1.0; 
+	HypDistrib >> ChestXray 1.0; 
+	RUQO2 >> Grunting 1.0; 
+	GruntingReport >> Sick 1.0; 
+	Sick => Grunting 0.9999; 
+	HypoxiaInO2 => LowerBodyO2 0.9999; 
+	CardiacMixing => RUQO2 0.9999; 
+	DuctFlow => HypDistrib 0.9999; 
+}
