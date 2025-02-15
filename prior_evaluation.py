@@ -4,7 +4,6 @@ from myEva import MetricsDAG
 import re
 
 def check_path(dag:np.array, source, dest):
-    #检查是否有有向路径
     n = dag.shape[0]
     visited = np.zeros(n)
     visited[source] = 1
@@ -74,7 +73,6 @@ def check_GPT_prior(GPT_prior_path,BN_dir,map_dir,network):
         v2i[v] = i
         i2v[i] = v
         
-    #不同网络抽取的方法可能有区别
     if network == 'alarm':
         parse_function=parse_pattern2 
         triple =  parse_function(f'{GPT_prior_path}/GPT4_{network}.txt')

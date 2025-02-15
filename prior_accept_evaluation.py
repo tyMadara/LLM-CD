@@ -4,7 +4,6 @@ from myEva import MetricsDAG
 from prior_evaluation import check_GPT_prior
 
 def check_path(dag:np.array, source, dest):
-    #检查是否有有向路径
     n = dag.shape[0]
     visited = np.zeros(n)
     visited[source] = 1
@@ -35,7 +34,6 @@ def prior_accept_evaluation(type='prior',output="exp/prior_accept_evaluation.txt
                 if type=='prior':
                     conf_dict=(0.5,0.6,0.7,0.8,0.9,0.99999)
                 elif type=='prior_allright' or 'noprior':
-                    #默认可信度设置
                     conf_dict=[0.99999]
                 for conf in conf_dict:
                     path=f'CaMML_{dataset}_{size}_{j}_{conf}.txt'

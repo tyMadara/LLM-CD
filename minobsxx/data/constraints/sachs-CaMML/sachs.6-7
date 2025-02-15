@@ -1,8 +1,0 @@
-arcs {
-	PKA => Erk 0.9999;
-	PKC => Erk 0.9999;
-	Mek => Akt 0.9999;
-	PKC => P38 0.9999;
-	Plcg => PIP2 0.9999;
-	PIP3 => PIP2 0.9999;
-}

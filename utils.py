@@ -39,7 +39,6 @@ def parse_experiment_results(file_name):
             tmp = json.loads(line)
             # add to the pd.dataframe res
             for key in tmp:
-                #把key作为新的列名添加到res中
                 if key not in res.columns:
                     res[key] = None
                 tmp_record[key] = float(tmp[key]) if tmp[key] is not None else "null"
@@ -70,7 +69,6 @@ def parse_experiment_results_perform(file_name):
             tmp = json.loads(line)
             # add to the pd.dataframe res
             for key in tmp:
-                #把key作为新的列名添加到res中
                 if key not in res.columns:
                     res[key] = None
                 tmp_record[key] = float(tmp[key]) if tmp[key] is not None else np.nan
@@ -102,7 +100,6 @@ def parse_experiment_results_perform_withconf(file_name):
             tmp = json.loads(line)
             # add to the pd.dataframe res
             for key in tmp:
-                #把key作为新的列名添加到res中
                 if key not in res.columns:
                     res[key] = None
                 tmp_record[key] = float(tmp[key]) if tmp[key] is not None else np.nan
@@ -135,7 +132,6 @@ def parse_prior_results(file_name='exp/path_prior_evaluation.txt'):
             tmp = json.loads(line)
             # add to the pd.dataframe res
             for key in tmp:
-                #把key作为新的列名添加到res中
                 if key not in res.columns:
                     res[key] = None
                 tmp_record[key] = float(tmp[key]) if tmp[key] is not None else np.nan

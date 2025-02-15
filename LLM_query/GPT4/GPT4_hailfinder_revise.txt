@@ -1,9 +1,0 @@
-<edge>MorningCIN->CurPropConv</edge>: Morning convective inhibition (MorningCIN) can directly affect the current likelihood of convection (CurPropConv). If there is a strong convective inhibition in the morning, it is more likely that the current likelihood of convection will be low, as the atmosphere is more stable and less conducive to convective development.
-
-<edge>CapInScen->LatestCIN</edge>: The strength of the cap (CapInScen) can directly influence the level of convective inhibition at the latest observation time (LatestCIN). A stronger cap can lead to increased convective inhibition, as it suppresses the development of convection by preventing the vertical movement of air parcels.
-
-<edge>LowLLapse->MidLLapse</edge>: The low-level lapse rate (LowLLapse) can directly affect the mid-level lapse rate (MidLLapse). A steep low-level lapse rate indicates a rapid decrease in temperature with altitude, which can contribute to a steep mid-level lapse rate as well, making the atmosphere more unstable and prone to convection.
-
-<edge>MeanRH->Dewpoints</edge>: The mean relative humidity (MeanRH) can directly influence the distribution of dew points (Dewpoints). Higher mean relative humidity generally corresponds to higher dew points, indicating a more moisture-rich atmosphere that can support convective development.
-
-<edge>WindAloft->WindFieldPln</edge>: The wind aloft pattern (WindAloft) can directly affect the wind field in the plains region (WindFieldPln). For example, a wind pattern in the southwest quadrant aloft can lead to a downslope wind pattern in the plains region, potentially inhibiting convection.

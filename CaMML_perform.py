@@ -6,7 +6,6 @@ import random
 import argparse
 
 def check_path(dag:np.array, source, dest):
-    #检查是否有有向路径
     n = dag.shape[0]
     visited = np.zeros(n)
     visited[source] = 1

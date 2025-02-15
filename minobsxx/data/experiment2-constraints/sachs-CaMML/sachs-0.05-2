@@ -1,8 +1,0 @@
-arcs {
-	PKC -> P38 1.0; 
-	PIP2 >> PIP3 1.0; 
-	Akt >> Erk 1.0; 
-	Erk >> PIP2 1.0; 
-	PKA => Akt 0.9999; 
-	PKA => Erk 0.9999; 
-}

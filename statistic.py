@@ -7,7 +7,6 @@ def noprior_dag_metric(input="exp/CaMML_noprior.txt",output="exp/CaMML_noprior_s
     # ignore warnings
     import warnings
     warnings.filterwarnings("ignore")
-    #将["missing","extra","reverse"]在不同"forb_anc_num"下的均值保存到一个csv文件中
     d_res = res.groupby(["data","size"]).mean()
     d_res[["missing","extra","reverse","shd","precision","recall","F1","statisfy","time"]].to_csv(output,float_format="%.2f")
 
@@ -19,7 +18,6 @@ def prior_dag_metric(input,output):
     # ignore warnings
     import warnings
     warnings.filterwarnings("ignore")
-    #将["missing","extra","reverse"]在不同"forb_anc_num"下的均值保存到一个csv文件中
     d_res = res.groupby(["data","size","conf"]).mean()
     d_res[["missing","extra","reverse","shd","precision","recall","F1","statisfy","time"]].to_csv(output,float_format="%.2f")
 
@@ -29,7 +27,6 @@ def prior_accept(input,output):
     # ignore warnings
     import warnings
     warnings.filterwarnings("ignore")
-    #将["missing","extra","reverse"]在不同"forb_anc_num"下的均值保存到一个csv文件中
     d_res = res.groupby(["data","size","conf"]).mean()
     d_res[["accept","reject","TP","TN","FP","FN","TPR","TNR","precision","recall","F1"]].to_csv(output,float_format="%.2f")
 

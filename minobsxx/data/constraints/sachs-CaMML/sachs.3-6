@@ -1,5 +1,0 @@
-arcs {
-	PKA => Raf 0.9999;
-	PKA => Jnk 0.9999;
-	PKA => Akt 0.9999;
-}

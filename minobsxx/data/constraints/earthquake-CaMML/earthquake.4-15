@@ -1,6 +1,0 @@
-arcs {
-	Earthquake => Alarm 0.9999;
-	Burglary => Alarm 0.9999;
-	Earthquake => MaryCalls 0.9999;
-	Alarm => MaryCalls 0.9999;
-}
